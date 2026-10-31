@@ -246,7 +246,10 @@ def render(date: str) -> Path:
                 f'{overview_table(rows, analysis)}</section>']
     fig_no = 2
     for i, r in enumerate(rows, start=1):
-        sections.append(instrument_section(i, r, analysis.get("instruments", {}).get(r["id"], {}), d / "charts", fig_no))
+        # ユーザーのPCで自分のレイアウトから撮ったチャートがあればそちらを使う
+        custom = d / "charts_custom"
+        chart_dir = custom if (custom / f"{r['id']}.png").exists() else d / "charts"
+        sections.append(instrument_section(i, r, analysis.get("instruments", {}).get(r["id"], {}), chart_dir, fig_no))
         fig_no += 1 if r.get("tv_symbol") else 0
     sections.append(factcheck_section(len(rows) + 1, rows, fc))
 

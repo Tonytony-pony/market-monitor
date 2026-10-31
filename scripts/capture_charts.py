@@ -1,7 +1,9 @@
-"""TradingView の日足チャート（直近1年）を撮影して data/<date>/charts/<id>.png に保存する。
+"""TradingView の日足チャート（直近1年）を撮影して data/<date>/<out>/<id>.png に保存する。
 
 - 埋め込みウィジェットは東証銘柄を表示できないため、チャートページそのものを開いて撮影する。
 - TradingView に無い銘柄（日経VI）は撮影しない（レポートでは数値のみ）。
+- --profile と --layout を渡すと、ログイン済みのブラウザプロファイルで自分のレイアウト（インジケーター込み）を撮る。
+  ユーザーのPCで local_capture.ps1 から使う。GitHub Actions では渡さない（素のチャート＝代替用）。
 """
 import argparse
 import json
@@ -19,10 +21,11 @@ HIDE_CSS = """
 """
 
 
-def capture_tradingview(page, symbol: str, path: Path) -> None:
-    page.goto(f"https://jp.tradingview.com/chart/?symbol={symbol}&interval=D", wait_until="domcontentloaded")
+def capture_tradingview(page, symbol: str, path: Path, layout: str = "", settle_ms: int = 4000) -> None:
+    base = f"https://jp.tradingview.com/chart/{layout + '/' if layout else ''}"
+    page.goto(f"{base}?symbol={symbol}&interval=D", wait_until="domcontentloaded")
     page.wait_for_selector(".layout__area--center canvas", timeout=60000)
-    page.wait_for_timeout(4000)
+    page.wait_for_timeout(settle_ms)
     page.get_by_text("1年", exact=True).first.click()
     page.wait_for_timeout(3500)
     page.add_style_tag(content=HIDE_CSS)
@@ -34,27 +37,40 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--date", required=True, help="YYYY-MM-DD（data/<date>/ に保存）")
     ap.add_argument("--only", nargs="*", help="撮影する銘柄IDを絞る")
+    ap.add_argument("--out", default="charts", help="data/<date>/ の下の保存先フォルダ名")
+    ap.add_argument("--profile", help="ログイン済みブラウザプロファイルのフォルダ（自分の設定で撮るとき）")
+    ap.add_argument("--layout", default="", help="TradingView のレイアウトID（/chart/<ID>/ の部分）")
     args = ap.parse_args()
 
     instruments = json.loads((ROOT / "config" / "instruments.json").read_text(encoding="utf-8"))
-    out_dir = ROOT / "data" / args.date / "charts"
+    out_dir = ROOT / "data" / args.date / args.out
     out_dir.mkdir(parents=True, exist_ok=True)
+    # 自分のレイアウトはインジケーターが多く描画に時間がかかるので長めに待つ
+    viewport = {"width": 1600, "height": 900} if args.profile else VIEWPORT
+    settle_ms = 8000 if args.profile else 4000
 
     failed = []
     with sync_playwright() as p:
-        browser = p.chromium.launch()
-        ctx = browser.new_context(viewport=VIEWPORT, locale="ja-JP", timezone_id="Asia/Tokyo")
+        if args.profile:
+            ctx = p.chromium.launch_persistent_context(args.profile, viewport=viewport, locale="ja-JP",
+                                                       timezone_id="Asia/Tokyo")
+            browser = None
+        else:
+            browser = p.chromium.launch()
+            ctx = browser.new_context(viewport=viewport, locale="ja-JP", timezone_id="Asia/Tokyo")
         page = ctx.new_page()
         for ins in instruments:
             if not ins["tv"] or args.only and ins["id"] not in args.only:
                 continue
             try:
-                capture_tradingview(page, ins["tv"], out_dir / f"{ins['id']}.png")
+                capture_tradingview(page, ins["tv"], out_dir / f"{ins['id']}.png", args.layout, settle_ms)
                 print(f"ok  {ins['id']}")
             except Exception as e:  # 1銘柄の失敗で全体を止めない
                 failed.append(ins["id"])
                 print(f"NG  {ins['id']}: {e}", file=sys.stderr)
-        browser.close()
+        ctx.close()
+        if browser:
+            browser.close()
 
     (out_dir / "_status.json").write_text(json.dumps({"failed": failed}, ensure_ascii=False), encoding="utf-8")
     return 0

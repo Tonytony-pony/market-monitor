@@ -1,0 +1,63 @@
+# 数値の取得と TradingView チャートの撮影。結果を data/<日付>/ に commit する。
+# 日本時間 火〜土 6:20（UTC 月〜金 21:20）。米国株の終値（遅延配信15分）が確定してから取る。
+name: collect
+
+on:
+  schedule:
+    - cron: "20 21 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "レポート日付 YYYY-MM-DD（空なら日本時間の今日）"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency: collect
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+          sudo apt-get install -y -q fonts-noto-cjk
+
+      - name: Decide date
+        run: |
+          D="${{ inputs.date }}"
+          [ -z "$D" ] && D=$(TZ=Asia/Tokyo date +%F)
+          echo "D=$D" >> "$GITHUB_ENV"
+
+      - name: Fetch data
+        run: python scripts/fetch_data.py --date "$D"
+
+      - name: Capture charts
+        run: python scripts/capture_charts.py --date "$D"
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "data/$D"
+          git commit -m "data: $D" || exit 0
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done
+
+      - name: Notify failure
+        if: failure()
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          python scripts/notify_discord.py --date "${D:-unknown}" \
+            --message "マーケット日報: データ取得に失敗しました（${D:-unknown}）。${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

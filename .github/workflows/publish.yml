@@ -1,0 +1,77 @@
+# ルーチンが reports/ を push したら、GitHub Pages を更新して Discord に送る。
+# ルーチンが main に push できず claude/** に push した場合は、ここで main に取り込む。
+name: publish
+
+on:
+  push:
+    branches: [main, "claude/**"]
+    paths: ["reports/**"]
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "送るレポートの日付 YYYY-MM-DD（空なら最新）"
+        required: false
+      notify:
+        description: "Discord に送る"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Merge into main
+        if: github.ref_name != 'main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout main
+          git merge --no-edit "origin/${{ github.ref_name }}"
+          git push origin main
+          git push origin --delete "${{ github.ref_name }}" || true
+
+      - name: Decide date
+        run: |
+          D="${{ inputs.date }}"
+          [ -z "$D" ] && D=$(ls reports | grep -E '^[0-9]{4}-[0-9]{2}-[0-9]{2}\.html$' | sort | tail -n 1 | sed 's/\.html$//')
+          echo "D=$D" >> "$GITHUB_ENV"
+
+      - uses: actions/configure-pages@v5
+        id: pages
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: reports
+
+      - uses: actions/deploy-pages@v4
+        id: deploy
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Notify Discord
+        if: github.event_name == 'push' || inputs.notify
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          PAGES_URL: ${{ steps.pages.outputs.base_url }}
+        run: |
+          pip install -q requests
+          python scripts/notify_discord.py --date "$D"

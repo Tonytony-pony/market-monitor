@@ -1,0 +1,17 @@
+[
+  {"id": "nikkei225",  "name": "日経平均",          "group": "日本株",   "tv": "TVC:NI225",        "quote": "TVC:NI225",        "check": {"source": "nikkei_csv", "key": "nikkei225"}, "decimals": 2},
+  {"id": "jpx400",     "name": "JPX日経400",        "group": "日本株",   "tv": "TSE:JPXNIKKEI400", "quote": "TSE:JPXNIKKEI400", "check": null, "decimals": 2},
+  {"id": "growth250",  "name": "東証グロース250",   "group": "日本株",   "tv": "TSE:MOS",          "quote": "TSE:MOS",          "check": null, "decimals": 2},
+  {"id": "nk_futures", "name": "日経225先物",       "group": "日本株",   "tv": "OSE:NK2251!",      "quote": "OSE:NK2251!",      "check": null, "decimals": 0},
+  {"id": "nikkei_vi",  "name": "日経VI",            "group": "日本株",   "tv": null,               "quote": null,               "check": {"source": "nikkei_csv", "key": "nikkei_vi"}, "decimals": 2},
+  {"id": "usdjpy",     "name": "ドル円",            "group": "為替",     "tv": "FX:USDJPY",        "quote": "FX:USDJPY",        "check": {"source": "yfinance", "key": "JPY=X", "tol": 0.5}, "decimals": 3},
+  {"id": "dow",        "name": "NYダウ",            "group": "米国株",   "tv": "DJ:DJI",           "quote": "DJ:DJI",           "check": {"source": "yfinance", "key": "^DJI", "tol": 0.3}, "decimals": 2},
+  {"id": "nasdaq",     "name": "ナスダック総合",    "group": "米国株",   "tv": "NASDAQ:IXIC",      "quote": "NASDAQ:IXIC",      "check": {"source": "yfinance", "key": "^IXIC", "tol": 0.3}, "decimals": 2},
+  {"id": "sp500",      "name": "S&P500",            "group": "米国株",   "tv": "SP:SPX",           "quote": "SP:SPX",           "check": {"source": "yfinance", "key": "^GSPC", "tol": 0.3}, "decimals": 2},
+  {"id": "btc",        "name": "ビットコイン",      "group": "暗号資産", "tv": "BITSTAMP:BTCUSD",  "quote": "BITSTAMP:BTCUSD",  "check": {"source": "yfinance", "key": "BTC-USD", "tol": 3.0}, "decimals": 0},
+  {"id": "wti",        "name": "原油(WTI)",         "group": "商品",     "tv": "TVC:USOIL",        "quote": "NYMEX:CL1!",       "check": {"source": "yfinance", "key": "CL=F", "tol": 2.0}, "decimals": 2},
+  {"id": "gold",       "name": "金",                "group": "商品",     "tv": "TVC:GOLD",         "quote": "TVC:GOLD",         "check": {"source": "yfinance", "key": "GC=F", "tol": 2.0}, "decimals": 2},
+  {"id": "platinum",   "name": "プラチナ",          "group": "商品",     "tv": "TVC:PLATINUM",     "quote": "TVC:PLATINUM",     "check": {"source": "yfinance", "key": "PL=F", "tol": 2.5}, "decimals": 2},
+  {"id": "jgb10y",     "name": "日本国債10年利回り", "group": "金利",    "tv": "TVC:JP10Y",        "quote": "TVC:JP10Y",        "check": null, "decimals": 3},
+  {"id": "ust10y",     "name": "米国債10年利回り",  "group": "金利",     "tv": "TVC:US10Y",        "quote": "TVC:US10Y",        "check": {"source": "yfinance", "key": "^TNX", "tol": 1.5}, "decimals": 3}
+]

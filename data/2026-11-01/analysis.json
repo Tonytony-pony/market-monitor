@@ -1,0 +1,270 @@
+{
+ "report_date": "2026-11-01",
+ "us_session_covered": "2026-10-30（金）",
+ "summary": {
+  "headline": "米株急落、ナスダック-2.86%。金も急落し日経VIは急上昇",
+  "recent_moves": [
+   "① 米国株は大幅安。ナスダック総合は-2.86%、S&P500は-1.82%、NYダウは-1.09%。半導体・ハイテクが重しとの報道。",
+   "② 堅調な成長指標と根強いインフレ、利上げ観測が意識され、AI関連株の売りにつながったと報じられている。",
+   "③ 金は-3.64%で52週安値を更新、プラチナも急落。株安に伴う換金売りとの見方。",
+   "④ 原油（WTI）は+2.08%の104.12ドル。湾岸の供給懸念が材料。",
+   "⑤ 日本株は日経平均-2.12%、日経VIは33.82へ急上昇。"
+  ],
+  "outlook": [
+   "① 週明けの日本市場は、米株安と日経先物62,420円を受けて軟調な始まりが意識されやすい。",
+   "② ハイテク株の売りが続くか、反発に転じるかが最大の焦点。ナスダックのRSIは34.7で売られ過ぎに近い。",
+   "③ 原油高が続けばインフレ・金利への警戒が強まる可能性。",
+   "④ 今週は雇用統計やISM、米国の政治日程などが予定されている。週末は中東情勢など外部リスクにも注意。"
+  ],
+  "watch_points": [
+   "S&P500のSMA200は7,309.76、ナスダックのSMA200は25,055.75が意識されやすい。",
+   "金は52週安値の3,870.26ドル付近を維持できるか。"
+  ],
+  "events": [],
+  "overview_message": "米国のハイテク株急落を受け、株・貴金属が下落しリスク回避色が強い一方、原油は上昇した。"
+ },
+ "instruments": {
+  "nikkei225": {
+   "headline": "米国株安を受け、日経平均は大幅反落。",
+   "analysis": "63,290.11円で-2.12%。52週高値72,831.73円からは離れ、SMA50（65,705.56円）を下回った一方、SMA200（61,782.77円）は上に保つ。チャートでは高値圏からの調整局面に見える。個別の下落要因は十分に確認できていない。",
+   "us_impact_level": "小",
+   "us_impact": "日本株の下落は米国株の後追いの面が強く、米国株への影響は限定的。ただ、日本株の崩れが海外勢のリスク回避を強める可能性は意識されやすい。",
+   "sources": [
+    {
+     "title": "Weekly Market Summary: October 30, 2026",
+     "url": "https://vistapglobal.com/weekly-market-summary-october-30-2026-ai-stocks-retreat-as-strong-gdp-and-sticky-inflation-complicate-the-outlook-amzn-azn-googl-ko-intc-regn-sndk-wmt/"
+    },
+    {
+     "title": "Market Review: October 30, 2026 - Investrade",
+     "url": "https://investrade.com/market-review-october-30-2026/"
+    }
+   ]
+  },
+  "jpx400": {
+   "headline": "JPX日経400も下落、日経平均より下げは小さい。",
+   "analysis": "35,900.16円で-0.88%。SMA50を下回り、SMA200の上で推移している。",
+   "us_impact_level": "小",
+   "us_impact": "米国株への影響は限定的。日本の内需・大型株の動きで、米国市場への波及は小さい。",
+   "sources": [
+    {
+     "title": "Weekly Market Summary: October 30, 2026",
+     "url": "https://vistapglobal.com/weekly-market-summary-october-30-2026-ai-stocks-retreat-as-strong-gdp-and-sticky-inflation-complicate-the-outlook-amzn-azn-googl-ko-intc-regn-sndk-wmt/"
+    },
+    {
+     "title": "Market Review: October 30, 2026 - Investrade",
+     "url": "https://investrade.com/market-review-october-30-2026/"
+    }
+   ]
+  },
+  "growth250": {
+   "headline": "グロース250は小幅安で、週間では上昇を維持。",
+   "analysis": "780.53ポイントで-1.33%。週間ではプラスで、SMA200の上を保つ。",
+   "us_impact_level": "小",
+   "us_impact": "米国株への影響は限定的。国内の個人投資家中心の市場で、米国市場への直接の波及は小さい。",
+   "sources": [
+    {
+     "title": "Weekly Market Summary: October 30, 2026",
+     "url": "https://vistapglobal.com/weekly-market-summary-october-30-2026-ai-stocks-retreat-as-strong-gdp-and-sticky-inflation-complicate-the-outlook-amzn-azn-googl-ko-intc-regn-sndk-wmt/"
+    },
+    {
+     "title": "Market Review: October 30, 2026 - Investrade",
+     "url": "https://investrade.com/market-review-october-30-2026/"
+    }
+   ]
+  },
+  "nk_futures": {
+   "headline": "日経225先物は62,420円と安い。",
+   "analysis": "-1.69%の下落で、SMA200（61,898.60円）に近づいた。1カ月ではマイナスが大きい。",
+   "us_impact_level": "小",
+   "us_impact": "先物は米株安を織り込む動き。米国株への影響は限定的だが、月曜朝の日本市場の出発点として意識されやすい。",
+   "sources": [
+    {
+     "title": "Weekly Market Summary: October 30, 2026",
+     "url": "https://vistapglobal.com/weekly-market-summary-october-30-2026-ai-stocks-retreat-as-strong-gdp-and-sticky-inflation-complicate-the-outlook-amzn-azn-googl-ko-intc-regn-sndk-wmt/"
+    },
+    {
+     "title": "Market Review: October 30, 2026 - Investrade",
+     "url": "https://investrade.com/market-review-october-30-2026/"
+    }
+   ]
+  },
+  "nikkei_vi": {
+   "headline": "日経VIが急上昇し、警戒感が高まった。",
+   "analysis": "33.82で+8.02ポイント。日中高値は36.86。52週レンジ（18.77〜66.65）の中では中位だが、日経平均の下落とともに急上昇した。",
+   "us_impact_level": "小",
+   "us_impact": "日本の恐怖指数の上昇は世界的なリスク回避の反映。米国株への直接的な影響は限定的。",
+   "sources": [
+    {
+     "title": "Weekly Market Summary: October 30, 2026",
+     "url": "https://vistapglobal.com/weekly-market-summary-october-30-2026-ai-stocks-retreat-as-strong-gdp-and-sticky-inflation-complicate-the-outlook-amzn-azn-googl-ko-intc-regn-sndk-wmt/"
+    },
+    {
+     "title": "Market Review: October 30, 2026 - Investrade",
+     "url": "https://investrade.com/market-review-october-30-2026/"
+    }
+   ]
+  },
+  "usdjpy": {
+   "headline": "ドル円は157円台で小動き。",
+   "analysis": "157.57円で-0.08%。SMA50（157.42円）付近、SMA200（158.52円）を下回る水準でレンジ推移。",
+   "us_impact_level": "小",
+   "us_impact": "為替の動きは小さく、米国株への影響は限定的。",
+   "sources": [
+    {
+     "title": "Weekly Market Summary: October 30, 2026",
+     "url": "https://vistapglobal.com/weekly-market-summary-october-30-2026-ai-stocks-retreat-as-strong-gdp-and-sticky-inflation-complicate-the-outlook-amzn-azn-googl-ko-intc-regn-sndk-wmt/"
+    },
+    {
+     "title": "Market Review: October 30, 2026 - Investrade",
+     "url": "https://investrade.com/market-review-october-30-2026/"
+    }
+   ]
+  },
+  "dow": {
+   "headline": "NYダウは下落、ナスダックより下げは小さい。",
+   "analysis": "51,770.31ドルで-1.09%。SMA50（52,211.42ドル）を割ったが、SMA200（50,604.14ドル）は上。52週高値54,744.33ドルからは離れた。",
+   "us_impact_level": "大",
+   "us_impact": "ダウ自体が米国株市場そのもの。ハイテク主導の下げが他のセクターに広がるかが焦点。",
+   "sources": [
+    {
+     "title": "Weekly Market Summary: October 30, 2026",
+     "url": "https://vistapglobal.com/weekly-market-summary-october-30-2026-ai-stocks-retreat-as-strong-gdp-and-sticky-inflation-complicate-the-outlook-amzn-azn-googl-ko-intc-regn-sndk-wmt/"
+    },
+    {
+     "title": "Market Review: October 30, 2026 - Investrade",
+     "url": "https://investrade.com/market-review-october-30-2026/"
+    }
+   ]
+  },
+  "nasdaq": {
+   "headline": "ナスダックが-2.86%と大幅安、半導体・ハイテクが重しに。",
+   "analysis": "25,436.9986で-2.86%。RSIは34.7と売られ過ぎに近い。1カ月は-5.41%で、SMA200（25,055.75）に接近。報道では半導体・大手ハイテクの弱さが主因とされる。",
+   "us_impact_level": "大",
+   "us_impact": "ハイテク株の下げが指数全体を押し下げる構図で、米国株市場への影響は大きい。",
+   "sources": [
+    {
+     "title": "Weekly Market Summary: October 30, 2026",
+     "url": "https://vistapglobal.com/weekly-market-summary-october-30-2026-ai-stocks-retreat-as-strong-gdp-and-sticky-inflation-complicate-the-outlook-amzn-azn-googl-ko-intc-regn-sndk-wmt/"
+    },
+    {
+     "title": "Market Review: October 30, 2026 - Investrade",
+     "url": "https://investrade.com/market-review-october-30-2026/"
+    }
+   ]
+  },
+  "sp500": {
+   "headline": "S&P500は-1.82%、6月以来とされる大きな下げ。",
+   "analysis": "7,580.07で-1.82%。直近高値圏（52週高値7,844.52）から下落し、SMA50（7,697.08）を下回った。SMA200（7,309.76）は上。",
+   "us_impact_level": "大",
+   "us_impact": "米国株の代表指数であり、影響は大きい。堅調な成長指標と根強いインフレが利上げ観測を意識させ、AI関連株の売りにつながったと報じられている。",
+   "sources": [
+    {
+     "title": "Weekly Market Summary: October 30, 2026",
+     "url": "https://vistapglobal.com/weekly-market-summary-october-30-2026-ai-stocks-retreat-as-strong-gdp-and-sticky-inflation-complicate-the-outlook-amzn-azn-googl-ko-intc-regn-sndk-wmt/"
+    },
+    {
+     "title": "Market Review: October 30, 2026 - Investrade",
+     "url": "https://investrade.com/market-review-october-30-2026/"
+    }
+   ]
+  },
+  "btc": {
+   "headline": "ビットコインは小幅反発。",
+   "analysis": "77,480ドルで+0.38%。週間は-4.44%、SMA50（81,895ドル）の下でSMA200（73,132ドル）の上のレンジ。",
+   "us_impact_level": "小",
+   "us_impact": "株式の急落局面でも小動き。米国株への影響は限定的。",
+   "sources": [
+    {
+     "title": "Market Review: October 30, 2026 - Investrade",
+     "url": "https://investrade.com/market-review-october-30-2026/"
+    },
+    {
+     "title": "Weekly Wrap 26th - 30th October",
+     "url": "https://danielsan2401.substack.com/p/weekly-wrap-26th-30th-october-two"
+    }
+   ]
+  },
+  "wti": {
+   "headline": "WTIは104ドル台に上昇。供給懸念が支え。",
+   "analysis": "104.12ドルで+2.08%。1カ月は+15.18%、年初来+81.36%。報道では中東・湾岸の供給懸念が材料とされる。",
+   "us_impact_level": "中",
+   "us_impact": "原油高はインフレ・利上げ観測を通じて株式の重しになりうる。",
+   "sources": [
+    {
+     "title": "Kitco PM Report",
+     "url": "https://www.kitco.com/news/article/2026-10-30/gold-falls-below-3900-silver-tumbles-wall-street-selloff-triggers"
+    },
+    {
+     "title": "Weekly Market Summary: October 30, 2026",
+     "url": "https://vistapglobal.com/weekly-market-summary-october-30-2026-ai-stocks-retreat-as-strong-gdp-and-sticky-inflation-complicate-the-outlook-amzn-azn-googl-ko-intc-regn-sndk-wmt/"
+    }
+   ]
+  },
+  "gold": {
+   "headline": "金は-3.64%の急落、52週安値を更新。",
+   "analysis": "3,874.998ドルで1年安値圏。ハイテク株安に伴う換金売り・追証、利上げ観測による保有コスト上昇が背景と報じられる。RSIは29.2。",
+   "us_impact_level": "中",
+   "us_impact": "金の急落は株安に伴う流動性確保の売りとの見方があり、米国株のストレスを映す。",
+   "sources": [
+    {
+     "title": "Kitco PM Report",
+     "url": "https://www.kitco.com/news/article/2026-10-30/gold-falls-below-3900-silver-tumbles-wall-street-selloff-triggers"
+    },
+    {
+     "title": "XTB: Gold prices drop sharply",
+     "url": "https://www.xtb.com/cy/market-analysis/news-and-research/gold-prices-drop-sharply-at-the-end-of-october-the-collapse-of-the-safe-haven-myth-or-a-search-for-liquidity"
+    }
+   ]
+  },
+  "platinum": {
+   "headline": "プラチナは-3.56%、52週安値を更新。",
+   "analysis": "1,433.90ドルで年初来-31.50%、週間-8.43%。貴金属全体の換金売りが重なった。",
+   "us_impact_level": "小",
+   "us_impact": "米国株への影響は限定的。貴金属全般のリスクオフ売りの一部。",
+   "sources": [
+    {
+     "title": "Kitco PM Report",
+     "url": "https://www.kitco.com/news/article/2026-10-30/gold-falls-below-3900-silver-tumbles-wall-street-selloff-triggers"
+    },
+    {
+     "title": "XTB: Gold prices drop sharply",
+     "url": "https://www.xtb.com/cy/market-analysis/news-and-research/gold-prices-drop-sharply-at-the-end-of-october-the-collapse-of-the-safe-haven-myth-or-a-search-for-liquidity"
+    }
+   ]
+  },
+  "jgb10y": {
+   "headline": "日本10年債利回りは低下。",
+   "analysis": "2.758%で-8.4bp。1カ月は低下だが年初来では高い。背景の個別材料は確認できていない。",
+   "us_impact_level": "小",
+   "us_impact": "日本の金利低下は米国株への影響は限定的。リスク回避の債券買いの可能性はあるが推測。",
+   "sources": [
+    {
+     "title": "Weekly Market Summary: October 30, 2026",
+     "url": "https://vistapglobal.com/weekly-market-summary-october-30-2026-ai-stocks-retreat-as-strong-gdp-and-sticky-inflation-complicate-the-outlook-amzn-azn-googl-ko-intc-regn-sndk-wmt/"
+    },
+    {
+     "title": "Market Review: October 30, 2026 - Investrade",
+     "url": "https://investrade.com/market-review-october-30-2026/"
+    }
+   ]
+  },
+  "ust10y": {
+   "headline": "米10年債利回りはほぼ横ばい。",
+   "analysis": "4.933%で-0.4bp。株安・金安にもかかわらず利回りは高止まりし、52週高値5.365%には届いていない。",
+   "us_impact_level": "中",
+   "us_impact": "高い長期金利はハイテク株のバリュエーションの重しになりやすい。",
+   "sources": [
+    {
+     "title": "Weekly Market Summary: October 30, 2026",
+     "url": "https://vistapglobal.com/weekly-market-summary-october-30-2026-ai-stocks-retreat-as-strong-gdp-and-sticky-inflation-complicate-the-outlook-amzn-azn-googl-ko-intc-regn-sndk-wmt/"
+    },
+    {
+     "title": "Market Review: October 30, 2026 - Investrade",
+     "url": "https://investrade.com/market-review-october-30-2026/"
+    }
+   ]
+  }
+ },
+ "external_facts": [],
+ "x_sentiment": "SNSの反応は確認できなかった。"
+}

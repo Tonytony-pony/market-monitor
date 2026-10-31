@@ -137,13 +137,12 @@ def main() -> int:
             "check": check,
         })
 
-    year_ago = (date.fromisoformat(args.date) - timedelta(days=372)).isoformat()
+    # 日経の履歴データは転載禁止なので、直近の値だけを残す
     out = {
         "report_date": args.date,
         "fetched_at": datetime.now(JST).isoformat(timespec="seconds"),
         "instruments": rows,
         "warnings": warnings,
-        "history": {"nikkei_vi": [b for b in nikkei["nikkei_vi"] if b["time"] >= year_ago]},
     }
     path = ROOT / "data" / args.date / "market.json"
     path.parent.mkdir(parents=True, exist_ok=True)

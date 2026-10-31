@@ -158,9 +158,14 @@ def instrument_section(no: int, r: dict, a: dict, chart_dir: Path, fig_no: int) 
         kpis.append((f'{r["RSI"]:.0f}', "RSI(14)", False))
     kpi_html = "".join(f'<div class="kpi"><div class="v{" neg" if n else ""}">{esc(v)}</div><div class="l">{esc(l)}</div></div>'
                        for v, l, n in kpis)
-    chart_src = (f'TradingView {esc(r["tv_symbol"])}' if r.get("tv_symbol") else "日経公式データより描画")
-    if sid == "wti":
-        chart_src += "（チャートはWTI原油CFD、数値はNYMEX WTI先物の期近）"
+    if r.get("tv_symbol"):
+        chart_src = f'TradingView {esc(r["tv_symbol"])}'
+        if sid == "wti":
+            chart_src += "（チャートはWTI原油CFD、数値はNYMEX WTI先物の期近）"
+        figure = (f'<figure><figcaption>図表{fig_no}　{esc(name)}　日足（直近1年）</figcaption>\n'
+                  f'{img_tag(chart_dir / f"{sid}.png", name)}\n<p class="src">出所: {chart_src}</p></figure>')
+    else:
+        figure = f'<p class="src">出所: {esc(r.get("source"))}（{esc(r.get("as_of"))}時点）。チャートは掲載していない。</p>'
     sources = a.get("sources", [])
     src_links = " / ".join(f'<a href="{esc(s.get("url"))}">{esc(s.get("title") or s.get("url"))}</a>' for s in sources)
     lvl = a.get("us_impact_level", "–")
@@ -168,9 +173,7 @@ def instrument_section(no: int, r: dict, a: dict, chart_dir: Path, fig_no: int) 
 <h2><span class="no">{no:02d}</span>{esc(name)}</h2>
 <p class="msg">{esc(a.get("headline") or "分析なし")}</p>
 <div class="kpis">{kpi_html}</div>
-<figure><figcaption>図表{fig_no}　{esc(name)}　日足（直近1年）</figcaption>
-{img_tag(chart_dir / f"{sid}.png", name)}
-<p class="src">出所: {chart_src}</p></figure>
+{figure}
 <h3>動きと背景</h3>{paras(a.get("analysis"))}
 <h3>米国株市場への影響<span class="lvl">影響度 <b>{esc(lvl)}</b></span></h3>{paras(a.get("us_impact"))}
 {f'<p class="src">参考: {src_links}</p>' if src_links else ""}
@@ -238,8 +241,10 @@ def render(date: str) -> Path:
                 f'<section id="overview"><h2>主要指標の一覧</h2>'
                 f'<p class="msg">{esc(s.get("overview_message") or "各項目の終値と変化。リンクから個別の分析に移動できる。")}</p>'
                 f'{overview_table(rows, analysis)}</section>']
+    fig_no = 2
     for i, r in enumerate(rows, start=1):
-        sections.append(instrument_section(i, r, analysis.get("instruments", {}).get(r["id"], {}), d / "charts", i + 1))
+        sections.append(instrument_section(i, r, analysis.get("instruments", {}).get(r["id"], {}), d / "charts", fig_no))
+        fig_no += 1 if r.get("tv_symbol") else 0
     sections.append(factcheck_section(len(rows) + 1, rows, fc))
 
     title = f"マーケット日報 {date}"

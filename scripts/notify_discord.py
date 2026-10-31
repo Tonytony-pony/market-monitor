@@ -33,6 +33,23 @@ def market_lines(market: dict) -> str:
     return "\n".join(lines)
 
 
+def eval_embed(ev: dict) -> dict:
+    """試運転期間中のルーチンの自己評価（run_eval.json）を Discord 用にまとめる。"""
+    def joined(key):
+        return "、".join(ev.get(key) or []) or "なし"
+
+    lines = [
+        f"検索 {ev.get('searches', '?')} 回 / 記事取得 成功 {ev.get('fetch_ok', '?')} 件",
+        f"開けなかったサイト: {joined('fetch_failed_domains')}",
+        f"薄くなった箇所: {joined('weak_sections')}",
+        f"数字チェック NG: 初回 {ev.get('factcheck_first_ng', '?')} 件 → 最終 {ev.get('factcheck_final_ng', '?')} 件",
+        f"許可リスト追加: **{ev.get('allowlist_needed', '?')}**（候補: {joined('allowlist_candidates')}）",
+        "",
+        str(ev.get("comment", "")),
+    ]
+    return {"title": "試運転の評価", "description": "\n".join(lines)[:4000], "color": 0x8E8E8E}
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--date", required=True)
@@ -61,7 +78,11 @@ def main() -> int:
     }
     if url:
         embed["url"] = url
-    payload = {"content": f"**{s.get('headline', '')}**" + (f"\n{url}" if url else ""), "embeds": [embed]}
+    embeds = [embed]
+    eval_path = d / "run_eval.json"
+    if eval_path.exists():
+        embeds.append(eval_embed(json.loads(eval_path.read_text(encoding="utf-8"))))
+    payload = {"content": f"**{s.get('headline', '')}**" + (f"\n{url}" if url else ""), "embeds": embeds}
 
     report = ROOT / "reports" / f"{args.date}.html"
     files = {}

@@ -96,11 +96,30 @@ python3 scripts/factcheck.py --date $D
 - `NG` が出たら本文を直して再実行する。直し方は、データに合わせる・external_facts に出典付きで加える・その数字を消す、のいずれか。
 - 最大3回まで。3回直しても残る場合はそのまま進む（レポートのチェック欄に表示される）。
 
-## 5. HTML を作って push する
+## 5. 試運転の自己評価を書く（2026-11-07 まで）
+
+`$D` が 2026-11-07 以前なら、`data/$D/run_eval.json` に今日の作業の評価を書く（Discord の日報に載る）。
+ネットワークの許可リストを追加すべきか判断するための記録なので、正直に書く。
+
+```json
+{
+  "searches": 0,
+  "fetch_ok": 0,
+  "fetch_failed_domains": ["開けなかったサイトのドメイン"],
+  "weak_sections": ["裏付けが取れず薄くなった箇所（例: 米国株の材料、events、X の反応、個別項目名）"],
+  "factcheck_first_ng": 0,
+  "factcheck_final_ng": 0,
+  "allowlist_needed": "要 | 不要 | どちらとも言えない",
+  "allowlist_candidates": ["許可すれば内容が良くなりそうなドメイン"],
+  "comment": "今日の出来の評価と、その理由（2〜3文）"
+}
+```
+
+## 6. HTML を作って push する
 
 ```bash
 python3 scripts/render_report.py --date $D
-git add data/$D/analysis.json data/$D/factcheck.json reports/
+git add data/$D/ reports/
 git commit -m "report: $D"
 git push origin HEAD:main || git push origin HEAD:claude/report-$D
 ```

@@ -6,12 +6,14 @@ import argparse
 import base64
 import html
 import json
+import re
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 BOND_IDS = {"jgb10y", "ust10y"}
 WEEKDAYS = "月火水木金土日"
+LEADING_NO = re.compile(r"^[①-⑳]\s*")
 
 CSS = """
 :root{--ink:#1a1a1a;--ink-2:#555555;--ink-3:#8e8e8e;--accent:#173f66;--accent-tint:#eef3f8;
@@ -218,7 +220,8 @@ def render(date: str) -> Path:
     s = analysis.get("summary", {})
 
     def ol(items):
-        return '<ol class="summary">' + "".join(f"<li>{esc(t)}</li>" for t in items or []) + "</ol>"
+        # 番号はCSSで付けるので、本文側の「①」などは外す
+        return '<ol class="summary">' + "".join(f"<li>{esc(LEADING_NO.sub('', t))}</li>" for t in items or []) + "</ol>"
 
     events = s.get("events", [])
     events_html = ("" if not events else

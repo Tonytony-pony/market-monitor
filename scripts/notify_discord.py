@@ -5,6 +5,7 @@
 import argparse
 import json
 import os
+import re
 import sys
 from pathlib import Path
 
@@ -12,10 +13,11 @@ import requests
 
 ROOT = Path(__file__).resolve().parent.parent
 MAX_ATTACH = 9_500_000  # Discord の添付上限 10MB に余裕を持たせる
+LEADING_NO = re.compile(r"^[①-⑳]\s*")
 
 
 def numbered(items: list[str]) -> str:
-    return "\n".join(f"{i}. {t}" for i, t in enumerate(items or [], start=1))
+    return "\n".join(f"{i}. {LEADING_NO.sub('', t)}" for i, t in enumerate(items or [], start=1))
 
 
 def market_lines(market: dict) -> str:

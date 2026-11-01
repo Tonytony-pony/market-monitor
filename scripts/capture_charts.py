@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parent.parent
 VIEWPORT = {"width": 1280, "height": 760}
 
 HIDE_CSS = """
-[class*="sellBuyAndPresetsButtonsContainer"],
+[class*="sellBuyAndPresetsButtonsContainer"], .tv-floating-toolbar,
 [class*="toast"], [data-role="toast-container"], [class*="popup"] { display: none !important; }
 """
 

@@ -1,0 +1,185 @@
+{
+  "report_date": "2026-11-04",
+  "us_session_covered": "2026-11-03（火）",
+  "summary": {
+    "headline": "米国は半導体株の戻りでナスダック反発、ダウは下落。米長期金利は4.966%に上昇",
+    "recent_moves": [
+      "米国株（11/3）はナスダック総合が+0.83%の25,372.01と反発し、S&P500も+0.36%の7,568.92。NYダウは-0.38%の51,786.72と主要3指数で唯一下落した。半導体株の買い戻しが指数を押し上げたと報じられている",
+      "米10年債利回りは4.966%（+5.4bp）に上昇。5%目前の高水準が株の上値を抑える構図が続いている",
+      "日本株は日経平均が63,081.86円（-0.33%、11/2終値）。11/3は祝日で取引がなく、米国市場の動きは未反映。先物は63,090円で、1年のレンジの下方で推移している",
+      "ドル円は158.65円とほぼ横ばい。ビットコインは77,812ドル（+1.49%）と反発したが、ゴールドは3,930.78ドルで52週安値圏、プラチナは1,418.60ドルで52週安値（1,416.49ドル）にほぼ並ぶ水準まで下落した"
+    ],
+    "outlook": [
+      "11/4（水）の米国では、ADP雇用統計・ISMサービス業景況指数などが予定されている。金利がさらに上がる場合は、ナスダックの戻りが続くか試される",
+      "引け後に決算を出したAMDへの反応（時間外の動き）が、きょうの日本の半導体関連株や米国のハイテク株の方向感に影響する可能性がある",
+      "米国は11/3が中間選挙の投票日だった。結果とそれに伴う政策・財政の見方が、金利やドルに波及するかが注目されやすい",
+      "日本株は祝日明けで、米国の半導体株高と円相場の影響を織り込む動きになりやすい"
+    ],
+    "watch_points": [
+      "米10年債利回りの5%の水準（現在4.966%）",
+      "ナスダック総合の200日移動平均線（25,073.21）付近での攻防",
+      "日経平均の200日移動平均線（61,835.59円）付近の下値"
+    ],
+    "events": [
+      {"time_jst": "11/4 22:15頃", "event": "米ADP民間雇用統計（10月）", "importance": "中"},
+      {"time_jst": "11/4 22:30頃", "event": "米貿易収支（9月分）", "importance": "小"},
+      {"time_jst": "11/5 00:00", "event": "米ISMサービス業景況指数（10月）", "importance": "高"},
+      {"time_jst": "11/5 早朝", "event": "米国債の四半期定例入札・発表（リファンディング）関連（日程は要確認）", "importance": "中"}
+    ],
+    "overview_message": "米国は半導体株の戻りで指数まちまち、金利高と商品安が重しとなる朝。"
+  },
+  "instruments": {
+    "nikkei225": {
+      "headline": "祝日前の11/2終値は63,081.86円で、200日線の上を維持",
+      "analysis": "日経平均は63,081.86円（-0.33%）で、11/2の終値が最新。チャートでは10月の高値圏から押し戻され、200日移動平均線（61,835.59円）の上で下げ止まっている。RSIは41.08で売られすぎではなく、50日線（65,617.98円）は上値抵抗になっている。",
+      "us_impact_level": "小",
+      "us_impact": "米国株への影響は限定的。日本は11/3が休場で、米国市場が先に動いたため、むしろ日本株が米国のハイテク株の戻りに追随する局面となる。",
+      "sources": [
+        {"title": "Closing Look — Tuesday, November 3, 2026", "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-3-2026"},
+        {"title": "Stock market news for Nov. 3, 2026 (CNBC)", "url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html"}
+      ]
+    },
+    "jpx400": {
+      "headline": "JPX日経400は35,659.68円と続落、50日線の下",
+      "analysis": "JPX日経400は-0.67%の35,659.68円。50日線（36,669.61円）を下回り、200日線（35,160.90円）に近づいている。1か月では-2.86%と調整が続いている。",
+      "us_impact_level": "小",
+      "us_impact": "米国株への影響は限定的。国内の大型株指数であり、米国市場の材料にはなりにくい。",
+      "sources": [
+        {"title": "Closing Look — Tuesday, November 3, 2026", "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-3-2026"},
+        {"title": "Stock Market Recap — November 3, 2026", "url": "https://www.alainguillot.com/stock-market-recap-november-3/"}
+      ]
+    },
+    "growth250": {
+      "headline": "グロース250は773.70と反落、50日線の下で足踏み",
+      "analysis": "東証グロース250は-0.88%の773.70。50日線（785.82）を下回るが、200日線（753.25）は上回る。1週間では+2.62%と戻していたが、その流れが一服した。",
+      "us_impact_level": "なし",
+      "us_impact": "米国株への影響はほぼなし。日本の個人投資家中心の市場で、米国市場に波及する経路は乏しい。",
+      "sources": [
+        {"title": "Closing Look — Tuesday, November 3, 2026", "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-3-2026"},
+        {"title": "Stock Market Recap — November 3, 2026", "url": "https://www.alainguillot.com/stock-market-recap-november-3/"}
+      ]
+    },
+    "nk_futures": {
+      "headline": "日経先物は63,090円で、現物とほぼ同水準",
+      "analysis": "日経225先物は-0.27%の63,090円。1か月で-8.55%と下落が大きく、52週高値（73,760円）からは距離がある。祝日中の夜間取引の動きは本データでは確認できない。",
+      "us_impact_level": "小",
+      "us_impact": "米国株への影響は限定的。ただ、先物は米国ハイテク株の動きを日本時間で先取りしやすく、きょうの寄り付きの目安として見られやすい。",
+      "sources": [
+        {"title": "Stock Market Today Live, November 3, 2026 (StockTitan)", "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-3-2026"},
+        {"title": "Stock Market Recap — November 3, 2026", "url": "https://www.alainguillot.com/stock-market-recap-november-3/"}
+      ]
+    },
+    "nikkei_vi": {
+      "headline": "日経VIは35.72と高水準で上昇",
+      "analysis": "日経VIは+5.62%の35.72（11/2時点）。52週のレンジ（18.77〜66.65）では中位より高めの水準で、市場の警戒感が残っている。水準の評価は検索では補えなかった。",
+      "us_impact_level": "小",
+      "us_impact": "米国株への影響は限定的。日本固有のボラティリティ指標だが、世界的なリスク回避が強まる局面では連動しやすい。",
+      "sources": [
+        {"title": "Closing Look — Tuesday, November 3, 2026", "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-3-2026"},
+        {"title": "Stock market news for Nov. 3, 2026 (CNBC)", "url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html"}
+      ]
+    },
+    "usdjpy": {
+      "headline": "ドル円は158.65円でほぼ横ばい、200日線上でもみ合い",
+      "analysis": "ドル円は-0.02%の158.65円。200日線（158.60円）のすぐ上で、1年のレンジの上限（163.99円）より下で狭く推移している。米金利の上昇が円安方向に働く一方、上値も重い。",
+      "us_impact_level": "小",
+      "us_impact": "米国株への影響は限定的。円相場が大きく動いていないため、日本勢の資金フローを通じた影響は小さい。",
+      "sources": [
+        {"title": "Stock Market Today (Nov. 3, 2026) - TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-03-2026"},
+        {"title": "03 November 2026 Market Close & Major Financial Headlines", "url": "https://econcurrents.substack.com/p/03-november-2026-market-close-and"}
+      ]
+    },
+    "dow": {
+      "headline": "ダウは-0.38%の51,786.72で、主要指数で唯一の下落",
+      "analysis": "NYダウは51,786.72ドルで引けた。ハイテク主導の戻りの中で、割安・景気敏感株は上値が重かった。50日線（52,152.95）を下回る一方、200日線（50,628.98）は上回っている。",
+      "us_impact_level": "大",
+      "us_impact": "米国株そのもの。金利上昇でバリュー株にも買いが入りにくい状況で、アップルの利益率見通しの弱さも重しになったと報じられている。",
+      "sources": [
+        {"title": "03 November 2026 Market Close & Major Financial Headlines", "url": "https://econcurrents.substack.com/p/03-november-2026-market-close-and"},
+        {"title": "Closing Look — Tuesday, November 3, 2026", "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-3-2026"}
+      ]
+    },
+    "nasdaq": {
+      "headline": "ナスダックは+0.83%で反発、200日線の上を維持",
+      "analysis": "ナスダック総合は25,372.01で引け、半導体株の買い戻しで3日続落から反発した。チャートでは一目均衡表の雲の下まで下落した後、200日線（25,073.21）付近で下げ止まっている。RSIは36.03と売られすぎに近い。",
+      "us_impact_level": "大",
+      "us_impact": "米国株そのもの。パランティアは決算が予想を上回ったものの株価は下げ、引け後にはAMDの決算が控えていた。ハイテクの先行きは決算と金利に左右されやすい。",
+      "sources": [
+        {"title": "Stock Market Today Live, November 3, 2026 (StockTitan)", "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-3-2026"},
+        {"title": "PLTR Stock Rebounds After Palantir Earnings Sell-Off (FX Leaders)", "url": "https://www.fxleaders.com/news/2026/11/03/pltr-stock-rebounds-after-palantir-earnings-sell-off-as-strong-growth-supports-outlook-while-palantir-technologies-beats-third-quarter-wall-street-estimates/"}
+      ]
+    },
+    "sp500": {
+      "headline": "S&P500は+0.36%の7,568.92で、連続下落が止まった",
+      "analysis": "S&P500は7,568.92で引け、3日続落を脱した。10月以降のレンジの下限付近で、50日線（7,692.74）の下にいる。200日線（7,315.89）までは距離がある。",
+      "us_impact_level": "大",
+      "us_impact": "米国株そのもの。中間選挙の投票日と金利が5%目前という警戒の中で、指数は小幅な戻りにとどまった。",
+      "sources": [
+        {"title": "Stock Market Today (Nov. 3, 2026) - TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-03-2026"},
+        {"title": "Stock Market Recap — November 3, 2026", "url": "https://www.alainguillot.com/stock-market-recap-november-3/"}
+      ]
+    },
+    "btc": {
+      "headline": "ビットコインは77,812ドルと反発、節目の手前",
+      "analysis": "ビットコインは+1.49%の77,812ドル。ハイテク株の戻りと歩調を合わせた。チャート上の節目には届いておらず、1か月では-8.18%と調整が続く。200日線（73,160ドル）は上回っている。",
+      "us_impact_level": "小",
+      "us_impact": "米国株への影響は限定的。リスク選好の指標としては見られるが、株の方向を決める材料にはなりにくい。",
+      "sources": [
+        {"title": "Stock Market Today Live, November 3, 2026 (StockTitan)", "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-3-2026"},
+        {"title": "Stock Market Recap — November 3, 2026", "url": "https://www.alainguillot.com/stock-market-recap-november-3/"}
+      ]
+    },
+    "wti": {
+      "headline": "WTIは96.72ドルと小幅高、高値圏で推移",
+      "analysis": "WTIは+0.66%の96.72ドル。年初来では+68.47%と大きく上げており、52週高値（119.48ドル）は下回る。1週間では-3.44%と、直近は押し戻されている。",
+      "us_impact_level": "中",
+      "us_impact": "原油高はインフレと金利の見方を通じて株の重しになりやすい。足元の金利高の一因として意識される可能性がある。",
+      "sources": [
+        {"title": "Stock market news for Nov. 3, 2026 (CNBC)", "url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html"},
+        {"title": "03 November 2026 Market Close & Major Financial Headlines", "url": "https://econcurrents.substack.com/p/03-november-2026-market-close-and"}
+      ]
+    },
+    "gold": {
+      "headline": "金は3,930.78ドルで横ばい、52週安値に接近",
+      "analysis": "金は+0.02%の3,930.78ドル。52週安値（3,870.26ドル）に近く、50日線（4,216.67）・200日線（4,487.53）をいずれも大きく下回る。年初来は-8.97%で、金利高とドル高が重しとなっている。",
+      "us_impact_level": "小",
+      "us_impact": "米国株への影響は限定的。金の下落は安全資産需要の後退を示すが、株への直接的な波及は小さい。",
+      "sources": [
+        {"title": "03 November 2026 Market Close & Major Financial Headlines", "url": "https://econcurrents.substack.com/p/03-november-2026-market-close-and"},
+        {"title": "Stock Market Today (Nov. 3, 2026) - TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-03-2026"}
+      ]
+    },
+    "platinum": {
+      "headline": "プラチナは1,418.60ドルで52週安値圏、下落が加速",
+      "analysis": "プラチナは-0.05%の1,418.60ドルで、52週安値（1,416.49ドル）に迫る。1か月で-16.56%、年初来で-32.23%と下げが大きい。RSIは25.26で、売られすぎの水準にある。",
+      "us_impact_level": "なし",
+      "us_impact": "米国株への影響はほぼなし。産業需要の弱さを映す面はあるが、市場規模が小さく、株価への波及は乏しい。",
+      "sources": [
+        {"title": "03 November 2026 Market Close & Major Financial Headlines", "url": "https://econcurrents.substack.com/p/03-november-2026-market-close-and"},
+        {"title": "Stock Market Recap — November 3, 2026", "url": "https://www.alainguillot.com/stock-market-recap-november-3/"}
+      ]
+    },
+    "jgb10y": {
+      "headline": "日本の10年債利回りは2.775%、+0.8bp",
+      "analysis": "日本の10年債利回りは2.775%で、前日から+0.8bpの上昇。52週高値（3.135%）は下回り、1か月では低下している。11/2時点の動きで、祝日の影響で取引は限られた。",
+      "us_impact_level": "小",
+      "us_impact": "米国株への影響は限定的。日本の金利上昇は円高要因になり得るが、現状の幅は小さい。",
+      "sources": [
+        {"title": "Closing Look — Tuesday, November 3, 2026", "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-3-2026"},
+        {"title": "Stock market news for Nov. 3, 2026 (CNBC)", "url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html"}
+      ]
+    },
+    "ust10y": {
+      "headline": "米10年債利回りは4.966%、+5.4bpで5%に接近",
+      "analysis": "米10年債利回りは4.966%に上昇した。52週高値（5.365%）からは下だが、チャートでは10月の高値から低下した後、再び5%を試す形になっている。雇用関連の統計が強いとの報道が金利を押し上げたとされるが、報道間で数字が食い違うため詳細は断定しない。",
+      "us_impact_level": "大",
+      "us_impact": "株への影響が最も大きい項目。5%を明確に超えると、ハイテク株の評価を圧迫しやすい。きょうのISMサービス業などの指標が金利の方向を左右する可能性がある。",
+      "sources": [
+        {"title": "03 November 2026 Market Close & Major Financial Headlines", "url": "https://econcurrents.substack.com/p/03-november-2026-market-close-and"},
+        {"title": "Stock Market Today (Nov. 3, 2026) - TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-03-2026"}
+      ]
+    }
+  },
+  "external_facts": [],
+  "x_sentiment": "SNSの反応は今回の検索では確認できなかったため省略する。"
+}

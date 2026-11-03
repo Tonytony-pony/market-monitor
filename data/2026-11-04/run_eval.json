@@ -1,0 +1,5 @@
+{"searches":12,"fetch_ok":0,"fetch_failed_domains":["econcurrents.substack.com","www.stocktitan.net","www.thestreet.com"],
+"weak_sections":["WebFetchが全て失敗し検索要約のみ","日本株・金・原油・ビットコイン・日本国債の個別材料","JOLTSの数字（報道間で食い違い）","AMD決算結果","Xの反応","events（日程は一部未確認）"],
+"factcheck_first_ng":5,"factcheck_final_ng":0,"allowlist_needed":"要",
+"allowlist_candidates":["www.cnbc.com","www.thestreet.com","econcurrents.substack.com","www.stocktitan.net","www.reuters.com"],
+"comment":"検索でも11/3の日付の記事が取りにくく、記事本文を開けなかったため、日本株や商品の個別の背景が薄くなった。米国株の終値と主な材料は複数の報道で確認できた。"}

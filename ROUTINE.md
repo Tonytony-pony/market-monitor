@@ -32,7 +32,10 @@ D=$(TZ=Asia/Tokyo date +%F); echo $D
 対象は、日本時間の今朝までに終わった米国の取引日（土曜朝なら金曜）と、その前の日本の取引日。
 
 - 米国の材料は**英語で**検索する（例: `stock market today Nasdaq close <Month Day, Year>`、`Reuters US stocks close`、`CNBC stocks Dow S&P Nasdaq`）。日本語の記事は前年の同じ日付が混ざりやすいので、記事の年を必ず確かめる。
-- 記事ページを WebFetch で開けないときは、検索結果に出る要約で判断してよい。開けなかったサイト名は最後の報告に書く。
+- 記事本文を WebFetch で開けるのは、許可リストにあるサイトだけ。本文を読みたいときは次のサイトの記事を優先して探す（検索に `site:` を付けてもよい）。
+  - 公的機関: federalreserve.gov, bls.gov, bea.gov, home.treasury.gov, eia.gov, boj.or.jp, mof.go.jp, jpx.co.jp
+  - 報道・市況: reuters.com, cnbc.com, apnews.com, marketwatch.com, finance.yahoo.com, axios.com, kitco.com, fxstreet.com, coindesk.com, moneyworld.jp, kabutan.jp, traders.co.jp, fx.minkabu.jp, gaitame.com, jiji.com, news.livedoor.com, coindeskjapan.com
+- 記事ページを WebFetch で開けないときは、検索結果に出る要約で判断してよい。開けなかったサイト名は最後の報告に書く（許可リストにあるのに開けなかったサイトは、そう分かるように書く）。
 - 1つの検索で見つからなくても諦めず、言い方を変えて2〜3回は試す。特に「米国株の材料」と「次の米国取引日の予定」は必ず埋める。
 
 1. 米国株の終値と、その日の主な材料（経済指標・FRB関係者の発言・決算・需給）。主要な報道を2つ以上見る。

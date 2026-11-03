@@ -1,7 +1,8 @@
 # 毎朝のマーケット日報：ルーチンの作業手順
 
 Claude Code のルーチン（クラウド）が毎朝これを読んで実行する。
-数値の取得とチャートの撮影は GitHub Actions（`collect` ワークフロー）が先に済ませてある。
+数値の取得とチャートの撮影は、ユーザーのPC（毎朝 6:20）が先に済ませて push してある。
+PC が動かなかった日は、GitHub Actions（`collect` ワークフロー）が代わりに通常チャートを撮ることがある。
 ここでの仕事は **調べて・考えて・書いて・数字をチェックして・HTML にして push する** こと。
 
 ## 0. 日付を決めてデータを待つ
@@ -10,10 +11,10 @@ Claude Code のルーチン（クラウド）が毎朝これを読んで実行�
 D=$(TZ=Asia/Tokyo date +%F); echo $D
 ```
 
-- `data/$D/market.json` と `data/$D/charts/_status.json` が揃うまで、`git pull --ff-only` → 60秒待つ、を繰り返す（最大40回）。
-- 40分待っても揃わなければ、何も書かずに「データ未着のため中止」と報告して終了する（Actions 側が障害通知を送る）。
-- 揃ったあと、`data/$D/charts_custom/_status.json`（ユーザーのPCで、本人の TradingView レイアウトから撮ったチャート）が無ければ、同じやり方でさらに最大10分待つ。来なければ `charts/` だけで進めてよい。
 - `reports/$D.html` が既にあれば、作成済みなので何もしないで終了する。
+- 揃う条件は、`data/$D/market.json` があり、さらに `data/$D/charts_custom/_status.json`（本人の TradingView レイアウトで撮ったチャート）か `data/$D/charts/_status.json`（通常チャート）のどちらかがあること。
+- 揃うまで `git pull --ff-only` → 60秒待つ、を繰り返す（最大30回）。1回のコマンドは9分以内に収め、必要なら何回かに分けて実行する。
+- 30分待っても揃わなければ、何も書かずに中止する。そのとき `alerts/$D.txt` に「日報を中止した理由（届いていたファイルの一覧も）」を書いて commit・push する（Discord に障害通知が届く）。
 
 ## 1. 事実を把握する（ここの数字が「正」）
 

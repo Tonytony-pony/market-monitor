@@ -1,0 +1,31 @@
+# ルーチンが日報を作れなかったとき、alerts/<日付>.txt を push する。その中身を Discord に送る。
+name: alert
+
+on:
+  push:
+    branches: [main, "claude/**"]
+    paths: ["alerts/**"]
+
+jobs:
+  alert:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Notify Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          pip install -q requests
+          for f in $(git diff --name-only HEAD~1 HEAD -- alerts/); do
+            python scripts/notify_discord.py --date "$(basename "$f" .txt)" \
+              --message "マーケット日報を作れませんでした（$(basename "$f" .txt)）
+          $(cat "$f")"
+          done

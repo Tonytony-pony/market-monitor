@@ -1,10 +1,11 @@
-# 数値の取得と TradingView チャートの撮影。結果を data/<日付>/ に commit する。
-# 日本時間 火〜土 6:20（UTC 月〜金 21:20）。米国株の終値（遅延配信15分）が確定してから取る。
+# 代替用：数値の取得と通常の TradingView チャートの撮影。
+# 本来はユーザーのPC（scripts/local_capture.ps1, 毎朝 6:20）がやる。GitHub の定期実行は数時間遅れたり
+# 動かなかったりするので、ここは PC が動かなかった日の保険。遅れて動いた日や、PC 側で済んでいる日は何もしない。
 name: collect
 
 on:
   schedule:
-    - cron: "20 21 * * 1-5"
+    - cron: "25 21 * * 1-5"
   workflow_dispatch:
     inputs:
       date:
@@ -23,30 +24,44 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Decide what to do
+        run: |
+          D="${{ inputs.date }}"
+          [ -z "$D" ] && D=$(TZ=Asia/Tokyo date +%F)
+          echo "D=$D" >> "$GITHUB_ENV"
+          HM=$(date -u +%H%M)
+          if [ "${{ github.event_name }}" = schedule ] && { [ "$HM" -lt 2100 ] || [ "$HM" -gt 2235 ]; }; then
+            echo "定期実行が遅れて ${HM} UTC に始まった。数値が日報の時点とずれるので何もしない"
+            echo "SKIP_ALL=1" >> "$GITHUB_ENV"
+          elif [ -f "data/$D/charts_custom/_status.json" ]; then
+            echo "PC 側で撮影済み"
+            echo "SKIP_ALL=1" >> "$GITHUB_ENV"
+          fi
+          [ -f "data/$D/market.json" ] && echo "SKIP_FETCH=1" >> "$GITHUB_ENV" || true
+
       - uses: actions/setup-python@v5
+        if: env.SKIP_ALL != '1'
         with:
           python-version: "3.11"
           cache: pip
 
       - name: Install
+        if: env.SKIP_ALL != '1'
         run: |
           pip install -r requirements.txt
           python -m playwright install --with-deps chromium
           sudo apt-get install -y -q fonts-noto-cjk
 
-      - name: Decide date
-        run: |
-          D="${{ inputs.date }}"
-          [ -z "$D" ] && D=$(TZ=Asia/Tokyo date +%F)
-          echo "D=$D" >> "$GITHUB_ENV"
-
       - name: Fetch data
+        if: env.SKIP_ALL != '1' && env.SKIP_FETCH != '1'
         run: python scripts/fetch_data.py --date "$D"
 
       - name: Capture charts
+        if: env.SKIP_ALL != '1'
         run: python scripts/capture_charts.py --date "$D"
 
       - name: Commit
+        if: env.SKIP_ALL != '1'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -59,5 +74,6 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
+          pip install -q requests
           python scripts/notify_discord.py --date "${D:-unknown}" \
-            --message "マーケット日報: データ取得に失敗しました（${D:-unknown}）。${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            --message "マーケット日報: 代替のデータ取得に失敗しました（${D:-unknown}）。${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

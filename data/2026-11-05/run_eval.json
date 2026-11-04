@@ -1,0 +1,11 @@
+{
+  "searches": 11,
+  "fetch_ok": 2,
+  "fetch_failed_domains": ["tvnewscheck.com"],
+  "weak_sections": ["events（11/5以降の経済指標・FRB発言・決算の日程が検索で確認できず、通常スケジュールに基づく記載）", "X・SNSの反応（取得できず省略）", "日本株・JGBの個別背景（日本語の市況記事が見つからず薄い）"],
+  "factcheck_first_ng": 5,
+  "factcheck_final_ng": 0,
+  "allowlist_needed": "どちらとも言えない",
+  "allowlist_candidates": ["tvnewscheck.com", "benzinga.com", "stocktitan.net", "bnnbloomberg.ca"],
+  "comment": "米国株の終値と材料はCNBC・Yahoo Financeの本文を読めて裏付けが取れた。一方、次の取引日の予定と日本株側の背景は検索結果が古い年の記事ばかりで薄く、日程系の情報源が許可されると改善しそう。"
+}

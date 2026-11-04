@@ -1,0 +1,181 @@
+{
+  "report_date": "2026-11-05",
+  "us_session_covered": "2026-11-04（水）",
+  "summary": {
+    "headline": "米中間選挙で民主党が勝利、原油急落でダウ+3.03%。日本株は半導体安で続落",
+    "recent_moves": [
+      "米中間選挙で民主党が上下両院を制し、「分割政府」で政策の振れが小さくなるとの見方からダウは+3.03%の53,356.12ドルと2025年4月以来の大幅高。S&P500は+1.58%、ナスダックは+1.44%",
+      "イラン戦争の終結観測から原油が急落し、WTIは-7.85%の88.55ドル。インフレ懸念が和らぎ、米10年債利回りは-8.0bpの4.886%へ低下",
+      "AI・半導体株は売られ、アップルやマイクロソフトなど大型株や景気敏感株・生活必需品へ資金が回る循環物色の動き。エヌビディアは下落した",
+      "日経平均は-1.42%の62,188.63円と続落。日中は大きく下げたが引けにかけて戻した。半導体関連が重しで、200日線（61,886.73円）付近で下げ止まった",
+      "金は+3.42%の4,064.54ドル、ビットコインは+3.60%の80,132ドル。ドル安とリスク選好の戻りで買われた"
+    ],
+    "outlook": [
+      "11/5（木）の米市場は、原油急落の持続性とイラン情勢が焦点。原油が再び反発すれば金利低下の流れが止まる可能性がある",
+      "AI・半導体株の戻りの鈍さが続くかが注目点。テキサス州などでのデータセンター規制への警戒が重しになりやすい",
+      "ダウは52週高値（54,744.33ドル）が視野に入る位置。急騰後の利益確定売りが出やすい局面で、短期の過熱には注意",
+      "日本株は11/5の寄り付きで、米株高・原油安が追い風になる一方、半導体株の戻りが鈍いと指数の重しになる可能性がある"
+    ],
+    "watch_points": [
+      "WTIが戻り基調に転じるか（直近の下落の反動）",
+      "米10年債利回り 4.9%前後の攻防",
+      "日経平均 200日線（61,886.73円）の維持"
+    ],
+    "events": [
+      {"time_jst": "11/5 22:30", "event": "米週間新規失業保険申請件数（毎週木曜。日時は通常スケジュールに基づく）", "importance": "中"},
+      {"time_jst": "11/5 夜〜", "event": "引き続き決算発表（半導体・AI関連の反応に注目）", "importance": "中"},
+      {"time_jst": "11/6（金）", "event": "米10月雇用統計（通常は第1金曜。公式日程は要確認）", "importance": "高"},
+      {"time_jst": "今週", "event": "イラン戦争の停戦・和平協議の進展と米議会の新体制をめぐる報道", "importance": "高"}
+    ],
+    "overview_message": "米中間選挙を受けた株高と原油急落で、リスク資産が広く買われた一方、AI・半導体株は戻りが鈍い。"
+  },
+  "instruments": {
+    "nikkei225": {
+      "headline": "半導体安で続落も、200日線の手前で下げ止まった",
+      "analysis": "日経平均は-1.42%（-893.23円）の62,188.63円。1か月騰落率は-10.02%、RSIは37.9と売られすぎに近づいている。チャートでは10月高値圏から下落し、200日線（61,886.73円）付近で支えられる形で、一目均衡表の雲の下に位置する。日中安値は60,030.10円まで下げたが、引けにかけて戻した。",
+      "us_impact_level": "小",
+      "us_impact": "日本株の下落は半導体関連が主因で、米国株の方向を決める材料ではない。ただし米AI・半導体株の弱さと連動しており、ナスダックの重さを映した形。",
+      "sources": [
+        {"title": "CNBC Stock market today live updates", "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"}
+      ]
+    },
+    "jpx400": {
+      "headline": "日経平均より下げは小さく、内需・非半導体株が下支え",
+      "analysis": "JPX日経400は-0.84%の35,358.55円。日経平均（-1.42%）より下落率が小さく、半導体の比重が低い分、堅調。1週間騰落率は-2.94%、200日線（35,179.50円）に近い位置にある。",
+      "us_impact_level": "なし",
+      "us_impact": "米国株への影響は限定的。日本の幅広い銘柄の動きで、米市場の材料にはなりにくい。",
+      "sources": [
+        {"title": "CNBC Stock market today live updates", "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"}
+      ]
+    },
+    "growth250": {
+      "headline": "小幅安。新興株は大崩れせず",
+      "analysis": "東証グロース250は-0.57%の769.27。200日線（753.63）の上にとどまり、1年のレンジの中ほど。半導体安の影響は限定的で、売りは小さかった。",
+      "us_impact_level": "なし",
+      "us_impact": "米国株への影響は限定的。国内の個人投資家中心の市場で、米株とは連動しにくいため。",
+      "sources": [
+        {"title": "CNBC Stock market today live updates", "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"}
+      ]
+    },
+    "nk_futures": {
+      "headline": "夜間は米株高を受けて反発",
+      "analysis": "日経225先物は+1.06%の63,110円。米株高と原油安を受けて買い戻された形。ただし1か月騰落率は-10.11%で、10月の高値圏からの下落トレンドの中の戻りにとどまる。",
+      "us_impact_level": "小",
+      "us_impact": "先物の反発は米株高を映したもので、米国株への逆流は小さい。米半導体株の動き次第で日本株が再び重くなる可能性はある。",
+      "sources": [
+        {"title": "Yahoo Finance: Stock market today", "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-rallies-1500-points-sp-500-nasdaq-midterm-elections-democrats-sweep-201207340.html"}
+      ]
+    },
+    "nikkei_vi": {
+      "headline": "日経VIは急低下。日中の不安が引けにかけて後退",
+      "analysis": "日経VI（日経公式、11/4付）は24.98で、変化率は-30.07%（-10.74）。日中は40.30まで上昇していたとみられ、引けにかけて大きく低下した。水準は52週高値（66.65）よりかなり低いが、安値（18.77）よりは高い。",
+      "us_impact_level": "小",
+      "us_impact": "日本の恐怖指数の低下は、世界的なリスク回避が後退したことを示す。米国株への直接の影響は小さい。",
+      "sources": [
+        {"title": "Yahoo Finance: Stock market today", "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-rallies-1500-points-sp-500-nasdaq-midterm-elections-democrats-sweep-201207340.html"}
+      ]
+    },
+    "usdjpy": {
+      "headline": "ドル安で小幅円高、158円台前半で揉み合い",
+      "analysis": "ドル円は-0.17%の158.42円。米金利低下とドル指数の下落で小幅に円高。チャートでは158円台で横ばいが続き、200日線（158.60円）付近を行き来している。",
+      "us_impact_level": "小",
+      "us_impact": "158円台の揉み合いは米株への影響が小さい。円高が急に進めば日本株の逆風になるが、現状は小幅。",
+      "sources": [
+        {"title": "CNBC Stock market today live updates", "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"}
+      ]
+    },
+    "dow": {
+      "headline": "中間選挙と原油安で、年内最大級の上げ",
+      "analysis": "NYダウは+3.03%（+1,569.40ドル）の53,356.12ドルと、2025年4月以来の大幅高。民主党が上下両院を制したことで政策の不確実性が後退し、原油安も重なった。52週高値（54,744.33ドル）まであと一歩で、RSIは63.2。",
+      "us_impact_level": "大",
+      "us_impact": "米国株そのものの動き。景気敏感株・金融・生活必需品への物色が広がり、指数の裾野は広い。急騰後は利益確定売りが出やすく、短期の過熱には注意。",
+      "sources": [
+        {"title": "CNBC Stock market today live updates", "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"},
+        {"title": "Yahoo Finance: Dow surges", "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-rallies-1500-points-sp-500-nasdaq-midterm-elections-democrats-sweep-201207340.html"}
+      ]
+    },
+    "nasdaq": {
+      "headline": "AI・半導体は重いが、大型株の買いで反発",
+      "analysis": "ナスダック総合は+1.44%の25,736.51。エヌビディアなど半導体は下げたが、アップル、マイクロソフト、アマゾンが買われ指数を支えた。チャートでは200日線（25,087.12）の上で下げ止まり、50日線（26,533.36）の下にある戻り局面。",
+      "us_impact_level": "大",
+      "us_impact": "米国株そのものの動き。AI関連の戻りが鈍いまま、その他の大型株に物色が移っている。データセンター規制への警戒が重しで、半導体の反発力が焦点。",
+      "sources": [
+        {"title": "CNBC Stock market today live updates", "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"},
+        {"title": "Yahoo Finance: Dow surges", "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-rallies-1500-points-sp-500-nasdaq-midterm-elections-democrats-sweep-201207340.html"}
+      ]
+    },
+    "sp500": {
+      "headline": "レンジ上放れの手前。52週高値が上値のめど",
+      "analysis": "S&P500は+1.58%の7,688.62。この数か月は狭いレンジで、50日線（7,692.97）にほぼ並ぶ位置。52週高値（7,844.52）が上値のめど。",
+      "us_impact_level": "大",
+      "us_impact": "米国株そのものの動き。高値圏のレンジを上抜けできるかが次の焦点で、原油安と金利低下が続けば追い風になりやすい。",
+      "sources": [
+        {"title": "CNBC Stock market today live updates", "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"},
+        {"title": "Yahoo Finance: Dow surges", "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-rallies-1500-points-sp-500-nasdaq-midterm-elections-democrats-sweep-201207340.html"}
+      ]
+    },
+    "btc": {
+      "headline": "安値圏から切り返し、8万ドル台を回復",
+      "analysis": "ビットコインは+3.60%の80,132ドル。日中は75,618ドルまで下げたが、リスク選好の戻りで買い戻された。チャートでは10月の高値圏から下げ、50日線（81,985.95）の下にあるが、200日線（73,179.30）の上を保っている。",
+      "us_impact_level": "小",
+      "us_impact": "米国株への影響は限定的。リスク資産全般の地合いを映す動きで、現物の買いが弱いとの指摘もあり、持続性は不透明。",
+      "sources": [
+        {"title": "CNBC Stock market today live updates", "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"},
+        {"title": "Yahoo Finance: Dow surges", "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-rallies-1500-points-sp-500-nasdaq-midterm-elections-democrats-sweep-201207340.html"}
+      ]
+    },
+    "wti": {
+      "headline": "イラン戦争の終結観測で原油が急落",
+      "analysis": "WTIは-7.85%（-7.54ドル）の88.55ドル。中間選挙の結果が戦争終結への圧力になるとの観測で売られた。1週間騰落率は-11.60%と大きく、200日線（86.60ドル）近くまで下がった。年初来では+54.24%と、まだ高い水準。",
+      "us_impact_level": "大",
+      "us_impact": "原油安はインフレ懸念と金利の低下につながり、米株の追い風。エネルギー株には逆風。戦況次第で反発する可能性が高く、振れが大きい点に注意。",
+      "sources": [
+        {"title": "CNBC Stock market today live updates", "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"},
+        {"title": "Yahoo Finance: Dow surges", "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-rallies-1500-points-sp-500-nasdaq-midterm-elections-democrats-sweep-201207340.html"}
+      ]
+    },
+    "gold": {
+      "headline": "ドル安と金利低下で大幅反発",
+      "analysis": "金は+3.42%の4,064.54ドル。ドル指数の下落と米金利低下が追い風。チャートでは安値圏（3,870.26ドルの52週安値の上）から切り返したが、50日線（4,219.34ドル）・200日線（4,488.20ドル）の下で、戻りは限定的。",
+      "us_impact_level": "小",
+      "us_impact": "米国株への影響は限定的。金利低下とドル安という、株にも追い風の環境を映した動き。",
+      "sources": [
+        {"title": "CNBC Stock market today live updates", "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"},
+        {"title": "Yahoo Finance: Dow surges", "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-rallies-1500-points-sp-500-nasdaq-midterm-elections-democrats-sweep-201207340.html"}
+      ]
+    },
+    "platinum": {
+      "headline": "貴金属高に連れて+5.89%、ただし下落基調は続く",
+      "analysis": "プラチナは+5.89%の1,502.87ドル。金・銀と同様に反発したが、1か月騰落率は-11.61%、年初来で-28.21%と弱い。52週安値（1,392.07ドル）の近くにあり、50日線（1,692.52ドル）を大きく下回る。",
+      "us_impact_level": "なし",
+      "us_impact": "米国株への影響は限定的。市場規模が小さく、自動車触媒需要など個別要因が中心のため。",
+      "sources": [
+        {"title": "CNBC Stock market today live updates", "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"}
+      ]
+    },
+    "jgb10y": {
+      "headline": "日本の長期金利は小幅上昇、2.8%台で推移",
+      "analysis": "日本国債10年利回りは2.819%で、前日比+4.4bp。1か月騰落率はマイナスで、52週高値（3.135%）からは低い水準。米金利が下がる中、日本は小幅上昇と方向が分かれた。",
+      "us_impact_level": "小",
+      "us_impact": "米国株への影響は限定的。日米金利差が縮めば円高要因になり得るが、今日の動きは小さい。",
+      "sources": [
+        {"title": "CNBC Stock market today live updates", "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"}
+      ]
+    },
+    "ust10y": {
+      "headline": "原油安でインフレ懸念が後退、利回りは低下",
+      "analysis": "米10年債利回りは4.886%で、前日比-8.0bp。原油急落でインフレ懸念が和らいだ。チャートでは10月の5%超から下げ、52週高値（5.365%）から離れて4.9%割れ。",
+      "us_impact_level": "大",
+      "us_impact": "利回り低下は株式の割引率を下げ、米株の追い風。ただし原油が戻ると金利も戻りやすく、この流れの持続性が焦点。",
+      "sources": [
+        {"title": "CNBC Stock market today live updates", "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"},
+        {"title": "Yahoo Finance: Dow surges", "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-rallies-1500-points-sp-500-nasdaq-midterm-elections-democrats-sweep-201207340.html"}
+      ]
+    }
+  },
+  "external_facts": [
+    {"label": "10月ADP民間雇用者数", "value": "86,000人増", "sources": ["https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html", "https://finance.yahoo.com/markets/live/stock-market-today-dow-rallies-1500-points-sp-500-nasdaq-midterm-elections-democrats-sweep-201207340.html"]},
+    {"label": "アップル株の上昇率", "value": "約6%", "sources": ["https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html", "https://finance.yahoo.com/markets/live/stock-market-today-dow-rallies-1500-points-sp-500-nasdaq-midterm-elections-democrats-sweep-201207340.html"]}
+  ],
+  "x_sentiment": "SNS上の反応は確認できなかったため記載しない。"
+}

@@ -1,0 +1,191 @@
+{
+  "report_date": "2026-11-06",
+  "us_session_covered": "2026-11-05（木）",
+  "summary": {
+    "headline": "AI・半導体株が総崩れ、ナスダック-5.52%で調整局面入り。ダウ-3.44%、日経先物-5.78%",
+    "recent_moves": [
+      "米国株が全面安。ナスダック総合は-5.52%の24,315.00、S&P500は-4.36%の7,353.73、ダウは-3.44%の51,523.06ドル。前日の中間選挙後の上昇分を消し、ナスダックは直近高値から10%超下げる調整局面入りと報じられた",
+      "AI・半導体株の売りが主因。フィラデルフィア半導体指数は一時的でなく1日で約12%下落と報じられ、エヌビディアも大幅安。民主党の議会勝利でAIデータセンター建設への規制強化が意識された、年末を前にしたヘッジファンドの利益確定、個人投資家の売り越しなどが材料として挙がった",
+      "リスク回避で米10年債利回りは-5.1bpの4.839%へ低下。一方、原油はイラン情勢の不透明感からWTIが+2.69%の90.49ドルと上昇し、金は+0.71%の4,089.58ドルと小幅高。ビットコインは-5.81%の75,769ドル",
+      "日経平均は5日の取引で-1.79%の61,077.9円と続落し、200日線（61,936.53円）を割り込んだ。日経VIは+34.35%の33.56に急上昇。米株急落を受け、日経225先物は-5.78%の57,400円（夜間取引の終値）まで下げた",
+      "ドル円は-0.41%の157.75円と小幅なドル安・円高。日本10年債利回りは-5.0bpの2.769%"
+    ],
+    "outlook": [
+      "11/6（金）の日本株は、米株急落と先物の大幅安を受けて売りが先行しやすい。日経平均は200日線（61,936.53円）を回復できるかが焦点で、先物の水準（57,400円）との乖離がどこまで縮むかが注目される",
+      "次の米国取引日（11/6・金）は10月の米雇用統計の発表が予定されている（通常スケジュールに基づく）。株安局面では、強い結果なら利下げ観測の後退、弱い結果なら景気懸念が意識されやすく、どちらでも変動が大きくなる可能性",
+      "ナスダックは1年のチャート上で200日線（約24,378）近辺まで下げた。ここを維持できるか、下抜けてさらに下の支持線を試すかが短期の分かれ目になりやすい",
+      "AI・半導体株の急落が一服するか、データセンター規制や年末の持ち高調整の売りが続くかが焦点。VIXの急上昇でボラティリティ連動の売りが出やすい点にも注意",
+      "週末をはさむため、イラン情勢や原油（90ドル台）の動きなど週末のイベントリスクが月曜の日本株・米株先物に影響する可能性がある"
+    ],
+    "watch_points": [
+      "S&P500 200日線（7,322.74）の維持",
+      "ナスダック 200日線近辺（約24,378）の攻防",
+      "日経平均 200日線（61,936.53円）の回復と、日経先物57,400円との差",
+      "米10年債利回り 4.8%台での推移"
+    ],
+    "events": [
+      {"time_jst": "11/6 22:30", "event": "10月米雇用統計（通常スケジュールに基づく・要確認）", "importance": "高"},
+      {"time_jst": "11/6 夜", "event": "FRB高官の発言（株急落を受けた市場対応・金融政策への言及に注目）", "importance": "中"},
+      {"time_jst": "11/6 夜〜", "event": "半導体・AI関連銘柄の値動き（前日の急落の反動か続落か）", "importance": "高"},
+      {"time_jst": "11/7（土）〜", "event": "週末のイラン情勢・米政治（データセンター規制）のヘッドライン", "importance": "中"}
+    ],
+    "overview_message": "AI・半導体株の急落で米株が全面安となり、日本株先物・日経VI・ビットコインにも波及した朝です。"
+  },
+  "instruments": {
+    "nikkei225": {
+      "headline": "続落で200日線を割り込み、米株急落の直撃は今日以降",
+      "analysis": "5日の日経平均は-1.79%の61,077.9円。日中は62,653.98円まで上げる場面もあったが、安値60,786.19円まで押した。1年チャートでは200日線（61,936.53円）を終値で下回り、高値圏からの調整色が強まった。1カ月で-12.69%と下げが大きく、RSIは34.4と売られすぎに近づいている。",
+      "us_impact_level": "中",
+      "us_impact": "日本株は米国の半導体株の動きに連動しやすく、日経平均はその影響を受ける側。日本株の続落自体が米国株を押し下げる力は限定的で、今は米国発のAI株安が日本株に波及している構図と見られる。",
+      "sources": [
+        {"title": "Stock market today: Dow plunges 1,800 points, Nasdaq enters correction in AI trade meltdown", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"},
+        {"title": "Stocks plunge as midterm results send AI trade into a tailspin", "url": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges"}
+      ]
+    },
+    "jpx400": {
+      "headline": "JPX日経400は+1.35%と日経平均に逆行したが、数字は慎重に扱う",
+      "analysis": "JPX日経400は+1.35%の35,836.73。日経平均（-1.79%）やグロース250（-2.32%）とは逆の動きで、データの取得タイミングの差の可能性もあり、断定は避けたい。チャート上は200日線（35,201.71）の上にあり、50日線（36,635.73）は下回っている。",
+      "us_impact_level": "小",
+      "us_impact": "米国株への影響は限定的。半導体の比率が低い指数で、米国のAI関連株の動きとは連動が弱いため。",
+      "sources": [
+        {"title": "Stock market today: Dow plunges 1,800 points (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"},
+        {"title": "Stocks plunge as midterm results send AI trade into a tailspin (CNN)", "url": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges"}
+      ]
+    },
+    "growth250": {
+      "headline": "グロース250は-2.32%、200日線の手前で攻防",
+      "analysis": "東証グロース250は-2.32%の751.46。200日線（753.88）をわずかに下回り、50日線（785.85）も下回る。1週間で-5.49%と下げが続いており、米ハイテク株安でリスク資産が敬遠された。",
+      "us_impact_level": "小",
+      "us_impact": "米国株への影響は限定的。国内の中小型株で、米国市場から見た規模が小さいため。ただしリスク回避姿勢の目安にはなる。",
+      "sources": [
+        {"title": "Stock market today: Dow plunges 1,800 points (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"},
+        {"title": "Stocks plunge as midterm results send AI trade into a tailspin (CNN)", "url": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges"}
+      ]
+    },
+    "nk_futures": {
+      "headline": "夜間取引で-5.78%の57,400円。今朝の日本株の安さを先取り",
+      "analysis": "日経225先物は-5.78%の57,400円。1週間で-11.09%、1カ月で-19.13%と大きく下げ、RSIは25.6と売られすぎ水準にある。200日線（62,030.25円）を大きく下回り、現物との差から、寄り付きの売り圧力が強い可能性を示す。",
+      "us_impact_level": "中",
+      "us_impact": "先物は米国市場の動きを映す鏡であり、この水準は米株急落の裏返し。日本時間の取引で売りが先行すれば、米国の先物市場のムードにも影響する可能性がある。",
+      "sources": [
+        {"title": "Stock market today: Dow plunges 1,800 points (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"},
+        {"title": "Stocks plunge as midterm results send AI trade into a tailspin (CNN)", "url": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges"}
+      ]
+    },
+    "nikkei_vi": {
+      "headline": "日経VIが+34.35%の33.56へ急上昇、市場の警戒感が一気に高まった",
+      "analysis": "日経VIは5日の公式値で33.56、前日比+8.58。52週の高値66.65と安値18.77の間では、中間よりやや低い水準にあり、警戒は強いがパニック水準ではない。チャートは無く、水準の評価は52週の範囲からの目安。",
+      "us_impact_level": "小",
+      "us_impact": "日経VIそのものが米国株に与える影響は限定的。ただし米国のVIXも急上昇しており、世界的に警戒感が高まっているサインとして読める。",
+      "sources": [
+        {"title": "Stock market today: Dow plunges 1,800 points (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"},
+        {"title": "Stocks plunge as midterm results send AI trade into a tailspin (CNN)", "url": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges"}
+      ]
+    },
+    "usdjpy": {
+      "headline": "ドル円は-0.41%の157.75円、米金利低下で小幅なドル安",
+      "analysis": "ドル円は157.75円。米10年債利回りが低下したことでドルは売られたが、動きは小さい。1年チャートでは50日線（157.34円）付近で、200日線（158.62円）を下回るレンジの中。",
+      "us_impact_level": "小",
+      "us_impact": "米国株への影響は限定的。株安の主役はAI関連株で、為替の動きが小さく、直接の材料になっていないため。円高が大きく進むようなら日本株への重しになる点には注意。",
+      "sources": [
+        {"title": "Stock market today: Dow plunges 1,800 points (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"},
+        {"title": "Stocks plunge as midterm results send AI trade into a tailspin (CNN)", "url": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges"}
+      ]
+    },
+    "dow": {
+      "headline": "ダウは-3.44%の51,523.06ドル、中間選挙後の上昇分を全て吐き出した",
+      "analysis": "ダウは約1,833ドル安（-1,833.06ドル）。寄り付き（53,679.01）から終日売られ、安値（51,486.82）付近で引けた。1年チャートでは200日線（50,665.55）の上に位置するが、50日線（52,109.70）は割り込んだ。RSIは45.0で、ナスダックほど売られすぎではない。",
+      "us_impact_level": "大",
+      "us_impact": "ダウは構成銘柄が広く、AI株安が大型株全般へ波及したことを示す。週間では-1.08%にとどまり、前日の急騰の反動の側面もある。",
+      "sources": [
+        {"title": "Stock market today: Dow plunges 1,800 points, Nasdaq enters correction (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"},
+        {"title": "Stocks plunge as midterm results send AI trade into a tailspin (CNN)", "url": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges"}
+      ]
+    },
+    "nasdaq": {
+      "headline": "ナスダックは-5.52%で調整局面入り、200日線近辺まで下落",
+      "analysis": "ナスダック総合は-5.52%の24,315.00。1年チャートでは200日線（約24,378）の直下で引け、前日までのレンジ下限も割り込んだ。出来高は急増し、1カ月で-12.03%。RSIは30.1と売られすぎ水準にある。",
+      "us_impact_level": "大",
+      "us_impact": "半導体株の急落がナスダックを押し下げた中心的な要因。民主党の議会勝利によるデータセンター規制への警戒、年末前の利益確定、個人投資家の売り越しが重なった。短期的には反発の余地もあるが、200日線の下で引けた点は慎重に見たい。",
+      "sources": [
+        {"title": "Stock market today: Dow plunges 1,800 points, Nasdaq enters correction (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"},
+        {"title": "Stocks plunge as midterm results send AI trade into a tailspin (CNN)", "url": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges"}
+      ]
+    },
+    "sp500": {
+      "headline": "S&P500は-4.36%の7,353.73、200日線の目前で踏みとどまる",
+      "analysis": "S&P500は-4.36%（-334.89）で、4月の関税ショック以来の下げ幅と報じられた。200日線（7,322.74）まであとわずかで、50日線（7,686.53）は大きく割り込んだ。RSIは33.5。",
+      "us_impact_level": "大",
+      "us_impact": "指数の寄与が大きいAI・半導体の大型株が売られたことが直撃。200日線を守れるかが、押し目になるか下落が続くかの分かれ目として意識されやすい。",
+      "sources": [
+        {"title": "Stock market today: Dow plunges 1,800 points, Nasdaq enters correction (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"},
+        {"title": "A brutal sell-off for AI stocks sends Wall Street reeling, and the S&P 500 tumbles (NBC)", "url": "https://www.nbclosangeles.com/news/national-international/ai-stocks-wall-street-reeling-sp-500-tumbles/3966574/"}
+      ]
+    },
+    "btc": {
+      "headline": "ビットコインは-5.81%の75,769ドル、株安に連れて下落",
+      "analysis": "ビットコインは-5.81%の75,769ドル。1年チャートでは200日線（73,190.56ドル）の上にあるが、50日線（81,984.72ドル）を下回った。年初来は-13.40%で、52週高値（107,465ドル）からは大きく離れている。",
+      "us_impact_level": "小",
+      "us_impact": "米国株への影響は限定的。株安に連動して下げた側で、暗号資産関連株には逆風となるが、指数への寄与は小さい。",
+      "sources": [
+        {"title": "Stock market today: Dow plunges 1,800 points (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"},
+        {"title": "Stocks plunge as midterm results send AI trade into a tailspin (CNN)", "url": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges"}
+      ]
+    },
+    "wti": {
+      "headline": "WTIは+2.69%の90.49ドル、イラン情勢の不透明感で上昇",
+      "analysis": "WTIは+2.69%の90.49ドル。前日の急落から反発したが、1週間では-11.25%と下げた局面の中にある。50日線（94.86）の下、200日線（86.75）の上で、年初来は+57.62%と高い水準を保つ。中東の戦争終結の合意が実現するか不透明との見方が材料。",
+      "us_impact_level": "中",
+      "us_impact": "原油高はインフレ懸念を通じて金利やFRBの見通しに影響する。ただ、今回の株安はAI株が主因で、原油の影響は限定的と見られる。",
+      "sources": [
+        {"title": "Stock market today: Dow plunges 1,800 points (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"},
+        {"title": "Stocks plunge as midterm results send AI trade into a tailspin (CNN)", "url": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges"}
+      ]
+    },
+    "gold": {
+      "headline": "金は+0.71%の4,089.58ドルと底堅いが、安全資産買いは限定的",
+      "analysis": "金は+0.71%の4,089.58ドル。株の急落にもかかわらず上昇幅は小さく、50日線（4,209.10）、200日線（4,484.46）はともに下回ったまま。年初来は-5.30%。",
+      "us_impact_level": "小",
+      "us_impact": "米国株への影響は限定的。株安時の逃避先としては買いが小さく、株式市場の需給に影響するほどの動きではない。",
+      "sources": [
+        {"title": "Stock market today: Dow plunges 1,800 points (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"},
+        {"title": "Stocks plunge as midterm results send AI trade into a tailspin (CNN)", "url": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges"}
+      ]
+    },
+    "platinum": {
+      "headline": "プラチナは+1.50%の1,521.48ドル、下落トレンドの中の小反発",
+      "analysis": "プラチナは+1.50%の1,521.48ドル。1カ月で-11.55%、年初来で-27.32%と下げが大きく、50日線（1,686.28）・200日線（1,870.24）をどちらも下回る。52週安値（1,392.07）が下値の目安。",
+      "us_impact_level": "なし",
+      "us_impact": "米国株への影響は限定的。産業用金属の市場規模が小さく、株式市場の主要な材料になっていないため。",
+      "sources": [
+        {"title": "Stock market today: Dow plunges 1,800 points (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"},
+        {"title": "Stocks plunge as midterm results send AI trade into a tailspin (CNN)", "url": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges"}
+      ]
+    },
+    "jgb10y": {
+      "headline": "日本10年債利回りは-5.0bpの2.769%、リスク回避で低下",
+      "analysis": "日本10年債利回りは2.769%。1カ月で低下基調にあり、52週高値（3.135%）からは離れている。株安で債券が買われ、利回りが下がった。",
+      "us_impact_level": "小",
+      "us_impact": "米国株への影響は限定的。日本の金利低下は円キャリー取引や為替を通じて間接的に効く可能性はあるが、今回は動きが小さい。",
+      "sources": [
+        {"title": "Stock market today: Dow plunges 1,800 points (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"},
+        {"title": "Stocks plunge as midterm results send AI trade into a tailspin (CNN)", "url": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges"}
+      ]
+    },
+    "ust10y": {
+      "headline": "米10年債利回りは-5.1bpの4.839%、株安で債券買い",
+      "analysis": "米10年債利回りは4.839%。52週高値（5.365%）に比べると低下しており、1カ月で-8.85%。株式から債券へ資金が動いた。",
+      "us_impact_level": "大",
+      "us_impact": "金利低下はハイテク株には本来追い風だが、今回は株安が上回った。景気や需給の不安が意識されている可能性があり、雇用統計で方向感が出やすい。",
+      "sources": [
+        {"title": "Stock market today: Dow plunges 1,800 points (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"},
+        {"title": "Stocks plunge as midterm results send AI trade into a tailspin (CNN)", "url": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges"}
+      ]
+    }
+  },
+  "external_facts": [
+    {"label": "フィラデルフィア半導体指数の下落率", "value": "12%", "sources": ["https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html", "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges"]},
+    {"label": "米VIX指数", "value": "28.18", "sources": ["https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html", "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges"]}
+  ],
+  "x_sentiment": "検索ではX上の反応を確認できなかった（省略）。"
+}

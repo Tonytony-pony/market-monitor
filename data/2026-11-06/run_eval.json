@@ -1,0 +1,5 @@
+{"searches":10,"fetch_ok":1,"fetch_failed_domains":["www.cnn.com","abc7ny.com"],
+"weak_sections":["日本株の材料（5日の東京市場の報道が取れず）","events（雇用統計の予想値・時刻を確認できず）","X の反応","個別項目の背景（金・プラチナ・JGB）"],
+"factcheck_first_ng":3,"factcheck_final_ng":0,
+"allowlist_needed":"要","allowlist_candidates":["www.cnn.com","abc7ny.com"],
+"comment":"米国株の急落の主因はYahoo Financeの記事で取れたが、CNNとABC7は取得できず検索要約のみ。日本株の材料と雇用統計の予想が薄く、許可リストの追加で改善しそう。"}

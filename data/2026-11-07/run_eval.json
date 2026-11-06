@@ -1,0 +1,5 @@
+{"searches":17,"fetch_ok":2,"fetch_failed_domains":["invezz.com","fxstreet.com"],
+"weak_sections":["日本株の下落理由（日本語報道が取れず）","日経VI・日本10年債の背景","CPIの正確な日時","Xの反応"],
+"factcheck_first_ng":2,"factcheck_final_ng":0,
+"allowlist_needed":"どちらとも言えない","allowlist_candidates":["invezz.com","nikkei.com","sakigake.jp"],
+"comment":"米国株の材料はYahoo FinanceとCNBCで取れたが、日本市場の背景は薄い。fxstreet.comは許可リストにあるのに403で開けなかった。"}

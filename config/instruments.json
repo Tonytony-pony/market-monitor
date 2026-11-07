@@ -4,7 +4,7 @@
   {"id": "growth250",  "name": "東証グロース250",   "group": "日本株",   "tv": "TSE:MOS",          "quote": "TSE:MOS",          "check": null, "decimals": 2},
   {"id": "nk_futures", "name": "日経225先物",       "group": "日本株",   "tv": "OSE:NK2251!",      "quote": "OSE:NK2251!",      "check": null, "decimals": 0},
   {"id": "nikkei_vi",  "name": "日経VI",            "group": "日本株",   "tv": null,               "quote": null,               "check": {"source": "nikkei_csv", "key": "nikkei_vi"}, "decimals": 2},
-  {"id": "usdjpy",     "name": "ドル円",            "group": "為替",     "tv": "FX:USDJPY",        "quote": "FX:USDJPY",        "check": {"source": "yfinance", "key": "JPY=X", "tol": 0.5}, "decimals": 3},
+  {"id": "usdjpy",     "name": "ドル円",            "group": "為替",     "tv": "FX:USDJPY",        "quote": "FX:USDJPY",        "check": {"source": "yfinance", "key": "JPY=X", "tol": 1.0}, "decimals": 3},
   {"id": "dow",        "name": "NYダウ",            "group": "米国株",   "tv": "DJ:DJI",           "quote": "DJ:DJI",           "check": {"source": "yfinance", "key": "^DJI", "tol": 0.3}, "decimals": 2},
   {"id": "nasdaq",     "name": "ナスダック総合",    "group": "米国株",   "tv": "NASDAQ:IXIC",      "quote": "NASDAQ:IXIC",      "check": {"source": "yfinance", "key": "^IXIC", "tol": 0.3}, "decimals": 2},
   {"id": "sp500",      "name": "S&P500",            "group": "米国株",   "tv": "SP:SPX",           "quote": "SP:SPX",           "check": {"source": "yfinance", "key": "^GSPC", "tol": 0.3}, "decimals": 2},

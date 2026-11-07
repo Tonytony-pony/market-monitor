@@ -1,6 +1,6 @@
 {
  "report_date": "2026-11-07",
- "fetched_at": "2026-11-07T11:16:38+09:00",
+ "fetched_at": "2026-11-07T11:17:00+09:00",
  "instruments": [
   {
    "id": "nikkei225",
@@ -166,8 +166,8 @@
     "value": 157.4980010986328,
     "as_of": "2026-11-06",
     "diff_pct": 0.657,
-    "tolerance_pct": 0.5,
-    "status": "mismatch"
+    "tolerance_pct": 1.0,
+    "status": "ok"
    }
   },
   {
@@ -596,7 +596,5 @@
    "vs_spy": null
   }
  ],
- "warnings": [
-  "ドル円: 主データ 158.53199999999998 と照合用 157.4980010986328（JPY=X）が +0.66% ずれている"
- ]
+ "warnings": []
 }

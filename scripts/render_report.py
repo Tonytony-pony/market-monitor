@@ -64,9 +64,22 @@ td.lvl-大{color:var(--accent);font-weight:700}
 figure{margin:24px 0 8px}
 figcaption{font-size:12.5px;font-weight:600;margin-bottom:10px}
 figure img{width:100%;height:auto;display:block;border-bottom:1px solid var(--hairline)}
-figure svg{width:100%;height:auto;display:block;min-width:520px}
-svg text{font-family:inherit}
-.fig-scroll{overflow-x:auto}
+.bars{font-size:13px;line-height:1.4}
+.bar-row{display:grid;grid-template-columns:minmax(0,12.5em) minmax(0,1fr) 4.6em;align-items:center;gap:10px;padding:4px 0}
+.bar-name{overflow-wrap:anywhere}
+.bar-name small{font-size:11px;color:var(--ink-3);margin-left:2px}
+.is-bm .bar-name{font-weight:700}
+.bar-track{position:relative;height:16px;
+background:linear-gradient(#a8adb5,#a8adb5) center/1px 100% no-repeat}
+.bar-track,.bar-track i{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.bar-track i{position:absolute;top:0;bottom:0}
+.bar-track .up{background:var(--accent)}
+.bar-track .down{background:var(--neg)}
+.bar-track .bm{background:#c9ccd1}
+.bar-val{text-align:right;font-size:12px;color:var(--ink-2);font-variant-numeric:tabular-nums;white-space:nowrap}
+.bar-val.neg{color:var(--neg)}
+@media (max-width:480px){.bars{font-size:12px}.bar-row{grid-template-columns:minmax(0,9.6em) minmax(0,1fr) 4.2em;gap:6px}
+.bar-name small{display:block;margin-left:0}}
 .src{font-size:11.5px;color:var(--ink-3);margin:6px 0 0;max-width:none}
 .src a{color:var(--ink-3)}
 .note{font-size:12.5px;color:var(--ink-2);border-left:2px solid var(--hairline);padding:2px 0 2px 14px;margin:20px 0 16px;max-width:40em}
@@ -195,27 +208,20 @@ def instrument_section(no: int, r: dict, a: dict, chart_dir: Path, fig_no: int) 
 
 def sector_bars(sectors: list[dict]) -> str:
     """セクターの前日比を横棒で並べる。上昇は濃紺、下落はレンガ色、比較用の SPY はグレー。"""
+    # 画面幅に合わせて縮むよう、SVG ではなく「名前｜棒｜数値」の3列グリッドで描く（スマホでも横スクロールしない）
     rows = sorted(sectors, key=lambda s: s["change"], reverse=True)
-    w, label_w, row_h, top = 760, 190, 28, 8
     span = max(abs(s["change"]) for s in rows) or 1
-    half = (w - label_w - 120) / 2  # 左右に数値ラベルの余白を 60 ずつ取る
-    zero = label_w + 60 + half
-    parts = [f'<line x1="{zero:.1f}" y1="0" x2="{zero:.1f}" y2="{top + row_h * len(rows)}" stroke="#a8adb5" stroke-width="1"/>']
-    for i, s in enumerate(rows):
-        y = top + i * row_h
-        length = abs(s["change"]) / span * half
-        x = zero if s["change"] >= 0 else zero - length
-        color = "#c9ccd1" if s["benchmark"] else ("#173f66" if s["change"] >= 0 else "#a33c2e")
-        value, _ = fmt_signed(s["change"], 2, "%")
-        vx, anchor = (zero + length + 6, "start") if s["change"] >= 0 else (zero - length - 6, "end")
-        weight = ' font-weight="700"' if s["benchmark"] else ""
-        parts.append(
-            f'<text x="0" y="{y + 18}" font-size="13" fill="#1a1a1a"{weight}>'
-            f'{esc(s["name"])} <tspan fill="#8e8e8e" font-size="11">{esc(s["id"])}</tspan></text>'
-            f'<rect x="{x:.1f}" y="{y + 6}" width="{max(length, 1):.1f}" height="16" fill="{color}"/>'
-            f'<text x="{vx:.1f}" y="{y + 18}" font-size="12" text-anchor="{anchor}" fill="#555555">{value}</text>')
-    h = top * 2 + row_h * len(rows)
-    return f'<svg viewBox="0 0 {w} {h}" role="img" aria-label="セクター別の前日比">{"".join(parts)}</svg>'
+    out = []
+    for s in rows:
+        pct = abs(s["change"]) / span * 50  # 中央が0、片側の最大が50%
+        side = f"left:50%;width:{max(pct, 0.4):.2f}%" if s["change"] >= 0 else f"right:50%;width:{max(pct, 0.4):.2f}%"
+        cls = "bm" if s["benchmark"] else ("up" if s["change"] >= 0 else "down")
+        value, neg = fmt_signed(s["change"], 2, "%")
+        out.append(f'<div class="bar-row{" is-bm" if s["benchmark"] else ""}">'
+                   f'<span class="bar-name">{esc(s["name"])} <small>{esc(s["id"])}</small></span>'
+                   f'<span class="bar-track"><i class="{cls}" style="{side}"></i></span>'
+                   f'<span class="bar-val{" neg" if neg else ""}">{value}</span></div>')
+    return f'<div class="bars" role="img" aria-label="セクター別の前日比">{"".join(out)}</div>'
 
 
 def sector_section(market: dict, analysis: dict) -> str:
@@ -237,7 +243,7 @@ def sector_section(market: dict, analysis: dict) -> str:
 <h2>米国セクター別の動向</h2>
 <p class="msg">{esc(a.get("headline") or "セクター別の騰落。")}</p>
 <figure><figcaption>セクターETFの前日比（上から騰落率の高い順）</figcaption>
-<div class="fig-scroll">{sector_bars(sectors)}</div>
+{sector_bars(sectors)}
 <p class="src">出所: TradingView（SPDR セクターETF、半導体は VanEck SMH、比較用に SPY）。</p></figure>
 {f"<h3>動きと背景</h3>{paras(a.get('analysis'))}" if a.get("analysis") else ""}
 {f"<h3>資金の流れ（ローテーション）</h3>{paras(a.get('rotation'))}" if a.get("rotation") else ""}

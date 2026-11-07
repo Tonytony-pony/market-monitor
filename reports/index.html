@@ -48,9 +48,22 @@ td.lvl-大{color:var(--accent);font-weight:700}
 figure{margin:24px 0 8px}
 figcaption{font-size:12.5px;font-weight:600;margin-bottom:10px}
 figure img{width:100%;height:auto;display:block;border-bottom:1px solid var(--hairline)}
-figure svg{width:100%;height:auto;display:block;min-width:520px}
-svg text{font-family:inherit}
-.fig-scroll{overflow-x:auto}
+.bars{font-size:13px;line-height:1.4}
+.bar-row{display:grid;grid-template-columns:minmax(0,12.5em) minmax(0,1fr) 4.6em;align-items:center;gap:10px;padding:4px 0}
+.bar-name{overflow-wrap:anywhere}
+.bar-name small{font-size:11px;color:var(--ink-3);margin-left:2px}
+.is-bm .bar-name{font-weight:700}
+.bar-track{position:relative;height:16px;
+background:linear-gradient(#a8adb5,#a8adb5) center/1px 100% no-repeat}
+.bar-track,.bar-track i{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.bar-track i{position:absolute;top:0;bottom:0}
+.bar-track .up{background:var(--accent)}
+.bar-track .down{background:var(--neg)}
+.bar-track .bm{background:#c9ccd1}
+.bar-val{text-align:right;font-size:12px;color:var(--ink-2);font-variant-numeric:tabular-nums;white-space:nowrap}
+.bar-val.neg{color:var(--neg)}
+@media (max-width:480px){.bars{font-size:12px}.bar-row{grid-template-columns:minmax(0,9.6em) minmax(0,1fr) 4.2em;gap:6px}
+.bar-name small{display:block;margin-left:0}}
 .src{font-size:11.5px;color:var(--ink-3);margin:6px 0 0;max-width:none}
 .src a{color:var(--ink-3)}
 .note{font-size:12.5px;color:var(--ink-2);border-left:2px solid var(--hairline);padding:2px 0 2px 14px;margin:20px 0 16px;max-width:40em}

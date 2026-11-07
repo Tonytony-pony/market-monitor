@@ -71,6 +71,14 @@ svg text{font-family:inherit}
 .src a{color:var(--ink-3)}
 .note{font-size:12.5px;color:var(--ink-2);border-left:2px solid var(--hairline);padding:2px 0 2px 14px;margin:20px 0 16px;max-width:40em}
 .em{color:var(--accent);font-weight:700}
+.news{margin-top:36px}
+.news h3{font-size:16px;margin:0 0 4px;line-height:1.6}
+.news .rank{display:inline-block;color:var(--accent);font-size:20px;font-weight:700;margin-right:12px;font-variant-numeric:tabular-nums}
+.news-meta{font-size:12px;color:var(--ink-3);letter-spacing:.04em;margin:0 0 10px}
+.news dl{margin:0;max-width:42em}
+.news dt{font-size:12px;font-weight:700;color:var(--accent);letter-spacing:.06em;margin-top:12px}
+.news dd{margin:2px 0 0}
+.news dd p{margin-bottom:8px}
 a{color:inherit;text-decoration:underline;text-decoration-color:var(--hairline);text-underline-offset:3px}
 a:hover{text-decoration-color:var(--accent)}
 .doc-footer{margin-top:88px;padding-top:20px;border-top:1px solid var(--hairline);
@@ -242,6 +250,33 @@ def sector_section(market: dict, analysis: dict) -> str:
 </section>"""
 
 
+def top_news_section(analysis: dict) -> str:
+    tn = analysis.get("top_news") or {}
+    items = (tn.get("items") or [])[:3]
+    if not items:
+        return ""
+    blocks = []
+    for i, it in enumerate(items, start=1):
+        tickers = "・".join(esc(t) for t in it.get("tickers") or [])
+        meta = " ／ ".join(x for x in (esc(it.get("type")), tickers) if x)
+        lvl = it.get("impact_level", "–")
+        src_links = " / ".join(f'<a href="{esc(x.get("url"))}">{esc(x.get("title") or x.get("url"))}</a>'
+                               for x in it.get("sources", []))
+        blocks.append(f"""<div class="news">
+<h3><span class="rank">{i}</span>{esc(it.get("title"))}<span class="lvl">影響度 <b>{esc(lvl)}</b></span></h3>
+{f'<p class="news-meta">{meta}</p>' if meta else ""}
+<dl><dt>何が起きたか</dt><dd>{paras(it.get("what"))}</dd>
+<dt>米国株市場に効く理由</dt><dd>{paras(it.get("why"))}</dd>
+{f'<dt>次に見るべきこと</dt><dd>{paras(it.get("watch"))}</dd>' if it.get("watch") else ""}</dl>
+{f'<p class="src">参考: {src_links}</p>' if src_links else ""}
+</div>""")
+    return f"""<section id="top-news">
+<h2>米株投資家が注目すべきニュース　トップ3</h2>
+<p class="msg">{esc(tn.get("headline") or "業界・個別銘柄のニュースから、米国株市場への影響が大きいものを選んだ。")}</p>
+{"".join(blocks)}
+</section>"""
+
+
 def factcheck_section(no: int, rows: list[dict], fc: dict) -> str:
     trs = []
     for r in rows:
@@ -301,6 +336,7 @@ def render(date: str) -> Path:
 {events_html}
 {f'<h3>市場参加者の反応（X・SNS）</h3>{paras(x_note)}' if x_note else ""}
 </section>""",
+                top_news_section(analysis),
                 f'<section id="overview"><h2>主要指標の一覧</h2>'
                 f'<p class="msg">{esc(s.get("overview_message") or "各項目の終値と変化。リンクから個別の分析に移動できる。")}</p>'
                 f'{overview_table(rows, analysis)}</section>',

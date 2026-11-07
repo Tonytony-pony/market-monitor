@@ -87,6 +87,13 @@ def main() -> int:
             (sector_head + "\n" if sector_head else "")
             + "上位: " + " / ".join(line(x) for x in sectors[:3])
             + "\n下位: " + " / ".join(line(x) for x in sectors[-3:]))[:1024]})
+    news = (analysis.get("top_news") or {}).get("items") or []
+    if news:
+        def news_line(i, it):
+            tickers = "・".join(it.get("tickers") or [])
+            return f"{i}. {it.get('title', '')}" + (f"（{tickers}）" if tickers else "")
+        embed["fields"].append({"name": "米株投資家が注目すべきニュース トップ3",
+                                "value": "\n".join(news_line(i, it) for i, it in enumerate(news[:3], start=1))[:1024]})
     if url:
         embed["url"] = url
     embeds = [embed]

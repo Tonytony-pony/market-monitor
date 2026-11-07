@@ -21,6 +21,7 @@ SKIP_NEXT = ("年", "月", "日", "時", "分", "週", "期", "回", "倍", "人
 SIGNED_FIELDS = {"change", "change_abs", "Perf.W", "Perf.1M", "Perf.YTD", "bp", "vs_sma50", "vs_sma200", "vs_52wh"}
 TEXT_FIELDS = ("headline", "analysis", "us_impact")
 SECTOR_TEXT_FIELDS = ("headline", "analysis", "rotation", "outlook")
+NEWS_TEXT_FIELDS = ("title", "what", "why", "watch")
 
 
 def candidates(market: dict, analysis: dict) -> list[tuple[float, bool, str]]:
@@ -66,6 +67,13 @@ def iter_texts(analysis: dict):
     for k in SECTOR_TEXT_FIELDS:
         if sec.get(k):
             yield f"sectors.{k}", sec[k]
+    tn = analysis.get("top_news") or {}
+    if tn.get("headline"):
+        yield "top_news.headline", tn["headline"]
+    for j, it in enumerate(tn.get("items") or []):
+        for k in NEWS_TEXT_FIELDS:
+            if it.get(k):
+                yield f"top_news.items[{j}].{k}", it[k]
     for iid, body in analysis.get("instruments", {}).items():
         for k in TEXT_FIELDS:
             if body.get(k):

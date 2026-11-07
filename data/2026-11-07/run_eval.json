@@ -1,5 +1,5 @@
-{"searches":17,"fetch_ok":2,"fetch_failed_domains":["invezz.com","fxstreet.com"],
-"weak_sections":["日本株の下落理由（日本語報道が取れず）","日経VI・日本10年債の背景","CPIの正確な日時","Xの反応"],
-"factcheck_first_ng":2,"factcheck_final_ng":0,
-"allowlist_needed":"どちらとも言えない","allowlist_candidates":["invezz.com","nikkei.com","sakigake.jp"],
-"comment":"米国株の材料はYahoo FinanceとCNBCで取れたが、日本市場の背景は薄い。fxstreet.comは許可リストにあるのに403で開けなかった。"}
+{"searches":13,"fetch_ok":2,"fetch_failed_domains":[],
+"weak_sections":["日本株の下落理由（当日の日本語・英語報道が検索で取れず）","米セクター個別の材料（XLP・不動産が下げた理由は推測）","Xの反応","SMHの当日終値の向き（Yahooは下落、market.jsonは上昇と食い違い）"],
+"factcheck_first_ng":1,"factcheck_final_ng":0,
+"allowlist_needed":"どちらとも言えない","allowlist_candidates":["nikkei.com","tapeboard.com"],
+"comment":"米株の材料と雇用統計はYahoo FinanceとCoinDeskで取れた。日本市場とセクター個別の背景は検索結果が古い年の記事ばかりで薄く、推測を明記して書いた。"}

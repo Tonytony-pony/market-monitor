@@ -2,20 +2,20 @@
  "report_date": "2026-11-07",
  "us_session_covered": "2026-11-06（金）",
  "summary": {
-  "headline": "米株は反発もダウ下落、日経平均-5.96%で弱気相場入り。12月利上げ観測が重し",
+  "headline": "米株は反発もダウ下落、日経平均-5.96%で弱気相場入り。利上げ観測が重し",
   "recent_moves": [
-   "米国株は前日の急落から反発したが力強さに欠けた。ナスダックは+1.09%の24,579.42、S&P500は+0.31%の7,376.86、ダウは-0.46%の51,285.73ドル。半導体株の買い戻しが中心だった",
-   "10月の米雇用統計は強く、利上げ観測が強まった。非農業部門雇用者数は大きく上振れし、12月FOMCでの利上げの織り込みは70%超と報じられた。米10年債利回りは+1.6bpの4.859%",
-   "日経平均は-5.96%の57,434.77円で弱気相場入り。日経VIは+32.90%の44.60へ急上昇。台湾・韓国も大幅安となり、AI関連株の売りがアジアに波及した",
-   "原油（WTI）は90.53ドルで横ばい、週間では-11.94%。金は-0.55%の4,064.61ドル、ビットコインは75,784ドルで株式に連動して軟調",
-   "ドル円は+0.53%の158.51円。日本10年債利回りは-13.7bpの2.632%へ低下"
+   "米国株は前日の急落から反発したが力強さに欠けた。ナスダックは+1.09%の24,579.42、S&P500は+0.31%の7,376.86、ダウは-0.46%の51,285.73ドル。S&P500は週間で6月以来の下げ幅と報じられた",
+   "10月の米雇用統計は強く、12月の利上げ観測が再び強まった。米10年債利回りは+1.6bpの4.859%。AI・データセンター規制への懸念（中間選挙での民主党の躍進）も重しとなった",
+   "セクターでは半導体（SMH）が+3.62%、情報技術（XLK）が+1.45%と買い戻された一方、生活必需品（XLP）は-1.28%、不動産は-0.68%と、ディフェンシブが売られた。ただしSMHは1週間で-12.88%と、反発は戻りの一部にとどまる",
+   "日経平均は-5.96%の57,434.77円で弱気相場入り。日経VIは+32.90%の44.60へ急上昇。AI関連株の売りが日本に波及した",
+   "WTIは+0.34%の90.83ドルだが週間では-11.64%。金は-0.38%の4,071.53ドル、ビットコインは+0.30%の75,975ドル。ドル円は+0.55%の158.53円、日本10年債利回りは-13.7bpの2.632%"
   ],
   "outlook": [
-   "週明け11/9（月）の日本株は、先物（58,250円）を手がかりに、反発が続くかが焦点。ただし200日線（61,964円）まで戻る力があるかは不透明",
-   "11/10（火）に10月CPIが予定されていると報じられており、結果次第で12月利上げ観測が強まるか後退するかが決まりやすい。PPIも同じ週にある見通し",
-   "ナスダックは200日線（25,098）の下にある。AI・データセンター規制への懸念（民主党の中間選挙での勝利）が続くかが焦点",
+   "11/10（火）22:30に10月CPIが予定されていると報じられている。結果次第で12月利上げ観測が強まるか後退するかが決まりやすい。PPIも同じ週の見通し",
+   "ナスダックは200日線（25,098）の下。反発が続くか、AI・データセンター規制懸念が再燃するかが焦点",
    "S&P500は200日線（7,325.05）の上で踏みとどまれるか。割り込めば下値模索が続く可能性",
-   "イラン情勢で米軍の行動再開が警戒されており、週末の動き次第で原油と先物が動くリスクがある"
+   "週明けの日本株は先物（58,250円）が手がかり。ただし200日線（61,964円）まで戻る力があるかは不透明",
+   "中東情勢の再燃リスクがあり、週末の動き次第で原油と先物が動く可能性"
   ],
   "watch_points": [
    "S&P500 200日線（7,325.05）",
@@ -26,7 +26,7 @@
   "events": [
    {
     "time_jst": "11/9（月）",
-    "event": "米株・日本株の週明けの反応（半導体株の戻りの持続性）",
+    "event": "週明けの米株・日本株の反応（半導体株の戻りの持続性）",
     "importance": "高"
    },
    {
@@ -43,11 +43,6 @@
     "time_jst": "今週",
     "event": "FRB高官の発言（12月利上げをめぐる発言に注目）",
     "importance": "中"
-   },
-   {
-    "time_jst": "12/10（木）未明",
-    "event": "12月FOMC（12/8-9開催）の結果",
-    "importance": "高"
    }
   ],
   "overview_message": "米株は反発したが戻りは限定的で、日経平均は弱気相場入りとなった。"
@@ -55,67 +50,71 @@
  "instruments": {
   "nikkei225": {
    "headline": "日経平均は半導体株売りの余波で急落し弱気相場入り",
-   "analysis": "6日の日経平均は-5.96%の57,434.77円。米AI・半導体株の急落が波及し、200日線（61,964円）を大きく割り込んだ。1年チャートでは10月の高値圏から一気に下げ、52週安値（48,235円）との間の中間まで戻された形。RSIは25.94と売られ過ぎ圏。",
+   "analysis": "6日の日経平均は-5.96%の57,434.77円。米AI・半導体株の急落が波及したとみられる。50日線（65,281円）と200日線（61,964円）をともに大きく割り込み、52週高値（72,832円）からは大きく下げた。RSIは25.94と売られ過ぎ圏。",
    "us_impact_level": "大",
-   "us_impact": "日本株の急落は、米AI関連株の売りが海外にも波及している証左。反発が続かなければ、米株先物や月曜の米株の重しになる可能性がある。",
+   "us_impact": "日本株の急落は、米AI関連株の売りが海外にも波及している証左。反発が続かなければ、米株先物や週明けの米株の重しになる可能性がある。",
    "sources": [
     {
-     "title": "CNBC: Stock market today live updates",
-     "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
+     "title": "Yahoo Finance: Stock market today Nov 6",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
+    },
+    {
+     "title": "CoinDesk: Live updates Nov 6",
+     "url": "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite"
     }
    ]
   },
   "jpx400": {
    "headline": "JPX日経400も-5.99%と広範囲に売られた",
-   "analysis": "終値は33,691.06円。大型の半導体株だけでなく、幅広い銘柄が売られた。200日線（35,212円）を下回り、RSIは27.30。",
+   "analysis": "終値は33,691.06円。半導体株に限らず幅広い銘柄が売られ、200日線（35,212円）を下回った。RSIは27.30。",
    "us_impact_level": "小",
    "us_impact": "米国株への影響は限定的。主因は米国発の売りの跳ね返りで、日本の内需株の動きが米株を動かす場面は少ないため。",
    "sources": [
     {
-     "title": "CNBC: Stock market today live updates",
-     "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
+     "title": "Yahoo Finance: Stock market today Nov 6",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
     }
    ]
   },
   "growth250": {
-   "headline": "グロース250は-5.63%、個人投資家の売りが重なった可能性",
-   "analysis": "終値は709.12。200日線（753.89）を割り、52週安値（641.85）までなお距離があるが、短期の下げは大きい。",
+   "headline": "グロース250は-5.63%、小型株も大幅安",
+   "analysis": "終値は709.12。200日線（753.89）を割り込んだ。52週安値（641.85）までは距離があるが、1週間で-9.82%と短期の下げは大きい。",
    "us_impact_level": "なし",
-   "us_impact": "米国株への影響は限定的。国内の小型株で、米株との連動は弱い。",
+   "us_impact": "米国株への影響は限定的。国内の小型株で、米株との連動は弱いため。",
    "sources": [
     {
-     "title": "CNBC: Stock market today live updates",
-     "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
+     "title": "Yahoo Finance: Stock market today Nov 6",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
     }
    ]
   },
   "nk_futures": {
    "headline": "先物は+1.46%の58,250円と、夜間取引で自律反発",
-   "analysis": "日経225先物は58,250円まで戻したが、200日線（約62,053円）には遠く、1か月で-17.12%と下落トレンドは崩れていない。米株の反発（ナスダック+1.09%）に連動した動き。",
+   "analysis": "日経225先物は58,250円まで戻したが、200日線（約62,053円）には遠く、1か月で-17.12%と下落トレンドは崩れていない。米株の反発に連動した動きとみられる。",
    "us_impact_level": "中",
    "us_impact": "先物の戻りは米株の反発を反映しており、週明けの米株の持ち直しが続くかが日本株の方向を左右する。",
    "sources": [
     {
-     "title": "CNBC: Stock market today live updates",
-     "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
+     "title": "Yahoo Finance: Stock market today Nov 6",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
     }
    ]
   },
   "nikkei_vi": {
    "headline": "日経VIは44.60へ急上昇、恐怖感が高まった",
-   "analysis": "日経VIは+32.90%（+11.04pt）の44.60で、日中は48.49まで上昇。52週高値（66.65）には届かないが、水準は高い。",
+   "analysis": "日経VIは+32.90%（+11.04pt）の44.60で、日中は48.49まで上昇した。52週高値（66.65）には届かないが、水準は高い。",
    "us_impact_level": "中",
-   "us_impact": "日本の変動率上昇はリスク回避の強さを示す。米VIXも高水準にあり、世界的にリスク資産のポジション縮小が続きやすい可能性。",
+   "us_impact": "日本の変動率上昇はリスク回避の強さを示す。米VIXも高水準と報じられており、世界的にリスク資産のポジション縮小が続きやすい可能性。",
    "sources": [
     {
-     "title": "CNBC: Stock market today live updates",
-     "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
+     "title": "Yahoo Finance: Stock market today Nov 6",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
     }
    ]
   },
   "usdjpy": {
-   "headline": "ドル円は+0.53%の158.51円、米雇用の強さでドル買い",
-   "analysis": "米雇用統計が強く、米利上げ観測が強まりドルが買われた。200日線（158.64円）のすぐ手前で、52週高値（163.99円）からは距離がある。",
+   "headline": "ドル円は+0.55%の158.53円、米雇用の強さでドル買い",
+   "analysis": "米雇用統計が強く、利上げ観測が強まってドルが買われたとみられる。200日線（158.64円）のすぐ手前で、52週高値（163.99円）からは距離がある。",
    "us_impact_level": "小",
    "us_impact": "ドル高・円安は米長期金利の上昇と同じ向きだが、円相場自体が米株を動かす力は小さい。",
    "sources": [
@@ -127,7 +126,7 @@
   },
   "dow": {
    "headline": "ダウは-0.46%と、反発局面で唯一下げた",
-   "analysis": "ダウは-0.46%の51,285.73ドル。強い雇用統計で利上げ観測が強まり、金利敏感株が重かったとみられる。1年では高値圏から下げ、200日線（50,675ドル）の少し上にある。",
+   "analysis": "ダウは-0.46%の51,285.73ドル。強い雇用統計で利上げ観測が強まり、金利に敏感な業種が重かったとみられる。セクターでは金融（XLF）が-0.59%、素材が-0.73%と下げた。200日線（50,675ドル）の少し上にある。",
    "us_impact_level": "大",
    "us_impact": "ハイテク以外にも利上げ警戒が広がっていることを示す。ダウが下げた点は、反発の勢いが限定的な可能性を示唆する。",
    "sources": [
@@ -136,30 +135,30 @@
      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
     },
     {
-     "title": "CNBC: Stock market today live updates",
-     "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
+     "title": "CoinDesk: Live updates Nov 6",
+     "url": "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite"
     }
    ]
   },
   "nasdaq": {
    "headline": "ナスダックは+1.09%反発も、200日線の下に位置",
-   "analysis": "前日の大幅安のあと、半導体株の買い戻しで+1.09%の24,579.42。ただし200日線（25,098）を下回ったままで、反発は限定的。1年チャートでは10月の高値圏から調整局面入り。",
+   "analysis": "前日の急落のあと、半導体株の買い戻しで+1.09%の24,579.42。一時は+2%超まで上げたが伸び悩んだと報じられた。200日線（25,098）を下回ったままで、1か月では-10.39%と調整局面。",
    "us_impact_level": "大",
-   "us_impact": "AI・半導体株が米株全体の方向を決める局面。データセンター規制懸念と利上げ観測の両方が重しとなり、戻りが続くかは不透明。",
+   "us_impact": "AI・半導体株が米株全体の方向を決める局面。データセンター規制懸念と利上げ観測の両方が重しで、戻りが続くかは不透明。",
    "sources": [
     {
      "title": "Yahoo Finance: Stock market today Nov 6",
      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
     },
     {
-     "title": "CNBC: Stock market today live updates",
-     "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
+     "title": "CoinDesk: Live updates Nov 6",
+     "url": "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite"
     }
    ]
   },
   "sp500": {
    "headline": "S&P500は+0.31%の7,376.86、200日線の上で踏みとどまる",
-   "analysis": "S&P500は+0.31%で、200日線（7,325.05）の上。週間では-3.33%で、6月以来の下げ幅と報じられた。",
+   "analysis": "S&P500は+0.31%で、200日線（7,325.05）をわずかに上回る。週間では-3.33%で、6月以来の下げ幅と報じられた。",
    "us_impact_level": "大",
    "us_impact": "200日線を維持できるかが短期の分かれ目。割り込めば下値を探る展開が意識されやすい。",
    "sources": [
@@ -168,14 +167,14 @@
      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
     },
     {
-     "title": "CNBC: Stock market today live updates",
-     "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
+     "title": "CoinDesk: Live updates Nov 6",
+     "url": "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite"
     }
    ]
   },
   "btc": {
-   "headline": "ビットコインは75,784ドル、株安に連動して軟調",
-   "analysis": "-0.25%の75,784ドル。株式が下げれば下がるが、反発局面では追随しない非対称な動きと報じられた。50日線（81,977ドル）を下回り、200日線（73,191ドル）が近い。",
+   "headline": "ビットコインは75,975ドル、株の反発には追随せず",
+   "analysis": "+0.30%の75,975ドル。株式が下げた局面では連動して下げたが、金曜の株高にはほぼ追随しなかったと報じられた。50日線（81,878ドル）を下回り、200日線（73,189ドル）が近い。",
    "us_impact_level": "小",
    "us_impact": "暗号資産の動きが米株を動かす度合いは小さく、むしろ株式のリスク選好を映す側。",
    "sources": [
@@ -186,26 +185,26 @@
    ]
   },
   "wti": {
-   "headline": "WTIは90.53ドルで横ばい、週間では大幅安",
-   "analysis": "日次は+0.01%の90.53ドル。週間では-11.94%と大きく下げた。中東情勢の改善期待で下げたが、再び軍事行動が起きれば上振れするとの見方もある。",
+   "headline": "WTIは+0.34%の90.83ドルだが、週間では大幅安",
+   "analysis": "日次は小幅高だが、週間では-11.64%と大きく下げた。ブレント原油も大きく下げたと報じられた。一方で中東情勢の再燃リスクも意識されている。",
    "us_impact_level": "中",
    "us_impact": "原油安はインフレ懸念を和らげる一方、再上昇すれば利上げ観測を強める。米株には両面の影響がある。",
    "sources": [
     {
-     "title": "CNBC: Stock market today live updates",
-     "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
-    },
-    {
      "title": "Yahoo Finance: Stock market today Nov 6",
      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
+    },
+    {
+     "title": "CoinDesk: Live updates Nov 6",
+     "url": "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite"
     }
    ]
   },
   "gold": {
-   "headline": "金は-0.55%の4,064.61ドル、金利上昇が重し",
-   "analysis": "利上げ観測の強まりで利息のつかない金は売られた。50日線（4,198ドル）と200日線（4,480ドル）の下で、52週高値（5,598.75ドル）からは大きく下にある。",
+   "headline": "金は-0.38%の4,071.53ドル、金利高が重し",
+   "analysis": "強い雇用統計で利上げ観測が強まり、利息のつかない金は売られたとみられる。50日線（4,198ドル）と200日線（4,480ドル）の下で、52週高値（5,598.75ドル）からは大きく下にある。",
    "us_impact_level": "小",
-   "us_impact": "金の下落自体は米株への影響が小さい。ただ、安全資産が買われていない点は、金利上昇が主役である可能性を示す。",
+   "us_impact": "金の下落自体は米株への影響が小さい。ただ、株安局面でも金が買われない点は、金利上昇が主役である可能性を示す。",
    "sources": [
     {
      "title": "Yahoo Finance: Stock market today Nov 6",
@@ -214,8 +213,8 @@
    ]
   },
   "platinum": {
-   "headline": "プラチナは+1.01%の1,533.70ドルと小幅反発",
-   "analysis": "1か月で-10.14%と下げたあとの反発。52週安値（1,392ドル）には届いていない。",
+   "headline": "プラチナは+1.16%の1,536ドルと小幅反発",
+   "analysis": "1か月で-5.83%、年初来では-26.62%と下げたあとの反発。52週安値（1,392ドル）には届いていない。",
    "us_impact_level": "なし",
    "us_impact": "米国株への影響は限定的。市場規模が小さく、株式との連動も弱いため。",
    "sources": [
@@ -227,32 +226,48 @@
   },
   "jgb10y": {
    "headline": "日本10年債利回りは2.632%へ大幅低下",
-   "analysis": "利回りは-13.7bp低下。株の急落でリスク回避の債券買いが入った可能性がある。52週高値（3.135%）からは下がった。",
+   "analysis": "利回りは-13.7bpと低下。株の急落でリスク回避の債券買いが入った可能性がある。52週高値（3.135%）からは下がった。",
    "us_impact_level": "小",
    "us_impact": "日本の金利低下は円キャリー取引の巻き戻し懸念をやや和らげる面もあるが、米株への直接的な影響は小さい。",
    "sources": [
     {
-     "title": "CNBC: Stock market today live updates",
-     "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
+     "title": "Yahoo Finance: Stock market today Nov 6",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
     }
    ]
   },
   "ust10y": {
    "headline": "米10年債利回りは4.859%へ小幅上昇",
-   "analysis": "+1.6bpの4.859%。強い雇用統計で12月の利上げ観測が強まり、金利は高止まりした。株安でも利回りが下がりにくい点が重し。",
+   "analysis": "+1.6bpの4.859%。強い雇用統計で12月の利上げ観測が強まり、金利は高止まりした。日中は4.9%近くまで上げたと報じられた。",
    "us_impact_level": "大",
-   "us_impact": "利上げ観測と金利高止まりは、高い株価評価（特にAI関連）への逆風。週明けのCPIが分かれ目になりやすい。",
+   "us_impact": "利上げ観測と金利高止まりは、高い株価評価（特にAI関連）への逆風。来週のCPIが分かれ目になりやすい。",
    "sources": [
     {
      "title": "Yahoo Finance: Stock market today Nov 6",
      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
     },
     {
-     "title": "CNBC: Stock market today live updates",
-     "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
+     "title": "CoinDesk: Live updates Nov 6",
+     "url": "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite"
     }
    ]
   }
+ },
+ "sectors": {
+  "headline": "半導体・情報技術が買い戻された一方、生活必需品など守りの業種が売られた",
+  "analysis": "上位は半導体（SMH）の+3.62%、情報技術（XLK）の+1.45%、コミュニケーション（XLC）の+0.43%。前日の急落の反動で買い戻しが入ったとみられる。下位は生活必需品（XLP）の-1.28%、不動産（XLRE）の-0.68%、素材（XLB）の-0.73%、金融（XLF）の-0.59%。強い雇用統計で利上げ観測が強まり、金利に敏感な不動産・金融や、ハイテクからの逃避先だった守りの業種が売られたとみられる。AIデータセンター規制への懸念が先週の下落の背景と報じられている。",
+  "rotation": "この日は景気敏感・ディフェンシブの別なく、ハイテク以外が売られてハイテクに資金が戻る動きだった。ただし1週間ではSMHが-12.88%、XLKが-9.54%、エネルギー（XLE）が-11.36%と大きく下げており、1か月でもXLKは-17.75%、SMHは-25.30%。一方で1か月ではヘルスケア（XLV）が+10.09%、生活必需品が+9.75%と守りの業種が優位で、金曜の動きは流れの転換というより一時的な反発の色が濃い。",
+  "outlook": "来週は10月CPIとPPIが焦点。物価が強ければ金利敏感株（不動産・公益・金融）とグロース株に逆風、弱ければ半導体の戻りが続く可能性。AI・データセンター規制をめぐる報道も半導体・情報技術の方向を左右しやすい。エネルギーは原油の動き次第。",
+  "sources": [
+   {
+    "title": "Yahoo Finance: Stock market today Nov 6",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
+   },
+   {
+    "title": "CoinDesk: Live updates Nov 6",
+    "url": "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite"
+   }
+  ]
  },
  "external_facts": [
   {
@@ -260,7 +275,7 @@
    "value": "165,000人",
    "sources": [
     "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html",
-    "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
+    "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite"
    ]
   },
   {
@@ -268,24 +283,25 @@
    "value": "4.1%",
    "sources": [
     "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html",
-    "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
-   ]
-  },
-  {
-   "label": "12月FOMC利上げ織り込み",
-   "value": "70%",
-   "sources": [
-    "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html",
     "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite"
    ]
   },
   {
-   "label": "前日ナスダック下落率",
-   "value": "5.5%",
+   "label": "10月雇用統計の市場予想",
+   "value": "65,000人",
    "sources": [
-    "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html",
+    "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html",
     "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite"
+   ]
+  },
+  {
+   "label": "10月CPIの発表日時",
+   "value": "11月10日 8:30（米東部時間）",
+   "sources": [
+    "https://thriveinmarkets.com/calendar/dates/cpi-2026/",
+    "https://fxnx.com/en/blog/us-cpi-10-november-2026-release-time-what-measures"
    ]
   }
- ]
+ ],
+ "x_sentiment": "XやSNSの反応は取得できなかったため省略。"
 }

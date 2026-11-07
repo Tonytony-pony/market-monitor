@@ -5,7 +5,7 @@ name: publish
 on:
   push:
     branches: [main, "claude/**"]
-    paths: ["reports/????-??-??.html"]  # index.html だけの変更では送らない
+    paths: ["reports/*-*-*.html"]  # index.html だけの変更では送らない
   workflow_dispatch:
     inputs:
       date:

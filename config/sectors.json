@@ -1,0 +1,15 @@
+[
+  {"id": "XLK",  "name": "情報技術",           "quote": "AMEX:XLK"},
+  {"id": "SMH",  "name": "半導体",             "quote": "NASDAQ:SMH"},
+  {"id": "XLC",  "name": "コミュニケーション", "quote": "AMEX:XLC"},
+  {"id": "XLY",  "name": "一般消費財",         "quote": "AMEX:XLY"},
+  {"id": "XLF",  "name": "金融",               "quote": "AMEX:XLF"},
+  {"id": "XLV",  "name": "ヘルスケア",         "quote": "AMEX:XLV"},
+  {"id": "XLI",  "name": "資本財",             "quote": "AMEX:XLI"},
+  {"id": "XLE",  "name": "エネルギー",         "quote": "AMEX:XLE"},
+  {"id": "XLB",  "name": "素材",               "quote": "AMEX:XLB"},
+  {"id": "XLP",  "name": "生活必需品",         "quote": "AMEX:XLP"},
+  {"id": "XLU",  "name": "公益",               "quote": "AMEX:XLU"},
+  {"id": "XLRE", "name": "不動産",             "quote": "AMEX:XLRE"},
+  {"id": "SPY",  "name": "S&P500（比較用）",   "quote": "AMEX:SPY", "benchmark": true}
+]

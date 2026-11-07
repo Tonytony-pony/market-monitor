@@ -78,6 +78,15 @@ def main() -> int:
         "color": 0x173F66,
         "fields": [{"name": "主要指標", "value": market_lines(market)[:1024]}],
     }
+    sectors = sorted((x for x in market.get("sectors", []) if not x["benchmark"]), key=lambda x: x["change"], reverse=True)
+    if sectors:
+        def line(x):
+            return f"{x['name']} {x['change']:+.2f}%"
+        sector_head = analysis.get("sectors", {}).get("headline", "")
+        embed["fields"].append({"name": "米国セクター", "value": (
+            (sector_head + "\n" if sector_head else "")
+            + "上位: " + " / ".join(line(x) for x in sectors[:3])
+            + "\n下位: " + " / ".join(line(x) for x in sectors[-3:]))[:1024]})
     if url:
         embed["url"] = url
     embeds = [embed]

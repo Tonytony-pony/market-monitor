@@ -83,6 +83,24 @@ def fetch_yfinance(keys: list[str]) -> dict[str, dict]:
     return out
 
 
+def fetch_sectors(warnings: list[str]) -> list[dict]:
+    """米国のセクターETF（SPDR 11業種＋半導体）と比較用の SPY。vs_spy は SPY との騰落率の差（%ポイント）。"""
+    sectors = json.loads((ROOT / "config" / "sectors.json").read_text(encoding="utf-8"))
+    scan = fetch_scanner([s["quote"] for s in sectors])
+    spy = scan.get(next(s["quote"] for s in sectors if s.get("benchmark")), {})
+    rows = []
+    for s in sectors:
+        q = scan.get(s["quote"])
+        if not q or q.get("close") is None:
+            warnings.append(f"セクター {s['name']}（{s['id']}）: 数値を取得できなかった")
+            continue
+        vs_spy = None if s.get("benchmark") or spy.get("change") is None else q["change"] - spy["change"]
+        rows.append({"id": s["id"], "name": s["name"], "benchmark": bool(s.get("benchmark")),
+                     "close": q["close"], "change": q["change"], "Perf.W": q["Perf.W"], "Perf.1M": q["Perf.1M"],
+                     "Perf.YTD": q["Perf.YTD"], "vs_spy": vs_spy})
+    return rows
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--date", default=datetime.now(JST).strftime("%Y-%m-%d"))
@@ -137,11 +155,14 @@ def main() -> int:
             "check": check,
         })
 
+    sectors = fetch_sectors(warnings)
+
     # 日経の履歴データは転載禁止なので、直近の値だけを残す
     out = {
         "report_date": args.date,
         "fetched_at": datetime.now(JST).isoformat(timespec="seconds"),
         "instruments": rows,
+        "sectors": sectors,
         "warnings": warnings,
     }
     path = ROOT / "data" / args.date / "market.json"

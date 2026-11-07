@@ -64,6 +64,9 @@ td.lvl-大{color:var(--accent);font-weight:700}
 figure{margin:24px 0 8px}
 figcaption{font-size:12.5px;font-weight:600;margin-bottom:10px}
 figure img{width:100%;height:auto;display:block;border-bottom:1px solid var(--hairline)}
+figure svg{width:100%;height:auto;display:block;min-width:520px}
+svg text{font-family:inherit}
+.fig-scroll{overflow-x:auto}
 .src{font-size:11.5px;color:var(--ink-3);margin:6px 0 0;max-width:none}
 .src a{color:var(--ink-3)}
 .note{font-size:12.5px;color:var(--ink-2);border-left:2px solid var(--hairline);padding:2px 0 2px 14px;margin:20px 0 16px;max-width:40em}
@@ -182,6 +185,63 @@ def instrument_section(no: int, r: dict, a: dict, chart_dir: Path, fig_no: int) 
 </section>"""
 
 
+def sector_bars(sectors: list[dict]) -> str:
+    """セクターの前日比を横棒で並べる。上昇は濃紺、下落はレンガ色、比較用の SPY はグレー。"""
+    rows = sorted(sectors, key=lambda s: s["change"], reverse=True)
+    w, label_w, row_h, top = 760, 190, 28, 8
+    span = max(abs(s["change"]) for s in rows) or 1
+    half = (w - label_w - 120) / 2  # 左右に数値ラベルの余白を 60 ずつ取る
+    zero = label_w + 60 + half
+    parts = [f'<line x1="{zero:.1f}" y1="0" x2="{zero:.1f}" y2="{top + row_h * len(rows)}" stroke="#a8adb5" stroke-width="1"/>']
+    for i, s in enumerate(rows):
+        y = top + i * row_h
+        length = abs(s["change"]) / span * half
+        x = zero if s["change"] >= 0 else zero - length
+        color = "#c9ccd1" if s["benchmark"] else ("#173f66" if s["change"] >= 0 else "#a33c2e")
+        value, _ = fmt_signed(s["change"], 2, "%")
+        vx, anchor = (zero + length + 6, "start") if s["change"] >= 0 else (zero - length - 6, "end")
+        weight = ' font-weight="700"' if s["benchmark"] else ""
+        parts.append(
+            f'<text x="0" y="{y + 18}" font-size="13" fill="#1a1a1a"{weight}>'
+            f'{esc(s["name"])} <tspan fill="#8e8e8e" font-size="11">{esc(s["id"])}</tspan></text>'
+            f'<rect x="{x:.1f}" y="{y + 6}" width="{max(length, 1):.1f}" height="16" fill="{color}"/>'
+            f'<text x="{vx:.1f}" y="{y + 18}" font-size="12" text-anchor="{anchor}" fill="#555555">{value}</text>')
+    h = top * 2 + row_h * len(rows)
+    return f'<svg viewBox="0 0 {w} {h}" role="img" aria-label="セクター別の前日比">{"".join(parts)}</svg>'
+
+
+def sector_section(market: dict, analysis: dict) -> str:
+    sectors = market.get("sectors", [])
+    if not sectors:
+        return ""
+    a = analysis.get("sectors", {})
+    trs = []
+    for s in sorted(sectors, key=lambda s: s["change"], reverse=True):
+        cells = []
+        for k, dec, suffix in (("change", 2, "%"), ("vs_spy", 2, "pt"), ("Perf.W", 2, "%"), ("Perf.1M", 2, "%"), ("Perf.YTD", 2, "%")):
+            v, neg = fmt_signed(s.get(k), dec, suffix)
+            cells.append(f'<td class="num{" neg" if neg else ""}">{v}</td>')
+        trs.append(f'<tr><td>{esc(s["name"])} <span class="src" style="display:inline">{esc(s["id"])}</span></td>'
+                   f'<td class="num">{fmt(s["close"], 2)}</td>{"".join(cells)}</tr>')
+    src_links = " / ".join(f'<a href="{esc(x.get("url"))}">{esc(x.get("title") or x.get("url"))}</a>'
+                           for x in a.get("sources", []))
+    return f"""<section id="sectors">
+<h2>米国セクター別の動向</h2>
+<p class="msg">{esc(a.get("headline") or "セクター別の騰落。")}</p>
+<figure><figcaption>セクターETFの前日比（上から騰落率の高い順）</figcaption>
+<div class="fig-scroll">{sector_bars(sectors)}</div>
+<p class="src">出所: TradingView（SPDR セクターETF、半導体は VanEck SMH、比較用に SPY）。</p></figure>
+{f"<h3>動きと背景</h3>{paras(a.get('analysis'))}" if a.get("analysis") else ""}
+{f"<h3>資金の流れ（ローテーション）</h3>{paras(a.get('rotation'))}" if a.get("rotation") else ""}
+{f"<h3>次の米国市場で注目するセクター</h3>{paras(a.get('outlook'))}" if a.get("outlook") else ""}
+<div class="tbl"><table><caption>セクターETFの騰落（「対S&amp;P500」は SPY との騰落率の差）</caption>
+<thead><tr><th>セクター</th><th class="num">終値</th><th class="num">前日比</th><th class="num">対S&amp;P500</th>
+<th class="num">1週間</th><th class="num">1ヶ月</th><th class="num">年初来</th></tr></thead>
+<tbody>{"".join(trs)}</tbody></table></div>
+{f'<p class="src">参考: {src_links}</p>' if src_links else ""}
+</section>"""
+
+
 def factcheck_section(no: int, rows: list[dict], fc: dict) -> str:
     trs = []
     for r in rows:
@@ -243,7 +303,8 @@ def render(date: str) -> Path:
 </section>""",
                 f'<section id="overview"><h2>主要指標の一覧</h2>'
                 f'<p class="msg">{esc(s.get("overview_message") or "各項目の終値と変化。リンクから個別の分析に移動できる。")}</p>'
-                f'{overview_table(rows, analysis)}</section>']
+                f'{overview_table(rows, analysis)}</section>',
+                sector_section(market, analysis)]
     fig_no = 2
     for i, r in enumerate(rows, start=1):
         # ユーザーのPCで自分のレイアウトから撮ったチャートがあればそちらを使う

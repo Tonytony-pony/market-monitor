@@ -20,6 +20,7 @@ SKIP_NEXT = ("年", "月", "日", "時", "分", "週", "期", "回", "倍", "人
              "営業日", "銘柄", "本", "つ", "番", "Q", "名", "億", "兆", "万")
 SIGNED_FIELDS = {"change", "change_abs", "Perf.W", "Perf.1M", "Perf.YTD", "bp", "vs_sma50", "vs_sma200", "vs_52wh"}
 TEXT_FIELDS = ("headline", "analysis", "us_impact")
+SECTOR_TEXT_FIELDS = ("headline", "analysis", "rotation", "outlook")
 
 
 def candidates(market: dict, analysis: dict) -> list[tuple[float, bool, str]]:
@@ -40,6 +41,10 @@ def candidates(market: dict, analysis: dict) -> list[tuple[float, bool, str]]:
                 out.append(((close / r[k] - 1) * 100, True, f"{name}.{label}"))
         if r.get("check"):
             out.append((r["check"]["value"], False, f"{name}.check"))
+    for s in market.get("sectors", []):
+        for k in ("close", "change", "Perf.W", "Perf.1M", "Perf.YTD", "vs_spy"):
+            if s.get(k) is not None:
+                out.append((s[k], k != "close", f"セクター{s['name']}.{k}"))
     for i, f in enumerate(analysis.get("external_facts", [])):
         for m in NUM_RE.finditer(str(f.get("value", ""))):
             v = float(m.group(3).replace(",", "") + ("." + m.group(4) if m.group(4) else ""))
@@ -57,6 +62,10 @@ def iter_texts(analysis: dict):
                 yield f"summary.{k}[{j}]", t
     for j, ev in enumerate(s.get("events", [])):
         yield f"summary.events[{j}]", ev.get("event", "")
+    sec = analysis.get("sectors", {})
+    for k in SECTOR_TEXT_FIELDS:
+        if sec.get(k):
+            yield f"sectors.{k}", sec[k]
     for iid, body in analysis.get("instruments", {}).items():
         for k in TEXT_FIELDS:
             if body.get(k):

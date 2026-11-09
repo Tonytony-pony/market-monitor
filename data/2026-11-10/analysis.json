@@ -1,0 +1,406 @@
+{
+ "report_date": "2026-11-10",
+ "us_session_covered": "2026-11-09（月）",
+ "summary": {
+  "headline": "米株は半導体主導で急反発。原油安が支えも、NVIDIA調査とCPIが焦点",
+  "recent_moves": [
+   "米国株は3指数がそろって大幅高。S&P500は7,549.94（+2.35%）、ナスダックは25,253.14（+2.74%）、ダウは52,389.75ドル（+2.15%）で、前週のAI規制警戒による調整から部分的に戻した。",
+   "半導体が牽引。AMDは大手証券の投資判断引き上げで大幅高、一方NVIDIAは取締役会によるCEO調査を受けて下落した。",
+   "原油が急落。トランプ大統領がイランへの追加攻撃の可能性は低いと発言し、WTIは86.95ドル（-4.27%）と週間でも-15.08%となった。エネルギー株は相対的に弱かった。",
+   "日本株も反発。日経平均は58,775円（+2.33%）で、日経VIは40.84（-8.43%）に低下したが、チャートでは200日線の下で戻りは重い。",
+   "米10年債利回りは4.88%と高止まりで、株高でも金利は下がらなかった。金は4,138.49ドル（+1.69%）と堅調。"
+  ],
+  "outlook": [
+   "最大の焦点は日本時間11/10 22:30の米10月CPI。予想を上回れば、利上げ観測の強まりで金利が上昇し、グロース株の重しとなる可能性。",
+   "AI関連は、米国議会の規制警戒とNVIDIAのキーパーソンリスクで不安定な状況が続きやすい。11/11早朝のCoreWeave決算がAI投資の需要を測る材料になる。",
+   "原油はホルムズ海峡の情勢次第で大きく動く展開。和平交渉の進展が報じられれば一段安、船舶攻撃が続けば反発の可能性。",
+   "11/11は米国の祝日（ベテランズデー）で、債券市場などの取引に影響が出る可能性がある。株式の扱いは取引所の案内を確認したい。"
+  ],
+  "watch_points": [
+   "S&P500が7,549.94を維持できるか。割り込むと前週安値の再試しが意識されやすい",
+   "米10年債利回りが4.88%を超えて上昇するか"
+  ],
+  "events": [
+   {
+    "time_jst": "11/10 22:30",
+    "event": "米10月消費者物価指数（CPI）",
+    "importance": "高"
+   },
+   {
+    "time_jst": "11/10 夜",
+    "event": "ウォラーFRB理事の発言",
+    "importance": "中"
+   },
+   {
+    "time_jst": "11/11 早朝",
+    "event": "CoreWeave決算（引け後）",
+    "importance": "高"
+   },
+   {
+    "time_jst": "11/13 未明",
+    "event": "シスコ・アプライドマテリアルズ決算（11/12引け後）",
+    "importance": "中"
+   },
+   {
+    "time_jst": "11/13",
+    "event": "米生産者物価指数（PPI）",
+    "importance": "中"
+   }
+  ],
+  "overview_message": "米株は半導体主導で急反発したが、CPIとAI規制警戒が控え、戻りが続くかは不透明。"
+ },
+ "instruments": {
+  "nikkei225": {
+   "headline": "58,775円と大幅反発も、1年チャートでは200日線の下で戻りは重い",
+   "analysis": "58,775.5円（+2.33%）で引けた。前週に半導体・AI関連が売られた反動と米半導体株高が支え。ただし週間-6.66%、1ヶ月-14.38%で、チャート上は200日線を割り込み、長期線付近での反発にとどまる。",
+   "us_impact_level": "中",
+   "us_impact": "日本株の反発は米半導体株の戻りと連動した動きで、米国株を主導する材料ではない。ただしAI関連株の売り買いが日米で連動しており、米市場のAI規制警戒が続けば再び下押しされやすい。",
+   "sources": [
+    {
+     "title": "モネックス: 日経平均は大幅反発",
+     "url": "https://media.monex.co.jp/articles/-/30470"
+    },
+    {
+     "title": "財経新聞: 日経平均は大幅反発",
+     "url": "https://www.zaikei.co.jp/article/20261109/876715.html"
+    }
+   ]
+  },
+  "jpx400": {
+   "headline": "JPX400も3.03%高、幅広く買い戻し",
+   "analysis": "34,713.56円（+3.03%）。日経平均より上昇率が大きく、半導体以外にも買い戻しが広がった。ただし週間-2.84%、1ヶ月-5.69%と戻りは途上。",
+   "us_impact_level": "小",
+   "us_impact": "米国株への影響は限定的。日本株内の物色の広がりを示すにとどまる。",
+   "sources": [
+    {
+     "title": "モネックス: 日経平均は大幅反発",
+     "url": "https://media.monex.co.jp/articles/-/30470"
+    },
+    {
+     "title": "財経新聞: 日経平均は大幅反発",
+     "url": "https://www.zaikei.co.jp/article/20261109/876715.html"
+    }
+   ]
+  },
+  "growth250": {
+   "headline": "グロース250は2.04%高も、1ヶ月-8.50%で戻りは限定的",
+   "analysis": "723.57（+2.04%）。新興株も反発したが、週間-6.37%の下げを取り戻せていない。リスク選好の回復は初期段階。",
+   "us_impact_level": "なし",
+   "us_impact": "米国株への影響は限定的。日本の小型グロース株は米国市場への波及経路が乏しい。",
+   "sources": [
+    {
+     "title": "モネックス: 日経平均は大幅反発",
+     "url": "https://media.monex.co.jp/articles/-/30470"
+    },
+    {
+     "title": "財経新聞: 日経平均は大幅反発",
+     "url": "https://www.zaikei.co.jp/article/20261109/876715.html"
+    }
+   ]
+  },
+  "nk_futures": {
+   "headline": "先物は60,930円（+3.32%）で現物より強い",
+   "analysis": "夜間を含む先物は+3.32%と現物の上昇率を上回った。米半導体株高と原油安を織り込む動き。週間-3.47%、1ヶ月-12.33%でまだ戻り局面。",
+   "us_impact_level": "小",
+   "us_impact": "米株先物と同じくAI関連の戻りを映す。日本時間の動きが米国株の方向を決めるわけではないが、リスク選好の度合いを測る材料になる。",
+   "sources": [
+    {
+     "title": "モネックス: 日経平均は大幅反発",
+     "url": "https://media.monex.co.jp/articles/-/30470"
+    },
+    {
+     "title": "財経新聞: 日経平均は大幅反発",
+     "url": "https://www.zaikei.co.jp/article/20261109/876715.html"
+    }
+   ]
+  },
+  "nikkei_vi": {
+   "headline": "日経VIは40.84（-8.43%）で低下、ただし水準は依然として高い",
+   "analysis": "日経VIは40.84と8.43%低下。株価反発で警戒感が和らいだが、40台は平時より高く、市場の不安が残る水準とみられる。",
+   "us_impact_level": "小",
+   "us_impact": "日本の恐怖指数の低下は、米VIXの低下と同じリスクオフ後退の表れ。米国株への直接の影響は小さい。",
+   "sources": [
+    {
+     "title": "モネックス: 日経平均は大幅反発",
+     "url": "https://media.monex.co.jp/articles/-/30470"
+    },
+    {
+     "title": "財経新聞: 日経平均は大幅反発",
+     "url": "https://www.zaikei.co.jp/article/20261109/876715.html"
+    }
+   ]
+  },
+  "usdjpy": {
+   "headline": "ドル円は157.91円で小幅な円高",
+   "analysis": "157.91円（-0.35%）。米長期金利は高止まりだが原油安が円売り材料（輸入コスト増）を和らげた可能性。週間+0.22%でほぼ横ばい。",
+   "us_impact_level": "小",
+   "us_impact": "為替は大きく動かず、米大型輸出株への影響は小さい。円高が進めば日本勢の米株の買いに影響する可能性があるが、今日は限定的。",
+   "sources": [
+    {
+     "title": "モネックス: 日経平均は大幅反発",
+     "url": "https://media.monex.co.jp/articles/-/30470"
+    },
+    {
+     "title": "財経新聞: 日経平均は大幅反発",
+     "url": "https://www.zaikei.co.jp/article/20261109/876715.html"
+    }
+   ]
+  },
+  "dow": {
+   "headline": "ダウは52,389.75ドル（+2.15%）、原油安と景気敏感株の買いで反発",
+   "analysis": "52,389.75ドル（+2.15%）。資本財やハイテクが上昇を主導。週間は+0.73%、年初来+8.90%で、ナスダックより堅調を保つ。",
+   "us_impact_level": "大",
+   "us_impact": "ダウ構成銘柄の上昇は、AI規制警戒で売られた週の後半からの戻りと原油安が背景。CPIを控え、戻りが続くかは物価次第。",
+   "sources": [
+    {
+     "title": "Yahoo Finance: Stock market today Nov 9",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html"
+    },
+    {
+     "title": "Benzinga: Nasdaq 100 jumps as chips rebound",
+     "url": "https://www.benzinga.com/markets/equities/26/11/63055270/stock-market-today-nasdaq-100-chip-rebound-nvidia-deepseek"
+    }
+   ]
+  },
+  "nasdaq": {
+   "headline": "ナスダックは25,253.14（+2.74%）、半導体主導でも週間は-1.36%",
+   "analysis": "25,253.14（+2.74%）。AMDなど半導体が急伸したが、NVIDIAは取締役会の調査で下落。週間-1.36%、1ヶ月-7.64%で調整局面からの部分的な戻り。",
+   "us_impact_level": "大",
+   "us_impact": "米国株の主役はAI・半導体で、規制警戒とNVIDIAのキーパーソンリスクが重しとなる一方、売られすぎからの買い戻しが入る展開。",
+   "sources": [
+    {
+     "title": "FXStreet: Nasdaq soars despite Nvidia sell-off",
+     "url": "https://fxstreet.com/news/nasdaq-soars-on-monday-despite-nvidia-sell-off-202611091853"
+    },
+    {
+     "title": "Private Banker: Nasdaq surges to claw back part of correction",
+     "url": "https://leprivatebanker.com/2026/11/09/nasdaq-surges-2-5-to-claw-back-part-of-correction-as-chipmakers-rally-even-with-nvidia-down-on-board-probe-of-huang/"
+    }
+   ]
+  },
+  "sp500": {
+   "headline": "S&P500は7,549.94（+2.35%）、1年チャートでは中期線を回復",
+   "analysis": "7,549.94（+2.35%）。前週の急落で割った水準を一部回復したが、チャート上は1年のレンジ上限に届かず、上値抵抗帯の手前。",
+   "us_impact_level": "大",
+   "us_impact": "指数全体の戻りは広範で、原油安と半導体反発が寄与。CPI次第で戻りが続くかが決まる。",
+   "sources": [
+    {
+     "title": "Yahoo Finance: Stock market today Nov 9",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html"
+    },
+    {
+     "title": "Benzinga: Nasdaq 100 jumps as chips rebound",
+     "url": "https://www.benzinga.com/markets/equities/26/11/63055270/stock-market-today-nasdaq-100-chip-rebound-nvidia-deepseek"
+    }
+   ]
+  },
+  "btc": {
+   "headline": "ビットコインは74,768.66ドルでほぼ横ばい",
+   "analysis": "74,768.66ドル（+0.03%）。株が急反発した割に動かず、週間-4.44%、年初来-14.55%と弱いまま。リスク資産全体の戻りに乗れていない。",
+   "us_impact_level": "小",
+   "us_impact": "暗号資産の弱さは、リスク選好が株の一部（半導体）に偏っていることを示唆。米国株への直接の影響は小さい。",
+   "sources": [
+    {
+     "title": "investinglive: Bitcoin nears 200-day moving average",
+     "url": "https://investinglive.com/technical-analysis/morning-kickstart-stock-futures-climb-as-bitcoin-nears-its-200-day-moving-average-usd-is-lower/"
+    },
+    {
+     "title": "TradingKey: Market recap",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262295126-us-nfp-ai-stocks-rebound-nvda-amd-spacex-tradingkey"
+    }
+   ]
+  },
+  "wti": {
+   "headline": "WTIは86.95ドル（-4.27%）、週間-15.08%の急落",
+   "analysis": "86.95ドルで-4.27%。トランプ大統領がイランへの追加攻撃は可能性が低いと発言したことが売り材料。ただしホルムズ海峡での船舶攻撃は続き、和平交渉の見通しも不透明で、ヘッドライン次第の展開。",
+   "us_impact_level": "大",
+   "us_impact": "原油安は米国のインフレ懸念を和らげ、景気敏感株・消費関連株に追い風。一方でエネルギー株には逆風となった。",
+   "sources": [
+    {
+     "title": "TimesLive: Oil falls as Trump signals restraint on Iran",
+     "url": "https://www.timeslive.co.za/news/world/2026-11-09-oil-falls-as-trump-signals-restraint-on-iran-amid-fresh-hormuz-shipping-attacks/"
+    },
+    {
+     "title": "Capital Brief: Oil falls on disputed Hormuz report",
+     "url": "https://www.capitalbrief.com/briefing/oil-prices-fall-on-disputed-report-iran-eased-hormuz-demands-1e1fa85e-20d0-4fc7-a395-b1101609b5d4/"
+    }
+   ]
+  },
+  "gold": {
+   "headline": "金は4,138.49ドル（+1.69%）、週間+6.82%と強い",
+   "analysis": "4,138.49ドル（+1.69%）。地政学リスクと株式市場の不安定さから買いが入り、週間では大きく上昇。1ヶ月は+0.10%でまだ横ばい圏。",
+   "us_impact_level": "小",
+   "us_impact": "金高はリスクヘッジ需要の根強さを示す。米長期金利が高止まりの中での上昇は、市場の不安を映す可能性がある。",
+   "sources": [
+    {
+     "title": "FXEmpire: Gold gains ground as oil tests new lows",
+     "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-platinum-forecasts-gold-gains-ground-as-oil-tests-new-lows-1643383"
+    },
+    {
+     "title": "Yahoo Finance: Stock market today Nov 9",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html"
+    }
+   ]
+  },
+  "platinum": {
+   "headline": "プラチナは1,574.40ドル（+2.52%）、週間+9.88%",
+   "analysis": "1,574.40ドル（+2.52%）。貴金属全体が買われ、週間+9.88%と急伸。ただし年初来は-24.79%と、年間では大きく出遅れ。",
+   "us_impact_level": "なし",
+   "us_impact": "米国株への影響は限定的。産業需要より貴金属全体への資金流入の動きとみられる。",
+   "sources": [
+    {
+     "title": "FXEmpire: Gold, Silver, Platinum forecasts",
+     "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-platinum-forecasts-gold-gains-ground-as-oil-tests-new-lows-1643383"
+    },
+    {
+     "title": "Yahoo Finance: Stock market today Nov 9",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html"
+    }
+   ]
+  },
+  "jgb10y": {
+   "headline": "日本10年債利回りは2.665%（+3.3bp）",
+   "analysis": "2.665%と+3.3bp上昇。株高でリスク回避の債券買いが後退した。1ヶ月では-12.51%と、水準自体は高い。",
+   "us_impact_level": "小",
+   "us_impact": "日本の金利上昇は円高要因になりうるが、米国株への直接の影響は限定的。",
+   "sources": [
+    {
+     "title": "モネックス: 日経平均は大幅反発",
+     "url": "https://media.monex.co.jp/articles/-/30470"
+    },
+    {
+     "title": "財経新聞: 日経平均は大幅反発",
+     "url": "https://www.zaikei.co.jp/article/20261109/876715.html"
+    }
+   ]
+  },
+  "ust10y": {
+   "headline": "米10年債利回りは4.88%（+2.1bp）で高止まり",
+   "analysis": "4.88%と+2.1bp。強い10月雇用統計を受けた利上げ観測が残り、CPIを前に高水準。株高にもかかわらず金利が下がらず、株の上値を抑える要因。",
+   "us_impact_level": "大",
+   "us_impact": "高金利が続けば、ハイテクなどグロース株の評価に重しとなる。CPIが予想を上回れば、金利上昇でAI関連が再び売られる可能性がある。",
+   "sources": [
+    {
+     "title": "Yahoo Finance: Stock market today Nov 9",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html"
+    },
+    {
+     "title": "Kiplinger: October CPI report preview",
+     "url": "https://kiplinger.com/investing/economy/october-2026-cpi-report-what-to-expect"
+    }
+   ]
+  }
+ },
+ "sectors": {
+  "headline": "半導体・ハイテク・資本財が主導して反発、エネルギーと生活必需品は取り残された",
+  "analysis": "上昇率の上位は半導体SMH（+5.05%）、資本財XLI（+3.82%）、情報技術XLK（+3.73%）。前週にAI規制警戒で売られた半導体に買い戻しが入り、AMDの大幅高が牽引した。下位はエネルギーXLE（+0.52%）と生活必需品XLP（+0.90%）。原油の急落でエネルギーが伸び悩み、防御的なセクターは相対的に弱かった。",
+  "rotation": "景気敏感株（資本財・一般消費財）とグロースが買われ、ディフェンシブは売り遅れた。ただし1週間では情報技術XLKが-5.28%、半導体SMHが-7.87%、1ヶ月でもXLKが-14.30%と大きく下げており、今日の動きは売られすぎからの戻りの色が濃い。流れが変わったとは言い切れない。",
+  "outlook": "CPIが落ち着けば金利低下を通じてハイテクに追い風、逆なら再び重しとなる。AI関連ではCoreWeave決算（11/11早朝）、シスコとアプライドマテリアルズの決算（11/12引け後）に注目。エネルギーは原油とホルムズ情勢次第。",
+  "sources": [
+   {
+    "title": "Yahoo Finance: Stock market today Nov 9",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html"
+   },
+   {
+    "title": "Benzinga: Nasdaq 100 jumps as chips rebound",
+    "url": "https://www.benzinga.com/markets/equities/26/11/63055270/stock-market-today-nasdaq-100-chip-rebound-nvidia-deepseek"
+   },
+   {
+    "title": "FXStreet: Nasdaq soars despite Nvidia sell-off",
+    "url": "https://fxstreet.com/news/nasdaq-soars-on-monday-despite-nvidia-sell-off-202611091853"
+   }
+  ]
+ },
+ "top_news": {
+  "headline": "AI規制警戒・NVIDIAの調査・イラン情勢の3つが、米株の方向感を左右",
+  "items": [
+   {
+    "title": "民主党の中間選挙勝利でAI規制警戒",
+    "type": "政策・規制",
+    "tickers": [
+     "NVDA",
+     "AMD",
+     "CRWV",
+     "GEV"
+    ],
+    "what": "11/3の中間選挙で民主党が勝利し、データセンターやAIへの規制強化が意識された。11/5にナスダックは調整局面入りし、半導体・ネオクラウド・AI関連の電力株が売られた。",
+    "why": "AI設備投資の見通しが指数の主要な支えのため、規制や電力コストの議論が広がれば、半導体から電力・設備まで幅広く波及する。ただし立法が実際に建設を止めるかは疑問視する声もある。",
+    "watch": "議会の公聴会や調査の動き、CoreWeaveなどの決算での設備投資コメント。",
+    "impact_level": "大",
+    "sources": [
+     {
+      "title": "Fox Business: Stocks plunge as Dem midterm sweep fuels AI regulatory concerns",
+      "url": "https://www.foxbusiness.com/markets/stocks-nov-5-2026"
+     },
+     {
+      "title": "GPB/NPR: Fears about AI crackdown spark rout in tech stocks",
+      "url": "https://www.gpb.org/news/2026/11/05/fears-about-ai-crackdown-after-midterms-sparks-2-trillion-rout-in-tech-stocks"
+     }
+    ]
+   },
+   {
+    "title": "NVIDIA、取締役会がCEOを調査",
+    "type": "銘柄",
+    "tickers": [
+     "NVDA"
+    ],
+    "what": "NVIDIAの取締役会がジェンスン・ファンCEOについて独立した調査を開始した。11/9の株価は朝の大幅安から戻したが、約4%の下落で引けた。",
+    "why": "時価総額が最大級の銘柄で、指数への寄与が大きい。他の半導体が上昇する中で売られており、キーパーソンリスクが意識された。ただし影響はNVIDIA固有にとどまるとの見方もある。",
+    "watch": "調査の範囲と結論、経営体制への影響。",
+    "impact_level": "大",
+    "sources": [
+     {
+      "title": "Yahoo Finance: Stock market today Nov 9",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html"
+     },
+     {
+      "title": "FXStreet: Nasdaq soars despite Nvidia sell-off",
+      "url": "https://fxstreet.com/news/nasdaq-soars-on-monday-despite-nvidia-sell-off-202611091853"
+     }
+    ]
+   },
+   {
+    "title": "原油急落、イラン情勢はヘッドライン次第",
+    "type": "業界",
+    "tickers": [
+     "XOM",
+     "CVX",
+     "OXY"
+    ],
+    "what": "トランプ大統領がイランへの追加攻撃は可能性が低いと発言し、原油が急落した。一方でホルムズ海峡では船舶への攻撃が続き、和平交渉の見通しは不透明。",
+    "why": "原油安はインフレ懸念を和らげて金利に追い風になる一方、エネルギー株の重しとなる。週間で大きく下げており、反動のリスクもある。",
+    "watch": "ホルムズ海峡の船舶攻撃、和平交渉の進展、オキシデンタルなどの決算。",
+    "impact_level": "中",
+    "sources": [
+     {
+      "title": "TimesLive: Oil falls as Trump signals restraint on Iran",
+      "url": "https://www.timeslive.co.za/news/world/2026-11-09-oil-falls-as-trump-signals-restraint-on-iran-amid-fresh-hormuz-shipping-attacks/"
+     },
+     {
+      "title": "Capital Brief: Oil falls on disputed Hormuz report",
+      "url": "https://www.capitalbrief.com/briefing/oil-prices-fall-on-disputed-report-iran-eased-hormuz-demands-1e1fa85e-20d0-4fc7-a395-b1101609b5d4/"
+     }
+    ]
+   }
+  ]
+ },
+ "external_facts": [
+  {
+   "label": "AMD 11/9 騰落率",
+   "value": "+12%",
+   "sources": [
+    "https://www.benzinga.com/markets/equities/26/11/63055270/stock-market-today-nasdaq-100-chip-rebound-nvidia-deepseek",
+    "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html"
+   ]
+  },
+  {
+   "label": "NVDA 11/9 騰落率",
+   "value": "-4%",
+   "sources": [
+    "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html",
+    "https://fxstreet.com/news/nasdaq-soars-on-monday-despite-nvidia-sell-off-202611091853"
+   ]
+  }
+ ],
+ "x_sentiment": ""
+}

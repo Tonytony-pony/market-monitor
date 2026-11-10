@@ -1,0 +1,425 @@
+{
+ "report_date": "2026-11-11",
+ "us_session_covered": "2026-11-10（火）",
+ "summary": {
+  "headline": "CPI上振れで利上げ観測が強まり米株は下落。NVIDIA急落が重し",
+  "recent_moves": [
+   "米国株は3指数が下落。S&P500は7,520.93（-0.38%）、ナスダックは25,065.87（-0.74%）、ダウは52,231.89ドル（-0.30%）。10月CPIが予想を上回り、12月の利上げ観測が強まった。",
+   "米10年債利回りは4.988%（+10.4bp）と5%目前まで上昇。金は4,030.75ドル（-2.65%）と急落し、金利上昇が貴金属の重しになった。",
+   "NVIDIAはCEOを巡る報道（取締役会が調査）で続落し、情報技術・半導体が弱かった。一方、金融・エネルギー・通信・ヘルスケアは堅調で、下げは限定的だった。",
+   "日本株は大幅反発。日経平均は60,459.58円（+2.87%）で6万円台を回復したが、チャートでは200日線（62,020.72円）の下にある。日経VIは36.25（-11.24%）に低下。",
+   "ビットコインは73,875.36ドル（-1.85%）、WTIは86.30ドル（-0.63%）といずれも下落した。"
+  ],
+  "outlook": [
+   "米長期金利が5%を明確に超えるかが焦点。超えれば、グロース株の重しになる可能性。",
+   "11/11早朝にコアウィーブ決算への反応が出る。AI関連の需要を測る材料になる。",
+   "NVIDIAを巡る調査と対中輸出規制の報道次第で、半導体全体が振れやすい。事実関係は報道段階。",
+   "11/13のPPIを控え、インフレ指標とFRB高官の発言に反応しやすい。",
+   "11/11は米債券市場が休場で、金利の動きは薄商いになる可能性がある。"
+  ],
+  "watch_points": [
+   "S&P500が200日線（7,331.08）を維持できるか",
+   "米10年債利回りが5%を超えるか",
+   "ナスダックが200日線（25,114.37）を回復できるか"
+  ],
+  "events": [
+   {
+    "time_jst": "11/11 早朝",
+    "event": "コアウィーブ決算の反応（11/10引け後発表）",
+    "importance": "高"
+   },
+   {
+    "time_jst": "11/11（水）",
+    "event": "米国は債券市場が休場（株式市場は通常取引）",
+    "importance": "中"
+   },
+   {
+    "time_jst": "11/13 22:30",
+    "event": "米10月卸売物価指数（PPI）",
+    "importance": "高"
+   },
+   {
+    "time_jst": "11/12 引け後",
+    "event": "シスコ、アプライドマテリアルズの決算",
+    "importance": "中"
+   },
+   {
+    "time_jst": "今週",
+    "event": "FRB高官の発言（12月利上げを巡る）",
+    "importance": "中"
+   }
+  ],
+  "overview_message": "CPI上振れとNVIDIA安で米株は小幅安、日本株は大幅反発。"
+ },
+ "instruments": {
+  "nikkei225": {
+   "headline": "AI・半導体の買い戻しで大幅反発したが、200日線の下に残る",
+   "analysis": "日経平均は60,459.58円（+2.87%）と大幅に続伸し、6万円台を回復した。ソフトバンクGやアドバンテストが指数を押し上げた。チャートでは直近の急落から戻したが、200日移動平均（62,020.72円）の下で、50日線（65,037.82円）とも距離があり、戻りの途上にとどまる。1か月では-11.93%と調整幅は大きい。",
+   "us_impact_level": "小",
+   "us_impact": "日本株の反発は前日の米半導体株高の反映で、米国株への影響は限定的。ただし本日の米株は下落したため、日本株の戻りが続くかは米ハイテク次第。",
+   "sources": [
+    {
+     "title": "ソフトバンクG急反発で日経1684円高、6万円台回復（11/10）",
+     "url": "https://tbladvisory.com/20261110nk/"
+    },
+    {
+     "title": "日経平均寄与度ランキング（大引け）11/10",
+     "url": "https://www.zaikei.co.jp/article/20261110/876926.html"
+    }
+   ]
+  },
+  "jpx400": {
+   "headline": "グロース・半導体に比べ戻りは穏やか",
+   "analysis": "JPX日経400は35,316.61（+1.74%）で反発した。50日線（36,501.85）の下、200日線（35,235.21）をわずかに上回る水準で、52週高値（38,170.76）とは距離がある。",
+   "us_impact_level": "なし",
+   "us_impact": "米国株への影響は限定的。日本の内需・大型株の動きで、米株の需給には直接つながりにくい。",
+   "sources": [
+    {
+     "title": "ソフトバンクG急反発で日経1684円高、6万円台回復（11/10）",
+     "url": "https://tbladvisory.com/20261110nk/"
+    },
+    {
+     "title": "日経平均寄与度ランキング（大引け）11/10",
+     "url": "https://www.zaikei.co.jp/article/20261110/876926.html"
+    }
+   ]
+  },
+  "growth250": {
+   "headline": "リスク選好の戻りで+3.80%と上昇率が最大",
+   "analysis": "東証グロース250は751.06（+3.80%）と主要指数で上昇率が最大だった。200日線（754.17）の手前にあり、50日線（783.10）は下回ったまま。1週間では-2.81%で、反発の持続性はまだ確認できない。",
+   "us_impact_level": "なし",
+   "us_impact": "米国株への影響は限定的。小型グロースの反発は国内の資金動向を映すもので、米株にはほぼ波及しない。",
+   "sources": [
+    {
+     "title": "ソフトバンクG急反発で日経1684円高、6万円台回復（11/10）",
+     "url": "https://tbladvisory.com/20261110nk/"
+    },
+    {
+     "title": "日経平均寄与度ランキング（大引け）11/10",
+     "url": "https://www.zaikei.co.jp/article/20261110/876926.html"
+    }
+   ]
+  },
+  "nk_futures": {
+   "headline": "日本時間夜間は米株安を受けて60,060円まで軟化",
+   "analysis": "日経225先物は60,060円（-0.55%）。前日比で-330円となり、現物の大幅反発から一服した。200日線（62,115.9）を下回り、RSIは38.28と売られ過ぎ圏に近い。",
+   "us_impact_level": "小",
+   "us_impact": "先物の軟化は米ハイテク安と米長期金利上昇を織り込んだ動き。米株への逆流は小さい。",
+   "sources": [
+    {
+     "title": "ソフトバンクG急反発で日経1684円高、6万円台回復（11/10）",
+     "url": "https://tbladvisory.com/20261110nk/"
+    },
+    {
+     "title": "日経平均寄与度ランキング（大引け）11/10",
+     "url": "https://www.zaikei.co.jp/article/20261110/876926.html"
+    }
+   ]
+  },
+  "nikkei_vi": {
+   "headline": "日経VIは36.25に低下したが、平時より高い水準",
+   "analysis": "日経VIは36.25（-11.24%）と大きく低下し、株価反発に伴って警戒感がやや和らいだ。ただし52週レンジ（18.77〜66.65）の中では高めの位置にある。水準の評価はチャートがなく、検索でも直接の記事は確認できていない。",
+   "us_impact_level": "小",
+   "us_impact": "日本の変動率指標のため米国株への影響は限定的。米VIXなど米国側の指標のほうが直接の判断材料になる。",
+   "sources": [
+    {
+     "title": "ソフトバンクG急反発で日経1684円高、6万円台回復（11/10）",
+     "url": "https://tbladvisory.com/20261110nk/"
+    },
+    {
+     "title": "日経平均寄与度ランキング（大引け）11/10",
+     "url": "https://www.zaikei.co.jp/article/20261110/876926.html"
+    }
+   ]
+  },
+  "usdjpy": {
+   "headline": "米金利上昇でドル高円安。158円台後半",
+   "analysis": "ドル円は158.738円（+0.53%）と上昇した。米10年債利回りの上昇（4.988%）でドル買いが優勢。200日線（158.669）付近で推移し、52週高値（163.987）までは距離がある。",
+   "us_impact_level": "小",
+   "us_impact": "円安は日本の輸出企業に追い風だが、米株への直接の影響は小さい。米金利上昇が続く場合はドル高が米多国籍企業の収益の逆風になる可能性。",
+   "sources": [
+    {
+     "title": "Stock market today: hot CPI fuels rate hike odds, Nvidia sinks (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+    },
+    {
+     "title": "10-year Treasury yield jumps as hot inflation lifts rate-hike odds (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/article/10-year-treasury-yield-jumps-as-odds-of-rate-hike-rise-amid-hot-inflation-print-alphacheck-144120699.html"
+    }
+   ]
+  },
+  "dow": {
+   "headline": "ダウは-0.30%と小幅安。ハイテクより下げが浅い",
+   "analysis": "NYダウは52,231.89ドル（-0.30%）。10月CPIが予想を上回り利上げ観測が強まった一方、広範な銘柄は比較的持ちこたえた。50日線（52,021.55）の上を維持し、200日線（50,705.61）も上回る。",
+   "us_impact_level": "大",
+   "us_impact": "ダウは景気敏感・ディフェンシブ中心でハイテク安の影響を受けにくい。ただし金利上昇が続けば全体の重しになる可能性。",
+   "sources": [
+    {
+     "title": "Stock market today: hot CPI fuels rate hike odds, Nvidia sinks (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+    },
+    {
+     "title": "10-year Treasury yield jumps as hot inflation lifts rate-hike odds (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/article/10-year-treasury-yield-jumps-as-odds-of-rate-hike-rise-amid-hot-inflation-print-alphacheck-144120699.html"
+    }
+   ]
+  },
+  "nasdaq": {
+   "headline": "NVIDIAの下落でナスダックは-0.74%。200日線を割り込む",
+   "analysis": "ナスダック総合は25,065.87（-0.74%）。NVIDIAがCEOを巡る報道で下落し、金利上昇もグロース株の重しになった。チャートでは200日線（25,114.37）付近を割り込んだ水準で、50日線（26,408.73）は大きく上。1か月では-8.33%と調整が続く。",
+   "us_impact_level": "大",
+   "us_impact": "指数への寄与が大きいNVIDIAの下落と金利上昇が重なり、ハイテク主導の調整が続く。200日線の回復の可否が次の注目点。",
+   "sources": [
+    {
+     "title": "Stock market today: hot CPI fuels rate hike odds, Nvidia sinks (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+    },
+    {
+     "title": "10-year Treasury yield jumps as hot inflation lifts rate-hike odds (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/article/10-year-treasury-yield-jumps-as-odds-of-rate-hike-rise-amid-hot-inflation-print-alphacheck-144120699.html"
+    },
+    {
+     "title": "Nvidia Shares Sink as CEO's Alleged Spy Connection Raises Questions About $7.5 Billion in Chips",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-shares-sink-ceo-alleged-182530300.html"
+    }
+   ]
+  },
+  "sp500": {
+   "headline": "S&P500は-0.38%。CPI上振れでも下げは限定的",
+   "analysis": "S&P500は7,520.93（-0.38%）。日中は一時1%近く下げたが、引けにかけて下げ幅を縮めた。チャートでは200日線（7,331.08）の上、50日線（7,672.91）の下で、10月以降のレンジの下限付近に位置する。",
+   "us_impact_level": "大",
+   "us_impact": "利上げ観測が強まる中で下げが限定的だった点は底堅さを示す。一方、金利が5%近辺で高止まるとバリュエーションの重しになる。",
+   "sources": [
+    {
+     "title": "Stock market today: hot CPI fuels rate hike odds, Nvidia sinks (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+    },
+    {
+     "title": "10-year Treasury yield jumps as hot inflation lifts rate-hike odds (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/article/10-year-treasury-yield-jumps-as-odds-of-rate-hike-rise-amid-hot-inflation-print-alphacheck-144120699.html"
+    }
+   ]
+  },
+  "btc": {
+   "headline": "ビットコインは-1.85%、50日線の下で軟調",
+   "analysis": "ビットコインは73,875.36ドル（-1.85%）。暗号資産関連株も下落し、リスク回避の動きが出た。50日線（81,372.08）を下回り、200日線（73,137.65）付近。RSIは34.59で弱い。年初来は-15.57%。",
+   "us_impact_level": "小",
+   "us_impact": "暗号資産関連株（Coinbaseなど）が下落しており、米株の一部に影響した。指数全体への影響は小さい。",
+   "sources": [
+    {
+     "title": "Stock market today (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+    },
+    {
+     "title": "Stock market today: Live updates (CNBC)",
+     "url": "https://www.cnbc.com/2026/11/09/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  "wti": {
+   "headline": "WTIは-0.63%。1週間では-10.38%と大きく下落",
+   "analysis": "WTIは86.30ドル（-0.63%）。1週間では-10.38%と大幅に下げ、50日線（95.08）を下回った。200日線（87.16）の近辺にある。直近の下落理由の特定はできていない（中東情勢の報道を引き続き確認したい）。",
+   "us_impact_level": "中",
+   "us_impact": "原油安はインフレ懸念を和らげ、金利の重しを軽くする。一方、エネルギー株には逆風。",
+   "sources": [
+    {
+     "title": "Stock market today (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+    },
+    {
+     "title": "Oil settles lower (nst.com.my)",
+     "url": "https://www.nst.com.my/amp/business/economy/2026/07/1485771/oil-settles-lower-hopes-strait-hormuz-reopening"
+    }
+   ]
+  },
+  "gold": {
+   "headline": "金は-2.65%の急落。金利上昇とドル高が逆風",
+   "analysis": "金は4,030.75ドル（-2.65%）。CPI上振れで利上げ観測が強まり、利息を生まない金に売りが出た。50日線（4,183.77）と200日線（4,470.97）を下回る。1週間では+2.14%だったが、戻りが一服した。",
+   "us_impact_level": "小",
+   "us_impact": "金安は実質金利の上昇を映す。株式市場には、金利高に対する警戒を裏付ける材料になる。",
+   "sources": [
+    {
+     "title": "Stock market today: hot CPI fuels rate hike odds, Nvidia sinks (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+    },
+    {
+     "title": "10-year Treasury yield jumps as hot inflation lifts rate-hike odds (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/article/10-year-treasury-yield-jumps-as-odds-of-rate-hike-rise-amid-hot-inflation-print-alphacheck-144120699.html"
+    }
+   ]
+  },
+  "platinum": {
+   "headline": "プラチナも-2.36%。貴金属全体が売られた",
+   "analysis": "プラチナは1,540.32ドル（-2.36%）。1週間では+6.59%と戻していたが、金利上昇で売りが出た。年初来は-26.42%と弱い。",
+   "us_impact_level": "なし",
+   "us_impact": "米国株への影響は限定的。",
+   "sources": [
+    {
+     "title": "Stock market today: hot CPI fuels rate hike odds, Nvidia sinks (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+    },
+    {
+     "title": "10-year Treasury yield jumps as hot inflation lifts rate-hike odds (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/article/10-year-treasury-yield-jumps-as-odds-of-rate-hike-rise-amid-hot-inflation-print-alphacheck-144120699.html"
+    }
+   ]
+  },
+  "jgb10y": {
+   "headline": "日本の10年債利回りは2.671%でほぼ横ばい",
+   "analysis": "日本の10年債利回りは2.671%（+0.6bp）と小幅上昇。米長期金利が約+10.4bpと大きく上がったのに比べ、動きは小さかった。",
+   "us_impact_level": "小",
+   "us_impact": "日本の長期金利の小動きは米国株への影響が限定的。日米金利差が拡大すればドル円の材料になる。",
+   "sources": [
+    {
+     "title": "ソフトバンクG急反発で日経1684円高、6万円台回復（11/10）",
+     "url": "https://tbladvisory.com/20261110nk/"
+    },
+    {
+     "title": "日経平均寄与度ランキング（大引け）11/10",
+     "url": "https://www.zaikei.co.jp/article/20261110/876926.html"
+    }
+   ]
+  },
+  "ust10y": {
+   "headline": "米10年債利回りは4.988%で5%目前。CPI上振れが背景",
+   "analysis": "米10年債利回りは4.988%（+10.4bp）と上昇した。10月CPIが予想を上回り、12月の利上げ観測が強まった。チャートでは10月高値圏から下げていたが、5%目前まで戻した。",
+   "us_impact_level": "大",
+   "us_impact": "利上げ観測と高い長期金利は、株式のバリュエーションに逆風。5%を明確に超えると株の重しになる可能性。",
+   "sources": [
+    {
+     "title": "Stock market today: hot CPI fuels rate hike odds, Nvidia sinks (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+    },
+    {
+     "title": "10-year Treasury yield jumps as hot inflation lifts rate-hike odds (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/article/10-year-treasury-yield-jumps-as-odds-of-rate-hike-rise-amid-hot-inflation-print-alphacheck-144120699.html"
+    }
+   ]
+  }
+ },
+ "sectors": {
+  "headline": "ハイテク・半導体が下落、金融・エネルギー・通信などが相対的に強い",
+  "analysis": "11セクター＋半導体のうち、情報技術は-1.14%、半導体（SMH）は-0.78%と下げが目立った（SPYは-0.37%）。NVIDIAの下落と金利上昇が重なった。一方、金融は+0.52%、エネルギーは+0.44%、通信は+0.37%、ヘルスケアは+0.31%と堅調だった。ハイテク以外の広がりを欠く銘柄が少なかったことで、指数の下げが限られた。",
+  "rotation": "ハイテク（グロース）から金融・ヘルスケア・生活必需品などへ資金が移った。1か月ではヘルスケア+12.63%、生活必需品+9.73%、金融+7.45%に対し、情報技術-15.28%、半導体-21.38%で、ディフェンシブ・バリューへの流れが続いている。ただし1週間では通信が+7.23%と大きく反発しており、一方向の流れとは言い切れない。",
+  "outlook": "CPI後の金利動向と、半導体の売られ過ぎからの反発の可否が焦点。11/12にはシスコ・アプライドマテリアルズの決算があり、AI関連の需要を測る材料になる。",
+  "sources": [
+   {
+    "title": "Stock market today: hot CPI fuels rate hike odds, Nvidia sinks (Yahoo Finance)",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+   },
+   {
+    "title": "10-year Treasury yield jumps as hot inflation lifts rate-hike odds (Yahoo Finance)",
+    "url": "https://finance.yahoo.com/markets/article/10-year-treasury-yield-jumps-as-odds-of-rate-hike-rise-amid-hot-inflation-print-alphacheck-144120699.html"
+   }
+  ]
+ },
+ "top_news": {
+  "headline": "NVIDIAのCEO問題で、AI・半導体への不安が再燃",
+  "items": [
+   {
+    "title": "NVIDIA、CEOの疑惑報道で続落",
+    "type": "銘柄",
+    "tickers": [
+     "NVDA"
+    ],
+    "what": "NVIDIAのジェンセン・フアンCEOが不倫を認め、取締役会が調査する中、同氏と関係のある人物を通じて中国企業に多額の半導体が渡った可能性が報じられた。株価は11/9に続いて11/10も大きく下落した。",
+    "why": "時価総額が大きく、S&P500・ナスダックへの寄与が大きい。AI・半導体関連全体の需給や、対中輸出規制を巡る不確実性にもつながる。",
+    "watch": "取締役会の調査結果や米当局の対応、輸出規制への影響を確認したい。事実関係は報道段階で、確認されていない部分が多い。",
+    "impact_level": "大",
+    "sources": [
+     {
+      "title": "Nvidia Shares Sink as CEO's Alleged Spy Connection Raises Questions About $7.5 Billion in Chips",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-shares-sink-ceo-alleged-182530300.html"
+     },
+     {
+      "title": "Nvidia Chinese Spy Story Is Getting Worse (24/7 Wall St.)",
+      "url": "https://247wallst.com/investing/2026/11/10/nivida-chinese-spy-story-is-getting-worse-huangs-affair-helped-move-7-5-billion-in-chips-to-china/"
+     },
+     {
+      "title": "Nvidia Shares Drop After CEO Huang's Affair Triggers Board Probe (Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-09/nvidia-shares-dip-on-robinhood-as-huang-affair-spurs-board-probe"
+     }
+    ]
+   },
+   {
+    "title": "CPI上振れで12月利上げ観測が強まる",
+    "type": "政策・規制",
+    "tickers": [
+     "SPY"
+    ],
+    "what": "10月の消費者物価指数は前月比+0.4%、コアは+0.3%で、いずれも予想（それぞれ+0.3%、+0.2%）を上回った。FRBのウォラー理事は利上げ幅について50bpの可能性にも含みを持たせた。",
+    "why": "利上げ観測と長期金利の上昇は、グロース株のバリュエーションの重しになり、株式全体に波及する。",
+    "watch": "11/13の卸売物価（PPI）と、FRB高官の発言を確認したい。",
+    "impact_level": "大",
+    "sources": [
+     {
+      "title": "Stock market today: hot CPI fuels rate hike odds, Nvidia sinks (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+     },
+     {
+      "title": "10-year Treasury yield jumps as hot inflation lifts rate-hike odds (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/article/10-year-treasury-yield-jumps-as-odds-of-rate-hike-rise-amid-hot-inflation-print-alphacheck-144120699.html"
+     }
+    ]
+   },
+   {
+    "title": "決算でAI関連の需要を測る週",
+    "type": "業界",
+    "tickers": [
+     "CRWV",
+     "CSCO",
+     "AMAT"
+    ],
+    "what": "AIインフラ企業のコアウィーブが11/10の引け後に決算を発表し、11/12にはシスコとアプライドマテリアルズが続く。11/10にはHIMSも大幅安となった。",
+    "why": "AIデータセンター需要や半導体製造装置の動向を測る材料で、半導体セクターの見方に影響する。",
+    "watch": "コアウィーブの設備投資・需要見通しと、翌日の市場の反応を確認したい。",
+    "impact_level": "中",
+    "sources": [
+     {
+      "title": "The Week Ahead: October CPI and PPI Due as CoreWeave, Cisco and Applied Materials Report Earnings",
+      "url": "https://www.mitrade.com/insights/news/live-news/article-8-2239452-20261108"
+     },
+     {
+      "title": "What To Expect In Markets This Week (Stocktwits)",
+      "url": "https://stocktwits.com/news-articles/markets/equity/what-to-expect-markets-this-week-nov-8-2026/cNGYG4ZR9Iu"
+     }
+    ]
+   }
+  ]
+ },
+ "external_facts": [
+  {
+   "label": "10月CPI前月比",
+   "value": "+0.4%",
+   "sources": [
+    "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html",
+    "https://finance.yahoo.com/markets/article/10-year-treasury-yield-jumps-as-odds-of-rate-hike-rise-amid-hot-inflation-print-alphacheck-144120699.html"
+   ]
+  },
+  {
+   "label": "10月コアCPI前月比",
+   "value": "+0.3%",
+   "sources": [
+    "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html",
+    "https://finance.yahoo.com/markets/article/10-year-treasury-yield-jumps-as-odds-of-rate-hike-rise-amid-hot-inflation-print-alphacheck-144120699.html"
+   ]
+  },
+  {
+   "label": "CPI前月比の市場予想",
+   "value": "+0.3%",
+   "sources": [
+    "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html",
+    "https://mlq.ai/news/us-stocks-fall-and-treasury-yields-jump-at-the-open-after-hot-october-cpi/"
+   ]
+  },
+  {
+   "label": "コアCPIの市場予想",
+   "value": "+0.2%",
+   "sources": [
+    "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html",
+    "https://mlq.ai/news/us-stocks-fall-and-treasury-yields-jump-at-the-open-after-hot-october-cpi/"
+   ]
+  }
+ ],
+ "x_sentiment": "X・SNSの反応は今回の検索では確認できなかった。"
+}

@@ -1,0 +1,242 @@
+{
+  "report_date": "2026-11-12",
+  "us_session_covered": "2026-11-11（水）",
+  "summary": {
+    "headline": "半導体主導でナスダック+1.60%の急反発、ただ米10年債5.00%と利上げ観測は残る",
+    "recent_moves": [
+      "米国株は11日（水）に大きく反発した。ナスダック総合は+1.60%の25,466.19、S&P500は+1.31%の7,619.38、NYダウは+0.49%の52,486.49。CoreWeaveの決算を受けてAIインフラ投資への不安が和らぎ、前2日間に売られた半導体株が買い戻されたとの報道が目立った。",
+      "セクターでは半導体（SMH）が+4.82%、情報技術（XLK）が+3.23%と突出し、一般消費財・ヘルスケア・不動産はほぼ横ばい。直近1ヶ月で買われていたディフェンシブから、売られ過ぎたハイテクへ資金が戻る動き（一時的な可能性）。",
+      "米10年債利回りは5.00%（+11.6bp）。10日の10月CPI（市場では強い内容と報じられた）を受けた上昇を反映した値とみられ、利上げ観測が株の上値を抑える構図が続く。",
+      "日経平均は11日に+1.31%の61,248.59円と反発したが、200日線（62,056.41円）の手前。ドル円は159.85円（+0.70%）まで円安が進んだ。",
+      "NvidiaのCEOを巡る取締役会の調査報道（9日）で同社株は大きく売られ、半導体全体が重くなっていた。11日の反発でもこの不透明感は解消していない。"
+    ],
+    "outlook": [
+      "12日（木）夜は米新規失業保険申請件数（22:30）とNY連銀ウィリアムズ総裁の発言（20:30）。CPI後の利上げ観測が強まるか緩むかの材料になる。",
+      "引け後にCiscoとApplied Materialsの決算が予定されており、AI関連・半導体設備への需要コメントが、反発した半導体株の持続性を左右しやすい。",
+      "13日（金）22:30に10月PPI。CPIに続く強い数字なら金利上昇→グロース株の重しという連想が再燃しやすい。",
+      "米10年債が5.00%を維持するかどうか、Nvidia調査の続報、日本時間のドル円160円接近（為替介入への警戒）が当面の注意点。"
+    ],
+    "watch_points": [
+      "S&P500は200日線（7,334.28）が下値の目安、上は50日線（7,672.66）付近",
+      "ナスダックは50日線（26,396.06）を回復できるか"
+    ],
+    "events": [
+      {"time_jst": "11/12 20:30", "event": "NY連銀ウィリアムズ総裁の発言", "importance": "中"},
+      {"time_jst": "11/12 22:30", "event": "米新規失業保険申請件数", "importance": "中"},
+      {"time_jst": "11/13 朝（米引け後）", "event": "Cisco・Applied Materials決算", "importance": "高"},
+      {"time_jst": "11/13 22:30", "event": "米10月PPI（生産者物価）", "importance": "高"}
+    ],
+    "overview_message": "半導体の買い戻しで米株が反発した一方、米10年債5.00%と円安進行が続き、ハイテク反発の持続性が試される朝。"
+  },
+  "instruments": {
+    "nikkei225": {
+      "headline": "61,248.59円と反発も、200日線の手前で戻りの重さが残る",
+      "analysis": "11日は+789.01円（+1.31%）の反発。直近1ヶ月は-10.78%と大きく下げており、チャートでは急落後に下値の支持線付近で切り返した形。ただし200日線（62,056.41円）と50日線（64,937.56円）の下で、一目均衡表の雲も上にあり、トレンドはまだ下向き。",
+      "us_impact_level": "小",
+      "us_impact": "日本株の反発自体が米国株を動かす力は小さい。ただ、AI・半導体関連の大型株が多いため、米半導体株の反発が日本時間に波及した形で、米国のハイテク動向と連動が強まっている。",
+      "sources": [
+        {"title": "TradingView 日経平均チャート", "url": "https://www.tradingview.com/symbols/TVC-NI225/"},
+        {"title": "Matsui Securities 日経平均 大引け", "url": "https://finance.matsui.co.jp/news/635738/index"}
+      ]
+    },
+    "jpx400": {
+      "headline": "JPX日経400は+0.79%、日経平均より穏やかな戻り",
+      "analysis": "終値は35,596.55円（+0.79%）。1ヶ月騰落率は-3.29%で、日経平均（-10.78%）に比べ下げが浅く、半導体への偏りが小さいことを示す。200日線（35,248.03円）の上を維持している。",
+      "us_impact_level": "なし",
+      "us_impact": "米国株への影響は限定的。日本の広範なバリュー株指数の動きで、米国の資金フローや金利には直接効かない。",
+      "sources": [
+        {"title": "TradingView JPX日経400", "url": "https://www.tradingview.com/symbols/TVC-JPN400/"},
+        {"title": "Matsui Securities 日経平均 大引け", "url": "https://finance.matsui.co.jp/news/635738/index"}
+      ]
+    },
+    "growth250": {
+      "headline": "グロース250は+0.89%の757.73、方向感に乏しい",
+      "analysis": "50日線（782.63）の下、200日線（754.29）の上でもみ合う。1ヶ月騰落率は-4.18%。国内金利上昇が小型成長株の重しになりやすい局面が続く。",
+      "us_impact_level": "なし",
+      "us_impact": "米国株への影響は限定的。個人投資家中心の市場で、米国市場との連動は弱い。",
+      "sources": [
+        {"title": "TradingView 東証グロース250", "url": "https://www.tradingview.com/symbols/TSE-TSEGROWTH/"},
+        {"title": "Matsui Securities 日経平均 大引け", "url": "https://finance.matsui.co.jp/news/635738/index"}
+      ]
+    },
+    "nk_futures": {
+      "headline": "日経225先物は62,020円、現物より高く推移",
+      "analysis": "終値62,020円（+0.94%）。現物の61,248.59円を上回り、200日線（62,162.60円）に接近。夜間の米株高を先に織り込む形だが、200日線を超えられるかが焦点。",
+      "us_impact_level": "小",
+      "us_impact": "先物は米株の動きを映す側面が強く、米国株への影響は小さい。逆に米国のナスダック先物の動きが先物の方向を決めやすい。",
+      "sources": [
+        {"title": "TradingView 日経225先物", "url": "https://www.tradingview.com/symbols/OSE-NK2251!/"},
+        {"title": "Matsui Securities 日経平均 大引け", "url": "https://finance.matsui.co.jp/news/635738/index"}
+      ]
+    },
+    "nikkei_vi": {
+      "headline": "日経VIは35.72と高止まり、不安は残る",
+      "analysis": "日経公式の11日値で-1.46%の35.72。株価が反発したのに水準は高く、先行きの変動を警戒する市場心理がまだ強いことを示すとみられる。",
+      "us_impact_level": "小",
+      "us_impact": "日本の恐怖指数が高止まりしている点は、AI・半導体株の変動を警戒する世界的な心理と重なる。米国株への直接的な影響は小さい。",
+      "sources": [
+        {"title": "日経平均VI（日本経済新聞）", "url": "https://indexes.nikkei.co.jp/nkave/index/profile?idx=nk225vi"},
+        {"title": "Matsui Securities 日経平均 大引け", "url": "https://finance.matsui.co.jp/news/635738/index"}
+      ]
+    },
+    "usdjpy": {
+      "headline": "ドル円は159.85円、米金利高で160円目前",
+      "analysis": "+0.70%の159.85円。米10年債利回りが5.00%に上昇し、日米金利差の観点でドル買い・円売りが進んだとみられる。50日線（157.26円）を大きく上回り、直近の上値圏に接近。160円付近では為替介入への警戒が意識されやすい。",
+      "us_impact_level": "中",
+      "us_impact": "円安は日本の輸出企業の収益を押し上げる一方、急な円高転換（介入や日銀の動き）が起きれば、円キャリー巻き戻しとして米株にも波及しうる。160円接近は米株にとってもリスク要因。",
+      "sources": [
+        {"title": "TradingView ドル円", "url": "https://www.tradingview.com/symbols/FX-USDJPY/"},
+        {"title": "Matsui Securities 日経平均 大引け", "url": "https://finance.matsui.co.jp/news/635738/index"}
+      ]
+    },
+    "dow": {
+      "headline": "ダウは+0.49%の52,486.49、ハイテクより穏やかな上昇",
+      "analysis": "+254.60ドルの上昇だが、ナスダック（+1.60%）に比べると鈍い。50日線（52,015.94）を上回って推移し、1ヶ月騰落率は+1.39%と、ハイテク主導の指数よりも底堅い。",
+      "us_impact_level": "大",
+      "us_impact": "景気敏感・ディフェンシブ株の比率が高く、AIショックの影響が相対的に小さい。ハイテクの反発局面ではダウの上昇は控えめになる。",
+      "sources": [
+        {"title": "TheStreet: Stock Market Today (Nov. 11, 2026)", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026"},
+        {"title": "Proactive Investors: MARKETS LIVE", "url": "https://www.proactiveinvestors.com/companies/news/1101567/markets-live-wall-street-rebounds-as-coreweave-results-and-anthropic-ipo-demand-revive-ai-optimism-1101567.html"}
+      ]
+    },
+    "nasdaq": {
+      "headline": "ナスダックは+1.60%の急反発、半導体が牽引",
+      "analysis": "25,466.19（+400.31）で、CoreWeaveの決算を受けたAI関連の買い戻しが主因とされる。1ヶ月騰落率は-6.90%で、50日線（26,396.06）は下。200日線（25,122.61）の上で踏みとどまった形。",
+      "us_impact_level": "大",
+      "us_impact": "米国株全体の方向を決める中心。半導体と大型ハイテクの回復が続くかが、指数の戻りの持続性を左右する。ただし金利上昇が戻りの重しになる可能性がある。",
+      "sources": [
+        {"title": "TheStreet: Stock Market Today (Nov. 11, 2026)", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026"},
+        {"title": "Proactive Investors: MARKETS LIVE", "url": "https://www.proactiveinvestors.com/companies/news/1101567/markets-live-wall-street-rebounds-as-coreweave-results-and-anthropic-ipo-demand-revive-ai-optimism-1101567.html"}
+      ]
+    },
+    "sp500": {
+      "headline": "S&P500は+1.31%の7,619.38、200日線から戻した",
+      "analysis": "+98.45ポイントの上昇。チャートでは11月上旬の急落で200日線（7,334.28）付近まで下げた後、先週から戻して一目均衡表の雲の中に入った。高値圏の持ち合いの下側で、まだ上抜けではない。",
+      "us_impact_level": "大",
+      "us_impact": "上値は50日線（7,672.66）付近が意識されやすい。CPI後の利上げ観測と、AI投資の採算への疑問が両方の重しとして残る。",
+      "sources": [
+        {"title": "TheStreet: Stock Market Today (Nov. 11, 2026)", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026"},
+        {"title": "Proactive Investors: MARKETS LIVE", "url": "https://www.proactiveinvestors.com/companies/news/1101567/markets-live-wall-street-rebounds-as-coreweave-results-and-anthropic-ipo-demand-revive-ai-optimism-1101567.html"}
+      ]
+    },
+    "btc": {
+      "headline": "ビットコインは74,589.41ドルと200日線付近で下げ止まり",
+      "analysis": "+1.19%の反発だが、1ヶ月は-10.86%、年初来は-14.75%。チャートでは一目均衡表の雲の下で、200日線（73,121.59）付近をかろうじて維持。50日線（81,136.60）は大きく上。",
+      "us_impact_level": "小",
+      "us_impact": "ハイテク株との連動がある程度あり、リスク選好の目安にはなる。ただ米国株全体を動かす力は小さい。",
+      "sources": [
+        {"title": "CoinDesk", "url": "https://www.coindesk.com/markets/"},
+        {"title": "TradingView ビットコイン", "url": "https://www.tradingview.com/symbols/BTCUSD/"}
+      ]
+    },
+    "wti": {
+      "headline": "WTIは86.36ドル、1週間で-10.79%の下落後に横ばい",
+      "analysis": "+0.37%の86.36ドル。10月末の高値圏から大きく下げ、チャートでは200日線（87.28ドル）付近。年初来は+50.43%と、2〜4月の中東情勢（ホルムズ海峡）で急騰した水準を保つ。",
+      "us_impact_level": "中",
+      "us_impact": "原油の下落はインフレ圧力を和らげ、エネルギーセクターには逆風になる。一方、利上げ観測の緩和を通じて、ハイテクなど成長株には追い風になりうる。",
+      "sources": [
+        {"title": "TradingView WTI原油", "url": "https://www.tradingview.com/symbols/TVC-USOIL/"},
+        {"title": "Oil settles lower (Business Recorder)", "url": "https://www.brecorder.com/news/amp/40423007"}
+      ]
+    },
+    "gold": {
+      "headline": "金は3,984.56ドルと-1.19%、リスク回復で売られた",
+      "analysis": "-47.96ドル。株高と米金利上昇で安全資産の需要が後退したとみられる。50日線（4,176.92ドル）・200日線（4,464.99ドル）の下で、年初来は-7.73%。",
+      "us_impact_level": "小",
+      "us_impact": "金の下落は、リスク回避姿勢が後退したことを示す。米国株への直接の影響は小さいが、実質金利の上昇が続いていることを示唆する。",
+      "sources": [
+        {"title": "Kitco", "url": "https://www.kitco.com/"},
+        {"title": "TradingView 金", "url": "https://www.tradingview.com/symbols/TVC-GOLD/"}
+      ]
+    },
+    "platinum": {
+      "headline": "プラチナは1,537.10ドル、1週間では+8.51%と戻している",
+      "analysis": "-0.21%の小幅安。1週間は+8.51%と強いが、1ヶ月は-8.97%、年初来は-26.57%。50日線（1,665.93ドル）の下で、戻りの途中。",
+      "us_impact_level": "なし",
+      "us_impact": "米国株への影響は限定的。産業用需要（自動車触媒など）の動向を映す商品で、株式市場全体への波及は小さい。",
+      "sources": [
+        {"title": "Kitco", "url": "https://www.kitco.com/"},
+        {"title": "TradingView プラチナ", "url": "https://www.tradingview.com/symbols/TVC-PLATINUM/"}
+      ]
+    },
+    "jgb10y": {
+      "headline": "日本の10年債利回りは2.779%、+10.8bpと急上昇",
+      "analysis": "+10.8bpの2.779%。米長期金利上昇の連想で日本の金利も上がったとみられる。年初来では大きく上昇している。",
+      "us_impact_level": "中",
+      "us_impact": "日本の金利上昇は日米金利差の縮小を通じて円高要因になりうるが、今日は米金利も上昇し円安になった。日本の金利が急上昇すれば、日本の投資家による米債の売りを通じて米金利に影響する可能性がある（推測）。",
+      "sources": [
+        {"title": "財務省 国債金利情報", "url": "https://www.mof.go.jp/jgbs/reference/interest_rate/index.htm"},
+        {"title": "TradingView 日本10年債", "url": "https://www.tradingview.com/symbols/TVC-JP10Y/"}
+      ]
+    },
+    "ust10y": {
+      "headline": "米10年債利回りは5.00%、+11.6bpで節目に到達",
+      "analysis": "+11.6bpの5.00%。10日の10月CPIが強い内容と報じられたことで利上げ観測が高まり、利回りが急上昇した値とみられる。チャートでは10月の高値圏から下げた後、再び5%に戻した形。",
+      "us_impact_level": "大",
+      "us_impact": "5%は株式にとって心理的な節目。バリュエーションの高いハイテク株の重しになり、利上げ観測の強さを映す。13日のPPIでも強い数字なら、再び株が売られやすい。",
+      "sources": [
+        {"title": "Benzinga: Hot CPI Pushes 10-Year Yield to 5%", "url": "https://www.benzinga.com/markets/equities/26/11/63117496/stock-market-today-hot-cpi-treasury-yields-5-percent-nvidia-slides"},
+        {"title": "Yahoo Finance: hot CPI fuels rate hike odds", "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"}
+      ]
+    }
+  },
+  "sectors": {
+    "headline": "半導体（SMH）+4.82%・情報技術+3.23%が突出し、ハイテクが売られ過ぎから反発",
+    "analysis": "上位は半導体（SMH）+4.82%、情報技術（XLK）+3.23%、エネルギー（XLE）+1.86%、資本財（XLI）+1.33%。CoreWeave決算でAIインフラ需要への不安が和らぎ、前2日間のNvidia調査報道などで売られた半導体が買い戻されたとみられる。下位は一般消費財（XLY）-0.05%で、ヘルスケア（XLV）+0.04%や不動産（XLRE）+0.02%もほぼ横ばい。SPY（+1.32%）に対しては、半導体が+3.50%ポイント上回った。",
+    "rotation": "景気敏感・ディフェンシブの対比では、ディフェンシブ（生活必需品+0.46%、公益+0.21%、ヘルスケア+0.04%）が弱く、グロース（ハイテク）に資金が戻った。1ヶ月ではヘルスケア+10.18%、生活必需品+9.42%が買われ、情報技術-11.97%、半導体-15.29%が売られていたため、今日は直近の流れの逆行（リバウンド）。流れが本当に転換したかは、金利が5%の中で続くかを見る必要がある。",
+    "outlook": "12日引け後のCiscoとApplied Materialsの決算が、半導体・AI設備投資の見方を左右する。13日のPPIが強ければ、金利上昇でハイテクの戻りが止まる可能性がある。エネルギーは原油の下落が重しになりうる。",
+    "sources": [
+      {"title": "Proactive Investors: MARKETS LIVE", "url": "https://www.proactiveinvestors.com/companies/news/1101567/markets-live-wall-street-rebounds-as-coreweave-results-and-anthropic-ipo-demand-revive-ai-optimism-1101567.html"},
+      {"title": "TheStreet: Stock Market Today (Nov. 11, 2026)", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026"}
+    ]
+  },
+  "top_news": {
+    "headline": "金利5%とAI投資・半導体の不透明感が、米株の戻りの強さを試している",
+    "items": [
+      {
+        "title": "NvidiaがCEOの調査を開始、株価急落",
+        "type": "銘柄",
+        "tickers": ["NVDA"],
+        "what": "Nvidiaの取締役会は11月8日、フアンCEOを巡る報道を受け、独立取締役の委員会と外部弁護士による調査を始めた。同社株は9日に大きく下げ、複数の報道が数ヶ月ぶりの安値圏と伝えた。",
+        "why": "時価総額が大きく、S&P500やナスダックへの寄与が大きい。CEOの去就リスク（キーパーソン・リスク）が意識されると、AI・半導体関連全体の重しになりうる。",
+        "watch": "調査の進展と取締役会の追加発表。11月中旬のNvidia決算（来週）の前に不透明感が残るか。",
+        "impact_level": "大",
+        "sources": [
+          {"title": "Nvidia shares slide as chip giant probes CEO (News Tribune)", "url": "https://www.newstribune.com/news/2026/nov/09/nvidias-shares-slide-as-chip-giant-probes-ceo-over-spy-claims/"},
+          {"title": "Nvidia stock falls amid probe into CEO (ABC7)", "url": "https://abc7news.com/story/nvidia-stock-falls-company-opens-probe-ceo-jensen-huang-alleged-affair-chinese-spy/20026775/"}
+        ]
+      },
+      {
+        "title": "10月CPIが強く、米10年債が5%に",
+        "type": "政策・規制",
+        "tickers": ["SPY", "QQQ"],
+        "what": "10日に発表された10月の米CPIは強い内容と報じられ、10年債利回りは5%に上昇、12月の利上げ観測が強まった。",
+        "why": "金利が高いほど、将来の利益で評価されるハイテク・グロース株の割引率が上がり、株式全体の重しになる。インフレ再燃は利下げ期待を後退させる。",
+        "watch": "13日のPPI（22:30）と、FRB高官（ウィリアムズ総裁ら）の発言。10年債が5%を維持するか。",
+        "impact_level": "大",
+        "sources": [
+          {"title": "Benzinga: Hot CPI Pushes 10-Year Yield to 5%", "url": "https://www.benzinga.com/markets/equities/26/11/63117496/stock-market-today-hot-cpi-treasury-yields-5-percent-nvidia-slides"},
+          {"title": "Yahoo Finance: hot CPI fuels rate hike odds", "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"}
+        ]
+      },
+      {
+        "title": "CoreWeave決算でAIインフラ株が反発",
+        "type": "銘柄",
+        "tickers": ["CRWV", "NVDA"],
+        "what": "AIクラウド事業者のCoreWeaveが11日に決算を発表し、株価は大きく上昇した。報道では、この決算をきっかけにAI投資への楽観が戻り、前2日間に売られた半導体株が買い戻されたとされる。",
+        "why": "CoreWeaveはNvidiaの大口顧客で、同社のGPU需要や資金調達の状況は、AI設備投資の採算への不安を測る指標になっている。ナスダックと半導体セクターの反発の主な材料とされた。",
+        "watch": "12日引け後のCiscoとApplied Materialsの決算（AI向け設備需要）、来週のNvidia決算。",
+        "impact_level": "中",
+        "sources": [
+          {"title": "Proactive Investors: MARKETS LIVE", "url": "https://www.proactiveinvestors.com/companies/news/1101567/markets-live-wall-street-rebounds-as-coreweave-results-and-anthropic-ipo-demand-revive-ai-optimism-1101567.html"},
+          {"title": "TheStreet: Stock Market Today (Nov. 11, 2026)", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026"}
+        ]
+      }
+    ]
+  },
+  "external_facts": [
+    {"label": "Cisco・Applied Materials決算", "value": "12日（木）米引け後", "sources": ["https://www.cmcmarkets.com/en-gb/news-and-analysis/the-week-ahead-us-germany-inflation-cisco-earnings", "https://www.mitrade.com/insights/news/live-news/article-8-2239452-20261108"]},
+    {"label": "10月PPI発表", "value": "11/13 22:30 JST", "sources": ["https://stockhub.kr/en/insights/macro-weekly-20261109", "https://www.zerohedge.com/markets/key-events-week-cpi-ppi-fed-speakers-galore-and-end-earnings-season"]}
+  ],
+  "x_sentiment": "取得できなかったため省略"
+}

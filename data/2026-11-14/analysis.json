@@ -1,0 +1,245 @@
+{
+  "report_date": "2026-11-14",
+  "us_session_covered": "2026-11-13（金）",
+  "summary": {
+    "headline": "Nvidia CEO退任の余波で半導体が急落、ナスダック-0.91%。ダウは小幅高で週間は上昇",
+    "recent_moves": [
+      "米国株は13日（金）にまちまち。NYダウは+0.10%の52,347.55ドルと小幅高、S&P500は-0.40%の7,561.67、ナスダック総合は-0.91%の25,136.27。報道では、NvidiaのCEO退任（不祥事報道）の余波で、前日までに同社から競合へ流れていた資金が巻き戻り、AMDなど半導体株が大きく売られた。",
+      "セクター別では半導体（SMH）が-2.99%、情報技術（XLK）が-2.04%と下げ、生活必需品（XLP）が+1.42%、コミュニケーション（XLC）が+1.05%、エネルギー（XLE）が+0.93%と上昇した。ハイテクからディフェンシブ・資源へ資金が回った形。",
+      "米10年債利回りは5.145%（+1.2bp）と高止まり。10月の卸売物価は市場予想を下回ったとの報道がある一方、前年比では高水準で、12月の利上げ観測が残っている（報道ベース）。",
+      "ビットコインは68,400ドル（-4.17%）と大台を割り込み、約3ヶ月ぶりの安値圏。リスク回避と米金利高が重なった。1ヶ月で-17.68%、RSIは24.92と売られ過ぎ水準。",
+      "日経平均は13日に+0.53%の61,142.35円と反発したが、200日線（62,128.62円）の手前。日経VIは34.39（-1.69）と低下したが、依然として高い水準。ドル円は159.75円で160円目前。"
+    ],
+    "outlook": [
+      "来週は17日（火）にNvidiaの決算が予定されていると報じられている。後任CEOが未定のまま迎えるため、見通し・設備投資の話と経営体制の説明が半導体全体の方向を左右しやすい。",
+      "Anthropicの新規上場が来週にも行われるとの報道がある（日程は未確認）。大型のAI関連IPOとして、需給（他のAI銘柄からの資金シフト）とAI投資への市場の評価を測る材料になりうる。",
+      "ナスダックは200日線（25,137.41）にほぼ重なっており、この水準を保てるかが目先の焦点。割り込めば、11月上旬の安値圏の再確認が意識されやすい。",
+      "米10年債利回りが5%台で推移する間は、グロース株の上値が重くなりやすい。12月の利上げ観測が強まるか後退するかが、ハイテク株の戻りの条件になる。"
+    ],
+    "watch_points": [
+      "ナスダック総合の200日線（25,137.41）の維持",
+      "米10年債利回りの5.145%（52週高値は5.365%）",
+      "ドル円160円台での日本当局の動き（為替介入への警戒）",
+      "ビットコイン68,400ドルの定着（52週安値57,734.63ドルまでの余地）"
+    ],
+    "events": [
+      {"time_jst": "11/17（火）", "event": "Nvidia決算（後任CEO未定のまま。報道ベース、時刻は要確認）", "importance": "高"},
+      {"time_jst": "11/17（火）", "event": "Home Depot決算（報道ベース）", "importance": "中"},
+      {"time_jst": "来週前半", "event": "Anthropic新規上場（Nasdaq。日程は未確認）", "importance": "高"},
+      {"time_jst": "11/18（水）", "event": "Target決算（報道ベース）", "importance": "中"},
+      {"time_jst": "11/19（木）", "event": "Walmart決算（報道ベース）", "importance": "中"},
+      {"time_jst": "今週", "event": "FRB関係者の発言（12月の利上げ観測との関係）", "importance": "中"}
+    ],
+    "overview_message": "米国株はNvidia問題で半導体が崩れナスダックが下落、ダウは小幅高。ビットコインは70,000ドルを割り込み、日本株は反発した。"
+  },
+  "instruments": {
+    "nikkei225": {
+      "headline": "61,142.35円と反発したが、200日線の手前で戻りは重い",
+      "analysis": "13日は+0.53%の61,142.35円。報道ではSoftBankグループが下げ、アドバンテストは上げた。チャートでは10月高値から下落した後、11月上旬に安値を付けて戻している途上で、200日線（62,128.62円）と50日線（64,726.04円）の下にある。RSIは42.98と中立からやや弱い。",
+      "us_impact_level": "小",
+      "us_impact": "日本株は米国株の動きを追う側で、米国株への影響は限定的。ただ、日本の半導体関連（SoftBankなど）の動きはNvidia問題の広がりを測る材料になる。",
+      "sources": [
+        {"title": "Nikkei 225 closes 0.53 percent higher at 61,142.35", "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/nikkei-225-closes-0-53-percent-higher-at-61-142-35/70504509"},
+        {"title": "Nikkei 225 falls 0.70% to 60,819.36 as Nvidia concerns weigh on AI stocks", "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/nikkei-225-falls-0-70-prozent-to-60-819-36-as-nvidia-concerns-weigh-on-ai-stocks/70497603"}
+      ]
+    },
+    "jpx400": {
+      "headline": "+0.08%の35,760.98円とほぼ横ばい。日経平均より底堅い",
+      "analysis": "JPX日経400は+0.08%の35,760.98円。50日線（36,413.10円）の下だが200日線（35,276.16円）の上にあり、日経平均よりも下げ幅が小さい。半導体への偏りが小さいため、AI関連の揺れの影響を受けにくい。",
+      "us_impact_level": "なし",
+      "us_impact": "米国株への影響は限定的。日本の広い銘柄群の動きで、米国のセクター動向とは直接つながらない。",
+      "sources": [
+        {"title": "Nikkei 225 closes 0.53 percent higher at 61,142.35", "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/nikkei-225-closes-0-53-percent-higher-at-61-142-35/70504509"},
+        {"title": "Japan's Nikkei posts best week in 5 months despite Nvidia turmoil", "url": "https://rallies.ai/news/japans-nikkei-posts-best-week-in-5-months-despite-nvidia-turmoil-113356cfcc670d99"}
+      ]
+    },
+    "growth250": {
+      "headline": "-0.21%の728.12と弱く、金利高が新興株の重し",
+      "analysis": "東証グロース250は-0.21%の728.12。50日線（779.37）を下回り、1ヶ月で-8.61%と弱い。長期金利の上昇局面で新興・グロース株が売られやすい構図が続く。",
+      "us_impact_level": "なし",
+      "us_impact": "米国株への影響は限定的。日本の小型グロース株の動きで、米国市場への波及経路は乏しい。",
+      "sources": [
+        {"title": "Nikkei 225 closes 0.53 percent higher at 61,142.35", "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/nikkei-225-closes-0-53-percent-higher-at-61-142-35/70504509"},
+        {"title": "Japan's Nikkei posts best week in 5 months despite Nvidia turmoil", "url": "https://rallies.ai/news/japans-nikkei-posts-best-week-in-5-months-despite-nvidia-turmoil-113356cfcc670d99"}
+      ]
+    },
+    "nk_futures": {
+      "headline": "61,000円で-0.25%。米国のハイテク安を織り込み始めている",
+      "analysis": "日経225先物は-0.25%の61,000円。現物より弱く、米国のナスダック下落（Nvidia問題）を受けた動き。週間では+5.92%と大きく戻しているが、200日線（62,234.45円）には届いていない。",
+      "us_impact_level": "小",
+      "us_impact": "先物は米国市場の影響を反映する側。米国株への影響は限定的だが、来週月曜の日本株の出足を占う材料になる。",
+      "sources": [
+        {"title": "Nikkei Falls 429 Points as Nvidia Turmoil Rattles Tokyo Stocks", "url": "https://newsonjapan.com/article/151344.php"},
+        {"title": "Nikkei 225 closes 0.53 percent higher at 61,142.35", "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/nikkei-225-closes-0-53-percent-higher-at-61-142-35/70504509"}
+      ]
+    },
+    "nikkei_vi": {
+      "headline": "34.39に低下したが、平常時より高い警戒水準が続く",
+      "analysis": "日経VIは34.39（-1.69）。52週の高値66.65、安値18.77の中では中間よりやや高い位置。株価が反発して低下したが、Nvidia問題とAI関連の不安定さから、先行き不透明感は残っている。水準の評価は一般的な目安（30台は警戒域）による推測。",
+      "us_impact_level": "小",
+      "us_impact": "米国株への直接の影響は限定的。日本の投資家心理の指標として、世界的なリスク回避の度合いを測る参考になる。",
+      "sources": [
+        {"title": "Nikkei 225 closes 0.53 percent higher at 61,142.35", "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/nikkei-225-closes-0-53-percent-higher-at-61-142-35/70504509"},
+        {"title": "Japan's Nikkei posts best week in 5 months despite Nvidia turmoil", "url": "https://rallies.ai/news/japans-nikkei-posts-best-week-in-5-months-despite-nvidia-turmoil-113356cfcc670d99"}
+      ]
+    },
+    "usdjpy": {
+      "headline": "159.75円で160円目前。介入警戒がくすぶる",
+      "analysis": "ドル円は159.75円（-0.05%）とほぼ横ばい。米金利が高く円安方向が続き、チャートは50日線（157.41円）と200日線（158.71円）の上。52週高値163.99円からは離れている。報道では、160円付近で日本当局の為替介入への警戒が出ている。",
+      "us_impact_level": "小",
+      "us_impact": "急な介入があれば円高とともに日本株が下げ、米国株には金利・リスク回避経由で小さく波及しうる。現時点の米国株への影響は限定的。",
+      "sources": [
+        {"title": "Japan Markets Brace for Possible Currency Intervention", "url": "https://newsonjapan.com/article/151361.php"},
+        {"title": "Nikkei 225 closes 0.53 percent higher at 61,142.35", "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/nikkei-225-closes-0-53-percent-higher-at-61-142-35/70504509"}
+      ]
+    },
+    "dow": {
+      "headline": "ダウは+0.10%で小幅高。半導体の比重が小さく下支えされた",
+      "analysis": "NYダウは+0.10%の52,347.55ドル。週間では+2.48%。チャートでは50日線（51,973.87ドル）の上で、52週高値54,744.33ドルを下回る位置。ナスダックが下げる中でも、ディフェンシブ・金融・エネルギー株が支えた。",
+      "us_impact_level": "中",
+      "us_impact": "ダウは半導体の影響を受けにくく、ハイテクから他業種への資金移動が起きていることを示す。指数ごとの強弱差が広がりつつある点に注意。",
+      "sources": [
+        {"title": "Stock market today: Dow rises, S&P 500 and Nasdaq slip", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html"},
+        {"title": "Nasdaq falls on Friday as Nvidia sells off (CNBC)", "url": "https://cnbc.com/2026/11/12/stock-market-today-live-updates.html"}
+      ]
+    },
+    "nasdaq": {
+      "headline": "ナスダックは-0.91%。Nvidia問題で半導体が崩れ、200日線にほぼ重なる",
+      "analysis": "ナスダック総合は-0.91%の25,136.27。報道では、NvidiaのCEO退任を受けて、前日までに同社から競合へ移っていた資金が巻き戻り、AMD、Broadcom、Micronなどが売られた。チャートでは200日線（25,137.41）にほぼ重なり、50日線（26,350.07）を大きく下回る。1ヶ月で-7.01%、週間では+2.17%。",
+      "us_impact_level": "大",
+      "us_impact": "米国株の最大の不安材料はNvidiaの経営体制とAI投資の持続性。200日線を割ると、11月上旬の安値圏が再び意識される可能性がある。17日のNvidia決算が次の分岐点。",
+      "sources": [
+        {"title": "Stock market today: Dow rises, S&P 500 and Nasdaq slip", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html"},
+        {"title": "Nasdaq falls on Friday as Nvidia sells off (CNBC)", "url": "https://cnbc.com/2026/11/12/stock-market-today-live-updates.html"}
+      ]
+    },
+    "sp500": {
+      "headline": "S&P500は-0.40%の7,561.67。週間ではプラスを維持",
+      "analysis": "S&P500は-0.40%の7,561.67。週間は+2.49%で、1ヶ月では-2.73%。50日線（7,667.46）を下回るが200日線（7,340.32）の上にあり、中期の上昇基調は崩れていない。ハイテクの下落をディフェンシブ株が部分的に相殺した。",
+      "us_impact_level": "中",
+      "us_impact": "指数全体は踏みとどまっているが、時価総額上位の半導体の動揺が続くと指数を押し下げやすい。ローテーションが続く限り、下げ幅は限定されやすいという見方もできる。",
+      "sources": [
+        {"title": "Stock market today: Dow rises, S&P 500 and Nasdaq slip", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html"},
+        {"title": "Nasdaq falls on Friday as Nvidia sells off (CNBC)", "url": "https://cnbc.com/2026/11/12/stock-market-today-live-updates.html"}
+      ]
+    },
+    "btc": {
+      "headline": "ビットコインは68,400ドルで約3ヶ月ぶりの安値圏。大台を割った",
+      "analysis": "ビットコインは-4.17%の68,400ドル。1週間で-9.98%、1ヶ月で-17.68%。チャートでは50日線・200日線を割り、RSIは24.92と売られ過ぎ。報道では、米金利高とリスク回避、暗号資産関連株の下落が重なった。52週安値57,734.63ドルまでは距離がある。",
+      "us_impact_level": "小",
+      "us_impact": "Coinbase、Robinhood、Strategyなど暗号資産関連株には逆風。指数全体への影響は小さいが、リスク資産全体の投資家心理の悪化を映す。",
+      "sources": [
+        {"title": "Stock market today: Dow rises, S&P 500 and Nasdaq slip", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html"},
+        {"title": "Bitcoin slides below $74,000 after hotter-than-expected CPI", "url": "https://theblock.co/news/markets/2026-11-10-bitcoin-price-cpi-inflation-73000-support-437301"}
+      ]
+    },
+    "wti": {
+      "headline": "WTIは88.97ドルでほぼ横ばい。エネルギー株の支えに",
+      "analysis": "WTIは+0.26%の88.97ドルと小動き。週間は-2.45%だが年初来では+54.97%と高水準で、52週高値119.48ドルからは下げた位置にある。200日線（87.53ドル）付近で推移している。",
+      "us_impact_level": "中",
+      "us_impact": "原油高は物価を通じて利上げ観測を支え、ハイテク株の重しになる一方、エネルギー株（XLEは+0.93%）には追い風。価格が200日線を保つかが注目点。",
+      "sources": [
+        {"title": "Stock market today: Dow rises, S&P 500 and Nasdaq slip", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html"},
+        {"title": "Nasdaq falls on Friday as Nvidia sells off (CNBC)", "url": "https://cnbc.com/2026/11/12/stock-market-today-live-updates.html"}
+      ]
+    },
+    "gold": {
+      "headline": "金は3,875.63ドルで横ばい。52週安値に接近",
+      "analysis": "金は-0.02%の3,875.63ドル。週間で-5.20%、年初来で-10.25%と下落が続き、52週安値3,852.62ドルまで近い。50日線（4,154.73ドル）、200日線（4,449.79ドル）を大きく下回る。高金利と強い米金利が重し。",
+      "us_impact_level": "小",
+      "us_impact": "金の下落は実質金利の高さを映す。米国株への影響は限定的だが、安値を割ると債券・ドル高の流れが強まっているサインとして意識されうる。",
+      "sources": [
+        {"title": "Stock market today: Dow rises, S&P 500 and Nasdaq slip", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html"},
+        {"title": "Nasdaq falls on Friday as Nvidia sells off (CNBC)", "url": "https://cnbc.com/2026/11/12/stock-market-today-live-updates.html"}
+      ]
+    },
+    "platinum": {
+      "headline": "プラチナは-1.77%の1,493.88ドルと軟調",
+      "analysis": "プラチナは-1.77%の1,493.88ドル。1ヶ月で-10.31%、年初来で-28.63%と弱く、52週安値1,392.07ドルに近づいている。工業用需要の見通し悪化と貴金属全体の弱さが背景とみられる（推測）。",
+      "us_impact_level": "なし",
+      "us_impact": "米国株への影響は限定的。素材セクターの一部材料にとどまる。",
+      "sources": [
+        {"title": "Stock market today: Dow rises, S&P 500 and Nasdaq slip", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html"},
+        {"title": "Nasdaq falls on Friday as Nvidia sells off (CNBC)", "url": "https://cnbc.com/2026/11/12/stock-market-today-live-updates.html"}
+      ]
+    },
+    "jgb10y": {
+      "headline": "日本の10年債利回りは2.859%に上昇（+5.4bp）",
+      "analysis": "日本の10年債利回りは2.859%で+5.4bpと上昇。年初来で+37.98%、52週高値3.135%には届いていない。米金利高に連動した動きとみられ、日本の長期金利は高い水準で推移している。",
+      "us_impact_level": "小",
+      "us_impact": "日本の金利上昇は円高要因になりうるが、ドル円は159.75円と高止まり。米国株への影響は限定的で、日米金利差の変化が為替経由で効く可能性にとどまる。",
+      "sources": [
+        {"title": "Japan Markets Brace for Possible Currency Intervention", "url": "https://newsonjapan.com/article/151361.php"},
+        {"title": "Nikkei 225 closes 0.53 percent higher at 61,142.35", "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/nikkei-225-closes-0-53-percent-higher-at-61-142-35/70504509"}
+      ]
+    },
+    "ust10y": {
+      "headline": "米10年債利回りは5.145%と高止まり。株の上値を抑える",
+      "analysis": "米10年債利回りは5.145%（+1.2bp）。52週高値5.365%に近く、年初来で+22.76%。報道では、10月の卸売物価は市場予想を下回ったが前年比では高水準で、12月の利上げ観測が残っている。",
+      "us_impact_level": "大",
+      "us_impact": "利回りが5%を超える水準が続くと、割高なグロース株・半導体の評価が重くなりやすい。ナスダックが200日線で踏みとどまれるかは、金利の動きに左右されやすい。",
+      "sources": [
+        {"title": "Stock market today: Dow rises, S&P 500 and Nasdaq slip", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html"},
+        {"title": "Nasdaq Falls as Nvidia Selloff Continues Despite Cooler Inflation", "url": "https://tipranks.com/news/nasdaq-falls-as-nvidia-selloff-continues-despite-cooler-inflation"}
+      ]
+    }
+  },
+  "sectors": {
+    "headline": "半導体・情報技術が売られ、生活必需品・コミュニケーション・エネルギーが買われた",
+    "analysis": "半導体（SMH）が-2.99%、情報技術（XLK）が-2.04%と下落率が大きかった。報道では、Nvidia CEOの退任を受けて、これまで同社の競合に向かっていた資金が巻き戻り、AMDやBroadcomなどが売られた。一方、生活必需品（XLP）が+1.42%、コミュニケーション（XLC）が+1.05%、エネルギー（XLE）が+0.93%、金融（XLF）が+0.81%と上昇し、ヘルスケア（XLV）も+0.54%と堅調だった。",
+    "rotation": "ハイテクからディフェンシブ・資源・金融への資金移動が目立つ。1ヶ月ではXLKが-12.25%、SMHが-15.57%と大きく売られ、XLVが+10.48%、XLPが+8.90%、XLFが+8.27%と買われており、流れは1ヶ月来の延長線上にある。1週間ではXLCが+5.17%、XLEが+5.78%と戻しており、一時的な反発ではなく循環物色が続いている可能性がある。",
+    "outlook": "次に注目するのは17日のNvidia決算と、Anthropicの新規上場（報道ベース）。AI関連の投資姿勢が確認できれば半導体が戻る余地があり、逆なら資金移動が加速する。あわせて、米10年債利回りの5%台での推移がグロース株の戻りを左右する。",
+    "sources": [
+      {"title": "Stock market today: Dow rises, S&P 500 and Nasdaq slip", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html"},
+      {"title": "Why Advanced Micro Devices Stock Is Down Today", "url": "https://fool.com/investing/2026/11/13/why-advanced-micro-devices-is-down-today"}
+    ]
+  },
+  "top_news": {
+    "headline": "NvidiaのCEO退任と経営体制への不安が、AIインフラ関連株全体の重しに",
+    "items": [
+      {
+        "title": "NvidiaのCEO退任とAI関連の連鎖安",
+        "type": "銘柄",
+        "tickers": ["NVDA", "AMD", "AVGO", "MU"],
+        "what": "報道によると、NvidiaのジェンスンCEOが不祥事報道を受けて退任し、CFOが暫定CEOを務める。同社株は今週大きく下げ、13日はAMD、Broadcom、Micronなど競合・関連株も大きく売られた。",
+        "why": "Nvidiaは指数への寄与が最大級で、AI投資の中心。同社の揺らぎはデータセンター、メモリ、光通信、ネオクラウドまで波及しており、ナスダックの下げ要因になっている。",
+        "watch": "17日の決算と後任CEOの人事、ガイダンスの内容。",
+        "impact_level": "大",
+        "sources": [
+          {"title": "Stock market today: Dow rises, S&P 500 and Nasdaq slip", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html"},
+          {"title": "Why Advanced Micro Devices Stock Is Down Today", "url": "https://fool.com/investing/2026/11/13/why-advanced-micro-devices-is-down-today"}
+        ]
+      },
+      {
+        "title": "AMDなどへ資金移動の巻き戻し",
+        "type": "業界",
+        "tickers": ["AMD", "CRWV", "NBIS"],
+        "what": "報道では、今週Nvidiaから競合へ移っていた資金が13日に巻き戻され、AMDは日中に大きく下落した。ネオクラウド（CoreWeave、Nebius）や光通信関連も下げた。",
+        "why": "「Nvidiaの代替」として買われていた銘柄の評価が崩れると、半導体指数全体と、AI設備投資に依存する関連業種に連鎖しやすい。",
+        "watch": "半導体指数が下げ止まるか、競合各社の決算とAI投資計画の発言。",
+        "impact_level": "大",
+        "sources": [
+          {"title": "AMD Sinks as Chip Rally Unwinds (TradingView News)", "url": "https://www.tradingview.com/news/benzinga:3c85d0745094b:0-amd-sinks-10-5-as-chip-rally-unwinds-nasdaq-100-falls-1-7-stock-market-today/"},
+          {"title": "Why Advanced Micro Devices Stock Is Down Today", "url": "https://fool.com/investing/2026/11/13/why-advanced-micro-devices-is-down-today"}
+        ]
+      },
+      {
+        "title": "Anthropic上場前のAI関連の需給懸念",
+        "type": "業界",
+        "tickers": ["ANT"],
+        "what": "報道では、Anthropicが新規上場に向けた投資家説明を進めており、来週にも価格決定・上場に進む可能性がある（日程は未確認）。",
+        "why": "大型のAI関連IPOは、投資家の資金をほかのAI銘柄から吸い上げる可能性があり、半導体株の揺れと重なると需給面の重しになりうる（推測）。",
+        "watch": "公式の価格決定日、公募価格帯、初日の値動き。",
+        "impact_level": "中",
+        "sources": [
+          {"title": "Stock market today: Dow rises, S&P 500 and Nasdaq slip", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html"},
+          {"title": "Anthropic could start IPO roadshow, debut before Thanksgiving", "url": "https://www.implicator.ai/anthropic-could-start-ipo-roadshow-week-of-nov-9-putting-debut-before-thanksgiving/"}
+        ]
+      }
+    ]
+  },
+  "external_facts": [
+    {"label": "Nvidia決算予定", "value": "11/17（火）", "sources": ["https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html", "https://www.regardsofwallstreet.com/newsletter/2026-11-08-week-ahead"]}
+  ],
+  "x_sentiment": "取得できなかったため省略。"
+}

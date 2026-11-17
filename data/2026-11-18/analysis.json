@@ -1,0 +1,310 @@
+{
+ "report_date": "2026-11-18",
+ "us_session_covered": "2026-11-17（火）",
+ "summary": {
+  "headline": "米株は全面安、ダウ-1.64%。AI・半導体不安とNVIDIA決算待ちで警戒",
+  "recent_moves": [
+   "米国株は広く下落。ダウは-1.64%の50,759.42ドル、S&P500は-1.03%の7,340.53、ナスダックは-0.74%の24,328.38。ダウは場中にさらに大きく下げる場面があった（CNBC）",
+   "背景はAI関連株への不安、NSA通信網の障害報道、FRB高官のタカ派発言が重なったこと。AI・ネオクラウド銘柄が特に売られたとされる",
+   "11セクターはすべて下落。金融は-1.89%で下落率最大、公益-1.59%、ヘルスケア-1.41%と、守りのセクターも売られ、逃げ場の乏しい下げだった",
+   "日本株も下落。日経平均は-1.34%の58,860.43円、グロース250は-3.49%、日経VIは38.59へ上昇",
+   "ビットコインは1週間で-14.98%の63,985.23ドル、RSIは22.9と売られすぎ水準。金は1週間で-7.05%、プラチナも-9.65%と貴金属も軟調"
+  ],
+  "outlook": [
+   "NVIDIAの決算（米国時間11/17引け後）への反応が、半導体・AI関連株の方向を左右しやすい。CEO交代後の初の決算で、ガイダンスと経営体制の説明が焦点",
+   "S&P500は200日線（7,345付近）の目前で引けた。終値で明確に割り込むか、持ちこたえるかが目先の焦点",
+   "米10年債利回りは5.101%と高水準。FRB高官のタカ派姿勢が続けば、株の戻りは抑えられやすい",
+   "Anthropicの新規上場（11/18に価格決定、11/19にNasdaqで取引開始と報じられている）は、AI関連の需給・センチメントを測る材料になりうる（日程は未確認情報を含む）"
+  ],
+  "watch_points": [
+   "S&P500の200日線（7,345付近）",
+   "ダウのSMA200（50,776付近）",
+   "米10年債利回り5%台の定着",
+   "日経225の直近安値圏（チャート上の支持線）"
+  ],
+  "events": [
+   {
+    "time_jst": "11/18 early",
+    "event": "NVIDIA 2026年度第3四半期決算（米国時間11/17引け後）への市場反応",
+    "importance": "高"
+   },
+   {
+    "time_jst": "11/18",
+    "event": "米国の取引時間中にAnthropicのIPO価格決定（報道ベース）",
+    "importance": "中"
+   },
+   {
+    "time_jst": "11/19",
+    "event": "Anthropic（ANT）のNasdaq取引開始予定（報道ベース）",
+    "importance": "中"
+   },
+   {
+    "time_jst": "今週",
+    "event": "FRB高官の発言（日程は要確認）",
+    "importance": "高"
+   }
+  ],
+  "overview_message": "AI・半導体への不安と高金利が重なり、米株は全セクター安。日本株・暗号資産・貴金属にも売りが波及した。"
+ },
+ "instruments": {
+  "nikkei225": {
+   "headline": "日経平均は-1.34%の58,860.43円、SMA200を下回って推移",
+   "analysis": "前日比-801.59円の58,860.43円。SMA50（64,446円）とSMA200（62,192円）をともに下回り、1か月は-9.34%。チャートでは10月の高値圏から急落し、11月上旬の安値付近から戻りきれていない。RSIは36.4で売られすぎに近い。個別の材料は今回の調査では裏付けが取れなかった。",
+   "us_impact_level": "中",
+   "us_impact": "日本株安は米国のAI・半導体株の調整と連動した動きとみられる（推測）。米国株への直接の影響は限定的だが、世界的なリスク回避の度合いを映す。",
+   "sources": []
+  },
+  "jpx400": {
+   "headline": "JPX日経400は-1.52%、日経平均と同程度の下げ",
+   "analysis": "34,925.15円で前日比-539.06円。SMA50（36,319円）、SMA200（35,303円）をともに下回った。1か月は-4.36%で、日経平均（-9.34%）より下落は浅い。",
+   "us_impact_level": "小",
+   "us_impact": "米国株への影響は限定的。日本株内の広い売りを示す参考指標。",
+   "sources": []
+  },
+  "growth250": {
+   "headline": "グロース250は-3.49%と主要指数で最大級の下落",
+   "analysis": "688.39で前日比-24.91。1週間は-6.05%、1か月は-10.02%。SMA50（775）とSMA200（754）を大きく下回り、RSIは33.8。金利高とナスダックの軟調が新興成長株の重しになったとみられる（推測）。",
+   "us_impact_level": "小",
+   "us_impact": "米国株への影響は限定的。国内のリスク選好の低下を示す温度計。",
+   "sources": []
+  },
+  "nk_futures": {
+   "headline": "日経225先物は58,890円、ほぼ横ばい",
+   "analysis": "58,890円で前日比-10円。1週間は-2.24%、1か月は-10.23%で、現物より弱い。SMA50（64,445円）から大きく下に離れ、下落基調が続く。",
+   "us_impact_level": "小",
+   "us_impact": "先物は米国時間の動きを織り込みつつ推移する。米国株への影響は限定的だが、翌営業日の日本株の地合いを映す。",
+   "sources": []
+  },
+  "nikkei_vi": {
+   "headline": "日経VIは38.59へ上昇、警戒感が一段と高まる",
+   "analysis": "日経公式値で38.59（+3.49、+9.94%）、基準日は2026-11-17。前日の35台から上昇し、株価の大きな振れを織り込む水準。",
+   "us_impact_level": "中",
+   "us_impact": "日本株の不安心理の高まりを示す。米VIXの上昇（CNBCは場中に27台まで上昇と報道）と合わせて、世界的なリスク回避の強まりを映す。",
+   "sources": [
+    {
+     "title": "CNBC: Stock market today (2026-11-17)",
+     "url": "https://www.cnbc.com/2026/11/16/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "AP via BNN Bloomberg: Wall Street shakes again as Nvidia and other jittery AI stocks swing lower",
+     "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/11/17/world-markets-mostly-drop-as-ai-stocks-remain-under-pressure/"
+    }
+   ]
+  },
+  "usdjpy": {
+   "headline": "ドル円は159.31円、159円台で小動き",
+   "analysis": "159.314円で前日比-0.107円。SMA50（157.6円）を上回り、SMA200（158.8円）近辺。1週間は+0.90%。RSIは58.0で中立圏。",
+   "us_impact_level": "中",
+   "us_impact": "159円台は為替介入への警戒が意識されやすい水準（推測）。急な円高はキャリー取引の巻き戻しを通じ、米株の重しになりうる。",
+   "sources": []
+  },
+  "dow": {
+   "headline": "ダウは-1.64%の50,759.42ドル、場中はさらに深く下げた",
+   "analysis": "前日比-848.75ドルの50,759.42ドル。SMA200（50,776ドル）の目前で引け、SMA50（51,897ドル）は下回る。1週間は-2.69%。CNBCによれば場中の下げは一時さらに大きかった。NSA通信網の障害報道やFRB高官のタカ派発言、ホーム・デポの軟調な見通しなどが重なった。",
+   "us_impact_level": "大",
+   "us_impact": "ダウ構成銘柄にも売りが広がり、景気敏感・ディフェンシブを問わず売られた。200日線を終値で割るかが次の焦点。",
+   "sources": [
+    {
+     "title": "CNBC: Stock market today (2026-11-17)",
+     "url": "https://www.cnbc.com/2026/11/16/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "Kiplinger: Dow Dives 848 Points as NSA Outage Wrecks Tech",
+     "url": "https://www.kiplinger.com/investing/stocks/dow-dives-848-points-as-nsa-outage-wrecks-tech-stock-market-today"
+    }
+   ]
+  },
+  "nasdaq": {
+   "headline": "ナスダックは-0.74%、場中の下げはより大きかった",
+   "analysis": "前日比-181.37の24,328.38。SMA50（26,268）とSMA200（25,146）を大きく下回り、1か月は-8.72%。CNBCによると場中は約2%下げ4月以来の安値圏まで売られたが、引けにかけて下げ幅を縮めた。RSIは35.7。",
+   "us_impact_level": "大",
+   "us_impact": "AI・半導体への不安が指数を押し下げる構図が続く。引けにかけての戻りは下値での買いを示すが、NVIDIA決算次第で振れが大きくなりやすい。",
+   "sources": [
+    {
+     "title": "CNBC: Stock market today (2026-11-17)",
+     "url": "https://www.cnbc.com/2026/11/16/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "AP via BNN Bloomberg: Wall Street shakes again as Nvidia and other jittery AI stocks swing lower",
+     "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/11/17/world-markets-mostly-drop-as-ai-stocks-remain-under-pressure/"
+    }
+   ]
+  },
+  "sp500": {
+   "headline": "S&P500は-1.03%の7,340.53、200日線の目前で引け",
+   "analysis": "前日比-76.06の7,340.53。SMA200（7,344.5）とほぼ同水準で、CNBCによれば7月下旬以来の安値引け。SMA50（7,655）を下回り、1か月は-5.23%。チャートでは9〜10月のレンジを下抜けた形。",
+   "us_impact_level": "大",
+   "us_impact": "200日線を終値で明確に割り込むと、テクニカル面の売りが出やすい（推測）。一方で下値は拾われやすい水準でもあり、方向感を探る局面。",
+   "sources": [
+    {
+     "title": "CNBC: Stock market today (2026-11-17)",
+     "url": "https://www.cnbc.com/2026/11/16/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "Kiplinger: Dow Dives 848 Points as NSA Outage Wrecks Tech",
+     "url": "https://www.kiplinger.com/investing/stocks/dow-dives-848-points-as-nsa-outage-wrecks-tech-stock-market-today"
+    }
+   ]
+  },
+  "btc": {
+   "headline": "ビットコインは63,985.23ドル、1週間で-14.98%と急落",
+   "analysis": "前日比-836.67ドルの63,985.23ドル。SMA50（78,975）、SMA200（72,794）を大きく下回り、年初来は-26.87%。RSIは22.9と売られすぎ水準。報道ではドル高とFRBの利上げ観測、ハイテク株安との連動が指摘されている。",
+   "us_impact_level": "中",
+   "us_impact": "ハイテク株とのリスク資産としての連動が強まっている。暗号資産関連株や個人投資家のセンチメントには逆風。",
+   "sources": [
+    {
+     "title": "Motley Fool: Why Bitcoin Is Falling Today (2026-11-13)",
+     "url": "https://www.fool.com/investing/2026/11/13/why-bitcoin-is-falling-today/"
+    }
+   ]
+  },
+  "wti": {
+   "headline": "WTIは85.69ドル、ほぼ横ばいで1か月は-10.87%",
+   "analysis": "85.69ドルで前日比-0.03ドル。SMA50（94.6ドル）を下回り、SMA200（87.7ドル）も割り込んでいる。年初来は+49.26%と高水準が続く。",
+   "us_impact_level": "中",
+   "us_impact": "原油の高止まりは物価とFRBの姿勢を通じて株の重しになりうる。今日の動き自体は小さく、直接の影響は限定的。",
+   "sources": []
+  },
+  "gold": {
+   "headline": "金は3,848.97ドル、1週間で-7.05%と下落基調",
+   "analysis": "前日比-7.43ドルの3,848.97ドル。SMA50（4,133ドル）、SMA200（4,441ドル）を大きく下回り、年初来は-10.87%。RSIは35.8。高金利とドル高が重しとみられる（推測）。",
+   "us_impact_level": "小",
+   "us_impact": "株安局面でも金が買われていない点は、金利高が資産全般の重しになっていることを示唆する。米国株への直接の影響は限定的。",
+   "sources": []
+  },
+  "platinum": {
+   "headline": "プラチナは1,422.48ドル、1週間で-9.65%と金より弱い",
+   "analysis": "前日比-26.42ドルの1,422.48ドル。SMA50（1,639ドル）、SMA200（1,829ドル）を下回り、年初来は-32.05%。景気敏感な工業需要への懸念も反映している可能性がある（推測）。",
+   "us_impact_level": "小",
+   "us_impact": "米国株への影響は限定的。景気見通しの慎重さを映す参考指標。",
+   "sources": []
+  },
+  "jgb10y": {
+   "headline": "日本10年債利回りは2.864%、前日比-2.4bp",
+   "analysis": "利回り2.864%で前日比-2.4bp。1週間では上昇しており、年初来でも大きく上昇した水準にある。",
+   "us_impact_level": "小",
+   "us_impact": "日本の長期金利の高止まりは、円資金の動きを通じて米債・米株に影響しうるが、今日の変動は小さく影響は限定的。",
+   "sources": []
+  },
+  "ust10y": {
+   "headline": "米10年債利回りは5.101%、前日比-2.8bp",
+   "analysis": "利回り5.101%で前日比-2.8bp。1週間は上昇、年初来でも大幅に上昇した水準。株安でも金利は5%台にとどまった。FRB高官がタカ派的な発言をしたと報じられている。",
+   "us_impact_level": "大",
+   "us_impact": "5%台の長期金利はグロース株のバリュエーションを圧迫する。利上げ観測が続く限り、株式の戻りは抑えられやすい。",
+   "sources": [
+    {
+     "title": "CNBC: Stock market today (2026-11-17)",
+     "url": "https://www.cnbc.com/2026/11/16/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "AP via BNN Bloomberg: Wall Street shakes again as Nvidia and other jittery AI stocks swing lower",
+     "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/11/17/world-markets-mostly-drop-as-ai-stocks-remain-under-pressure/"
+    }
+   ]
+  }
+ },
+ "sectors": {
+  "headline": "11セクターがすべて下落、守りのセクターも売られ資金の逃げ場が乏しかった",
+  "analysis": "S&P500比で相対的に強かったのは半導体SMH（-0.39%）、情報技術XLK（-0.91%）、エネルギーXLE（-0.52%）、資本財XLI（-0.55%）で、指数の下げ幅より小さかった。最も弱かったのは金融XLF（-1.89%）、公益XLU（-1.59%）、コミュニケーションXLC（-1.46%）、不動産XLRE（-1.49%）。ナスダックの下げが浅かった一方で、ダウ構成銘柄や金融が売られた形で、ハイテク以外にも売りが広がった。背景には、FRB高官のタカ派発言による金利懸念、NSA通信網障害の報道、半導体大手NVIDIAの決算前の警戒があるとされる。",
+  "rotation": "景気敏感株もディフェンシブも下落し、典型的なローテーションは見られなかった。1か月では半導体SMHが-16.54%、情報技術XLKが-13.29%と大きく売られた一方、生活必需品XLP（+4.72%）、ヘルスケアXLV（+3.95%）、公益XLU（+3.70%）は上昇しており、グロースから守りへの流れが続いている。今日はその守りも下げた点が、リスク回避の広がりを示す。",
+  "outlook": "最大の注目はNVIDIAの決算で、半導体SMHと情報技術XLKの反応が指数を左右しやすい。金融XLFは金利とFRB高官の発言に敏感。エネルギーXLEは原油が高値圏で推移し、1週間で+4.09%と相対的に堅い。",
+  "sources": [
+   {
+    "title": "CNBC: Stock market today (2026-11-17)",
+    "url": "https://www.cnbc.com/2026/11/16/stock-market-today-live-updates.html"
+   },
+   {
+    "title": "AP via BNN Bloomberg: Wall Street shakes again as Nvidia and other jittery AI stocks swing lower",
+    "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/11/17/world-markets-mostly-drop-as-ai-stocks-remain-under-pressure/"
+   }
+  ]
+ },
+ "top_news": {
+  "headline": "AIの主役NVIDIAの経営不透明感と決算、AI大型上場が米株の焦点に",
+  "items": [
+   {
+    "title": "NVIDIA決算とCEO交代の不透明感",
+    "type": "銘柄",
+    "tickers": [
+     "NVDA"
+    ],
+    "what": "NVIDIAは11/12にジェンスン・フアン氏のCEO辞任を発表し、CFOのコレット・クレス氏が暫定CEOに就いた。取締役会は同氏の行動に関する独立調査を始めた。2026年度第3四半期の決算は米国時間11/17の引け後に予定されている。",
+    "why": "NVIDIAは時価総額が大きく、S&P500とナスダックへの寄与が大きい。AI向け設備投資の受け手でもあり、決算とガイダンスは半導体・クラウド・電力関連まで波及する。",
+    "watch": "決算後の時間外の反応、暫定体制での受注・供給の見通しとガイダンス、調査の進展。",
+    "impact_level": "大",
+    "sources": [
+     {
+      "title": "Nvidia Form 8-K (CEO transition)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
+     },
+     {
+      "title": "SF Standard: Nvidia CEO Jensen Huang resigns",
+      "url": "https://sfstandard.com/2026/11/12/nvidia-ceo-jensen-huang-resigns/"
+     },
+     {
+      "title": "TheNextWeb: Jensen Huang resigns as Nvidia CEO",
+      "url": "https://thenextweb.com/news/jensen-huang-resigns-as-nvidia-ceo-after-33-years-effective-immediately"
+     }
+    ]
+   },
+   {
+    "title": "FRB高官のタカ派発言と長期金利",
+    "type": "政策・規制",
+    "tickers": [
+     "SPY",
+     "XLF"
+    ],
+    "what": "CNBCによると、セントルイス連銀のムサレム総裁が、2027年春までに複数回の利上げが必要になりうるとの見方を示した。米10年債利回りは5%台にとどまっている。",
+    "why": "利上げ観測は、将来の利益に依存するグロース株や高バリュエーション株の評価を押し下げる。金融やハイテクなど幅広い業種に波及しやすい。",
+    "watch": "他のFRB当局者の発言、米10年債利回りの5%台での推移、次回の物価・雇用指標。",
+    "impact_level": "大",
+    "sources": [
+     {
+      "title": "CNBC: Stock market today (2026-11-17)",
+      "url": "https://www.cnbc.com/2026/11/16/stock-market-today-live-updates.html"
+     },
+     {
+      "title": "AP via BNN Bloomberg: Wall Street shakes again as Nvidia and other jittery AI stocks swing lower",
+      "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/11/17/world-markets-mostly-drop-as-ai-stocks-remain-under-pressure/"
+     }
+    ]
+   },
+   {
+    "title": "Anthropicの新規上場",
+    "type": "業界",
+    "tickers": [
+     "ANT",
+     "MSFT"
+    ],
+    "what": "報道によると、Anthropicは11/18に価格を決め、11/19にNasdaqで取引を始める計画。当初の価格帯は1株70〜78ドルだが、これを上回る価格になるとの観測がある（公式の確定情報ではない）。",
+    "why": "AI関連の大型上場は、資金需要と投資家の需給に影響する。人気化すれば市場のAI選好の回復材料になる一方、既存のAI銘柄から資金が移る可能性もある（推測）。",
+    "watch": "最終的な公募価格と初日の値動き、AI関連株全体の需給への影響。",
+    "impact_level": "中",
+    "sources": [
+     {
+      "title": "Newsquawk: Anthropic IPO to price Nov 18, trade Nov 19",
+      "url": "https://www.newsquawk.com/headlines/anthropic-ant-expects-ipo-price-of-usd-70-78shr-to-sell-80135mln-ipo-shares-with-the-co-seeking-to-raise-usd-644bln-to-price-on-november-18th-and-trade-on-november-19th"
+     },
+     {
+      "title": "RTTNews: Anthropic sets IPO price range, launches roadshow",
+      "url": "https://www.rttnews.com/3712632/anthropic-sets-ipo-price-range-at-70-78-per-share-launches-roadshow.aspx?type=bn"
+     },
+     {
+      "title": "CNBC: Stock market today (2026-11-17)",
+      "url": "https://www.cnbc.com/2026/11/16/stock-market-today-live-updates.html"
+     }
+    ]
+   }
+  ]
+ },
+ "external_facts": [
+  {
+   "label": "Anthropic IPO価格帯",
+   "value": "70〜78ドル",
+   "sources": [
+    "https://www.newsquawk.com/headlines/anthropic-ant-expects-ipo-price-of-usd-70-78shr-to-sell-80135mln-ipo-shares-with-the-co-seeking-to-raise-usd-644bln-to-price-on-november-18th-and-trade-on-november-19th",
+    "https://www.rttnews.com/3712632/anthropic-sets-ipo-price-range-at-70-78-per-share-launches-roadshow.aspx?type=bn"
+   ]
+  }
+ ]
+}

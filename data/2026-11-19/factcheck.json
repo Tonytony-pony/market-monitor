@@ -1,0 +1,8 @@
+{
+ "issues": [],
+ "fact_warnings": [],
+ "data_warnings": [
+  "ナスダック総合: 主データ 24429.8847 と照合用 24322.70703125（^IXIC）が +0.44% ずれている"
+ ],
+ "numbers_scanned": 227
+}

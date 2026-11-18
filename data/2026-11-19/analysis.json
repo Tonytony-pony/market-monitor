@@ -1,0 +1,241 @@
+{
+  "report_date": "2026-11-19",
+  "us_session_covered": "2026-11-18（水）",
+  "summary": {
+    "headline": "ダウ-1.11%、ナスダックは小幅高。NVIDIA決算後も不安残り、原油安でエネルギー売り",
+    "recent_moves": [
+      "米国株はまちまち。ダウは-1.11%の50,198.17ドル、S&P500は-0.23%の7,323.63と下げ、ナスダックは小幅高と報じられた（ナスダックは照合用データとのずれ警告があるため数値は断定しない）。NVIDIAは決算が市場予想を上回ったものの、株価は下落して終えたと報じられている",
+      "セクターではエネルギー（XLE）が-3.27%と最大の下落。WTIが-4.62%の82.04ドルに下げたことが重しで、ヘルスケア（XLV）も-2.21%、金融（XLF）も-1.14%と売られた。一方、一般消費財（XLY）は+1.79%と最も上昇し、小売の好決算が追い風になったとみられる",
+      "日本株は反発。日経平均は+0.28%の59,024.28円。日経VIは-15.08%の32.77へ低下したが、水準はなお高い。グロース250は-1.45%と軟調",
+      "貴金属と暗号資産が大幅安。金は-3.20%の3,726.13ドルで52週安値圏、プラチナは-4.00%の1,370.74ドル、ビットコインは-3.61%の62,533.77ドルでRSIは21.23と売られすぎ水準",
+      "米10年債利回りは5.068%へ低下（-4.1bp）。ドル円は159.35円でほぼ横ばい"
+    ],
+    "outlook": [
+      "NVIDIA決算を通過しても株価が戻らなかったことで、AI・半導体株の戻りの鈍さが意識されやすい。半導体ETF（SMH）は1ヶ月で-17.46%と調整が深く、反発が続くか、さらに下を試すかが焦点",
+      "S&P500は200日線（約7,346）の下で引けた。ここを回復できない場合、調整が長引く可能性がある。ナスダックは200日線を割り込んだ状態が続いている",
+      "AI企業の大型IPOが米国時間11/19前後に初値を付けると報じられている（日程は未確認）。AI関連への需給が一時的に変わる可能性がある",
+      "エネルギー株は原油安に連動しやすい。原油が下げ止まらなければ指数の重しが続くが、インフレ懸念の緩和は金利低下を通じて他セクターには追い風になりうる"
+    ],
+    "watch_points": [
+      "S&P500の200日線（約7,346）を終値で回復できるか",
+      "金の52週安値（3,720ドル）と、プラチナの52週安値（1,363.2ドル）を割り込むか",
+      "ビットコインは52週安値（57,734.63ドル）までの距離。RSIが21台で売られすぎだが、反発の保証はない"
+    ],
+    "events": [
+      {"time_jst": "11/19 22:30", "event": "米新規失業保険申請件数・フィラデルフィア連銀製造業景況指数（時刻・内容は要確認）", "importance": "中"},
+      {"time_jst": "11/19 夜〜11/20 朝", "event": "AI企業の大型IPOの初値（報道ベース・日程は未確認）", "importance": "高"},
+      {"time_jst": "11/19（米国時間・引け後）", "event": "ウォルマートの決算（日程は暫定。要確認）", "importance": "中"},
+      {"time_jst": "今週", "event": "FRB高官の発言と、12月会合に向けた金融政策の見方", "importance": "中"}
+    ],
+    "overview_message": "米国株はダウが下げナスダックは小幅高とまちまち。エネルギーと医療が売られ、貴金属と暗号資産も大幅安でした。"
+  },
+  "instruments": {
+    "nikkei225": {
+      "headline": "直近安値からの戻りで、59,024.28円まで反発",
+      "analysis": "日経平均は+0.28%の59,024.28円。チャートでは直近の安値から戻したが、50日線（64,339.92円）と200日線（62,219.08円）の下にあり、RSIは37.18と弱い。52週高値72,831.73円からは大きく下げた位置で、1週間で-2.48%、1ヶ月で-8.94%の調整が続く。",
+      "us_impact_level": "小",
+      "us_impact": "日本株の小幅な反発が米国株に与える影響は限定的。むしろ米国のAI・半導体株の動きが日本株に波及する側面が強い。",
+      "sources": [
+        {"title": "Stock Market Today, November 18, 2026 (Stock Titan)", "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"},
+        {"title": "Stock market today Nov 18 (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html"}
+      ]
+    },
+    "jpx400": {
+      "headline": "JPX日経400は-0.40%の34,784.88円と、日経平均と逆行して下落",
+      "analysis": "50日線（36,280.44円）と200日線（35,314.22円）をともに下回り、RSIは40.37。1週間で-1.63%、1ヶ月で-4.97%と、日経平均に比べ下げ幅は小さいが戻りは鈍い。",
+      "us_impact_level": "小",
+      "us_impact": "米国株への影響は限定的。日本の大型株全体の地合いを示す参考指標にとどまる。",
+      "sources": [
+        {"title": "Stock Market Today, November 18, 2026 (Stock Titan)", "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"},
+        {"title": "Stock market today Nov 18 (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html"}
+      ]
+    },
+    "growth250": {
+      "headline": "グロース250は-1.45%の678.41。1週間で-9.17%と下げが深い",
+      "analysis": "50日線（773.18）と200日線（753.72）を大きく下回り、52週安値641.85が近づいている。RSIは32.15で売られすぎに近い。新興株は金利や米ハイテク株の影響を受けやすい。",
+      "us_impact_level": "小",
+      "us_impact": "米国株への影響は限定的。ただし米ナスダックのAI・グロース株の軟調さと連動した動きとして、リスク回避の強さを示す。",
+      "sources": [
+        {"title": "Stock Market Today, November 18, 2026 (Stock Titan)", "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"},
+        {"title": "Stock market today Nov 18 (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html"}
+      ]
+    },
+    "nk_futures": {
+      "headline": "日経225先物は-0.62%の58,880円。現物より弱く、夜間の警戒感を映す",
+      "analysis": "先物は現物の終値を下回って推移し、1週間で-4.07%、1ヶ月で-9.02%。50日線（64,345円）、200日線（62,312円）を下回っている。",
+      "us_impact_level": "小",
+      "us_impact": "日本の先物は米国の動きを先取りして動くことが多く、米国株への影響は限定的。むしろ米国ハイテク株の動きを映す側。",
+      "sources": [
+        {"title": "Stock Market Today, November 18, 2026 (Stock Titan)", "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"},
+        {"title": "Stock market today Nov 18 (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html"}
+      ]
+    },
+    "nikkei_vi": {
+      "headline": "日経VIは-15.08%の32.77へ低下したが、水準はなお高い",
+      "analysis": "前日比で-5.82と大きく下げ、市場の警戒は一服した。ただし52週の下限18.77に比べると依然高く、52週高値66.65からは半分程度。水準の評価は日本時間18日付の公式値に基づく。",
+      "us_impact_level": "小",
+      "us_impact": "日本の恐怖指数が下がったことは、リスク回避が一服した兆しだが、米国株への直接的な影響は限定的。米国の変動性の動きの方が重要。",
+      "sources": [
+        {"title": "Stock Market Today, November 18, 2026 (Stock Titan)", "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"},
+        {"title": "Stock market today Nov 18 (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html"}
+      ]
+    },
+    "usdjpy": {
+      "headline": "ドル円は159.35円でほぼ横ばい。ドル高圏で推移",
+      "analysis": "前日比はほぼ変わらず。50日線（157.73円）より上、200日線（158.78円）もわずかに上回る。52週高値163.99円までの距離はまだある。ドルは約19カ月ぶりの高値圏と報じられた。",
+      "us_impact_level": "小",
+      "us_impact": "ドル高は米国の多国籍企業の海外収益にはやや逆風だが、今日の動きは小さく、米国株への影響は限定的。",
+      "sources": [
+        {"title": "Dow Drops, Nvidia Slips, Dollar Hits 19-Month High (Benzinga)", "url": "https://www.benzinga.com/markets/equities/26/11/63404681/stock-market-today-dow-jones-nvidia-earnings-dollar-19-month-high-november-18"},
+        {"title": "Stock market today Nov 18 (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html"}
+      ]
+    },
+    "dow": {
+      "headline": "ダウは-1.11%の50,198.17ドル。エネルギーと医療が重しに",
+      "analysis": "ダウは561.25ドル下落。原油安でエネルギー大手が売られ、医療株も軟調だったと報じられた。チャートでは50日線（51,853.57ドル）を下回り、200日線（50,780.94ドル）も割り込んでいる。1週間で-3.83%、RSIは36.03。",
+      "us_impact_level": "大",
+      "us_impact": "ダウは米国株の代表指数の一つで、構成銘柄にエネルギーと医療が多い分、今日のセクター動向がそのまま響いた。200日線を回復できないと、調整が長引きやすい。",
+      "sources": [
+        {"title": "U.S. Stock Market Today, November 18, 2026 (Vista PGlobal)", "url": "https://vistapglobal.com/u-s-stock-market-today-november-18-2026-dow-falls-561-points-nasdaq-rises-ahead-of-anthropic-ipo-ant-eprx-googl-modd-nvda-ser-tgt/"},
+        {"title": "Dow Drops, Nvidia Slips, Dollar Hits 19-Month High (Benzinga)", "url": "https://www.benzinga.com/markets/equities/26/11/63404681/stock-market-today-dow-jones-nvidia-earnings-dollar-19-month-high-november-18"}
+      ]
+    },
+    "nasdaq": {
+      "headline": "ナスダックは小幅高と報じられたが、データに照合ずれの警告あり",
+      "analysis": "市場データには照合用データとの差を示す警告があるため、騰落率は断定しない。報道では小幅高で、AI関連の期待が下支えしたとされる。チャートは200日線（25,152.21）を下回り、1週間で-4.00%、1ヶ月で-7.45%と調整が深い。",
+      "us_impact_level": "大",
+      "us_impact": "NVIDIAの決算後も戻りが鈍く、AI関連の過熱が冷めた状態。次の半導体・クラウド企業の動向と、IPOによる需給の変化が焦点。",
+      "sources": [
+        {"title": "Stock market today: Dow and S&P 500 slide, Nasdaq rises (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html"},
+        {"title": "US Stock Market Today: Nasdaq Rises, Dow Falls (HDFC Sky)", "url": "https://hdfcsky.com/news/nasdaq-rises-0-23percent-to-24383-83-on-nvidias-103percent-revenue-surge-ends-four-day-losing-streak-dow-falls-191-points"}
+      ]
+    },
+    "sp500": {
+      "headline": "S&P500は-0.23%の7,323.63。200日線の下で攻防",
+      "analysis": "指数は小幅安で、ダウより下げは小さい。200日線（約7,346）の下で引け、チャートでは9月以降のレンジ下限を割り込んだ形。RSIは36.56で売られすぎに近い。1ヶ月で-4.92%。",
+      "us_impact_level": "大",
+      "us_impact": "米国株全体の方向を示す指数。200日線を回復できるかが目先の分かれ目で、割り込みが続けば心理的な悪化が意識されやすい。",
+      "sources": [
+        {"title": "Stock Market Today Live, November 18, 2026 (Stock Titan)", "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"},
+        {"title": "Stock market today: Dow and S&P 500 slide, Nasdaq rises (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html"}
+      ]
+    },
+    "btc": {
+      "headline": "ビットコインは-3.61%の62,533.77ドル。RSIは21.23と売られすぎ",
+      "analysis": "1週間で-15.15%、1ヶ月で-23.74%と下げが加速。50日線（78,571.15ドル）、200日線（72,717.75ドル）を大きく下回り、52週安値57,734.63ドルが視野に入る。リスク回避の流れが続いている。",
+      "us_impact_level": "中",
+      "us_impact": "暗号資産の急落は、暗号関連株（取引所・マイニング企業など）に直接響く。リスク資産全体の地合いを映す側面もあり、ハイテク株の重しになりうる。",
+      "sources": [
+        {"title": "Stock Market Today, November 18, 2026 (Eurasia Business News)", "url": "https://eurasiabusinessnews.com/2026/11/18/stock-market-today-november-18-2026-nvidia-earnings-fail-to-calm-investors-as-gold-and-oil-fall/"},
+        {"title": "Stock Market Today Live, November 18, 2026 (Stock Titan)", "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"}
+      ]
+    },
+    "wti": {
+      "headline": "WTIは-4.62%の82.04ドル。エネルギー株の下落につながった",
+      "analysis": "1ヶ月で-17.16%と大きく下げた。ただし年初来では+42.90%と高水準で、52週高値119.48ドルからは後退している。50日線（94.37ドル）を下回り、RSIは33.07。",
+      "us_impact_level": "大",
+      "us_impact": "原油安はエネルギー株には逆風（エネルギーETFは-3.27%）。一方でインフレ圧力の緩和や、消費者のコスト減を通じて、一般消費財など他セクターには追い風になりうる。",
+      "sources": [
+        {"title": "Stock Market Today, November 18, 2026 (Eurasia Business News)", "url": "https://eurasiabusinessnews.com/2026/11/18/stock-market-today-november-18-2026-nvidia-earnings-fail-to-calm-investors-as-gold-and-oil-fall/"},
+        {"title": "Dow Drops, Nvidia Slips, Dollar Hits 19-Month High (Benzinga)", "url": "https://www.benzinga.com/markets/equities/26/11/63404681/stock-market-today-dow-jones-nvidia-earnings-dollar-19-month-high-november-18"}
+      ]
+    },
+    "gold": {
+      "headline": "金は-3.20%の3,726.13ドル。52週安値の3,720ドルに接近",
+      "analysis": "1週間で-7.60%、1ヶ月で-10.51%、年初来でも-13.71%と下落が続く。50日線（4,119.87ドル）と200日線（4,434.49ドル）を大きく下回り、RSIは29.93で売られすぎ圏。ドル高と実質金利の高止まりが重しとみられる。",
+      "us_impact_level": "中",
+      "us_impact": "金の急落は、安全資産としての買いが細っていることを示す。ドル高と金利高の流れが続いていることを映し、資源株・金鉱株の重しになる。",
+      "sources": [
+        {"title": "Stock Market Today, November 18, 2026 (Eurasia Business News)", "url": "https://eurasiabusinessnews.com/2026/11/18/stock-market-today-november-18-2026-nvidia-earnings-fail-to-calm-investors-as-gold-and-oil-fall/"},
+        {"title": "Dow Drops, Nvidia Slips, Dollar Hits 19-Month High (Benzinga)", "url": "https://www.benzinga.com/markets/equities/26/11/63404681/stock-market-today-dow-jones-nvidia-earnings-dollar-19-month-high-november-18"}
+      ]
+    },
+    "platinum": {
+      "headline": "プラチナは-4.00%の1,370.74ドル。52週安値に接近",
+      "analysis": "1週間で-10.88%、年初来で-34.52%と下落が深い。50日線（1,628.78ドル）と200日線（1,825.14ドル）を大きく下回り、52週安値1,363.2ドルまで近い。RSIは29.38。",
+      "us_impact_level": "小",
+      "us_impact": "プラチナは自動車触媒などの産業需要に連動する。米国株への影響は限定的だが、世界景気の弱さを示すシグナルとして意識される可能性がある。",
+      "sources": [
+        {"title": "Stock Market Today, November 18, 2026 (Eurasia Business News)", "url": "https://eurasiabusinessnews.com/2026/11/18/stock-market-today-november-18-2026-nvidia-earnings-fail-to-calm-investors-as-gold-and-oil-fall/"},
+        {"title": "Stock Market Today Live, November 18, 2026 (Stock Titan)", "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"}
+      ]
+    },
+    "jgb10y": {
+      "headline": "日本の10年債利回りは2.864%で前日と変わらず",
+      "analysis": "前日比は0bpで、日中は2.841%〜2.894%の範囲で推移した。1週間では上昇、52週高値3.135%には届いていない。",
+      "us_impact_level": "小",
+      "us_impact": "日本の長期金利は横ばいで、日本の機関投資家による米国債や米株からの資金移動を促す動きは見られない。米国株への影響は限定的。",
+      "sources": [
+        {"title": "Stock Market Today, November 18, 2026 (Stock Titan)", "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"},
+        {"title": "Stock market today Nov 18 (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html"}
+      ]
+    },
+    "ust10y": {
+      "headline": "米10年債利回りは5.068%へ低下（-4.1bp）",
+      "analysis": "原油安によるインフレ懸念の緩和が、利回りの低下につながったとみられる。ただし5%台の高水準は変わらず、52週高値5.365%からの低下幅も小さい。",
+      "us_impact_level": "大",
+      "us_impact": "高金利は株式の割引率を押し上げ、グロース株の重しになる。利回りの低下は追い風だが、5%台にとどまる限り、株価の上値は抑えられやすい。",
+      "sources": [
+        {"title": "Dow Drops, Nvidia Slips, Dollar Hits 19-Month High (Benzinga)", "url": "https://www.benzinga.com/markets/equities/26/11/63404681/stock-market-today-dow-jones-nvidia-earnings-dollar-19-month-high-november-18"},
+        {"title": "Stock Market Today, November 18, 2026 (Eurasia Business News)", "url": "https://eurasiabusinessnews.com/2026/11/18/stock-market-today-november-18-2026-nvidia-earnings-fail-to-calm-investors-as-gold-and-oil-fall/"}
+      ]
+    }
+  },
+  "sectors": {
+    "headline": "一般消費財が上昇し、エネルギーとヘルスケアが大きく売られた",
+    "analysis": "上位は一般消費財（XLY）+1.79%、情報技術（XLK）+0.32%、コミュニケーション（XLC）+0.30%。下位はエネルギー（XLE）-3.27%、ヘルスケア（XLV）-2.21%、金融（XLF）-1.14%だった。エネルギーはWTIが-4.62%と急落したことが直接の要因。ヘルスケアは保険株の下落が報じられている。一般消費財は大手小売の決算が好感されたとみられる。半導体（SMH）は-0.12%と小幅安で、NVIDIA決算後もAI関連の買いは限られた。",
+    "rotation": "景気敏感の一般消費財が上昇した一方、ディフェンシブのヘルスケアは大きく売られ、公益と不動産は小幅高、生活必需品はほぼ横ばいだった。グロースとバリューでは、情報技術が小幅高で、エネルギーと金融（バリュー系）が下落した。1ヶ月でみると、情報技術は-12.41%、半導体は-17.46%と大幅な調整が続く一方、一般消費財は+5.55%と対照的。ハイテク主導の調整の中で、消費関連へ資金が移る流れが続いている。",
+    "outlook": "次の米国市場では、小売決算や景気指標を受けた消費関連の動きが注目される。原油がさらに下げれば、エネルギー株の重しが続く一方、金利低下はハイテク株の追い風になりうる。半導体はNVIDIA決算を通過した後の戻りの強さを確認する局面。",
+    "sources": [
+      {"title": "Stock market today: Dow and S&P 500 slide, Nasdaq rises (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html"},
+      {"title": "Dow Drops, Nvidia Slips, Dollar Hits 19-Month High (Benzinga)", "url": "https://www.benzinga.com/markets/equities/26/11/63404681/stock-market-today-dow-jones-nvidia-earnings-dollar-19-month-high-november-18"},
+      {"title": "Stock Market Today Live, November 18, 2026 (Stock Titan)", "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"}
+    ]
+  },
+  "top_news": {
+    "headline": "AI関連の期待と警戒が交錯し、決算・IPO・原油安が指数を左右した",
+    "items": [
+      {
+        "title": "NVIDIA決算は好調も株価は下落",
+        "type": "銘柄",
+        "tickers": ["NVDA"],
+        "what": "NVIDIAが米国時間17日の引け後に決算を発表し、売上と見通しは市場予想を上回ったと報じられた。しかし18日の株価は下落して終えた。CEO交代後で初の決算でもあった。",
+        "why": "NVIDIAは指数への寄与が大きく、半導体・クラウド大手の設備投資の見方にも波及する。好決算でも買われなかったことは、AI関連の期待がすでに織り込まれていることを示す。",
+        "watch": "次の米国市場で半導体株が戻りを試せるか、経営体制の説明が追加で出るかを見る。",
+        "impact_level": "大",
+        "sources": [
+          {"title": "Dow Drops, Nvidia Slips, Dollar Hits 19-Month High (Benzinga)", "url": "https://www.benzinga.com/markets/equities/26/11/63404681/stock-market-today-dow-jones-nvidia-earnings-dollar-19-month-high-november-18"},
+          {"title": "Stock market today: Dow and S&P 500 slide, Nasdaq rises (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html"}
+        ]
+      },
+      {
+        "title": "AI企業の大型IPOが接近",
+        "type": "業界",
+        "tickers": ["ANT"],
+        "what": "米AI企業が大型IPOを予定しており、報道では18日前後に価格決定、19日前後に初値が付く見通しとされる（日程は未確認）。",
+        "why": "巨額の資金調達が既存のAI関連株から需給を吸収する可能性がある。IPOの初値は、AI関連への投資家の熱量を測る指標にもなる。",
+        "watch": "価格決定の水準と初値の動き、AI関連株や半導体株への波及を見る。",
+        "impact_level": "大",
+        "sources": [
+          {"title": "Stock market today: Dow and S&P 500 slide, Nasdaq rises in anticipation of IPO (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html"},
+          {"title": "U.S. Stock Market Today, November 18, 2026 (Vista PGlobal)", "url": "https://vistapglobal.com/u-s-stock-market-today-november-18-2026-dow-falls-561-points-nasdaq-rises-ahead-of-anthropic-ipo-ant-eprx-googl-modd-nvda-ser-tgt/"}
+        ]
+      },
+      {
+        "title": "原油安でエネルギー大手が下落",
+        "type": "業界",
+        "tickers": ["XOM", "CVX"],
+        "what": "WTIが大きく下げ、エネルギー大手が売られた。エネルギーETFは-3.27%と11セクターで最大の下落。",
+        "why": "エネルギーはダウと S&P500の時価総額の一定割合を占め、指数の重しになる。原油安はインフレ懸念の緩和という面では株式全体に追い風でもある。",
+        "watch": "原油の下げ止まりと、地政学リスクの動きを見る。",
+        "impact_level": "中",
+        "sources": [
+          {"title": "Stock Market Today, November 18, 2026 (Eurasia Business News)", "url": "https://eurasiabusinessnews.com/2026/11/18/stock-market-today-november-18-2026-nvidia-earnings-fail-to-calm-investors-as-gold-and-oil-fall/"},
+          {"title": "Dow Drops, Nvidia Slips, Dollar Hits 19-Month High (Benzinga)", "url": "https://www.benzinga.com/markets/equities/26/11/63404681/stock-market-today-dow-jones-nvidia-earnings-dollar-19-month-high-november-18"}
+        ]
+      }
+    ]
+  },
+  "external_facts": [],
+  "x_sentiment": ""
+}

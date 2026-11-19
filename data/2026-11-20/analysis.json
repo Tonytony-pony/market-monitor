@@ -1,0 +1,383 @@
+{
+ "report_date": "2026-11-20",
+ "us_session_covered": "2026-11-19（木）",
+ "summary": {
+  "headline": "AI不安とアンソロピック上場初日で米株急落、ダウは5万ドル割れ",
+  "recent_moves": [
+   "米株は11/19に急落。NYダウ49,097.06（-2.19%）、S&P500 7,175.83（-2.02%、6日続落）、ナスダック23,879.20（-2.25%）。日中は上昇していたが、アンソロピックが取引を始めるとともに売りが強まった。",
+   "S&P500は200日線（約7,348）を割り込み、チャートでは10月までのレンジを下抜けた。ダウは約5ヶ月ぶりに5万ドルを下回った。",
+   "背景は、AI投資の採算への疑問、エヌビディアのCEO退任後の不安、半導体AMDの個別売り、高止まりする米金利（10年債5.048%）。",
+   "リスク回避は暗号資産にも波及し、ビットコインは61,594.13ドル。金も下落し、安全資産への資金逃避は限定的。",
+   "日経平均は59,444.21円（+0.71%）と反発したが、日経225先物は57,880円（-3.11%）で、今日の東京は米株安を受けた売りが意識されやすい。"
+  ],
+  "outlook": [
+   "11/20（金）は米株が下げ止まるかが焦点。長期線割れ後は戻り売りが出やすく、乱高下が続く可能性がある。",
+   "12月のFOMCで利上げを織り込む動きが強く、金利が下がらない限り高バリュエーションのハイテクには逆風が続きやすい。",
+   "AI関連では、エヌビディアCEOの上院証言や、OpenAIなど後続のIPOが話題になる見込みで、AIトレードの信頼感が試される。",
+   "11/20は月次オプションの満期日にあたるとみられ（推測）、需給で値動きが大きくなる可能性。",
+   "来週は11/26の感謝祭で米国市場が休場となる点にも注意（薄商いで動きが荒くなりやすい）。"
+  ],
+  "watch_points": [
+   "S&P500の200日線（約7,348）を回復できるか",
+   "米10年債利回り5%の上下",
+   "ビットコインの下落が続くか（リスク回避の温度計）"
+  ],
+  "events": [
+   {
+    "time_jst": "11/20（金）",
+    "event": "米月次オプション満期（推測）・FRB当局者の発言が続く",
+    "importance": "中"
+   },
+   {
+    "time_jst": "今週",
+    "event": "FRB当局者の発言（多数）",
+    "importance": "高"
+   },
+   {
+    "time_jst": "11/25（水）",
+    "event": "米個人所得・支出（PCE物価を含む）",
+    "importance": "高"
+   },
+   {
+    "time_jst": "11/26（木）",
+    "event": "米感謝祭で株式市場は休場",
+    "importance": "中"
+   },
+   {
+    "time_jst": "12/9（水）前後",
+    "event": "FOMC（利上げ判断。市場は織り込みが強いと報道）",
+    "importance": "高"
+   }
+  ],
+  "overview_message": "AI関連株への不安と金利高で米株が急落し、日本株は先物安を受けた下落が警戒される朝。"
+ },
+ "instruments": {
+  "nikkei225": {
+   "headline": "米株安の前日に反発し、59,444円で引けた。",
+   "analysis": "日経平均は59,444円（+0.71%）と反発。ただ1週間では-3.30%、1ヶ月では-8.20%と下落基調で、200日線（62,247円）の下、50日線（64,244円）より下に位置する。チャートでは11月上旬に安値をつけた後の戻りの途中で、一目均衡表の雲の下にある。",
+   "us_impact_level": "小",
+   "us_impact": "日本の取引時間中の反発は、その後の米株急落で帳消しになる形となり、米国株への影響は限定的。むしろ米株安が今日の日本株に波及する側。",
+   "sources": [
+    {
+     "title": "CNBC: Stock market news for Nov. 19, 2026",
+     "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "Eurasia Business News: Dow sinks after Anthropic debut",
+     "url": "https://eurasiabusinessnews.com/2026/11/19/stock-market-today-november-19-2026-dow-sinks-1084-points-nasdaq-drops-2-2-after-anthropic-debut/"
+    }
+   ]
+  },
+  "jpx400": {
+   "headline": "JPX日経400は小幅安で、戻りの勢いは弱い。",
+   "analysis": "JPX日経400は34,763.64（-0.06%）と小幅安。1ヶ月で-5.22%、200日線（35,325円）を下回って推移している。",
+   "us_impact_level": "なし",
+   "us_impact": "米国株への影響は限定的。日本の内需・大型株の指数で、米株の材料にはなりにくい。",
+   "sources": [
+    {
+     "title": "CNBC: Stock market news for Nov. 19, 2026",
+     "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "Eurasia Business News: Dow sinks after Anthropic debut",
+     "url": "https://eurasiabusinessnews.com/2026/11/19/stock-market-today-november-19-2026-dow-sinks-1084-points-nasdaq-drops-2-2-after-anthropic-debut/"
+    }
+   ]
+  },
+  "growth250": {
+   "headline": "グロース250は下落が続き、新興株は厳しい。",
+   "analysis": "東証グロース250は675.02（-0.50%）。1週間で-10.51%、1ヶ月で-12.09%と大きく下げ、RSIも31.6と売られすぎ圏に近い。AI関連株の下落と金利高が小型成長株の重しとの見方がある。",
+   "us_impact_level": "なし",
+   "us_impact": "米国株への影響は限定的。リスク選好の度合いを映す温度計という位置づけ。",
+   "sources": [
+    {
+     "title": "CNBC: Stock market news for Nov. 19, 2026",
+     "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "NordFX: Market Pulse Nov 19, 2026",
+     "url": "https://nordfx.com/market-news/market-pulse-november-19-2026"
+    }
+   ]
+  },
+  "nk_futures": {
+   "headline": "日経225先物は57,880円と急落し、現物との差が大きい。",
+   "analysis": "日経225先物は57,880円（-3.11%）。米株の急落を受けて夜間取引で売られた。現物の59,444円より安く、今日の東京市場は下落スタートが意識されやすい。",
+   "us_impact_level": "小",
+   "us_impact": "先物の下落は米株安の結果であり、米株を動かす材料ではない。ただし東京での売りが海外勢の見方に影響する可能性はある。",
+   "sources": [
+    {
+     "title": "CNBC: Stock market news for Nov. 19, 2026",
+     "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "Eurasia Business News: Dow sinks after Anthropic debut",
+     "url": "https://eurasiabusinessnews.com/2026/11/19/stock-market-today-november-19-2026-dow-sinks-1084-points-nasdaq-drops-2-2-after-anthropic-debut/"
+    }
+   ]
+  },
+  "nikkei_vi": {
+   "headline": "日経VIは30.64と高く、不安が残る一方で前日比では低下。",
+   "analysis": "日経VIは30.64（-6.50%、日経公式値、11/19付）。水準は高いが前日から低下した。米国のVIXは11/19の取引時間中に約29まで上昇したと報じられており、米株安を受けて今日は再び上がる可能性がある（推測）。",
+   "us_impact_level": "小",
+   "us_impact": "日経VI自体は米株を動かさない。米VIXの動きの方が重要。",
+   "sources": [
+    {
+     "title": "CNBC: Stock market news for Nov. 19, 2026",
+     "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "NordFX: Market Pulse Nov 19, 2026",
+     "url": "https://nordfx.com/market-news/market-pulse-november-19-2026"
+    }
+   ]
+  },
+  "usdjpy": {
+   "headline": "ドル円は159.67円とドル高・円安の水準。",
+   "analysis": "ドル円は159.67円（+0.21%）。米長期金利が高止まりし、日米金利差が意識されている。160円に近く、為替介入への警戒が出やすい水準（推測）。",
+   "us_impact_level": "小",
+   "us_impact": "円安は日本の輸出企業には追い風だが、米株への直接の影響は限定的。介入観測が出れば円高経由で世界の株に影響しうる。",
+   "sources": [
+    {
+     "title": "NordFX: Market Pulse Nov 19, 2026",
+     "url": "https://nordfx.com/market-news/market-pulse-november-19-2026"
+    },
+    {
+     "title": "Nexo: Markets Today Nov 19",
+     "url": "https://nexo.com/blog/markets-today-november-19"
+    }
+   ]
+  },
+  "dow": {
+   "headline": "NYダウは-2.19%の急落で、節目の5万ドルを割り込んだ。",
+   "analysis": "NYダウは49,097.06（-2.19%、-1,101ドル）で、約5ヶ月ぶりに5万ドルを下回った。AI関連株への不安、アンソロピックのIPO（新規上場）初日の「材料出尽くし売り」、利上げ観測が重なった。1週間で-6.35%、1ヶ月で-5.51%。50日線（50,779）を下回る。",
+   "us_impact_level": "大",
+   "us_impact": "ダウは米株全体の地合いを示す。節目割れで機械的な売りや心理悪化が広がる可能性があり、影響は大きい。",
+   "sources": [
+    {
+     "title": "CNBC: Stock market news for Nov. 19, 2026",
+     "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "Eurasia Business News: Dow sinks after Anthropic debut",
+     "url": "https://eurasiabusinessnews.com/2026/11/19/stock-market-today-november-19-2026-dow-sinks-1084-points-nasdaq-drops-2-2-after-anthropic-debut/"
+    }
+   ]
+  },
+  "nasdaq": {
+   "headline": "ナスダックは-2.25%で、200日線に近づいた。",
+   "analysis": "ナスダック総合は23,879.20（-2.25%）。一時は大きく上昇していたが、アンソロピックの取引開始とともに急速に売られた。1週間で-4.83%、1ヶ月で-9.32%。50日線（26,188）、200日線（25,157）をともに下回る。",
+   "us_impact_level": "大",
+   "us_impact": "AI・大型ハイテクの比重が高く、S&P500への影響も大きい。AIの収益性への疑問が続けばさらに重しとなる。",
+   "sources": [
+    {
+     "title": "CNBC: Stock market news for Nov. 19, 2026",
+     "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "Benzinga: S&P 500 Slides, Anthropic Jumps",
+     "url": "https://www.benzinga.com/markets/equities/26/11/63446162/stock-market-today-anthropic-ipo-debut-sp-500-sixth-loss-november-19"
+    }
+   ]
+  },
+  "sp500": {
+   "headline": "S&P500は7,175.83と6日続落し、200日線を割り込んだ。",
+   "analysis": "S&P500は7,175.83（-2.02%）で、6営業日続落となった。200日線（7,348）を明確に割り込み、チャートでは10月までの高値圏レンジから下抜けて、4月の上昇局面の押し目に近い水準まで戻った。1週間で-4.97%、1ヶ月で-6.55%、年初来は+4.33%まで縮小。",
+   "us_impact_level": "大",
+   "us_impact": "主要指数が長期線を割ったことで、システマチックな売りが出やすい。年初来の上昇率も縮小している。",
+   "sources": [
+    {
+     "title": "CNBC: Stock market news for Nov. 19, 2026",
+     "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "Benzinga: S&P 500 Slides, Anthropic Jumps",
+     "url": "https://www.benzinga.com/markets/equities/26/11/63446162/stock-market-today-anthropic-ipo-debut-sp-500-sixth-loss-november-19"
+    }
+   ]
+  },
+  "btc": {
+   "headline": "ビットコインは61,594ドルと弱く、リスク資産全体の売りに連動。",
+   "analysis": "ビットコインは61,594.13ドル（-2.19%）。1週間で-16.68%、1ヶ月で-24.74%、年初来で-29.60%と大きく下落している。50日線（78,141）、200日線（72,635）を下回り、RSIは20.2と売られすぎ圏。",
+   "us_impact_level": "小",
+   "us_impact": "暗号資産の下落はハイテク株と同じリスク回避の動き。米株への影響は限定的だが、リスク選好の悪化を示すサインになる。",
+   "sources": [
+    {
+     "title": "CNBC: Stock market news for Nov. 19, 2026",
+     "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "NordFX: Market Pulse Nov 19, 2026",
+     "url": "https://nordfx.com/market-news/market-pulse-november-19-2026"
+    }
+   ]
+  },
+  "wti": {
+   "headline": "原油は83.09ドルに上昇、中東情勢が下支え。",
+   "analysis": "WTIは83.09ドル（+0.95%）。湾岸での攻撃報道を受けてブレント原油が上昇したと報じられている。ただ1ヶ月では-15.42%と下落している。",
+   "us_impact_level": "中",
+   "us_impact": "原油高はインフレ懸念を通じて利上げ観測を後押しする。エネルギー株には追い風だが、市場全体には重し。",
+   "sources": [
+    {
+     "title": "CNBC: Stock market news for Nov. 19, 2026",
+     "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "NordFX: Market Pulse Nov 19, 2026",
+     "url": "https://nordfx.com/market-news/market-pulse-november-19-2026"
+    }
+   ]
+  },
+  "gold": {
+   "headline": "金は3,653ドルに下落し、年初来でも下げている。",
+   "analysis": "金は3,653.08ドル（-1.94%）。1週間で-8.37%、1ヶ月で-11.81%、年初来で-15.40%。米長期金利が高い中で金利を生まない資産は売られやすく、株安時の換金売りも出たとみられる（推測）。",
+   "us_impact_level": "小",
+   "us_impact": "金の下落は「安全資産に資金が逃げていない」ことを示し、金利高の圧力が強いことを示唆する。",
+   "sources": [
+    {
+     "title": "NordFX: Market Pulse Nov 19, 2026",
+     "url": "https://nordfx.com/market-news/market-pulse-november-19-2026"
+    },
+    {
+     "title": "Nexo: Markets Today Nov 19",
+     "url": "https://nexo.com/blog/markets-today-november-19"
+    }
+   ]
+  },
+  "platinum": {
+   "headline": "プラチナは1,352ドルで、金より下落が大きい。",
+   "analysis": "プラチナは1,352.05ドル（-1.47%）。1ヶ月で-17.54%、年初来で-35.41%。工業用需要への懸念が重しとみられる（推測）。",
+   "us_impact_level": "なし",
+   "us_impact": "米国株への影響は限定的。産業需要の弱さを示す指標の1つ。",
+   "sources": [
+    {
+     "title": "NordFX: Market Pulse Nov 19, 2026",
+     "url": "https://nordfx.com/market-news/market-pulse-november-19-2026"
+    },
+    {
+     "title": "Nexo: Markets Today Nov 19",
+     "url": "https://nexo.com/blog/markets-today-november-19"
+    }
+   ]
+  },
+  "jgb10y": {
+   "headline": "日本の10年国債利回りは2.84%でわずかに低下。",
+   "analysis": "日本10年債利回りは2.843%（-2.1bp）。1週間では上昇しており、高止まりが続く。",
+   "us_impact_level": "小",
+   "us_impact": "日本の金利上昇は世界の長期金利に連動しやすいが、今回の低下幅は小さく、米株への影響は限定的。",
+   "sources": [
+    {
+     "title": "NordFX: Market Pulse Nov 19, 2026",
+     "url": "https://nordfx.com/market-news/market-pulse-november-19-2026"
+    },
+    {
+     "title": "Nexo: Markets Today Nov 19",
+     "url": "https://nexo.com/blog/markets-today-november-19"
+    }
+   ]
+  },
+  "ust10y": {
+   "headline": "米10年債利回りは5.05%で、利上げ観測が高止まり。",
+   "analysis": "米10年債利回りは5.048%（-2.2bp）。5%を上回る水準が続いており、12月の利上げ観測が強いと報じられている。株安でも利回りが大きく下がっていない点が重要。",
+   "us_impact_level": "大",
+   "us_impact": "高金利は株式のバリュエーションを圧迫する。債券に資金が逃げても利回りが下がらず、株式・債券の両方が売られる形になっている。",
+   "sources": [
+    {
+     "title": "NordFX: Market Pulse Nov 19, 2026",
+     "url": "https://nordfx.com/market-news/market-pulse-november-19-2026"
+    },
+    {
+     "title": "CNBC: Stock market news for Nov. 19, 2026",
+     "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    }
+   ]
+  }
+ },
+ "sectors": {
+  "headline": "全セクターが下落、半導体・一般消費財・通信が大きく下げ、エネルギーと公益が相対的に堅調。",
+  "analysis": "11セクターすべてが下落した。下落率が大きかったのは半導体SMH（-2.62%）、一般消費財XLY（-2.79%）、通信XLC（-2.67%）で、S&P500（-1.96%）を下回った。AMDの個別売りやAIへの不安が半導体を押し下げたとみられる。一方、エネルギーXLE（-0.65%）、公益XLU（-1.22%）、生活必需品XLP（-1.45%）、金融XLF（-1.49%）は下げが小さかった。ヘルスケアXLVはマネージドケア株の下落もあり-2.05%だった。",
+  "rotation": "景気敏感株もディフェンシブも下げたが、下落幅はグロース系（半導体・通信・一般消費財）の方が大きく、相対的にディフェンシブとエネルギーに資金が残った。1ヶ月では半導体が-17.42%、情報技術が-12.80%と下げが大きく、公益（+3.41%）や生活必需品（+2.33%）が堅調で、AI主導の流れが変わりつつある可能性がある。ただ年初来では半導体が+21.28%でまだ高い。",
+  "outlook": "次の米市場では、半導体とAI関連が下げ止まるか、金利が落ち着くかが焦点。原油高が続けばエネルギーは相対的に強く、金利高が続けば不動産・公益の重しになる点にも注意。",
+  "sources": [
+   {
+    "title": "CNBC: Stock market news for Nov. 19, 2026",
+    "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+   },
+   {
+    "title": "Benzinga: S&P 500 Slides, Anthropic Jumps",
+    "url": "https://www.benzinga.com/markets/equities/26/11/63446162/stock-market-today-anthropic-ipo-debut-sp-500-sixth-loss-november-19"
+   }
+  ]
+ },
+ "top_news": {
+  "headline": "AIの採算とガバナンスへの疑念が、上場・個別材料を通じて米株全体の重しに。",
+  "items": [
+   {
+    "title": "アンソロピックが上場、過去最大級のIPO",
+    "type": "業界",
+    "tickers": [
+     "ANT",
+     "GOOGL"
+    ],
+    "what": "11/19（米国時間）にアンソロピックが上場し、取引開始後に上昇したが、その後は株価が伸び悩んだ。調達額は過去最大級と報じられている。",
+    "why": "過去最大のIPOは資金を吸収し、AI関連の評価を測る基準になる。「材料出尽くし」の売りを誘い、後続の上場を占う材料としても注目される。",
+    "watch": "初日以降の値動きと、OpenAIなど後続のIPO計画、AI関連株への資金の動きを見る。",
+    "impact_level": "大",
+    "sources": [
+     {
+      "title": "CNBC: Stock market news for Nov. 19, 2026",
+      "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+     },
+     {
+      "title": "Benzinga: S&P 500 Slides, Anthropic Jumps",
+      "url": "https://www.benzinga.com/markets/equities/26/11/63446162/stock-market-today-anthropic-ipo-debut-sp-500-sixth-loss-november-19"
+     }
+    ]
+   },
+   {
+    "title": "エヌビディアCEO退任とAI投資への疑念",
+    "type": "銘柄",
+    "tickers": [
+     "NVDA"
+    ],
+    "what": "エヌビディアはCEOの退任や取締役会の新委員会設置が報じられ、決算が好調でも株価は11月に大きく下げている。",
+    "why": "時価総額が大きく、S&P500・ナスダックへの寄与が大きい。半導体と、AI設備投資に頼る企業全体に影響が波及する。",
+    "watch": "CEOの上院での証言と、輸出管理・対中国をめぐる続報。",
+    "impact_level": "大",
+    "sources": [
+     {
+      "title": "CNBC: Stock market news for Nov. 19, 2026",
+      "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+     },
+     {
+      "title": "Eurasia Business News: Dow sinks after Anthropic debut",
+      "url": "https://eurasiabusinessnews.com/2026/11/19/stock-market-today-november-19-2026-dow-sinks-1084-points-nasdaq-drops-2-2-after-anthropic-debut/"
+     }
+    ]
+   },
+   {
+    "title": "AMD、空売りファンドの指摘で大幅安",
+    "type": "銘柄",
+    "tickers": [
+     "AMD"
+    ],
+    "what": "空売りを公表した投資ファンドが、対中国の輸出管理違反の疑いを指摘したと報じられ、AMDは大きく下げた。",
+    "why": "事実関係が確認されれば規制リスクが半導体全体に広がる可能性がある。ただし1社の報道で、確認は取れていない（CNBC1件の報道）。",
+    "watch": "当局の反応と、AMD側の説明。",
+    "impact_level": "中",
+    "sources": [
+     {
+      "title": "CNBC: Stock market news for Nov. 19, 2026",
+      "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+     },
+     {
+      "title": "Eurasia Business News: Dow sinks after Anthropic debut",
+      "url": "https://eurasiabusinessnews.com/2026/11/19/stock-market-today-november-19-2026-dow-sinks-1084-points-nasdaq-drops-2-2-after-anthropic-debut/"
+     }
+    ]
+   }
+  ]
+ },
+ "external_facts": [],
+ "x_sentiment": ""
+}

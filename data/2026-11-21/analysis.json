@@ -1,0 +1,389 @@
+{
+ "report_date": "2026-11-21",
+ "us_session_covered": "2026-11-20（金）",
+ "summary": {
+  "headline": "AI売りが加速し米株急落、ナスダック-5.28%でS&P500とダウは調整局面入り",
+  "recent_moves": [
+   "米株は11/20に全面安。ナスダック22,617.73（-5.28%）、S&P500 6,910.39（-3.70%）、NYダウ48,147.33（-1.93%）。週間でもナスダック-10.98%、S&P500 -9.27%と大幅に下げた。",
+   "チャートではナスダックが200日線（約25,157）を大きく割り込み、2026年の上昇分をほぼ消した。S&P500・ダウも直近高値から10%超下げて調整局面入り（報道）。",
+   "主因はAI関連株の売り。エヌビディアは約14%下落し、SECの調査報道やCEO退任後の不安が重なった。半導体ETF（SMH）は-10.64%と最大の下げ。",
+   "12月のFOMCで利上げが強く見込まれる中、売りは債券・金・ビットコインにも波及。ビットコインは58,247.88ドル（-5.89%）、金は3,517.05ドル（-3.01%）と、安全資産も買われなかった。",
+   "日経平均は56,436.65円（-5.06%）と急落し、RSIは31.3。日経VIは33.07（+7.93%）と警戒水準に上昇。ドル円は158.57円（-0.69%）と円高に振れた。"
+  ],
+  "outlook": [
+   "週明け11/23（月）の東京は、米株急落と先物（54,550円、-3.31%）を受けた売りで始まりやすい。ただし急落後は戻りも荒くなりやすい（推測）。",
+   "次の米国市場は11/24（火）が焦点。S&P500・ナスダックは7日続落後の反発力が問われ、200日線の回復は遠いため戻り売りも出やすい。",
+   "エヌビディアのSEC調査やカリフォルニア州司法長官の動きなど、続報次第で半導体全体が再び売られるリスクがある。",
+   "12月8〜9日のFOMCで利上げが織り込まれており、物価・FRB当局者の発言で金利が上がればハイテクの重しになる。",
+   "11/26（木）は感謝祭で米国市場が休場となり、前後は薄商いで値動きが荒くなりやすい。"
+  ],
+  "watch_points": [
+   "ナスダックの直近安値圏（約22,478）を保てるか",
+   "米10年債利回り5%近辺の動き",
+   "VIXが30超で定着するか",
+   "エヌビディアの続報（SEC・当局の動き）"
+  ],
+  "events": [
+   {
+    "time_jst": "11/23（月）",
+    "event": "東京市場の反応（先物は大幅安で引け）",
+    "importance": "高"
+   },
+   {
+    "time_jst": "今週",
+    "event": "FRB当局者の発言（利上げ観測の確認）",
+    "importance": "高"
+   },
+   {
+    "time_jst": "今週",
+    "event": "感謝祭前の米経済指標（日程は各自確認）",
+    "importance": "中"
+   },
+   {
+    "time_jst": "11/27（金）",
+    "event": "米感謝祭で株式市場は休場（11/26）、その翌日は短縮取引",
+    "importance": "中"
+   },
+   {
+    "time_jst": "12/9（水）前後",
+    "event": "FOMC（利上げが強く見込まれると報道）",
+    "importance": "高"
+   }
+  ],
+  "overview_message": "AI関連株の総崩れで米日の株が急落し、金・ビットコインも売られる全面リスク回避の1日だった。"
+ },
+ "instruments": {
+  "nikkei225": {
+   "headline": "日経平均は-5.06%の急落でRSI31、売られすぎ圏へ。",
+   "analysis": "日経平均は56,436.65円（-5.06%）。1週間で-7.82%、1ヶ月で-13.02%。チャートでは200日線付近（約58,000円）を割り込み、年初来の上昇分を大きく削った。50日線は64,072.83円で遠く、短期の戻りは重い。",
+   "us_impact_level": "大",
+   "us_impact": "日本のAI・半導体関連が米株安の連鎖で売られた形で、米株の下げが主導。日本株の下落が海外勢の換金売りを通じて米株へ跳ね返る面もあり、リスク回避の連鎖を強めうる。",
+   "sources": [
+    {
+     "title": "CNBC: Stock market today (11/20更新)",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "Yahoo Finance: Dow・S&P500が調整局面入り",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
+    }
+   ]
+  },
+  "jpx400": {
+   "headline": "JPX400も-3.73%と全面安。",
+   "analysis": "JPX日経400は33,467.40円（-3.73%）。1週間-6.82%で、50日線36,170.44円と200日線35,331.92円をともに下回る。",
+   "us_impact_level": "小",
+   "us_impact": "内需・金融を含む広範な銘柄が売られ、AI関連に限らない全面安。米株への直接の影響は限定的で、むしろ米株安の反映。",
+   "sources": [
+    {
+     "title": "CNBC: Stock market today (11/20更新)",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "Yahoo Finance: Dow・S&P500が調整局面入り",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
+    }
+   ]
+  },
+  "growth250": {
+   "headline": "グロース250は-5.45%、1週間で-12.79%と最も弱い。",
+   "analysis": "グロース250は638.22（-5.45%）。RSIは26.3と売られすぎ圏で、50日線767.98、200日線753.05を大きく下回る。リスク回避で新興株から資金が流出した。",
+   "us_impact_level": "小",
+   "us_impact": "新興株の下落は米株への影響が小さい。ただしリスク許容度の低下を示すサインとして、米ハイテクのセンチメント悪化と同じ方向。",
+   "sources": [
+    {
+     "title": "CNBC: Stock market today (11/20更新)",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "StockTitan: Stock Market Today Live, Nov 20 2026",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026"
+    }
+   ]
+  },
+  "nk_futures": {
+   "headline": "日経先物は54,550円と現物より弱く、週明けも売り圧力が残る。",
+   "analysis": "日経225先物は54,550円（-3.31%）。1週間-11.07%、1ヶ月-16.04%と現物より下げが大きい。米株安を織り込んだ動きで、チャートは下降トレンドが続く。",
+   "us_impact_level": "小",
+   "us_impact": "先物は米株の下落を織り込んだ形。週明けの米株先物の動きを占う材料になるが、米株を動かす力は限定的。",
+   "sources": [
+    {
+     "title": "CNBC: Stock market today (11/20更新)",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "Yahoo Finance: Dow・S&P500が調整局面入り",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
+    }
+   ]
+  },
+  "nikkei_vi": {
+   "headline": "日経VIは33.07（+7.93%）と警戒水準が続く。",
+   "analysis": "日経VIは33.07（+7.93%）。株価急落を受けて先行きの変動を警戒する見方が強まった。過去の水準との比較は検索で補えず、断定は避ける。",
+   "us_impact_level": "小",
+   "us_impact": "日本の恐怖指数の上昇は、米VIXが30超まで上がった動きと整合的。世界的なリスク回避の強さを示す。",
+   "sources": [
+    {
+     "title": "StockTitan: Stock Market Today Live, Nov 20 2026",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026"
+    },
+    {
+     "title": "CNBC: Stock market today (11/20更新)",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  "usdjpy": {
+   "headline": "ドル円は158.57円と円高方向に反応。",
+   "analysis": "ドル円は158.57円（-0.69%）。1週間で-0.79%。株安・金利低下でリスク回避の円買いが入ったとみられる（推測）。50日線157.94円付近で、200日線は158.85円。",
+   "us_impact_level": "小",
+   "us_impact": "円高が進むと日本の輸出株に重しだが、米株への直接の影響は限定的。株安局面での円買いは、世界のリスク回避の度合いを測る材料。",
+   "sources": [
+    {
+     "title": "CNBC: Stock market today (11/20更新)",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "NST/Reuters: Wall Street ends lower as Nvidia CEO resigns",
+     "url": "https://www.nst.com.my/amp/business/corporate/2026/11/1576568/wall-street-ends-lower-nvidia-ceo-resigns-us-yields"
+    }
+   ]
+  },
+  "dow": {
+   "headline": "ダウは-1.93%で、約5ヶ月ぶりに5万ドルを下回る水準が続く。",
+   "analysis": "NYダウは48,147.33ドル（-1.93%、-949.73ドル）。1週間で-8.27%。ナスダックに比べ下げが小さいのは、生活必需品などのディフェンシブ株が支えたため。RSI26.6で売られすぎ圏。",
+   "us_impact_level": "大",
+   "us_impact": "ダウは構成銘柄が分散されるため、AI主導の下げの影響が相対的に小さい。それでも週間で大幅安で、投資家心理の悪化は明らか。",
+   "sources": [
+    {
+     "title": "CNBC: Stock market today (11/20更新)",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "Yahoo Finance: Dow・S&P500が調整局面入り",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
+    }
+   ]
+  },
+  "nasdaq": {
+   "headline": "ナスダックは-5.28%の急落、2026年の上昇分を失った。",
+   "analysis": "ナスダック総合は22,617.73（-5.28%）。1週間で-10.98%。チャートでは200日線（約25,157）を大きく割り込み、4月の安値圏から続いた上昇トレンドがほぼ消えた。RSIは25.6と売られすぎ。",
+   "us_impact_level": "大",
+   "us_impact": "AI・半導体への集中度が高く、エヌビディアなどの下落がそのまま指数に直撃した。反発が始まる前に追加の売りが出る可能性があり、ボラティリティは高いまま。",
+   "sources": [
+    {
+     "title": "CNBC: Stock market today (11/20更新)",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "Yahoo Finance: Dow・S&P500が調整局面入り",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
+    }
+   ]
+  },
+  "sp500": {
+   "headline": "S&P500は-3.70%、7日続落で調整局面入り。",
+   "analysis": "S&P500は6,910.39（-3.70%）。1週間-9.27%、1ヶ月-10.68%。200日線（約7,348）を割り込み、チャートでは10月までのレンジを下抜けた。RSIは24.7と極めて売られすぎ。",
+   "us_impact_level": "大",
+   "us_impact": "時価総額上位のハイテクの下落で指数全体が下がった。調整局面入りで、機関投資家のリスク削減が続く可能性がある。",
+   "sources": [
+    {
+     "title": "CNBC: Stock market today (11/20更新)",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "Yahoo Finance: Dow・S&P500が調整局面入り",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
+    }
+   ]
+  },
+  "btc": {
+   "headline": "ビットコインは-5.89%と急落し、下落が止まらない。",
+   "analysis": "ビットコインは58,247.88ドル（-5.89%）。1週間-18.40%、1ヶ月-29.78%で、RSIは16.9と極端に売られすぎ。FRBの利上げ観測と株安でリスク資産として売られた。",
+   "us_impact_level": "小",
+   "us_impact": "暗号資産は株安と同じ方向に動くリスク資産として扱われ、米株への新たな材料にはならない。ただし投資家心理の悪化を映す温度計。",
+   "sources": [
+    {
+     "title": "FXStreet: Risk-off sell-off hits bitcoin, gold and equities",
+     "url": "https://www.fxstreet.com/cryptocurrencies/news/risk-off-sell-off-hits-bitcoin-gold-and-equities-as-fed-hike-bets-build-202611181709"
+    },
+    {
+     "title": "CNBC: Stock market today (11/20更新)",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  "wti": {
+   "headline": "WTIは83.74ドル（+1.58%）と小幅高、株安と逆行。",
+   "analysis": "WTIは83.74ドル（+1.58%）。1週間は-5.69%、1ヶ月は-14.72%で、50日線（約93.65）を下回る。株安の中で反発したが、トレンドは下向き。",
+   "us_impact_level": "小",
+   "us_impact": "エネルギー株は下げが小さく、セクター別では相対的に強かった。原油の上昇が止まれば、インフレ懸念が和らぐ面もある。",
+   "sources": [
+    {
+     "title": "CNBC: Stock market today (11/20更新)",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "StockTitan: Stock Market Today Live, Nov 20 2026",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026"
+    }
+   ]
+  },
+  "gold": {
+   "headline": "金は-3.01%と安全資産として買われず、週間でも大幅安。",
+   "analysis": "金は3,517.05ドル（-3.01%）。1週間-9.27%、1ヶ月-14.73%。50日線4,089.35、200日線4,421.50を大きく下回る。利上げ観測で金利が高い局面では、利息を生まない金は売られやすい。",
+   "us_impact_level": "小",
+   "us_impact": "金が売られるのは流動性の確保や利上げ観測が原因とみられ（推測）、安全資産としての逃避先が見当たらない状況を示す。",
+   "sources": [
+    {
+     "title": "FXStreet: Risk-off sell-off hits bitcoin, gold and equities",
+     "url": "https://www.fxstreet.com/cryptocurrencies/news/risk-off-sell-off-hits-bitcoin-gold-and-equities-as-fed-hike-bets-build-202611181709"
+    },
+    {
+     "title": "CNBC: Stock market today (11/20更新)",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  "platinum": {
+   "headline": "プラチナは-3.74%、年初来で-38.09%と弱い。",
+   "analysis": "プラチナは1,296ドル（-3.74%）。1週間-14.60%。工業用需要への懸念と貴金属全体の売りが重なった。",
+   "us_impact_level": "小",
+   "us_impact": "米株への影響は限定的。景気敏感の資源関連株にはやや重しだが、金ほどの注目度はない。",
+   "sources": [
+    {
+     "title": "FXStreet: Risk-off sell-off hits bitcoin, gold and equities",
+     "url": "https://www.fxstreet.com/cryptocurrencies/news/risk-off-sell-off-hits-bitcoin-gold-and-equities-as-fed-hike-bets-build-202611181709"
+    },
+    {
+     "title": "CNBC: Stock market today (11/20更新)",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  "jgb10y": {
+   "headline": "日本の10年債利回りは2.784%に低下。",
+   "analysis": "日本の10年債利回りは2.784%（-5.9bp）。株安を受けて債券が買われた。年初来では+34.36%と水準は高い。",
+   "us_impact_level": "小",
+   "us_impact": "日本の金利低下は米金利に対しては小さな材料。日銀の追加利上げ観測は残っており、円相場を通じた影響に注意。",
+   "sources": [
+    {
+     "title": "CNBC: Stock market today (11/20更新)",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "NST/Reuters: Wall Street ends lower as Nvidia CEO resigns",
+     "url": "https://www.nst.com.my/amp/business/corporate/2026/11/1576568/wall-street-ends-lower-nvidia-ceo-resigns-us-yields"
+    }
+   ]
+  },
+  "ust10y": {
+   "headline": "米10年債利回りは4.936%に低下も、利上げ観測で高止まり。",
+   "analysis": "米10年債利回りは4.936%（-11.4bp）。株安で債券が買われ利回りは低下したが、1週間は-3.76%にとどまり、水準は5%に近い。市場は12月の利上げを強く織り込んでいる（報道）。",
+   "us_impact_level": "大",
+   "us_impact": "金利が高止まりする限り、高バリュエーションのハイテクには逆風。利回りが5%を超えるか、下がるかで株の方向感が変わりやすい。",
+   "sources": [
+    {
+     "title": "CNBC: Stock market today (11/20更新)",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "NST/Reuters: Wall Street ends lower as Nvidia CEO resigns",
+     "url": "https://www.nst.com.my/amp/business/corporate/2026/11/1576568/wall-street-ends-lower-nvidia-ceo-resigns-us-yields"
+    }
+   ]
+  }
+ },
+ "sectors": {
+  "headline": "半導体(SMH)が-10.64%、情報技術が-7.27%と主導し、生活必需品だけが上昇した。",
+  "analysis": "最大の下げは半導体SMHの-10.64%と情報技術XLKの-7.27%。エヌビディアは約14%下落し、SECの調査報道とCEO退任の不安、AI投資の鈍化懸念が重なった。AMDとマイクロンも約13〜14%下げた（報道）。コミュニケーション（-2.66%）、一般消費財（-2.95%）、資本財（-3.09%）も下落。一方、生活必需品XLPは+0.67%と唯一上昇し、ヘルスケアXLVも-0.12%と小幅安にとどまった。",
+  "rotation": "景気敏感株もハイテクもほぼ全面安で、資金はディフェンシブ（生活必需品・ヘルスケア・公益）に避難した。SPYとの比較でもXLP +4.22%ポイント、XLV +3.43%ポイントと上回り、グロースからバリュー・ディフェンシブへの流れが鮮明。1週間ではSMHが-20.01%、XLKが-14.15%と大きく、1ヶ月でも-28.12%、-20.54%と一時的な動きではなく流れが変わりつつある。",
+  "outlook": "次の米国市場では、半導体の下げ止まりとエヌビディアの続報、12月FOMCに向けた金利動向が焦点。ディフェンシブへの資金移動が続くか、売られすぎ（RSI25前後）の反動でハイテクが戻るかを見たい。決算や指標のカレンダーは未確認のため、今週の予定は各自確認が必要。",
+  "sources": [
+   {
+    "title": "CNBC: Stock market today (11/20更新)",
+    "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+   },
+   {
+    "title": "Yahoo Finance: Dow・S&P500が調整局面入り",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
+   },
+   {
+    "title": "StockTitan: Stock Market Today Live, Nov 20 2026",
+    "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026"
+   }
+  ]
+ },
+ "top_news": {
+  "headline": "エヌビディアを中心にAI関連への不信感が広がり、半導体・ハイテク全体の重しに。",
+  "items": [
+   {
+    "title": "エヌビディア急落、SEC調査報道が重荷",
+    "type": "銘柄",
+    "tickers": [
+     "NVDA"
+    ],
+    "what": "報道によれば、SECがエヌビディアの開示について民事調査を始めた。ファン氏のCEO退任後で、カリフォルニア州司法長官も動いているとされる。11/20は株価が約14%下落した。",
+    "why": "時価総額が極めて大きく、S&P500とナスダックへの寄与が大きい。AIサプライチェーン全体（AMD、マイクロン等）に波及し、半導体ETFが-10.64%となった。",
+    "watch": "SECなど当局の続報と、会社側の説明。調査が拡大するかが焦点。",
+    "impact_level": "大",
+    "sources": [
+     {
+      "title": "InvestmentNews: Embattled Nvidia faces SEC probe",
+      "url": "https://www.investmentnews.com/equities/embattled-nvidia-faces-sec-probe-as-california-attorney-general-mulls-action/269054"
+     },
+     {
+      "title": "CNBC: Stock market today (11/20更新)",
+      "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+     }
+    ]
+   },
+   {
+    "title": "アンソロピック上場後の失速でAI熱が冷える",
+    "type": "業界",
+    "tickers": [
+     "ANTHROPIC",
+     "NVDA"
+    ],
+    "what": "アンソロピックは上場初日に上昇したが、11/20には約8.5%下落した（報道）。上場がAI関連の買いを呼び戻すとの期待は外れた。",
+    "why": "AIの大型IPOは市場の熱量を測る試金石で、失速はAI投資の採算や需要への疑念を強める。データセンター投資の鈍化懸念とも重なった。",
+    "watch": "後続のAI関連IPOの動きと、ハイパースケーラーの設備投資の方針。",
+    "impact_level": "大",
+    "sources": [
+     {
+      "title": "CNBC: Stock market today (11/20更新)",
+      "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+     },
+     {
+      "title": "Yahoo Finance: Dow・S&P500が調整局面入り",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
+     }
+    ]
+   },
+   {
+    "title": "12月の利上げ観測がハイテクの重しに",
+    "type": "政策・規制",
+    "tickers": [
+     "SPY",
+     "QQQ"
+    ],
+    "what": "市場は12月8〜9日のFOMCでの利上げを強く織り込んでいる（報道）。FRB高官は、様子見で物価対応が遅れるリスクを指摘した。",
+    "why": "金利が高止まりすると、将来の利益に依存するハイテクの割引現在価値が下がる。利上げ織り込みが進むほど、バリュエーションの高い銘柄が売られやすい。",
+    "watch": "FRB当局者の発言、物価指標、米10年債利回りが5%に近づくかどうか。",
+    "impact_level": "中",
+    "sources": [
+     {
+      "title": "NST/Reuters: Wall Street ends lower as Nvidia CEO resigns",
+      "url": "https://www.nst.com.my/amp/business/corporate/2026/11/1576568/wall-street-ends-lower-nvidia-ceo-resigns-us-yields"
+     },
+     {
+      "title": "FXStreet: Risk-off sell-off hits bitcoin, gold and equities",
+      "url": "https://www.fxstreet.com/cryptocurrencies/news/risk-off-sell-off-hits-bitcoin-gold-and-equities-as-fed-hike-bets-build-202611181709"
+     }
+    ]
+   }
+  ]
+ },
+ "external_facts": [],
+ "x_sentiment": "XやSNSの反応は検索で確認できなかったため省略する。"
+}

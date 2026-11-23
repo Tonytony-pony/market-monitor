@@ -1,0 +1,249 @@
+{
+  "report_date": "2026-11-24",
+  "us_session_covered": "2026-11-23（月）",
+  "summary": {
+    "headline": "NVDA急反発でナスダック+6.51%の大幅高、S&P500は+4.73%で7日続落に終止符",
+    "recent_moves": [
+      "米株は11/23（月）に全面高。ナスダック24,089.56（+6.51%）、S&P500 7,237.17（+4.73%）、NYダウ49,595.31（+3.01%）。ナスダックとS&P500は2025年4月以来の大きな上昇率（報道）。",
+      "主因はエヌビディア（NVDA）の急騰。ジェンスン・フアン氏のCEO復帰が決まり、株価は約31%上昇した（報道）。前週の急落に対する買い戻しの色が濃く、半導体ETF（SMH）は+15.03%、情報技術（XLK）は+8.97%だった。",
+      "ただし1週間ではナスダック-3.07%、S&P500 -3.68%と下落したまま。ナスダックの終値は50日線（約26,072）と200日線（約25,163）の両方を下回っており、今回の上昇はまだ「戻り」の段階。",
+      "金利は米10年債利回り4.936%（-1.4bp）とほぼ横ばい。12月FOMCの利上げ観測は強く、ドル高・金価格上昇（3,634.40ドル、+2.72%）と、株高・金高が同時に進んだ。",
+      "日本は11/23が祝日で休場。日経平均は金曜の56,436.65円（-5.06%）が最新で、日経VIは33.07（+7.93%）と高水準。日経先物は54,690円（-3.07%）で、米株急反発を織り込む動きが今朝の東京の焦点。"
+    ],
+    "outlook": [
+      "11/24（火）の米国は、週明けの急反発の持続性が焦点。空売りの買い戻しによる「機械的な反発」との見方もあり、戻り売りと押し目買いのどちらが優勢かを確認したい（推測）。",
+      "同日の引け後にデルの決算があり、AIサーバー需要の強さが半導体・AI関連株の次の材料になりうる。",
+      "11/25（水）の10月PCE（個人消費支出）と第3四半期GDP改定値は、12月8〜9日のFOMC前の最後の主要インフレ指標。結果次第で利上げ観測が変わり、株価が大きく動く可能性がある。",
+      "11/26（木）は感謝祭で米市場は休場、11/27（金）は短縮取引。祝日週は流動性が薄く、値動きが荒くなりやすい。",
+      "NVDAに対するSEC（米証券取引委員会）の会計調査報道は未解決のまま。フアン氏復帰で一旦材料視されなくなったが、再燃すれば半導体全体の重しになる。"
+    ],
+    "watch_points": [
+      "ナスダックの200日線（約25,163）と50日線（約26,072）の回復ができるか",
+      "米10年債利回りの4.936%近辺からの動きと、12月FOMCでの利上げ幅の見方",
+      "日経VIが30台前半から低下に向かうか（リスク回避が和らぐかの目安）"
+    ],
+    "events": [
+      {"time_jst": "11/24（火）", "event": "ウィリアムズNY連銀総裁の講演（日時は要確認）", "importance": "中"},
+      {"time_jst": "11/25（水）早朝", "event": "デル決算（11/24の米国引け後）。AIサーバー需要が焦点", "importance": "高"},
+      {"time_jst": "11/25（水）22:30", "event": "10月PCE物価指数・第3四半期GDP改定値・ベージュブック", "importance": "高"},
+      {"time_jst": "11/27（金）", "event": "米国は感謝祭の翌日で短縮取引（11/26は休場）", "importance": "中"},
+      {"time_jst": "12/9（水）", "event": "FOMC（12/8〜9）。利上げ観測が強い", "importance": "高"}
+    ],
+    "overview_message": "米株はAI・半導体株の急反発で全面高となった一方、日本株は祝日明けで急落後の戻りが焦点になる。"
+  },
+  "instruments": {
+    "nikkei225": {
+      "headline": "祝日で更新がなく、金曜の急落（-5.06%）が最新の終値。",
+      "analysis": "最新値は11/20の56,436.65円で、前日比-5.06%（-3,007.56円）と急落した。AI・半導体株の世界的な売りとNVDAへのSEC調査報道が重なり、ソフトバンクグループや東京エレクトロンなど値がさハイテクが大きく下げた。11/23は勤労感謝の日で休場。RSIは31.3と売られすぎ圏にあり、50日線（約64,073）と200日線（約62,265）を大きく下回る。チャートは取得に失敗したため、位置は数値からの判断。",
+      "us_impact_level": "小",
+      "us_impact": "日本株は米株急落への反応であり、今は米株が先行して反発した。今朝の東京は米国の反発を受けて戻りやすいが、売りの需給が残るため値動きは荒い見込み（推測）。米株への影響は限定的。",
+      "sources": [
+        {"title": "Taiwan stock market falls... Nikkei 225 drops (24/7 Wall St.)", "url": "https://247wallst.com/investing/2026/11/20/taiwan-stock-market-falls-6-2-to-cap-its-worst-week-since-1991-as-kospi-closes-down-5-2-and-nikkei-225-drops-5-1-in-ai-chip-selloff/"},
+        {"title": "Nikkei 225 Crashes to 56,436.65 (BBN Times)", "url": "https://www.bbntimes.com/companies/nikkei-225-crashes-to-56-436-65-as-softbank-and-advantest-lead-the-ai-rout"}
+      ]
+    },
+    "jpx400": {
+      "headline": "JPX日経400も金曜に-3.73%と下落し、50日線を大きく下回ったまま。",
+      "analysis": "最新値は11/20の33,467.40円（-3.73%）。1週間では-6.82%、1ヶ月では-8.89%と下げが続く。日経平均より下落率は小さく、ハイテク偏重が薄い分だけ売りが緩やかだった。RSIは31.5で、売られすぎ圏。",
+      "us_impact_level": "小",
+      "us_impact": "米国株への影響は限定的。日本の幅広い大型株の指数で、米国のAI関連株の動きに連動した側面が強い。",
+      "sources": [
+        {"title": "Japan stocks / Nikkei 225 report (24/7 Wall St.)", "url": "https://247wallst.com/investing/2026/11/20/taiwan-stock-market-falls-6-2-to-cap-its-worst-week-since-1991-as-kospi-closes-down-5-2-and-nikkei-225-drops-5-1-in-ai-chip-selloff/"},
+        {"title": "Nikkei 225 Crashes (BBN Times)", "url": "https://www.bbntimes.com/companies/nikkei-225-crashes-to-56-436-65-as-softbank-and-advantest-lead-the-ai-rout"}
+      ]
+    },
+    "growth250": {
+      "headline": "グロース250が-5.45%と最も大きく下げ、1ヶ月では-15.56%。",
+      "analysis": "最新値は11/20の638.22で、前日比-5.45%。1週間で-12.79%、年初来でも-6.32%とマイナスに転じた。RSIは26.3と3指数の中で最も低く、投資家のリスク回避が小型成長株に集中した。",
+      "us_impact_level": "なし",
+      "us_impact": "日本の新興株は米株への影響が小さい。ただし小型成長株の売りは世界的なリスク回避の強さを示す目安になる。",
+      "sources": [
+        {"title": "Taiwan stock market falls... Nikkei 225 drops (24/7 Wall St.)", "url": "https://247wallst.com/investing/2026/11/20/taiwan-stock-market-falls-6-2-to-cap-its-worst-week-since-1991-as-kospi-closes-down-5-2-and-nikkei-225-drops-5-1-in-ai-chip-selloff/"},
+        {"title": "Nikkei 225 Crashes (BBN Times)", "url": "https://www.bbntimes.com/companies/nikkei-225-crashes-to-56-436-65-as-softbank-and-advantest-lead-the-ai-rout"}
+      ]
+    },
+    "nk_futures": {
+      "headline": "日経先物は54,690円（-3.07%）で、祝日明けの東京は安く始まる水準。",
+      "analysis": "先物は54,690円と、現物の56,436.65円を下回る水準。1週間で-10.84%、1ヶ月で-12.64%と下げが大きい。ただし米株の急反発を受け、先物は戻りを探る展開になりやすい。RSIは28.7。",
+      "us_impact_level": "小",
+      "us_impact": "先物は米株の先行指標というより、米株の動きを織り込む側。米株への影響は限定的で、むしろ米株の反発が日本株を支えるかが焦点。",
+      "sources": [
+        {"title": "US futures rebound after AI rout (FXStreet)", "url": "https://www.fxstreet.com/analysis/us-futures-rebound-after-ai-rout-202611230651"},
+        {"title": "Stock market today Nov 23 (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html"}
+      ]
+    },
+    "nikkei_vi": {
+      "headline": "日経VIは33.07（+7.93%）と、警戒感が強い水準で金曜を終えた。",
+      "analysis": "日経公式値で11/20時点の33.07。前日比で+2.43ポイント上昇した。株価急落に合わせて将来の変動への警戒が強まった状態で、日本市場は休場だったため、更新は米株反発後の取引を待つ必要がある。チャートは無く、水準の評価は米VIX低下（報道）と合わせて見る。",
+      "us_impact_level": "小",
+      "us_impact": "日本の変動率指数は、米国のVIXが下がる局面で追随して低下しやすい。米株への影響は限定的。",
+      "sources": [
+        {"title": "Nikkei 225 Crashes (BBN Times)", "url": "https://www.bbntimes.com/companies/nikkei-225-crashes-to-56-436-65-as-softbank-and-advantest-lead-the-ai-rout"},
+        {"title": "Stock market today Nov 23 (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html"}
+      ]
+    },
+    "usdjpy": {
+      "headline": "ドル円は158.94円（+0.24%）と、ドル高・円安に振れた。",
+      "analysis": "米国の12月利上げ観測が強く、ドルは4月以来の高値圏にある（報道）。ドル円は50日線（約158.03）と200日線（約158.88）の付近で、1ヶ月では+1.40%。RSIは52.9で中立圏。",
+      "us_impact_level": "小",
+      "us_impact": "ドル高は米国の多国籍企業の海外収益を圧迫しうるが、現時点の影響は小さい。日米の金利差が円安の背景なら、日銀の動きが次のドル円の材料になる。",
+      "sources": [
+        {"title": "2-year Treasury yield jumps as stocks rebound (CNBC)", "url": "https://www.cnbc.com/2026/11/23/treasury-yields-bonds-fed.html"},
+        {"title": "US futures rebound after AI rout (FXStreet)", "url": "https://www.fxstreet.com/analysis/us-futures-rebound-after-ai-rout-202611230651"}
+      ]
+    },
+    "dow": {
+      "headline": "NYダウは+3.01%の49,595.31ドルまで反発し、1,447.98ドル上昇した。",
+      "analysis": "NVDAの急騰とAI関連の買い戻しで上昇し、ダウは49,595.31ドル（+3.01%）。ただし1週間では-5.11%、1ヶ月でも-5.89%で、50日線（約51,649）と200日線（約50,773）をなお下回る。RSIは39.2。",
+      "us_impact_level": "大",
+      "us_impact": "米国株の中心指標で、調整局面（直近高値から10%超の下落、報道）からの戻りを示す。200日線の回復が次の確認ポイント。",
+      "sources": [
+        {"title": "Dow soars 1,400 points (CNBC)", "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"},
+        {"title": "Stock market today Nov 23 (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html"}
+      ]
+    },
+    "nasdaq": {
+      "headline": "ナスダックは+6.51%の24,089.56ポイントと、約1年7ヶ月ぶりの上昇率。",
+      "analysis": "NVDAを筆頭に半導体、AIクラウド、メガキャップが大きく上昇した。1週間では-3.07%、1ヶ月では-6.97%と、前週の下落の一部を戻したにとどまる。終値は50日線（約26,072）、200日線（約25,163）の下で、年初来は+2.59%まで縮小した。RSIは41.8で、売られすぎ圏からは脱した。",
+      "us_impact_level": "大",
+      "us_impact": "米国株全体の方向を決める指標。過去数日の下落幅が大きかったため、上昇の持続性には懐疑的な見方もあり（推測）、200日線を回復できるかが焦点。",
+      "sources": [
+        {"title": "Dow soars 1,400 points; Nasdaq surges 6% (CNBC)", "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"},
+        {"title": "Stock market today Nov 23 (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html"}
+      ]
+    },
+    "sp500": {
+      "headline": "S&P500は+4.73%の7,237.17ポイントと反発し、7日続落を止めた。",
+      "analysis": "11セクターのうち9つが上昇した。1週間は-3.68%、1ヶ月は-5.24%。50日線（約7,618）は下回り、200日線（約7,350）まであと一歩の位置。RSIは41.3。",
+      "us_impact_level": "大",
+      "us_impact": "米国株の代表指標で、AI・半導体への資金の戻りが指数を押し上げた。ただし前週の下げが大きかったため、この反発が一時的か、底入れかは今週の指標とデルの決算で見極めたい。",
+      "sources": [
+        {"title": "Dow soars 1,400 points; Nasdaq surges 6% (CNBC)", "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"},
+        {"title": "Stock market today Nov 23 (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html"}
+      ]
+    },
+    "btc": {
+      "headline": "ビットコインは61,181.66ドルで横ばい。株高に追随したが、下落基調は変わらず。",
+      "analysis": "日中は大きく上昇する場面があったが、終値は前日比+0.00%にとどまった（報道、時刻により価格差あり）。1ヶ月では-24.54%、年初来でも-30.07%と弱い。50日線（約76,159）、200日線（約72,232）を大きく下回り、RSIは26.8。",
+      "us_impact_level": "小",
+      "us_impact": "暗号資産関連株（Strategyなど）には影響するが、米国株全体への影響は限定的。FRBの利上げ観測が続く間は上値が重い（推測）。",
+      "sources": [
+        {"title": "Bitcoin price today: BTC tops $64,500 (Invezz)", "url": "https://invezz.com/uk/news/2026/11/23/bitcoin-price-today-btc-tops-dollar64500-as-nvidia-reinstates-jensen-huang/"},
+        {"title": "Bitcoin surges toward $64K (Coinpaper)", "url": "https://coinpaper.com/39274/bitcoin-price-today-btc-surges-toward-64-k-as-nvidia-and-core-weave-stocks-rally"}
+      ]
+    },
+    "wti": {
+      "headline": "原油（WTI）は80.21ドルと-3.84%下落し、3週連続の安値更新。",
+      "analysis": "供給過剰の見通しや世界の需要懸念で売られ、湾岸の船舶攻撃など中東リスクが下げを限定した（報道）。1週間では-9.52%、1ヶ月では-19.06%と大きく下げたが、年初来ではまだ+39.71%。RSIは32.0。",
+      "us_impact_level": "中",
+      "us_impact": "原油安はエネルギー株（XLE -1.06%）の重しになる一方、ガソリン価格やインフレ期待の低下を通じて消費関連・インフレ指標にはプラス。中東情勢の悪化で反転するリスクは残る。",
+      "sources": [
+        {"title": "Oil falls as robust Gulf exports offset Iran escalation (Investing.com)", "url": "https://www.investing.com/news/commodities-news/oil-falls-as-robust-gulf-exports-offset-iran-escalation-supply-glut-risks-5044220"},
+        {"title": "Oil falls on increased Middle Eastern supplies (RTE)", "url": "https://rte.ie/news/business/2026/1123/1600267-world-oil-prices"}
+      ]
+    },
+    "gold": {
+      "headline": "金は3,634.40ドル（+2.72%）と反発し、株高と同時に上昇した。",
+      "analysis": "AIトレードへの不安が残る中で安全資産の買いが入った（報道）。ただし1週間では-6.32%、1ヶ月では-9.72%、年初来では-15.84%と弱く、50日線（約4,077）と200日線（約4,415）を大きく下回る。RSIは31.9。",
+      "us_impact_level": "小",
+      "us_impact": "金の上昇は金鉱株（ニューモントなど）に追い風。株と金が同時に上がる局面はまれで、市場の不安定さを表す。米株全体への影響は限定的。",
+      "sources": [
+        {"title": "Gold recovers above $3,550 (FXStreet)", "url": "https://www.fxstreet.com/news/gold-recovers-above-3-550-as-ai-trade-concern-spurs-safe-haven-flows-202611230109"},
+        {"title": "Dow soars 1,400 points (CNBC)", "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"}
+      ]
+    },
+    "platinum": {
+      "headline": "プラチナは1,327.64ドル（+2.39%）と反発したが、年初来は-36.58%と弱いまま。",
+      "analysis": "貴金属全般の反発に連動した動き。1週間は-10.69%、1ヶ月は-15.22%で、50日線（約1,601）と200日線（約1,813）を大きく下回る。RSIは29.9で売られすぎ圏。",
+      "us_impact_level": "なし",
+      "us_impact": "米国株への影響は限定的。自動車触媒向けの需要懸念を通じ、一部の自動車関連株の材料になる程度。",
+      "sources": [
+        {"title": "Gold recovers above $3,550 (FXStreet)", "url": "https://www.fxstreet.com/news/gold-recovers-above-3-550-as-ai-trade-concern-spurs-safe-haven-flows-202611230109"},
+        {"title": "Dow soars 1,400 points (CNBC)", "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"}
+      ]
+    },
+    "jgb10y": {
+      "headline": "日本10年債利回りは2.785%でほぼ横ばい（+0.1bp）。",
+      "analysis": "祝日で取引が少なく、動きは小さい。1週間では-2.93%と低下したが、年初来では+34.41%（利回りの増減率）と高水準。日銀の追加利上げ観測が下支えになっている（報道）。",
+      "us_impact_level": "小",
+      "us_impact": "日本の金利上昇は円高方向の要因で、日本の投資家による米国債・米株の売りにつながりうるが、現時点の影響は小さい。",
+      "sources": [
+        {"title": "Japan 10-year JGB to 2.84%: the hike is in the yield", "url": "https://theindustryspread.com/japan-jgb-hike-already-in-the-yield/"},
+        {"title": "Japan 10-Year Bond Yield (Investing.com)", "url": "https://www.investing.com/rates-bonds/japan-10-year-bond-yield"}
+      ]
+    },
+    "ust10y": {
+      "headline": "米10年債利回りは4.936%（-1.4bp）と小動きで、利上げ観測が下支え。",
+      "analysis": "株高にもかかわらず10年債は小幅低下。短期（2年債）は利上げ観測で上昇し、利回り曲線は平らになっている（報道）。FRBが12月に利上げするとの見方が強い。1ヶ月では-0.26%でほぼ横ばい。",
+      "us_impact_level": "大",
+      "us_impact": "金利が高止まりすれば、AI・半導体などの高PERグロース株の重しになる。10月PCEが予想を上回ると、反発の持続性に影響しうる。",
+      "sources": [
+        {"title": "2-year Treasury yield jumps as stocks rebound (CNBC)", "url": "https://www.cnbc.com/2026/11/23/treasury-yields-bonds-fed.html"},
+        {"title": "Stock market today Nov 23 (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html"}
+      ]
+    }
+  },
+  "sectors": {
+    "headline": "半導体と情報技術が主導して11業種中9つが上昇し、エネルギーと生活必需品だけが下げた。",
+    "analysis": "半導体（SMH）は+15.03%、情報技術（XLK）は+8.97%と突出し、S&P500（SPY +4.74%）に対してそれぞれ+10.29ポイント、+4.23ポイント上回った。NVDAのCEO復帰を受けた買い戻しに、マイクロン、AMD、AIクラウド関連が追随した（報道）。資本財（+3.90%）、一般消費財（+3.97%）、素材（+3.23%）、コミュニケーション（+3.57%）も指数並みに上昇。エネルギー（XLE -1.06%）は原油安で、生活必需品（XLP -0.09%）は売られた。",
+    "rotation": "景気敏感株とグロースが買われ、ディフェンシブ（生活必需品・公益・ヘルスケア）は相対的に出遅れた。SPYに対する差はXLPが-4.83ポイント、ヘルスケアが-3.51ポイント。ただし1週間はXLK -2.61%、SMH -1.82%、1ヶ月ではXLK -10.69%、SMH -11.94%と下げており、今回は前週の急落に対する反発の側面が強い。年初来ではエネルギー（+33.88%）や生活必需品（+16.30%）が優位なままで、流れが変わったとまでは言えない。",
+    "outlook": "11/24のデル決算（AIサーバー需要）が半導体とハードウェアの次の材料。11/25のPCEとGDPで利上げ観測が変われば、金利に敏感なXLKやSMHに影響が出やすい。エネルギーは原油と中東情勢次第で、反発の余地もある（推測）。",
+    "sources": [
+      {"title": "9 Of 11 Sectors Rise Monday As Growth Leads (Benzinga)", "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63540429/9-of-11-sectors-rise-monday-as-growth-leads"},
+      {"title": "Dow soars 1,400 points (CNBC)", "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"},
+      {"title": "Stock market today Nov 23 (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html"}
+    ]
+  },
+  "top_news": {
+    "headline": "AI・半導体株は前週の急落から急反発したが、調査・評価・金利の不安は残る。",
+    "items": [
+      {
+        "title": "NVDA、フアン氏のCEO復帰で急騰",
+        "type": "銘柄",
+        "tickers": ["NVDA"],
+        "what": "エヌビディアの取締役会は11/23、11/12に辞任したジェンスン・フアン氏をCEOに復帰させると発表した。株価は約31%上昇し、トランプ大統領が復帰を後押ししたと報じられた。前週にはSECが同社の会計を調べているとの報道もあり、株価は大きく下げていた。",
+        "why": "時価総額が最大級で、指数への寄与が大きい。半導体、メモリー、AIクラウドへ買いが波及し、ナスダックとS&P500を押し上げた。一方で、反発は空売りの買い戻しが大きいとの見方もある。",
+        "watch": "SEC調査の進展、デル決算でのAIサーバー需要、アナリストの目標株価の変化。",
+        "impact_level": "大",
+        "sources": [
+          {"title": "Dow soars 1,400 points; Nasdaq surges 6% (CNBC)", "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"},
+          {"title": "Stock market today: Nvidia soars on Jensen Huang's return (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html"},
+          {"title": "Nvidia's accounting is a focus of US SEC investigation (Reuters via Investing.com)", "url": "https://www.investing.com/news/economy-news/exclusiveus-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-5042460"}
+        ]
+      },
+      {
+        "title": "12月FOMCの利上げ観測がほぼ織り込み済み",
+        "type": "政策・規制",
+        "tickers": ["SPY", "QQQ"],
+        "what": "10月CPIの上振れと雇用の強さを受け、市場は12/8〜9のFOMCでの利上げをほぼ確実視している。ウォラー理事は大幅利上げに言及したとの報道もあるが、財務長官が引き締め過ぎへの懸念を示し、より大きな利上げ幅の観測はやや後退した。",
+        "why": "高PERのAI・半導体株は金利上昇に弱く、資金調達コストも上がる。今回の株高・債券安・ドル高の組み合わせは、金利が株の反発を抑える可能性を示す。",
+        "watch": "11/25のPCE（予想は前月比横ばい、前年比は上昇）と、ウィリアムズ総裁の発言。",
+        "impact_level": "大",
+        "sources": [
+          {"title": "2-year Treasury yield jumps as stocks rebound (CNBC)", "url": "https://www.cnbc.com/2026/11/23/treasury-yields-bonds-fed.html"},
+          {"title": "US futures rebound after AI rout (FXStreet)", "url": "https://www.fxstreet.com/analysis/us-futures-rebound-after-ai-rout-202611230651"}
+        ]
+      },
+      {
+        "title": "クラウドストライクがズィースケーラーを買収",
+        "type": "業界",
+        "tickers": ["CRWD", "ZS"],
+        "what": "サイバーセキュリティ大手のクラウドストライク（CRWD）が、同業のズィースケーラー（ZS）を全額株式で買収すると発表した。ZSは約14〜15%上昇し、CRWDは決算が好調だったにもかかわらず大きく下げた（報道、数値は時刻により差）。",
+        "why": "業界最大級の再編で、株式発行による希薄化が嫌気された。AI時代にセキュリティ各社が少数のプラットフォームへ集約される流れを示し、他のサイバー関連株にも波及する。",
+        "watch": "買収の規制当局の審査、他社の再編観測、CRWDの株価が決算後の下げ幅を戻せるか。",
+        "impact_level": "中",
+        "sources": [
+          {"title": "CrowdStrike Sinks on $43.9 Billion Zscaler Deal (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-sinks-12-43-9-160043670.html"},
+          {"title": "CrowdStrike Beats Earnings Estimates, Raises Guidance (Benzinga)", "url": "https://www.benzinga.com/markets/earnings/26/11/63546827/crowdstrike-beats-earnings-estimates-raises-guidance-yet-stock-plunges-after-zscaler-deal"}
+        ]
+      }
+    ]
+  },
+  "external_facts": [
+    {"label": "NVDA 11/23 騰落率（約）", "value": "+31%", "sources": ["https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html", "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html"]},
+    {"label": "CRWD・ZS 買収額", "value": "439億ドル", "sources": ["https://finance.yahoo.com/markets/stocks/articles/crowdstrike-sinks-12-43-9-160043670.html", "https://www.benzinga.com/markets/earnings/26/11/63546827/crowdstrike-beats-earnings-estimates-raises-guidance-yet-stock-plunges-after-zscaler-deal"]},
+    {"label": "ZS 11/23 騰落率（約）", "value": "+14%", "sources": ["https://www.benzinga.com/markets/earnings/26/11/63546827/crowdstrike-beats-earnings-estimates-raises-guidance-yet-stock-plunges-after-zscaler-deal", "https://www.tradingview.com/news/gurufocus:ecf6dc57b094b:0-crowdstrike-and-zscaler-ink-biggest-cybersecurity-deal-ever-1-stock-sinks-other-soars/"]},
+    {"label": "ZS 11/23 騰落率（上限）", "value": "+15%", "sources": ["https://www.benzinga.com/markets/earnings/26/11/63546827/crowdstrike-beats-earnings-estimates-raises-guidance-yet-stock-plunges-after-zscaler-deal", "https://finance.yahoo.com/technology/ai/articles/zscaler-stock-leads-cybersecurity-rally-154855250.html"]}
+  ],
+  "x_sentiment": "市場関係者の間では、NVDAの反発の大部分は空売りの買い戻しによる「機械的な動き」との指摘が目立つ（報道ベース）。SNS個別の投稿は確認できなかった。"
+}

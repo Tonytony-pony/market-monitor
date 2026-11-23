@@ -1,0 +1,299 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>マーケット日報 2026-11-24</title>
+<style>
+:root{--ink:#1a1a1a;--ink-2:#555555;--ink-3:#8e8e8e;--accent:#173f66;--accent-tint:#eef3f8;
+--hairline:#d9d9d9;--fill-gray:#e7e9ec;--paper:#ffffff;--neg:#a33c2e}
+html{color-scheme:light}
+body{margin:0;background:var(--paper);color:var(--ink);
+font-family:"Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic Medium","Yu Gothic",Meiryo,sans-serif;
+font-size:15px;line-height:1.9;border-top:6px solid var(--accent);-webkit-font-smoothing:antialiased}
+.page{max-width:880px;margin:0 auto;padding:56px clamp(16px,5vw,48px) 96px}
+.doc-header{padding-bottom:28px;border-bottom:1px solid var(--ink)}
+.eyebrow{font-size:11px;letter-spacing:.16em;color:var(--ink-3);text-transform:uppercase;margin:0 0 20px}
+h1{font-size:25px;line-height:1.55;letter-spacing:.02em;margin:0 0 12px;font-feature-settings:"palt" 1}
+.lead{font-size:14px;color:var(--ink-2);margin:0 0 24px;max-width:42em}
+.doc-meta{font-size:12px;color:var(--ink-3);display:flex;gap:24px;flex-wrap:wrap}
+.page>section{border-top:1px solid var(--hairline);padding-top:44px;margin-top:64px}
+.page>section:first-of-type{border-top:0;padding-top:0;margin-top:56px}
+h2{font-size:19px;letter-spacing:.03em;margin:0;font-feature-settings:"palt" 1}
+h2 .no{color:var(--accent);margin-right:14px;font-variant-numeric:tabular-nums}
+.msg{font-size:16px;font-weight:600;line-height:1.8;margin:18px 0 20px;max-width:40em}
+h3{font-size:15px;margin:32px 0 8px}
+h3 .lvl{font-size:12px;font-weight:600;color:var(--ink-3);margin-left:10px}
+h3 .lvl b{color:var(--accent)}
+p{margin:0 0 16px;max-width:42em}
+.summary{list-style:none;margin:16px 0 0;padding:0;counter-reset:s;max-width:44em}
+.summary li{counter-increment:s;position:relative;padding-left:2.4em;margin-bottom:14px}
+.summary li::before{content:counter(s,decimal-leading-zero);position:absolute;left:0;top:.4em;
+font-size:12px;font-weight:700;color:var(--accent);letter-spacing:.04em;font-variant-numeric:tabular-nums}
+ul{margin:0 0 16px;max-width:41em;list-style:none;padding-left:1.2em}
+li{margin-bottom:6px}
+ul li::before{content:"–";float:left;margin-left:-1.2em;color:var(--ink-3)}
+.kpis{display:flex;flex-wrap:wrap;row-gap:16px;margin:8px 0 8px}
+.kpi{padding:2px 28px}
+.kpi:first-child{padding-left:0}
+.kpi+.kpi{border-left:1px solid var(--hairline)}
+.kpi .v{font-size:24px;font-weight:700;color:var(--accent);line-height:1.3;font-variant-numeric:tabular-nums}
+.kpi .v.neg{color:var(--neg)}
+.kpi .v small{font-size:13px;font-weight:600;margin-left:2px}
+.kpi .l{font-size:11.5px;color:var(--ink-3);letter-spacing:.06em;margin-top:4px}
+.tbl{overflow-x:auto}
+table{width:100%;border-collapse:collapse;margin:24px 0 8px;font-size:13px;line-height:1.6}
+caption{text-align:left;font-size:12.5px;font-weight:600;margin-bottom:10px}
+th{font-size:12px;font-weight:600;text-align:left;padding:9px 10px;white-space:nowrap;
+border-top:2px solid var(--ink);border-bottom:1px solid var(--ink);vertical-align:bottom}
+td{padding:9px 10px;border-bottom:1px solid var(--hairline);vertical-align:top}
+th.num,td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+td.neg{color:var(--neg)}
+td.lvl-大{color:var(--accent);font-weight:700}
+figure{margin:24px 0 8px}
+figcaption{font-size:12.5px;font-weight:600;margin-bottom:10px}
+figure img{width:100%;height:auto;display:block;border-bottom:1px solid var(--hairline)}
+.bars{font-size:13px;line-height:1.4}
+.bar-row{display:grid;grid-template-columns:minmax(0,12.5em) minmax(0,1fr) 4.6em;align-items:center;gap:10px;padding:4px 0}
+.bar-name{overflow-wrap:anywhere}
+.bar-name small{font-size:11px;color:var(--ink-3);margin-left:2px}
+.is-bm .bar-name{font-weight:700}
+.bar-track{position:relative;height:16px;
+background:linear-gradient(#a8adb5,#a8adb5) center/1px 100% no-repeat}
+.bar-track,.bar-track i{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.bar-track i{position:absolute;top:0;bottom:0}
+.bar-track .up{background:var(--accent)}
+.bar-track .down{background:var(--neg)}
+.bar-track .bm{background:#c9ccd1}
+.bar-val{text-align:right;font-size:12px;color:var(--ink-2);font-variant-numeric:tabular-nums;white-space:nowrap}
+.bar-val.neg{color:var(--neg)}
+@media (max-width:480px){.bars{font-size:12px}.bar-row{grid-template-columns:minmax(0,9.6em) minmax(0,1fr) 4.2em;gap:6px}
+.bar-name small{display:block;margin-left:0}}
+.src{font-size:11.5px;color:var(--ink-3);margin:6px 0 0;max-width:none}
+.src a{color:var(--ink-3)}
+.note{font-size:12.5px;color:var(--ink-2);border-left:2px solid var(--hairline);padding:2px 0 2px 14px;margin:20px 0 16px;max-width:40em}
+.em{color:var(--accent);font-weight:700}
+.news{margin-top:36px}
+.news h3{font-size:16px;margin:0 0 4px;line-height:1.6}
+.news .rank{display:inline-block;color:var(--accent);font-size:20px;font-weight:700;margin-right:12px;font-variant-numeric:tabular-nums}
+.news-meta{font-size:12px;color:var(--ink-3);letter-spacing:.04em;margin:0 0 10px}
+.news dl{margin:0;max-width:42em}
+.news dt{font-size:12px;font-weight:700;color:var(--accent);letter-spacing:.06em;margin-top:12px}
+.news dd{margin:2px 0 0}
+.news dd p{margin-bottom:8px}
+a{color:inherit;text-decoration:underline;text-decoration-color:var(--hairline);text-underline-offset:3px}
+a:hover{text-decoration-color:var(--accent)}
+.doc-footer{margin-top:88px;padding-top:20px;border-top:1px solid var(--hairline);
+font-size:11.5px;color:var(--ink-3);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+@media print{@page{size:A4;margin:16mm}body{border-top-width:4px}.page{max-width:none;padding:0}
+.page>section{margin-top:48px;padding-top:32px}table,figure,.kpis{break-inside:avoid}a{text-decoration:none}}
+</style></head><body><div class="page">
+<header class="doc-header">
+<p class="eyebrow">Daily Market Monitor ／ 2026年11月24日（火） 朝</p>
+<h1>NVDA急反発でナスダック+6.51%の大幅高、S&amp;P500は+4.73%で7日続落に終止符</h1>
+<p class="lead">日本株・米国株・為替・商品・金利・暗号資産の直近の動きを、米国株市場への影響という観点でまとめた。数字は取得データと照合済み。</p>
+<div class="doc-meta"><span>対象の米国取引日: 2026-11-23（月）</span><span>データ取得: 2026-11-24T06:21:58+09:00</span><span><a href="index.html">過去のレポート</a></span></div>
+</header>
+<section id="summary">
+<h2>サマリー</h2>
+<h3>① 米国株市場への影響を意識した直近の動き</h3><ol class="summary"><li>米株は11/23（月）に全面高。ナスダック24,089.56（+6.51%）、S&amp;P500 7,237.17（+4.73%）、NYダウ49,595.31（+3.01%）。ナスダックとS&amp;P500は2025年4月以来の大きな上昇率（報道）。</li><li>主因はエヌビディア（NVDA）の急騰。ジェンスン・フアン氏のCEO復帰が決まり、株価は約31%上昇した（報道）。前週の急落に対する買い戻しの色が濃く、半導体ETF（SMH）は+15.03%、情報技術（XLK）は+8.97%だった。</li><li>ただし1週間ではナスダック-3.07%、S&amp;P500 -3.68%と下落したまま。ナスダックの終値は50日線（約26,072）と200日線（約25,163）の両方を下回っており、今回の上昇はまだ「戻り」の段階。</li><li>金利は米10年債利回り4.936%（-1.4bp）とほぼ横ばい。12月FOMCの利上げ観測は強く、ドル高・金価格上昇（3,634.40ドル、+2.72%）と、株高・金高が同時に進んだ。</li><li>日本は11/23が祝日で休場。日経平均は金曜の56,436.65円（-5.06%）が最新で、日経VIは33.07（+7.93%）と高水準。日経先物は54,690円（-3.07%）で、米株急反発を織り込む動きが今朝の東京の焦点。</li></ol>
+<h3>② 次の米国市場で見込まれる動き・注意点</h3><ol class="summary"><li>11/24（火）の米国は、週明けの急反発の持続性が焦点。空売りの買い戻しによる「機械的な反発」との見方もあり、戻り売りと押し目買いのどちらが優勢かを確認したい（推測）。</li><li>同日の引け後にデルの決算があり、AIサーバー需要の強さが半導体・AI関連株の次の材料になりうる。</li><li>11/25（水）の10月PCE（個人消費支出）と第3四半期GDP改定値は、12月8〜9日のFOMC前の最後の主要インフレ指標。結果次第で利上げ観測が変わり、株価が大きく動く可能性がある。</li><li>11/26（木）は感謝祭で米市場は休場、11/27（金）は短縮取引。祝日週は流動性が薄く、値動きが荒くなりやすい。</li><li>NVDAに対するSEC（米証券取引委員会）の会計調査報道は未解決のまま。フアン氏復帰で一旦材料視されなくなったが、再燃すれば半導体全体の重しになる。</li></ol>
+<h3>注意して見るポイント</h3><ul><li>ナスダックの200日線（約25,163）と50日線（約26,072）の回復ができるか</li><li>米10年債利回りの4.936%近辺からの動きと、12月FOMCでの利上げ幅の見方</li><li>日経VIが30台前半から低下に向かうか（リスク回避が和らぐかの目安）</li></ul>
+<div class="tbl"><table><caption>今夜から明朝にかけての主な予定（日本時間）</caption><thead><tr><th>日時</th><th>予定</th><th>重要度</th></tr></thead><tbody><tr><td style="white-space:nowrap">11/24（火）</td><td>ウィリアムズNY連銀総裁の講演（日時は要確認）</td><td>中</td></tr><tr><td style="white-space:nowrap">11/25（水）早朝</td><td>デル決算（11/24の米国引け後）。AIサーバー需要が焦点</td><td>高</td></tr><tr><td style="white-space:nowrap">11/25（水）22:30</td><td>10月PCE物価指数・第3四半期GDP改定値・ベージュブック</td><td>高</td></tr><tr><td style="white-space:nowrap">11/27（金）</td><td>米国は感謝祭の翌日で短縮取引（11/26は休場）</td><td>中</td></tr><tr><td style="white-space:nowrap">12/9（水）</td><td>FOMC（12/8〜9）。利上げ観測が強い</td><td>高</td></tr></tbody></table></div>
+<h3>市場参加者の反応（X・SNS）</h3><p>市場関係者の間では、NVDAの反発の大部分は空売りの買い戻しによる「機械的な動き」との指摘が目立つ（報道ベース）。SNS個別の投稿は確認できなかった。</p>
+</section><section id="top-news">
+<h2>米株投資家が注目すべきニュース　トップ3</h2>
+<p class="msg">AI・半導体株は前週の急落から急反発したが、調査・評価・金利の不安は残る。</p>
+<div class="news">
+<h3><span class="rank">1</span>NVDA、フアン氏のCEO復帰で急騰<span class="lvl">影響度 <b>大</b></span></h3>
+<p class="news-meta">銘柄 ／ NVDA</p>
+<dl><dt>何が起きたか</dt><dd><p>エヌビディアの取締役会は11/23、11/12に辞任したジェンスン・フアン氏をCEOに復帰させると発表した。株価は約31%上昇し、トランプ大統領が復帰を後押ししたと報じられた。前週にはSECが同社の会計を調べているとの報道もあり、株価は大きく下げていた。</p></dd>
+<dt>米国株市場に効く理由</dt><dd><p>時価総額が最大級で、指数への寄与が大きい。半導体、メモリー、AIクラウドへ買いが波及し、ナスダックとS&amp;P500を押し上げた。一方で、反発は空売りの買い戻しが大きいとの見方もある。</p></dd>
+<dt>次に見るべきこと</dt><dd><p>SEC調査の進展、デル決算でのAIサーバー需要、アナリストの目標株価の変化。</p></dd></dl>
+<p class="src">参考: <a href="https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html">Dow soars 1,400 points; Nasdaq surges 6% (CNBC)</a> / <a href="https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html">Stock market today: Nvidia soars on Jensen Huang&#x27;s return (Yahoo Finance)</a> / <a href="https://www.investing.com/news/economy-news/exclusiveus-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-5042460">Nvidia&#x27;s accounting is a focus of US SEC investigation (Reuters via Investing.com)</a></p>
+</div><div class="news">
+<h3><span class="rank">2</span>12月FOMCの利上げ観測がほぼ織り込み済み<span class="lvl">影響度 <b>大</b></span></h3>
+<p class="news-meta">政策・規制 ／ SPY・QQQ</p>
+<dl><dt>何が起きたか</dt><dd><p>10月CPIの上振れと雇用の強さを受け、市場は12/8〜9のFOMCでの利上げをほぼ確実視している。ウォラー理事は大幅利上げに言及したとの報道もあるが、財務長官が引き締め過ぎへの懸念を示し、より大きな利上げ幅の観測はやや後退した。</p></dd>
+<dt>米国株市場に効く理由</dt><dd><p>高PERのAI・半導体株は金利上昇に弱く、資金調達コストも上がる。今回の株高・債券安・ドル高の組み合わせは、金利が株の反発を抑える可能性を示す。</p></dd>
+<dt>次に見るべきこと</dt><dd><p>11/25のPCE（予想は前月比横ばい、前年比は上昇）と、ウィリアムズ総裁の発言。</p></dd></dl>
+<p class="src">参考: <a href="https://www.cnbc.com/2026/11/23/treasury-yields-bonds-fed.html">2-year Treasury yield jumps as stocks rebound (CNBC)</a> / <a href="https://www.fxstreet.com/analysis/us-futures-rebound-after-ai-rout-202611230651">US futures rebound after AI rout (FXStreet)</a></p>
+</div><div class="news">
+<h3><span class="rank">3</span>クラウドストライクがズィースケーラーを買収<span class="lvl">影響度 <b>中</b></span></h3>
+<p class="news-meta">業界 ／ CRWD・ZS</p>
+<dl><dt>何が起きたか</dt><dd><p>サイバーセキュリティ大手のクラウドストライク（CRWD）が、同業のズィースケーラー（ZS）を全額株式で買収すると発表した。ZSは約14〜15%上昇し、CRWDは決算が好調だったにもかかわらず大きく下げた（報道、数値は時刻により差）。</p></dd>
+<dt>米国株市場に効く理由</dt><dd><p>業界最大級の再編で、株式発行による希薄化が嫌気された。AI時代にセキュリティ各社が少数のプラットフォームへ集約される流れを示し、他のサイバー関連株にも波及する。</p></dd>
+<dt>次に見るべきこと</dt><dd><p>買収の規制当局の審査、他社の再編観測、CRWDの株価が決算後の下げ幅を戻せるか。</p></dd></dl>
+<p class="src">参考: <a href="https://finance.yahoo.com/markets/stocks/articles/crowdstrike-sinks-12-43-9-160043670.html">CrowdStrike Sinks on $43.9 Billion Zscaler Deal (Yahoo Finance)</a> / <a href="https://www.benzinga.com/markets/earnings/26/11/63546827/crowdstrike-beats-earnings-estimates-raises-guidance-yet-stock-plunges-after-zscaler-deal">CrowdStrike Beats Earnings Estimates, Raises Guidance (Benzinga)</a></p>
+</div>
+</section><section id="overview"><h2>主要指標の一覧</h2><p class="msg">米株はAI・半導体株の急反発で全面高となった一方、日本株は祝日明けで急落後の戻りが焦点になる。</p><div class="tbl"><table><caption>図表1　主要指標の一覧（前日比・騰落率は直近の取引日ベース）</caption><thead><tr><th>項目</th><th class="num">終値</th><th class="num">前日比</th><th class="num">騰落率</th><th class="num">1週間</th><th class="num">1ヶ月</th><th>米株への影響</th></tr></thead><tbody><tr><td><a href="#nikkei225">日経平均</a></td><td class="num">56,436.65</td><td class="num neg">−3,007.56</td><td class="num neg">−5.06%</td><td class="num neg">−8.01%</td><td class="num neg">−9.94%</td><td class="lvl-小">小</td></tr><tr><td><a href="#jpx400">JPX日経400</a></td><td class="num">33,467.40</td><td class="num neg">−1,296.24</td><td class="num neg">−3.73%</td><td class="num neg">−6.82%</td><td class="num neg">−8.89%</td><td class="lvl-小">小</td></tr><tr><td><a href="#growth250">東証グロース250</a></td><td class="num">638.22</td><td class="num neg">−36.80</td><td class="num neg">−5.45%</td><td class="num neg">−12.79%</td><td class="num neg">−15.56%</td><td class="lvl-なし">なし</td></tr><tr><td><a href="#nk_futures">日経225先物</a></td><td class="num">54,690</td><td class="num neg">−1,730</td><td class="num neg">−3.07%</td><td class="num neg">−10.84%</td><td class="num neg">−12.64%</td><td class="lvl-小">小</td></tr><tr><td><a href="#nikkei_vi">日経VI</a></td><td class="num">33.07</td><td class="num">+2.43</td><td class="num">+7.93%</td><td class="num">–</td><td class="num">–</td><td class="lvl-小">小</td></tr><tr><td><a href="#usdjpy">ドル円</a></td><td class="num">158.944</td><td class="num">+0.383</td><td class="num">+0.24%</td><td class="num neg">−0.42%</td><td class="num">+1.40%</td><td class="lvl-小">小</td></tr><tr><td><a href="#dow">NYダウ</a></td><td class="num">49,595.31</td><td class="num">+1,447.98</td><td class="num">+3.01%</td><td class="num neg">−5.11%</td><td class="num neg">−5.89%</td><td class="lvl-大">大</td></tr><tr><td><a href="#nasdaq">ナスダック総合</a></td><td class="num">24,089.56</td><td class="num">+1,471.82</td><td class="num">+6.51%</td><td class="num neg">−3.07%</td><td class="num neg">−6.97%</td><td class="lvl-大">大</td></tr><tr><td><a href="#sp500">S&amp;P500</a></td><td class="num">7,237.17</td><td class="num">+326.78</td><td class="num">+4.73%</td><td class="num neg">−3.68%</td><td class="num neg">−5.24%</td><td class="lvl-大">大</td></tr><tr><td><a href="#btc">ビットコイン</a></td><td class="num">61,182</td><td class="num">+2</td><td class="num">+0.00%</td><td class="num neg">−6.32%</td><td class="num neg">−24.54%</td><td class="lvl-小">小</td></tr><tr><td><a href="#wti">原油(WTI)</a></td><td class="num">80.21</td><td class="num neg">−3.20</td><td class="num neg">−3.84%</td><td class="num neg">−9.52%</td><td class="num neg">−19.06%</td><td class="lvl-中">中</td></tr><tr><td><a href="#gold">金</a></td><td class="num">3,634.40</td><td class="num">+96.09</td><td class="num">+2.72%</td><td class="num neg">−6.32%</td><td class="num neg">−9.72%</td><td class="lvl-小">小</td></tr><tr><td><a href="#platinum">プラチナ</a></td><td class="num">1,327.64</td><td class="num">+31.04</td><td class="num">+2.39%</td><td class="num neg">−10.69%</td><td class="num neg">−15.22%</td><td class="lvl-なし">なし</td></tr><tr><td><a href="#jgb10y">日本国債10年利回り</a></td><td class="num">2.785%</td><td class="num">+0.001%pt</td><td class="num">+0.1bp</td><td class="num neg">−2.93%</td><td class="num neg">−0.82%</td><td class="lvl-小">小</td></tr><tr><td><a href="#ust10y">米国債10年利回り</a></td><td class="num">4.936%</td><td class="num neg">−0.014%pt</td><td class="num neg">−1.4bp</td><td class="num neg">−4.30%</td><td class="num neg">−0.26%</td><td class="lvl-大">大</td></tr></tbody></table></div><p class="src">出所: TradingView（日経平均・日経VIは日経公式データ）。金利の騰落率欄は前日比の変化幅（bp）。</p></section><section id="sectors">
+<h2>米国セクター別の動向</h2>
+<p class="msg">半導体と情報技術が主導して11業種中9つが上昇し、エネルギーと生活必需品だけが下げた。</p>
+<figure><figcaption>セクターETFの前日比（上から騰落率の高い順）</figcaption>
+<div class="bars" role="img" aria-label="セクター別の前日比"><div class="bar-row"><span class="bar-name">半導体 <small>SMH</small></span><span class="bar-track"><i class="up" style="left:50%;width:50.00%"></i></span><span class="bar-val">+15.03%</span></div><div class="bar-row"><span class="bar-name">情報技術 <small>XLK</small></span><span class="bar-track"><i class="up" style="left:50%;width:29.85%"></i></span><span class="bar-val">+8.97%</span></div><div class="bar-row is-bm"><span class="bar-name">S&amp;P500（比較用） <small>SPY</small></span><span class="bar-track"><i class="bm" style="left:50%;width:15.77%"></i></span><span class="bar-val">+4.74%</span></div><div class="bar-row"><span class="bar-name">一般消費財 <small>XLY</small></span><span class="bar-track"><i class="up" style="left:50%;width:13.22%"></i></span><span class="bar-val">+3.97%</span></div><div class="bar-row"><span class="bar-name">資本財 <small>XLI</small></span><span class="bar-track"><i class="up" style="left:50%;width:12.98%"></i></span><span class="bar-val">+3.90%</span></div><div class="bar-row"><span class="bar-name">コミュニケーション <small>XLC</small></span><span class="bar-track"><i class="up" style="left:50%;width:11.87%"></i></span><span class="bar-val">+3.57%</span></div><div class="bar-row"><span class="bar-name">素材 <small>XLB</small></span><span class="bar-track"><i class="up" style="left:50%;width:10.74%"></i></span><span class="bar-val">+3.23%</span></div><div class="bar-row"><span class="bar-name">金融 <small>XLF</small></span><span class="bar-track"><i class="up" style="left:50%;width:6.58%"></i></span><span class="bar-val">+1.98%</span></div><div class="bar-row"><span class="bar-name">公益 <small>XLU</small></span><span class="bar-track"><i class="up" style="left:50%;width:4.91%"></i></span><span class="bar-val">+1.48%</span></div><div class="bar-row"><span class="bar-name">ヘルスケア <small>XLV</small></span><span class="bar-track"><i class="up" style="left:50%;width:4.09%"></i></span><span class="bar-val">+1.23%</span></div><div class="bar-row"><span class="bar-name">不動産 <small>XLRE</small></span><span class="bar-track"><i class="up" style="left:50%;width:3.45%"></i></span><span class="bar-val">+1.04%</span></div><div class="bar-row"><span class="bar-name">生活必需品 <small>XLP</small></span><span class="bar-track"><i class="down" style="right:50%;width:0.40%"></i></span><span class="bar-val neg">−0.09%</span></div><div class="bar-row"><span class="bar-name">エネルギー <small>XLE</small></span><span class="bar-track"><i class="down" style="right:50%;width:3.52%"></i></span><span class="bar-val neg">−1.06%</span></div></div>
+<p class="src">出所: TradingView（SPDR セクターETF、半導体は VanEck SMH、比較用に SPY）。</p></figure>
+<h3>動きと背景</h3><p>半導体（SMH）は+15.03%、情報技術（XLK）は+8.97%と突出し、S&amp;P500（SPY +4.74%）に対してそれぞれ+10.29ポイント、+4.23ポイント上回った。NVDAのCEO復帰を受けた買い戻しに、マイクロン、AMD、AIクラウド関連が追随した（報道）。資本財（+3.90%）、一般消費財（+3.97%）、素材（+3.23%）、コミュニケーション（+3.57%）も指数並みに上昇。エネルギー（XLE -1.06%）は原油安で、生活必需品（XLP -0.09%）は売られた。</p>
+<h3>資金の流れ（ローテーション）</h3><p>景気敏感株とグロースが買われ、ディフェンシブ（生活必需品・公益・ヘルスケア）は相対的に出遅れた。SPYに対する差はXLPが-4.83ポイント、ヘルスケアが-3.51ポイント。ただし1週間はXLK -2.61%、SMH -1.82%、1ヶ月ではXLK -10.69%、SMH -11.94%と下げており、今回は前週の急落に対する反発の側面が強い。年初来ではエネルギー（+33.88%）や生活必需品（+16.30%）が優位なままで、流れが変わったとまでは言えない。</p>
+<h3>次の米国市場で注目するセクター</h3><p>11/24のデル決算（AIサーバー需要）が半導体とハードウェアの次の材料。11/25のPCEとGDPで利上げ観測が変われば、金利に敏感なXLKやSMHに影響が出やすい。エネルギーは原油と中東情勢次第で、反発の余地もある（推測）。</p>
+<div class="tbl"><table><caption>セクターETFの騰落（「対S&amp;P500」は SPY との騰落率の差）</caption>
+<thead><tr><th>セクター</th><th class="num">終値</th><th class="num">前日比</th><th class="num">対S&amp;P500</th>
+<th class="num">1週間</th><th class="num">1ヶ月</th><th class="num">年初来</th></tr></thead>
+<tbody><tr><td>半導体 <span class="src" style="display:inline">SMH</span></td><td class="num">460.18</td><td class="num">+15.03%</td><td class="num">+10.29pt</td><td class="num neg">−1.82%</td><td class="num neg">−11.94%</td><td class="num">+24.73%</td></tr><tr><td>情報技術 <span class="src" style="display:inline">XLK</span></td><td class="num">162.38</td><td class="num">+8.97%</td><td class="num">+4.23pt</td><td class="num neg">−2.61%</td><td class="num neg">−10.69%</td><td class="num">+11.50%</td></tr><tr><td>S&amp;P500（比較用） <span class="src" style="display:inline">SPY</span></td><td class="num">722.51</td><td class="num">+4.74%</td><td class="num">–</td><td class="num neg">−3.62%</td><td class="num neg">−4.92%</td><td class="num">+5.37%</td></tr><tr><td>一般消費財 <span class="src" style="display:inline">XLY</span></td><td class="num">116.93</td><td class="num">+3.97%</td><td class="num neg">−0.77pt</td><td class="num neg">−2.25%</td><td class="num">+2.52%</td><td class="num neg">−2.62%</td></tr><tr><td>資本財 <span class="src" style="display:inline">XLI</span></td><td class="num">162.47</td><td class="num">+3.90%</td><td class="num neg">−0.84pt</td><td class="num neg">−3.13%</td><td class="num neg">−1.54%</td><td class="num">+4.40%</td></tr><tr><td>コミュニケーション <span class="src" style="display:inline">XLC</span></td><td class="num">103.60</td><td class="num">+3.57%</td><td class="num neg">−1.17pt</td><td class="num neg">−5.00%</td><td class="num neg">−2.20%</td><td class="num neg">−12.32%</td></tr><tr><td>素材 <span class="src" style="display:inline">XLB</span></td><td class="num">49.90</td><td class="num">+3.23%</td><td class="num neg">−1.51pt</td><td class="num neg">−4.44%</td><td class="num neg">−2.94%</td><td class="num">+9.62%</td></tr><tr><td>金融 <span class="src" style="display:inline">XLF</span></td><td class="num">55.65</td><td class="num">+1.98%</td><td class="num neg">−2.76pt</td><td class="num neg">−5.26%</td><td class="num neg">−0.96%</td><td class="num">+1.50%</td></tr><tr><td>公益 <span class="src" style="display:inline">XLU</span></td><td class="num">43.32</td><td class="num">+1.48%</td><td class="num neg">−3.26pt</td><td class="num neg">−2.06%</td><td class="num">+1.38%</td><td class="num">+1.00%</td></tr><tr><td>ヘルスケア <span class="src" style="display:inline">XLV</span></td><td class="num">179.42</td><td class="num">+1.23%</td><td class="num neg">−3.51pt</td><td class="num neg">−5.82%</td><td class="num neg">−0.54%</td><td class="num">+15.85%</td></tr><tr><td>不動産 <span class="src" style="display:inline">XLRE</span></td><td class="num">42.90</td><td class="num">+1.04%</td><td class="num neg">−3.70pt</td><td class="num neg">−3.75%</td><td class="num neg">−0.60%</td><td class="num">+6.35%</td></tr><tr><td>生活必需品 <span class="src" style="display:inline">XLP</span></td><td class="num">90.38</td><td class="num neg">−0.09%</td><td class="num neg">−4.83pt</td><td class="num neg">−2.95%</td><td class="num">+0.88%</td><td class="num">+16.30%</td></tr><tr><td>エネルギー <span class="src" style="display:inline">XLE</span></td><td class="num">59.87</td><td class="num neg">−1.06%</td><td class="num neg">−5.80pt</td><td class="num neg">−7.21%</td><td class="num neg">−12.06%</td><td class="num">+33.88%</td></tr></tbody></table></div>
+<p class="src">参考: <a href="https://www.benzinga.com/etfs/sector-etfs/26/11/63540429/9-of-11-sectors-rise-monday-as-growth-leads">9 Of 11 Sectors Rise Monday As Growth Leads (Benzinga)</a> / <a href="https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html">Dow soars 1,400 points (CNBC)</a> / <a href="https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html">Stock market today Nov 23 (Yahoo Finance)</a></p>
+</section><section id="nikkei225">
+<h2><span class="no">01</span>日経平均</h2>
+<p class="msg">祝日で更新がなく、金曜の急落（-5.06%）が最新の終値。</p>
+<div class="kpis"><div class="kpi"><div class="v">56,436.65</div><div class="l">終値</div></div><div class="kpi"><div class="v neg">−3,007.56</div><div class="l">前日比</div></div><div class="kpi"><div class="v neg">−5.06%</div><div class="l">騰落率</div></div><div class="kpi"><div class="v neg">−9.4%</div><div class="l">200日線からの乖離</div></div><div class="kpi"><div class="v">31</div><div class="l">RSI(14)</div></div></div>
+<figure><figcaption>図表2　日経平均　日足（直近1年）</figcaption>
+<p class="note">チャートを取得できなかった。</p>
+<p class="src">出所: TradingView TVC:NI225</p></figure>
+<h3>動きと背景</h3><p>最新値は11/20の56,436.65円で、前日比-5.06%（-3,007.56円）と急落した。AI・半導体株の世界的な売りとNVDAへのSEC調査報道が重なり、ソフトバンクグループや東京エレクトロンなど値がさハイテクが大きく下げた。11/23は勤労感謝の日で休場。RSIは31.3と売られすぎ圏にあり、50日線（約64,073）と200日線（約62,265）を大きく下回る。チャートは取得に失敗したため、位置は数値からの判断。</p>
+<h3>米国株市場への影響<span class="lvl">影響度 <b>小</b></span></h3><p>日本株は米株急落への反応であり、今は米株が先行して反発した。今朝の東京は米国の反発を受けて戻りやすいが、売りの需給が残るため値動きは荒い見込み（推測）。米株への影響は限定的。</p>
+<p class="src">参考: <a href="https://247wallst.com/investing/2026/11/20/taiwan-stock-market-falls-6-2-to-cap-its-worst-week-since-1991-as-kospi-closes-down-5-2-and-nikkei-225-drops-5-1-in-ai-chip-selloff/">Taiwan stock market falls... Nikkei 225 drops (24/7 Wall St.)</a> / <a href="https://www.bbntimes.com/companies/nikkei-225-crashes-to-56-436-65-as-softbank-and-advantest-lead-the-ai-rout">Nikkei 225 Crashes to 56,436.65 (BBN Times)</a></p>
+</section><section id="jpx400">
+<h2><span class="no">02</span>JPX日経400</h2>
+<p class="msg">JPX日経400も金曜に-3.73%と下落し、50日線を大きく下回ったまま。</p>
+<div class="kpis"><div class="kpi"><div class="v">33,467.40</div><div class="l">終値</div></div><div class="kpi"><div class="v neg">−1,296.24</div><div class="l">前日比</div></div><div class="kpi"><div class="v neg">−3.73%</div><div class="l">騰落率</div></div><div class="kpi"><div class="v neg">−5.3%</div><div class="l">200日線からの乖離</div></div><div class="kpi"><div class="v">32</div><div class="l">RSI(14)</div></div></div>
+<figure><figcaption>図表3　JPX日経400　日足（直近1年）</figcaption>
+<p class="note">チャートを取得できなかった。</p>
+<p class="src">出所: TradingView TSE:JPXNIKKEI400</p></figure>
+<h3>動きと背景</h3><p>最新値は11/20の33,467.40円（-3.73%）。1週間では-6.82%、1ヶ月では-8.89%と下げが続く。日経平均より下落率は小さく、ハイテク偏重が薄い分だけ売りが緩やかだった。RSIは31.5で、売られすぎ圏。</p>
+<h3>米国株市場への影響<span class="lvl">影響度 <b>小</b></span></h3><p>米国株への影響は限定的。日本の幅広い大型株の指数で、米国のAI関連株の動きに連動した側面が強い。</p>
+<p class="src">参考: <a href="https://247wallst.com/investing/2026/11/20/taiwan-stock-market-falls-6-2-to-cap-its-worst-week-since-1991-as-kospi-closes-down-5-2-and-nikkei-225-drops-5-1-in-ai-chip-selloff/">Japan stocks / Nikkei 225 report (24/7 Wall St.)</a> / <a href="https://www.bbntimes.com/companies/nikkei-225-crashes-to-56-436-65-as-softbank-and-advantest-lead-the-ai-rout">Nikkei 225 Crashes (BBN Times)</a></p>
+</section><section id="growth250">
+<h2><span class="no">03</span>東証グロース250</h2>
+<p class="msg">グロース250が-5.45%と最も大きく下げ、1ヶ月では-15.56%。</p>
+<div class="kpis"><div class="kpi"><div class="v">638.22</div><div class="l">終値</div></div><div class="kpi"><div class="v neg">−36.80</div><div class="l">前日比</div></div><div class="kpi"><div class="v neg">−5.45%</div><div class="l">騰落率</div></div><div class="kpi"><div class="v neg">−15.2%</div><div class="l">200日線からの乖離</div></div><div class="kpi"><div class="v">26</div><div class="l">RSI(14)</div></div></div>
+<figure><figcaption>図表4　東証グロース250　日足（直近1年）</figcaption>
+<p class="note">チャートを取得できなかった。</p>
+<p class="src">出所: TradingView TSE:MOS</p></figure>
+<h3>動きと背景</h3><p>最新値は11/20の638.22で、前日比-5.45%。1週間で-12.79%、年初来でも-6.32%とマイナスに転じた。RSIは26.3と3指数の中で最も低く、投資家のリスク回避が小型成長株に集中した。</p>
+<h3>米国株市場への影響<span class="lvl">影響度 <b>なし</b></span></h3><p>日本の新興株は米株への影響が小さい。ただし小型成長株の売りは世界的なリスク回避の強さを示す目安になる。</p>
+<p class="src">参考: <a href="https://247wallst.com/investing/2026/11/20/taiwan-stock-market-falls-6-2-to-cap-its-worst-week-since-1991-as-kospi-closes-down-5-2-and-nikkei-225-drops-5-1-in-ai-chip-selloff/">Taiwan stock market falls... Nikkei 225 drops (24/7 Wall St.)</a> / <a href="https://www.bbntimes.com/companies/nikkei-225-crashes-to-56-436-65-as-softbank-and-advantest-lead-the-ai-rout">Nikkei 225 Crashes (BBN Times)</a></p>
+</section><section id="nk_futures">
+<h2><span class="no">04</span>日経225先物</h2>
+<p class="msg">日経先物は54,690円（-3.07%）で、祝日明けの東京は安く始まる水準。</p>
+<div class="kpis"><div class="kpi"><div class="v">54,690</div><div class="l">終値</div></div><div class="kpi"><div class="v neg">−1,730</div><div class="l">前日比</div></div><div class="kpi"><div class="v neg">−3.07%</div><div class="l">騰落率</div></div><div class="kpi"><div class="v neg">−12.3%</div><div class="l">200日線からの乖離</div></div><div class="kpi"><div class="v">29</div><div class="l">RSI(14)</div></div></div>
+<figure><figcaption>図表5　日経225先物　日足（直近1年）</figcaption>
+<p class="note">チャートを取得できなかった。</p>
+<p class="src">出所: TradingView OSE:NK2251!</p></figure>
+<h3>動きと背景</h3><p>先物は54,690円と、現物の56,436.65円を下回る水準。1週間で-10.84%、1ヶ月で-12.64%と下げが大きい。ただし米株の急反発を受け、先物は戻りを探る展開になりやすい。RSIは28.7。</p>
+<h3>米国株市場への影響<span class="lvl">影響度 <b>小</b></span></h3><p>先物は米株の先行指標というより、米株の動きを織り込む側。米株への影響は限定的で、むしろ米株の反発が日本株を支えるかが焦点。</p>
+<p class="src">参考: <a href="https://www.fxstreet.com/analysis/us-futures-rebound-after-ai-rout-202611230651">US futures rebound after AI rout (FXStreet)</a> / <a href="https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html">Stock market today Nov 23 (Yahoo Finance)</a></p>
+</section><section id="nikkei_vi">
+<h2><span class="no">05</span>日経VI</h2>
+<p class="msg">日経VIは33.07（+7.93%）と、警戒感が強い水準で金曜を終えた。</p>
+<div class="kpis"><div class="kpi"><div class="v">33.07</div><div class="l">終値</div></div><div class="kpi"><div class="v">+2.43</div><div class="l">前日比</div></div><div class="kpi"><div class="v">+7.93%</div><div class="l">騰落率</div></div></div>
+<p class="src">出所: 日経公式CSV（2026-11-20時点）。チャートは掲載していない。</p>
+<h3>動きと背景</h3><p>日経公式値で11/20時点の33.07。前日比で+2.43ポイント上昇した。株価急落に合わせて将来の変動への警戒が強まった状態で、日本市場は休場だったため、更新は米株反発後の取引を待つ必要がある。チャートは無く、水準の評価は米VIX低下（報道）と合わせて見る。</p>
+<h3>米国株市場への影響<span class="lvl">影響度 <b>小</b></span></h3><p>日本の変動率指数は、米国のVIXが下がる局面で追随して低下しやすい。米株への影響は限定的。</p>
+<p class="src">参考: <a href="https://www.bbntimes.com/companies/nikkei-225-crashes-to-56-436-65-as-softbank-and-advantest-lead-the-ai-rout">Nikkei 225 Crashes (BBN Times)</a> / <a href="https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html">Stock market today Nov 23 (Yahoo Finance)</a></p>
+</section><section id="usdjpy">
+<h2><span class="no">06</span>ドル円</h2>
+<p class="msg">ドル円は158.94円（+0.24%）と、ドル高・円安に振れた。</p>
+<div class="kpis"><div class="kpi"><div class="v">158.944</div><div class="l">終値</div></div><div class="kpi"><div class="v">+0.383</div><div class="l">前日比</div></div><div class="kpi"><div class="v">+0.24%</div><div class="l">騰落率</div></div><div class="kpi"><div class="v">+0.0%</div><div class="l">200日線からの乖離</div></div><div class="kpi"><div class="v">53</div><div class="l">RSI(14)</div></div></div>
+<figure><figcaption>図表6　ドル円　日足（直近1年）</figcaption>
+<p class="note">チャートを取得できなかった。</p>
+<p class="src">出所: TradingView FX:USDJPY</p></figure>
+<h3>動きと背景</h3><p>米国の12月利上げ観測が強く、ドルは4月以来の高値圏にある（報道）。ドル円は50日線（約158.03）と200日線（約158.88）の付近で、1ヶ月では+1.40%。RSIは52.9で中立圏。</p>
+<h3>米国株市場への影響<span class="lvl">影響度 <b>小</b></span></h3><p>ドル高は米国の多国籍企業の海外収益を圧迫しうるが、現時点の影響は小さい。日米の金利差が円安の背景なら、日銀の動きが次のドル円の材料になる。</p>
+<p class="src">参考: <a href="https://www.cnbc.com/2026/11/23/treasury-yields-bonds-fed.html">2-year Treasury yield jumps as stocks rebound (CNBC)</a> / <a href="https://www.fxstreet.com/analysis/us-futures-rebound-after-ai-rout-202611230651">US futures rebound after AI rout (FXStreet)</a></p>
+</section><section id="dow">
+<h2><span class="no">07</span>NYダウ</h2>
+<p class="msg">NYダウは+3.01%の49,595.31ドルまで反発し、1,447.98ドル上昇した。</p>
+<div class="kpis"><div class="kpi"><div class="v">49,595.31</div><div class="l">終値</div></div><div class="kpi"><div class="v">+1,447.98</div><div class="l">前日比</div></div><div class="kpi"><div class="v">+3.01%</div><div class="l">騰落率</div></div><div class="kpi"><div class="v neg">−2.3%</div><div class="l">200日線からの乖離</div></div><div class="kpi"><div class="v">39</div><div class="l">RSI(14)</div></div></div>
+<figure><figcaption>図表7　NYダウ　日足（直近1年）</figcaption>
+<p class="note">チャートを取得できなかった。</p>
+<p class="src">出所: TradingView DJ:DJI</p></figure>
+<h3>動きと背景</h3><p>NVDAの急騰とAI関連の買い戻しで上昇し、ダウは49,595.31ドル（+3.01%）。ただし1週間では-5.11%、1ヶ月でも-5.89%で、50日線（約51,649）と200日線（約50,773）をなお下回る。RSIは39.2。</p>
+<h3>米国株市場への影響<span class="lvl">影響度 <b>大</b></span></h3><p>米国株の中心指標で、調整局面（直近高値から10%超の下落、報道）からの戻りを示す。200日線の回復が次の確認ポイント。</p>
+<p class="src">参考: <a href="https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html">Dow soars 1,400 points (CNBC)</a> / <a href="https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html">Stock market today Nov 23 (Yahoo Finance)</a></p>
+</section><section id="nasdaq">
+<h2><span class="no">08</span>ナスダック総合</h2>
+<p class="msg">ナスダックは+6.51%の24,089.56ポイントと、約1年7ヶ月ぶりの上昇率。</p>
+<div class="kpis"><div class="kpi"><div class="v">24,089.56</div><div class="l">終値</div></div><div class="kpi"><div class="v">+1,471.82</div><div class="l">前日比</div></div><div class="kpi"><div class="v">+6.51%</div><div class="l">騰落率</div></div><div class="kpi"><div class="v neg">−4.3%</div><div class="l">200日線からの乖離</div></div><div class="kpi"><div class="v">42</div><div class="l">RSI(14)</div></div></div>
+<figure><figcaption>図表8　ナスダック総合　日足（直近1年）</figcaption>
+<p class="note">チャートを取得できなかった。</p>
+<p class="src">出所: TradingView NASDAQ:IXIC</p></figure>
+<h3>動きと背景</h3><p>NVDAを筆頭に半導体、AIクラウド、メガキャップが大きく上昇した。1週間では-3.07%、1ヶ月では-6.97%と、前週の下落の一部を戻したにとどまる。終値は50日線（約26,072）、200日線（約25,163）の下で、年初来は+2.59%まで縮小した。RSIは41.8で、売られすぎ圏からは脱した。</p>
+<h3>米国株市場への影響<span class="lvl">影響度 <b>大</b></span></h3><p>米国株全体の方向を決める指標。過去数日の下落幅が大きかったため、上昇の持続性には懐疑的な見方もあり（推測）、200日線を回復できるかが焦点。</p>
+<p class="src">参考: <a href="https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html">Dow soars 1,400 points; Nasdaq surges 6% (CNBC)</a> / <a href="https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html">Stock market today Nov 23 (Yahoo Finance)</a></p>
+</section><section id="sp500">
+<h2><span class="no">09</span>S&amp;P500</h2>
+<p class="msg">S&amp;P500は+4.73%の7,237.17ポイントと反発し、7日続落を止めた。</p>
+<div class="kpis"><div class="kpi"><div class="v">7,237.17</div><div class="l">終値</div></div><div class="kpi"><div class="v">+326.78</div><div class="l">前日比</div></div><div class="kpi"><div class="v">+4.73%</div><div class="l">騰落率</div></div><div class="kpi"><div class="v neg">−1.5%</div><div class="l">200日線からの乖離</div></div><div class="kpi"><div class="v">41</div><div class="l">RSI(14)</div></div></div>
+<figure><figcaption>図表9　S&amp;P500　日足（直近1年）</figcaption>
+<p class="note">チャートを取得できなかった。</p>
+<p class="src">出所: TradingView SP:SPX</p></figure>
+<h3>動きと背景</h3><p>11セクターのうち9つが上昇した。1週間は-3.68%、1ヶ月は-5.24%。50日線（約7,618）は下回り、200日線（約7,350）まであと一歩の位置。RSIは41.3。</p>
+<h3>米国株市場への影響<span class="lvl">影響度 <b>大</b></span></h3><p>米国株の代表指標で、AI・半導体への資金の戻りが指数を押し上げた。ただし前週の下げが大きかったため、この反発が一時的か、底入れかは今週の指標とデルの決算で見極めたい。</p>
+<p class="src">参考: <a href="https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html">Dow soars 1,400 points; Nasdaq surges 6% (CNBC)</a> / <a href="https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html">Stock market today Nov 23 (Yahoo Finance)</a></p>
+</section><section id="btc">
+<h2><span class="no">10</span>ビットコイン</h2>
+<p class="msg">ビットコインは61,181.66ドルで横ばい。株高に追随したが、下落基調は変わらず。</p>
+<div class="kpis"><div class="kpi"><div class="v">61,182</div><div class="l">終値</div></div><div class="kpi"><div class="v">+2</div><div class="l">前日比</div></div><div class="kpi"><div class="v">+0.00%</div><div class="l">騰落率</div></div><div class="kpi"><div class="v neg">−15.3%</div><div class="l">200日線からの乖離</div></div><div class="kpi"><div class="v">27</div><div class="l">RSI(14)</div></div></div>
+<figure><figcaption>図表10　ビットコイン　日足（直近1年）</figcaption>
+<p class="note">チャートを取得できなかった。</p>
+<p class="src">出所: TradingView BITSTAMP:BTCUSD</p></figure>
+<h3>動きと背景</h3><p>日中は大きく上昇する場面があったが、終値は前日比+0.00%にとどまった（報道、時刻により価格差あり）。1ヶ月では-24.54%、年初来でも-30.07%と弱い。50日線（約76,159）、200日線（約72,232）を大きく下回り、RSIは26.8。</p>
+<h3>米国株市場への影響<span class="lvl">影響度 <b>小</b></span></h3><p>暗号資産関連株（Strategyなど）には影響するが、米国株全体への影響は限定的。FRBの利上げ観測が続く間は上値が重い（推測）。</p>
+<p class="src">参考: <a href="https://invezz.com/uk/news/2026/11/23/bitcoin-price-today-btc-tops-dollar64500-as-nvidia-reinstates-jensen-huang/">Bitcoin price today: BTC tops $64,500 (Invezz)</a> / <a href="https://coinpaper.com/39274/bitcoin-price-today-btc-surges-toward-64-k-as-nvidia-and-core-weave-stocks-rally">Bitcoin surges toward $64K (Coinpaper)</a></p>
+</section><section id="wti">
+<h2><span class="no">11</span>原油(WTI)</h2>
+<p class="msg">原油（WTI）は80.21ドルと-3.84%下落し、3週連続の安値更新。</p>
+<div class="kpis"><div class="kpi"><div class="v">80.21</div><div class="l">終値</div></div><div class="kpi"><div class="v neg">−3.20</div><div class="l">前日比</div></div><div class="kpi"><div class="v neg">−3.84%</div><div class="l">騰落率</div></div><div class="kpi"><div class="v neg">−9.0%</div><div class="l">200日線からの乖離</div></div><div class="kpi"><div class="v">32</div><div class="l">RSI(14)</div></div></div>
+<figure><figcaption>図表11　原油(WTI)　日足（直近1年）</figcaption>
+<p class="note">チャートを取得できなかった。</p>
+<p class="src">出所: TradingView TVC:USOIL（チャートはWTI原油CFD、数値はNYMEX WTI先物の期近）</p></figure>
+<h3>動きと背景</h3><p>供給過剰の見通しや世界の需要懸念で売られ、湾岸の船舶攻撃など中東リスクが下げを限定した（報道）。1週間では-9.52%、1ヶ月では-19.06%と大きく下げたが、年初来ではまだ+39.71%。RSIは32.0。</p>
+<h3>米国株市場への影響<span class="lvl">影響度 <b>中</b></span></h3><p>原油安はエネルギー株（XLE -1.06%）の重しになる一方、ガソリン価格やインフレ期待の低下を通じて消費関連・インフレ指標にはプラス。中東情勢の悪化で反転するリスクは残る。</p>
+<p class="src">参考: <a href="https://www.investing.com/news/commodities-news/oil-falls-as-robust-gulf-exports-offset-iran-escalation-supply-glut-risks-5044220">Oil falls as robust Gulf exports offset Iran escalation (Investing.com)</a> / <a href="https://rte.ie/news/business/2026/1123/1600267-world-oil-prices">Oil falls on increased Middle Eastern supplies (RTE)</a></p>
+</section><section id="gold">
+<h2><span class="no">12</span>金</h2>
+<p class="msg">金は3,634.40ドル（+2.72%）と反発し、株高と同時に上昇した。</p>
+<div class="kpis"><div class="kpi"><div class="v">3,634.40</div><div class="l">終値</div></div><div class="kpi"><div class="v">+96.09</div><div class="l">前日比</div></div><div class="kpi"><div class="v">+2.72%</div><div class="l">騰落率</div></div><div class="kpi"><div class="v neg">−17.7%</div><div class="l">200日線からの乖離</div></div><div class="kpi"><div class="v">32</div><div class="l">RSI(14)</div></div></div>
+<figure><figcaption>図表12　金　日足（直近1年）</figcaption>
+<p class="note">チャートを取得できなかった。</p>
+<p class="src">出所: TradingView TVC:GOLD</p></figure>
+<h3>動きと背景</h3><p>AIトレードへの不安が残る中で安全資産の買いが入った（報道）。ただし1週間では-6.32%、1ヶ月では-9.72%、年初来では-15.84%と弱く、50日線（約4,077）と200日線（約4,415）を大きく下回る。RSIは31.9。</p>
+<h3>米国株市場への影響<span class="lvl">影響度 <b>小</b></span></h3><p>金の上昇は金鉱株（ニューモントなど）に追い風。株と金が同時に上がる局面はまれで、市場の不安定さを表す。米株全体への影響は限定的。</p>
+<p class="src">参考: <a href="https://www.fxstreet.com/news/gold-recovers-above-3-550-as-ai-trade-concern-spurs-safe-haven-flows-202611230109">Gold recovers above $3,550 (FXStreet)</a> / <a href="https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html">Dow soars 1,400 points (CNBC)</a></p>
+</section><section id="platinum">
+<h2><span class="no">13</span>プラチナ</h2>
+<p class="msg">プラチナは1,327.64ドル（+2.39%）と反発したが、年初来は-36.58%と弱いまま。</p>
+<div class="kpis"><div class="kpi"><div class="v">1,327.64</div><div class="l">終値</div></div><div class="kpi"><div class="v">+31.04</div><div class="l">前日比</div></div><div class="kpi"><div class="v">+2.39%</div><div class="l">騰落率</div></div><div class="kpi"><div class="v neg">−26.8%</div><div class="l">200日線からの乖離</div></div><div class="kpi"><div class="v">30</div><div class="l">RSI(14)</div></div></div>
+<figure><figcaption>図表13　プラチナ　日足（直近1年）</figcaption>
+<p class="note">チャートを取得できなかった。</p>
+<p class="src">出所: TradingView TVC:PLATINUM</p></figure>
+<h3>動きと背景</h3><p>貴金属全般の反発に連動した動き。1週間は-10.69%、1ヶ月は-15.22%で、50日線（約1,601）と200日線（約1,813）を大きく下回る。RSIは29.9で売られすぎ圏。</p>
+<h3>米国株市場への影響<span class="lvl">影響度 <b>なし</b></span></h3><p>米国株への影響は限定的。自動車触媒向けの需要懸念を通じ、一部の自動車関連株の材料になる程度。</p>
+<p class="src">参考: <a href="https://www.fxstreet.com/news/gold-recovers-above-3-550-as-ai-trade-concern-spurs-safe-haven-flows-202611230109">Gold recovers above $3,550 (FXStreet)</a> / <a href="https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html">Dow soars 1,400 points (CNBC)</a></p>
+</section><section id="jgb10y">
+<h2><span class="no">14</span>日本国債10年利回り</h2>
+<p class="msg">日本10年債利回りは2.785%でほぼ横ばい（+0.1bp）。</p>
+<div class="kpis"><div class="kpi"><div class="v">2.785%</div><div class="l">終値</div></div><div class="kpi"><div class="v">+0.001%pt</div><div class="l">前日比</div></div><div class="kpi"><div class="v">+0.1bp</div><div class="l">変化幅</div></div></div>
+<figure><figcaption>図表14　日本国債10年利回り　日足（直近1年）</figcaption>
+<p class="note">チャートを取得できなかった。</p>
+<p class="src">出所: TradingView TVC:JP10Y</p></figure>
+<h3>動きと背景</h3><p>祝日で取引が少なく、動きは小さい。1週間では-2.93%と低下したが、年初来では+34.41%（利回りの増減率）と高水準。日銀の追加利上げ観測が下支えになっている（報道）。</p>
+<h3>米国株市場への影響<span class="lvl">影響度 <b>小</b></span></h3><p>日本の金利上昇は円高方向の要因で、日本の投資家による米国債・米株の売りにつながりうるが、現時点の影響は小さい。</p>
+<p class="src">参考: <a href="https://theindustryspread.com/japan-jgb-hike-already-in-the-yield/">Japan 10-year JGB to 2.84%: the hike is in the yield</a> / <a href="https://www.investing.com/rates-bonds/japan-10-year-bond-yield">Japan 10-Year Bond Yield (Investing.com)</a></p>
+</section><section id="ust10y">
+<h2><span class="no">15</span>米国債10年利回り</h2>
+<p class="msg">米10年債利回りは4.936%（-1.4bp）と小動きで、利上げ観測が下支え。</p>
+<div class="kpis"><div class="kpi"><div class="v">4.936%</div><div class="l">終値</div></div><div class="kpi"><div class="v neg">−0.014%pt</div><div class="l">前日比</div></div><div class="kpi"><div class="v neg">−1.4bp</div><div class="l">変化幅</div></div></div>
+<figure><figcaption>図表15　米国債10年利回り　日足（直近1年）</figcaption>
+<p class="note">チャートを取得できなかった。</p>
+<p class="src">出所: TradingView TVC:US10Y</p></figure>
+<h3>動きと背景</h3><p>株高にもかかわらず10年債は小幅低下。短期（2年債）は利上げ観測で上昇し、利回り曲線は平らになっている（報道）。FRBが12月に利上げするとの見方が強い。1ヶ月では-0.26%でほぼ横ばい。</p>
+<h3>米国株市場への影響<span class="lvl">影響度 <b>大</b></span></h3><p>金利が高止まりすれば、AI・半導体などの高PERグロース株の重しになる。10月PCEが予想を上回ると、反発の持続性に影響しうる。</p>
+<p class="src">参考: <a href="https://www.cnbc.com/2026/11/23/treasury-yields-bonds-fed.html">2-year Treasury yield jumps as stocks rebound (CNBC)</a> / <a href="https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html">Stock market today Nov 23 (Yahoo Finance)</a></p>
+</section><section id="factcheck">
+<h2><span class="no">16</span>数字のチェック結果</h2>
+<p class="msg">本文中の数字 283 個を取得データと照合し、不一致は 0 件。</p>
+
+
+<div class="tbl"><table><caption>主データと別の取得元との照合（ずれは許容範囲内なら「一致」）</caption>
+<thead><tr><th>項目</th><th class="num">主データ</th><th>照合先</th><th class="num">照合値</th><th class="num">差</th><th>判定</th></tr></thead>
+<tbody><tr><td>日経平均</td><td class="num">56,436.65</td><td>nikkei_csv nikkei225</td><td class="num">56,436.65</td><td class="num">+0.00%</td><td>一致</td></tr><tr><td>日経VI</td><td class="num">33.07</td><td>nikkei_csv nikkei_vi</td><td class="num">33.07</td><td class="num">+0.00%</td><td>一致</td></tr><tr><td>ドル円</td><td class="num">158.944</td><td>yfinance JPY=X</td><td class="num">158.955</td><td class="num">-0.01%</td><td>一致</td></tr><tr><td>NYダウ</td><td class="num">49,595.31</td><td>yfinance ^DJI</td><td class="num">49,595.31</td><td class="num">+0.00%</td><td>一致</td></tr><tr><td>ナスダック総合</td><td class="num">24,089.56</td><td>yfinance ^IXIC</td><td class="num">24,089.56</td><td class="num">-0.00%</td><td>一致</td></tr><tr><td>S&amp;P500</td><td class="num">7,237.17</td><td>yfinance ^GSPC</td><td class="num">7,237.17</td><td class="num">+0.00%</td><td>一致</td></tr><tr><td>ビットコイン</td><td class="num">61,182</td><td>yfinance BTC-USD</td><td class="num">61,211</td><td class="num">-0.05%</td><td>一致</td></tr><tr><td>原油(WTI)</td><td class="num">80.21</td><td>yfinance CL=F</td><td class="num">80.22</td><td class="num">-0.01%</td><td>一致</td></tr><tr><td>金</td><td class="num">3,634.40</td><td>yfinance GC=F</td><td class="num">3,634.90</td><td class="num">-0.01%</td><td>一致</td></tr><tr><td>プラチナ</td><td class="num">1,327.64</td><td>yfinance PL=F</td><td class="num">1,314.60</td><td class="num">+0.99%</td><td>一致</td></tr><tr><td>米国債10年利回り</td><td class="num">4.936</td><td>yfinance ^TNX</td><td class="num">4.918</td><td class="num">+0.37%</td><td>一致</td></tr></tbody></table></div>
+<p class="src">金・プラチナ・原油・ビットコインは照合先が先物・取引所違いのため、数%以内の差を許容している。</p>
+</section>
+<footer class="doc-footer"><span>マーケット日報 2026-11-24</span>
+<span>出所: TradingView、日経平均プロフィル、Yahoo Finance、各種報道。投資判断はご自身で。本資料は投資助言ではない。</span></footer>
+</div></body></html>

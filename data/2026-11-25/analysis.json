@@ -1,0 +1,461 @@
+{
+ "report_date": "2026-11-25",
+ "us_session_covered": "2026-11-24（火）",
+ "summary": {
+  "headline": "ダウ高・ナスダック安。半導体が急落し、12月利上げ観測も重し",
+  "recent_moves": [
+   "米国株は11/24（火）、NYダウが+0.85%の50,018.70ドルと上昇した一方、ナスダックは-1.48%、S&P500は-0.50%と下落した。前日に急騰したNvidiaなど半導体が反落し、ハイテクから生活必需品・ヘルスケアなどへ資金が動いた",
+   "半導体ETF（SMH）は-7.26%、情報技術セクターは-3.26%。米政権が中国などへの関税引き上げを準備しているとの報道、議会によるNvidiaへの監視、メモリ需要への懸念が重なった（原因は複数報じられ、単独の決め手は確認できない）",
+   "米国債10年利回りは4.932%（-1.0bp）でほぼ横ばい。12月FOMCでの25bp利上げがほぼ織り込まれ（出典付き）、金は-2.28%の3,551.25ドル、プラチナは-3.82%と下落。ビットコインも-2.29%の59,786.42ドルと6万ドルを割り込んだ",
+   "日本株は11/24（休場明け）に日経平均が+3.91%の58,644.63円と大幅反発。ただしその後の日経225先物は-2.73%の57,370円と、米国の半導体安を受けて夜間に反落している",
+   "ドル円は159.229円（+0.14%）と小動き。日本10年債利回りは2.722%（-6.3bp）と低下した"
+  ],
+  "outlook": [
+   "11/25（水）22:30（日本時間）に10月PCE・7-9月期GDP改定値などが発表される。市場予想は高めのインフレで、上振れれば利上げ観測が一段と強まり、ナスダックや金には重しになりやすい",
+   "Nvidiaは前日の急騰後に大きく反落しており、ボラティリティが高い局面が続く可能性がある。半導体の戻りが続くか、関税・規制の報道が追加されるかが日米株の方向を左右しやすい",
+   "11/26（木）は米国市場が感謝祭で休場、11/27（金）は短縮取引で薄商いになりやすい。日経平均は米国の夜間動向（半導体）に引きずられる展開が意識される",
+   "ディフェンシブ（ヘルスケア・生活必需品）への資金流入が続くかが、「リスク回避の定着か一時的な調整か」を見極める材料になる"
+  ],
+  "watch_points": [
+   "ナスダックは50日・200日移動平均（26,026.54・25,165.23）を下回ったまま。直近の安値圏を維持できるかがポイント",
+   "日経平均は58,644.63円で、50日線63,917.73円・200日線62,291.38円の下。戻り局面でこれらの水準に届くかを確認したい",
+   "ビットコインは6万ドル割れ。52週安値55,081.31ドルが意識される"
+  ],
+  "events": [
+   {
+    "time_jst": "11/25（水）22:30",
+    "event": "米10月PCE・7-9月期GDP改定値・耐久財受注・新規失業保険申請",
+    "importance": "高"
+   },
+   {
+    "time_jst": "11/25（水）早朝",
+    "event": "デルの決算に対する時間外の反応（AIサーバー需要が焦点。時刻・内容は要確認）",
+    "importance": "中"
+   },
+   {
+    "time_jst": "11/26（木）早朝",
+    "event": "米地区連銀経済報告（ベージュブック）。公表時刻は要確認",
+    "importance": "中"
+   },
+   {
+    "time_jst": "11/26（木）",
+    "event": "米国市場は感謝祭で休場",
+    "importance": "中"
+   },
+   {
+    "time_jst": "11/27（金）",
+    "event": "米国市場は短縮取引（薄商いに注意）",
+    "importance": "中"
+   },
+   {
+    "time_jst": "12/10（木）",
+    "event": "FOMC結果発表（12/8-9開催）。12月利上げが焦点",
+    "importance": "高"
+   }
+  ],
+  "overview_message": "ダウは上昇、ナスダックは半導体主導で下落。金・暗号資産は利上げ観測で売られた。"
+ },
+ "instruments": {
+  "nikkei225": {
+   "headline": "休場明けに大幅反発したが、中期線の下で戻りの途上",
+   "analysis": "日経平均は+3.91%の58,644.63円と大幅反発した。前週末の米国ハイテク急落からNvidiaのCEO復帰を受けた反発（11/23の米国株急騰）を一気に織り込んだ形。ただし50日線63,917.73円・200日線62,291.38円の下にあり、52週高値72,831.73円から大きく下げた水準で、1年チャートでは10月高値からの下落トレンドの途中の反発にとどまる。",
+   "us_impact_level": "中",
+   "us_impact": "日本株の反発は、前日の米国半導体の急騰に連動したもので、米国株への影響は限定的。むしろ米国の半導体安が翌日の日本株に波及する側。",
+   "sources": [
+    {
+     "title": "Japan stocks rebound as Huang's return resuscitates AI trade (Bloomberg)",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-24/japan-stocks-rebound-as-huang-s-return-resuscitates-ai-trade"
+    },
+    {
+     "title": "Nikkei 225 Index jumps as tech stocks rebound (Invezz)",
+     "url": "https://invezz.com/news/2026/11/24/nikkei-225-index-jumps-as-tech-stocks-rebound-is-this-the-end-of-the-bear-market/"
+    }
+   ]
+  },
+  "jpx400": {
+   "headline": "日経平均に連動して反発、中期線は割れたまま",
+   "analysis": "JPX日経400は+2.30%の34,235.95円。大型株中心に反発したが、50日線36,114.78円と200日線35,342.50円を下回っており、1年の高値圏（38,170.76円）からは距離がある。",
+   "us_impact_level": "小",
+   "us_impact": "米国株への影響は限定的。日本の大型株の反発は米国半導体株の動きに連動した面が強く、米国株の方向を決める材料ではない。",
+   "sources": [
+    {
+     "title": "Japan's Nikkei rises over 3% after Huang reinstated (The Star)",
+     "url": "https://www.thestar.com.my/business/business-news/2026/11/24/japan039s-nikkei-rises-over-3-after-jensen-huang-reinstated-as-nvidia-ceo"
+    },
+    {
+     "title": "Japan stocks rebound (Bloomberg)",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-24/japan-stocks-rebound-as-huang-s-return-resuscitates-ai-trade"
+    }
+   ]
+  },
+  "growth250": {
+   "headline": "小型グロースは反発したが52週安値圏から脱せず",
+   "analysis": "東証グロース250は+2.60%の654.84円。1か月で-12.27%と大きく下げており、52週安値638.22円に近い。RSIも31.86と売られ過ぎ圏で、反発はリバウンドの域を出ない。",
+   "us_impact_level": "なし",
+   "us_impact": "米国株への影響は限定的。日本の小型株は国内の個人投資家の資金動向に左右され、米国市場との結び付きは弱い。",
+   "sources": [
+    {
+     "title": "Japan stocks higher at close of trade (Investing.com)",
+     "url": "https://www.investing.com/news/stock-market-news/japan-stocks-higher-at-close-of-trade-nikkei-225-up-411-5047180"
+    },
+    {
+     "title": "Japan's Nikkei rises after Huang reinstated (The Star)",
+     "url": "https://www.thestar.com.my/business/business-news/2026/11/24/japan039s-nikkei-rises-over-3-after-jensen-huang-reinstated-as-nvidia-ceo"
+    }
+   ]
+  },
+  "nk_futures": {
+   "headline": "日経225先物は米半導体安で-2.73%と夜間に反落",
+   "analysis": "日経225先物は-2.73%（-1,610円）の57,370円。日中の反発を米国の半導体株の急落が打ち消した。現物の日経平均（58,644.63円）より低く、11/25の寄り付きは軟調となる可能性がある。50日線・200日線（63,883.2円・62,380.6円）の下にある。",
+   "us_impact_level": "小",
+   "us_impact": "先物の下落は米国半導体安の結果であり、米国株への影響は限定的。ただし日本時間の朝にリスク回避が続くかの確認材料にはなる。",
+   "sources": [
+    {
+     "title": "Japan stocks rebound (Bloomberg)",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-24/japan-stocks-rebound-as-huang-s-return-resuscitates-ai-trade"
+    },
+    {
+     "title": "Stock market today (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html"
+    }
+   ]
+  },
+  "nikkei_vi": {
+   "headline": "日経VIは-4.72%の31.51に低下したが依然として高水準",
+   "analysis": "日経VIは31.51と前回から-1.56低下した。52週レンジ（18.77〜66.65）の中では中位だが、通常時より警戒感が高い水準で、株価の急変動が続いていることを示す。水準の評価はデータの範囲での判断で、個別の解説記事は確認できなかった。",
+   "us_impact_level": "小",
+   "us_impact": "米国株への影響は限定的。日経VIは日本のオプション市場の警戒度を示す指標で、米国のVIXとは別物。ただしグローバルなリスク回避の強さを測る参考にはなる。",
+   "sources": [
+    {
+     "title": "Nikkei 225 Index jumps as tech stocks rebound (Invezz)",
+     "url": "https://invezz.com/news/2026/11/24/nikkei-225-index-jumps-as-tech-stocks-rebound-is-this-the-end-of-the-bear-market/"
+    },
+    {
+     "title": "Japan stocks rebound (Bloomberg)",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-24/japan-stocks-rebound-as-huang-s-return-resuscitates-ai-trade"
+    }
+   ]
+  },
+  "usdjpy": {
+   "headline": "ドル円は159円台で小動き、利上げ観測がドルを支える",
+   "analysis": "ドル円は159.229円（+0.14%）。50日線158.12円・200日線158.91円の近辺で推移し、52週高値163.987円との間に余地がある。米国の12月利上げ観測がドル高要因となる一方、日本の長期金利低下が円売りを促した面もある。",
+   "us_impact_level": "小",
+   "us_impact": "米国株への影響は限定的。円安は日本企業の収益には追い風だが、現在の水準では米国株の方向を左右する材料ではない。160円に近づけば介入警戒が意識されやすい。",
+   "sources": [
+    {
+     "title": "JGBs rally as Nikkei soars (Briefs)",
+     "url": "https://www.briefs.co/news/jgbs-climb-even-as-nikkei-jumps-on-nvidia-leadership-twist/"
+    },
+    {
+     "title": "Gold tumbles as Fed hike bets build (FXStreet)",
+     "url": "https://www.fxstreet.com/news/gold-tumbles-to-its-lowest-in-over-a-year-as-fed-rate-hike-bets-build-202611181109"
+    }
+   ]
+  },
+  "dow": {
+   "headline": "ダウは景気敏感・ディフェンシブに支えられ上昇",
+   "analysis": "NYダウは+0.85%の50,018.70ドルと上昇した。ハイテクの比率が低く、ヘルスケア・生活必需品・金融などの上昇が支えた。1週間では-2.66%、1か月では-5.08%と下げており、200日線50,771.92ドルをなお下回る。",
+   "us_impact_level": "大",
+   "us_impact": "指数はナスダックと逆行し、ハイテクから出遅れ株へ資金が回る動きを示した。ただし200日線を回復できていないため、反発が定着したとはまだ言いにくい。",
+   "sources": [
+    {
+     "title": "Stock market today: Dow rises, S&P 500 and Nasdaq decline as chip sector tumbles (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html"
+    },
+    {
+     "title": "US Stocks Mixed at Tuesday Close as Nasdaq Leads Declines (Business Upturn)",
+     "url": "https://businessupturn.com/usa/money/us-markets/us-stocks-mixed-at-tuesday-close-as-nasdaq-leads-declines/"
+    }
+   ]
+  },
+  "nasdaq": {
+   "headline": "ナスダックは半導体主導で-1.48%、反発一服",
+   "analysis": "ナスダック総合は-1.48%の23,733.54ポイント。前日のNvidia急騰の反動で半導体が売られた。1年チャートでは10月の高値圏（52週高値27,722.75）から急落し、50日線26,026.54・200日線25,165.23を大きく割り込んだまま。直近の安値圏から戻ったものの、戻り局面での上値が重い形。",
+   "us_impact_level": "大",
+   "us_impact": "主導株の半導体が急反落し、指数の戻りが鈍いことを示した。12月利上げ観測とAI関連株の乱高下が続く限り、ボラティリティが高い状態が続く可能性がある。",
+   "sources": [
+    {
+     "title": "Stock market today: Dow rises, S&P 500 and Nasdaq decline as chip sector tumbles (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html"
+    },
+    {
+     "title": "US Stocks Mixed at Tuesday Close as Nasdaq Leads Declines (Business Upturn)",
+     "url": "https://businessupturn.com/usa/money/us-markets/us-stocks-mixed-at-tuesday-close-as-nasdaq-leads-declines/"
+    },
+    {
+     "title": "Market Review: November 24, 2026 (Investrade)",
+     "url": "https://investrade.com/market-review-november-24-2026/"
+    }
+   ]
+  },
+  "sp500": {
+   "headline": "S&P500は-0.50%、ダウとナスダックの間で小幅安",
+   "analysis": "S&P500は-0.50%の7,201.09ポイント。ハイテクの下げをディフェンシブ・金融・ヘルスケアの上昇が相殺し、下げは小幅にとどまった。1週間で-2.83%、1か月で-5.71%と調整局面で、50日線7,609.91・200日線7,351.29を下回る。",
+   "us_impact_level": "大",
+   "us_impact": "指数全体の下げは小幅でも、内訳は大きく割れており、市場の中身は不安定。PCEと12月利上げの行方が次の方向感を決めそう。",
+   "sources": [
+    {
+     "title": "Stock market today: Dow rises, S&P 500 and Nasdaq decline as chip sector tumbles (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html"
+    },
+    {
+     "title": "US Stocks Mixed at Tuesday Close as Nasdaq Leads Declines (Business Upturn)",
+     "url": "https://businessupturn.com/usa/money/us-markets/us-stocks-mixed-at-tuesday-close-as-nasdaq-leads-declines/"
+    }
+   ]
+  },
+  "btc": {
+   "headline": "ビットコインは6万ドル割れ、ETFの資金流出が続く",
+   "analysis": "ビットコインは-2.29%の59,786.42ドル。米国の現物ETFからの流出が続き、リスク資産全般の下落と利上げ観測が重なった。1か月で-25.98%、年初来で-31.67%と大幅安で、RSIは24.85と売られ過ぎ圏。52週安値55,081.31ドルに近づいている。",
+   "us_impact_level": "小",
+   "us_impact": "暗号資産関連株（取引所・マイニング企業など）には逆風。株式市場全体への影響は限定的だが、リスク選好の悪化を映す指標として注視される。",
+   "sources": [
+    {
+     "title": "Why is Bitcoin down today? (Invezz)",
+     "url": "https://invezz.com/news/2026/11/24/why-is-bitcoin-down-today-below-60000/"
+    },
+    {
+     "title": "Bitcoin price slips to $60,000 as ETF outflows hit record (Bitcoin Magazine)",
+     "url": "https://bitcoinmagazine.com/markets/bitcoin-price-slips-60000-etf-outflows"
+    }
+   ]
+  },
+  "wti": {
+   "headline": "原油は+1.65%の81.49ドルと反発",
+   "analysis": "WTIは+1.65%の81.49ドル。米国とイランの緊張が材料と報じられたが、情報源で方向が分かれており詳細は確認できない。1か月で-17.77%と大きく下げ、50日線92.73ドル・200日線88.20ドルを下回る水準で、年初来では+41.94%を保つ。",
+   "us_impact_level": "中",
+   "us_impact": "原油の上昇はエネルギー株（XLEは+0.94%）にはプラスだが、インフレ懸念の再燃につながれば利上げ観測を強め、ハイテク株には逆風となる。",
+   "sources": [
+    {
+     "title": "Oil prices rise amid tensions (GuruFocus)",
+     "url": "https://gurufocus.com/news/9218332/oil-prices-rise-amid-tensions-wti-at-82-wti"
+    },
+    {
+     "title": "WTI crude oil settles (InvestingLive)",
+     "url": "https://investinglive.com/commodities/wti-crude-oil-settles-at-82-05-can-buyers-get-above-the-100-hour-moving-average/"
+    }
+   ]
+  },
+  "gold": {
+   "headline": "金は利上げ観測で-2.28%、1年来の安値圏",
+   "analysis": "金は-2.28%の3,551.25ドル。タカ派的な連銀関係者の発言とドル高、株安に伴う換金売りが重なった。1週間で-7.89%、年初来で-17.76%と下落が続き、52週安値3,502.93ドルに近い。50日線4,061.66・200日線4,407.40を大きく下回る。",
+   "us_impact_level": "小",
+   "us_impact": "金の下落は利上げ観測の強さを映す。株式市場への直接の影響は限定的だが、安全資産が機能しない状況は、リスク回避の局面で資金の逃げ場が少ないことを示す。",
+   "sources": [
+    {
+     "title": "Gold price falls on hawkish Fed bets (Mining.com)",
+     "url": "https://www.mining.com/web/gold-price-falls-2-on-hawkish-fed-bets-us-inflation-data-in-focus/"
+    },
+    {
+     "title": "Gold tumbles to its lowest in over a year (FXStreet)",
+     "url": "https://www.fxstreet.com/news/gold-tumbles-to-its-lowest-in-over-a-year-as-fed-rate-hike-bets-build-202611181109"
+    }
+   ]
+  },
+  "platinum": {
+   "headline": "プラチナは-3.82%、52週安値に迫る",
+   "analysis": "プラチナは-3.82%の1,276.54ドル。金と同様に利上げ観測と換金売りに押され、1週間で-11.74%と下げが大きい。52週安値1,271.28ドルにほぼ並び、年初来は-39.02%。",
+   "us_impact_level": "小",
+   "us_impact": "米国株への影響は限定的。自動車触媒・工業用途の需要減速を映す面があり、景気敏感株の重しとして意識される程度。",
+   "sources": [
+    {
+     "title": "Gold price falls on hawkish Fed bets (Mining.com)",
+     "url": "https://www.mining.com/web/gold-price-falls-2-on-hawkish-fed-bets-us-inflation-data-in-focus/"
+    },
+    {
+     "title": "Gold tumbles to its lowest in over a year (FXStreet)",
+     "url": "https://www.fxstreet.com/news/gold-tumbles-to-its-lowest-in-over-a-year-as-fed-rate-hike-bets-build-202611181109"
+    }
+   ]
+  },
+  "jgb10y": {
+   "headline": "日本10年債利回りは2.722%に低下",
+   "analysis": "日本10年国債利回りは2.722%と-6.3bp低下した。原油安と株式市場の動揺を受けた債券買いが背景と報じられている（水準は情報源で食い違う）。年初来では+31.37%と上昇しており、52週高値3.135%からは下がった。",
+   "us_impact_level": "小",
+   "us_impact": "米国株への影響は限定的。日本の長期金利の低下は円キャリー取引の巻き戻し懸念を和らげる面があるが、現状では米国金利の方が影響が大きい。",
+   "sources": [
+    {
+     "title": "JGBs Rally as Nikkei Soars After Nvidia Leadership Return (Briefs)",
+     "url": "https://www.briefs.co/news/jgbs-climb-even-as-nikkei-jumps-on-nvidia-leadership-twist/"
+    },
+    {
+     "title": "Japan's 10-year JGB hits 2-week low (NewsBytes)",
+     "url": "https://newsbytesapp.com/news/business/japans-10-year-jgb-hits-2-week-low-as-oil-eases-inflation/tldr"
+    }
+   ]
+  },
+  "ust10y": {
+   "headline": "米10年債利回りは4.932%でほぼ横ばい",
+   "analysis": "米国10年債利回りは4.932%と-1.0bpの小幅低下。12月の利上げをほぼ織り込んだ水準で、PCE発表を前に様子見が続いた。52週高値5.365%を下回るが、年初来の上昇幅は大きい。",
+   "us_impact_level": "大",
+   "us_impact": "利回りが5%近い水準にとどまることは、成長株（ナスダック）の割引率の高さにつながる。PCEが予想を上回ると、利回り上昇を通じて再びハイテクの重しになりやすい。",
+   "sources": [
+    {
+     "title": "PCE inflation report preview (StockTitan)",
+     "url": "https://www.stocktitan.net/articles/october-2026-pce-inflation-preview"
+    },
+    {
+     "title": "Traders price December Fed rate hike odds (Coinotag)",
+     "url": "https://en.coinotag.com/traders-price-december-fed-rate-hike-odds-pce"
+    }
+   ]
+  }
+ },
+ "sectors": {
+  "headline": "半導体・情報技術が急落、ヘルスケアと生活必需品が上昇",
+  "analysis": "半導体（SMH）が-7.26%、情報技術（XLK）が-3.26%と、AI関連の売りが集中した。前日のNvidia急騰の反動に、米政権の関税引き上げ準備、議会によるNvidiaへの監視、メモリ需要への懸念が重なった。一方でヘルスケア（XLV）は+2.97%（vs SPY +3.48%ポイント）と最も強く、イーライリリーなど大手製薬の上昇が支えた。生活必需品は+1.66%、不動産は+1.31%、エネルギーは+0.94%、金融は+0.83%、通信は+0.82%と幅広く上昇した。",
+  "rotation": "資金は成長株からディフェンシブ（ヘルスケア・生活必需品・不動産）へ明確に移った。景気敏感株（資本財は-0.53%）は強くなく、リスクを取る動きというより「ハイテクからの退避」の色が濃い。1か月では情報技術が-13.6%、半導体が-18.34%と大きく下げる一方、ヘルスケア+2.41%、生活必需品+2.56%と、流れとしてはディフェンシブ優位が続いている。",
+  "outlook": "PCEで利上げ観測が強まれば、金利に敏感な情報技術・半導体が再び売られやすい。一方で予想を下回れば、売られ過ぎの半導体に戻りが出る可能性がある。デルなどAIサーバー関連の決算の反応と、関税・輸出規制の続報にも注目したい。",
+  "sources": [
+   {
+    "title": "AI trade, Nvidia rally and defensive stocks (CNBC)",
+    "url": "https://cnbc.com/2026/11/24/ai-trade-nvidia-rally-defensive-stocks.html"
+   },
+   {
+    "title": "Why chip stocks sold off (Benzinga)",
+    "url": "https://benzinga.com/trading-ideas/movers/26/11/63581244/why-is-amd-stock-plunging-today-despite-strong-wall-street-buy-ratings"
+   },
+   {
+    "title": "Eli Lilly opens higher on Nov 24 (TradingKey)",
+    "url": "https://tradingkey.com/news/market-movers/262320230-market-movers-lly-20261124"
+   }
+  ]
+ },
+ "top_news": {
+  "headline": "関税・規制の逆風とAIトレードの反動が、半導体株を直撃",
+  "items": [
+   {
+    "title": "米政権が中国などへの関税引き上げを準備と報道",
+    "type": "政策・規制",
+    "tickers": [
+     "NVDA",
+     "AMD",
+     "ADI",
+     "MU"
+    ],
+    "what": "米政権が中国を含む多くの国への関税引き上げを準備していると報じられた。通商代表部（USTR）による産業補助金の調査が背景とされ、引き上げ幅は報道で食い違っており確定していない。",
+    "why": "半導体は中国向け売上と部品調達の両方で関税の影響を受けやすく、ナスダック全体の下げを主導した。関税はコスト増とインフレ要因になり、利上げ観測とも結び付く。",
+    "watch": "正式な発表の有無とタイミング、対象品目に半導体・電子部品が含まれるか。",
+    "impact_level": "大",
+    "sources": [
+     {
+      "title": "AI and chip stocks lead Nasdaq selloff as Trump weighs wider trade tariffs (Crypto Briefing)",
+      "url": "https://cryptobriefing.com/ai-chip-stocks-nasdaq-selloff/"
+     },
+     {
+      "title": "Trump's Proposed Tariffs Trigger Nasdaq Selloff (KuCoin)",
+      "url": "https://www.kucoin.com/news/flash/trump-s-proposed-tariffs-trigger-nasdaq-selloff-ai-and-chip-stocks-hit-hardest"
+     }
+    ]
+   },
+   {
+    "title": "NvidiaはCEO復帰の急騰から反落",
+    "type": "銘柄",
+    "tickers": [
+     "NVDA"
+    ],
+    "what": "11/23にNvidiaがジェンスン・フアン氏のCEO復帰を発表し、株価は史上有数の上昇率を記録した。11/24はその一部を吐き出し、議会からは国家安全保障上の懸念が解消していないとの指摘も出た。",
+    "why": "Nvidiaは時価総額が大きく、指数と半導体全体への寄与が大きい。値幅が極端に大きくなっており、ナスダックや日本の半導体関連株にも連動する。",
+    "watch": "議会の動き、輸出規制の追加、次の決算に向けたAI需要の見通し。",
+    "impact_level": "大",
+    "sources": [
+     {
+      "title": "Nvidia board reinstates Jensen Huang as CEO (Axios)",
+      "url": "https://www.axios.com/2026/11/23/nvidia-board-jensen-huang-as-ceo"
+     },
+     {
+      "title": "Nvidia stock has best day since 2003 (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/technology/article/nvidia-reinstates-jensen-huang-as-ceo-stock-rockets-141145439.html"
+     },
+     {
+      "title": "Huang's reinstatement calms markets, raises questions from Capitol Hill (Fox News)",
+      "url": "https://www.foxnews.com/live-news/ai-tech-jensen-huang-nvidia-trade-stocks-market-donald-trump-november-24"
+     }
+    ]
+   },
+   {
+    "title": "メモリ需要への懸念とAIサーバーの利益率低下",
+    "type": "業界",
+    "tickers": [
+     "MU",
+     "SNDK",
+     "HPE",
+     "DELL"
+    ],
+    "what": "マイクロンなどのメモリ株が急落した。中国のクラウド事業者のNAND発注の減少や、HBM仕様の見直しの可能性を指摘したアナリストのリポートが材料とされる。またHPEはAI関連の営業利益率が低下する見通しを示し、デルも寄り付き前に下げた。",
+    "why": "メモリはAIデータセンター投資の「サイクルの先行指標」と見られており、需要の鈍化懸念が出るとAI関連全体のバリュエーションに波及しやすい。",
+    "watch": "デルなどAIサーバー企業の決算での受注・利益率の説明、メモリ価格の動向。",
+    "impact_level": "中",
+    "sources": [
+     {
+      "title": "Micron shares plunge amid semiconductor sector selloff (GuruFocus)",
+      "url": "https://www.gurufocus.com/news/9217510/micron-technology-mu-shares-plunge-nearly-11-amid-semiconductor-sector-selloff"
+     },
+     {
+      "title": "Stock market today: chip sector tumbles (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html"
+     }
+    ]
+   }
+  ]
+ },
+ "external_facts": [
+  {
+   "label": "12月FOMCでの25bp利上げ織り込み確率",
+   "value": "95%",
+   "sources": [
+    "https://en.coinotag.com/traders-price-december-fed-rate-hike-odds-pce",
+    "https://www.stocktitan.net/articles/october-2026-pce-inflation-preview"
+   ]
+  },
+  {
+   "label": "NVDA 11/23 騰落率（約）",
+   "value": "+31%",
+   "sources": [
+    "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+    "https://finance.yahoo.com/technology/article/nvidia-reinstates-jensen-huang-as-ceo-stock-rockets-141145439.html"
+   ]
+  },
+  {
+   "label": "NVDA 11/24 騰落率（約）",
+   "value": "-6%",
+   "sources": [
+    "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html",
+    "https://businessupturn.com/usa/money/us-markets/us-stocks-mixed-at-tuesday-close-as-nasdaq-leads-declines/"
+   ]
+  },
+  {
+   "label": "MU 11/24 下落率（約）",
+   "value": "-11%",
+   "sources": [
+    "https://www.gurufocus.com/news/9217510/micron-technology-mu-shares-plunge-nearly-11-amid-semiconductor-sector-selloff",
+    "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html"
+   ]
+  },
+  {
+   "label": "10月コアPCE 前年比（市場予想）",
+   "value": "3.2%",
+   "sources": [
+    "https://www.stocktitan.net/articles/october-2026-pce-inflation-preview",
+    "https://www.tradingandinvestmentnews.co.uk/pce-rate-hike-bond-flattening/"
+   ]
+  },
+  {
+   "label": "10月PCE 前年比（市場予想）",
+   "value": "3.8%",
+   "sources": [
+    "https://kalkine.com/news/economic-news/what-should-investors-expect-from-wednesdays-pce-inflation-report-before-the-feds-december-hike-decision-and-what-does-it-mean-for-ishares-20-year-treasury-bond-etf-nasdaqtlt",
+    "https://www.tradingandinvestmentnews.co.uk/pce-rate-hike-bond-flattening/"
+   ]
+  },
+  {
+   "label": "FOMC開催日",
+   "value": "12/8-9",
+   "sources": [
+    "https://www.stocktitan.net/articles/october-2026-pce-inflation-preview",
+    "https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-11-23/"
+   ]
+  }
+ ],
+ "x_sentiment": "SNSでは、Nvidia急騰の反動や「AIバブル」への警戒、ビットコイン6万ドル割れへの悲観が目立った（確認できた範囲の要約で、個別投稿は確認していない）。"
+}

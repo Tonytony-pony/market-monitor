@@ -1,0 +1,491 @@
+{
+ "report_date": "2026-11-26",
+ "us_session_covered": "2026-11-25（水）",
+ "summary": {
+  "headline": "米株は日中の急落から大きく戻したが、AI・半導体売りと利上げ観測は残る",
+  "recent_moves": [
+   "米国株は25日、ナスダックが一時-4.6%、S&P500が-3.2%まで売られたが、引けはS&P500が-0.25%、ナスダックが-0.62%、ダウが+0.33%まで戻した",
+   "エヌビディアは約4%下落。S&Pが同社のAA格付けをクレジットウォッチ・ネガティブとしたことも重荷になった",
+   "10月PCEは前年比3.8%、コアは3.3%と市場予想を上回り、12月の利上げ観測が強まった",
+   "米政権が14カ国への新たな関税案を提示。中国には追加20%を提案した",
+   "資金は素材・不動産・エネルギーなどへ向かうローテーションの動きとなり、日本株は半導体・SBGが主導して日経平均が-2.78%"
+  ],
+  "outlook": [
+   "26日は感謝祭で米市場が休場、27日（金）は日本時間28日午前3時に短縮取引で引ける。薄商いで値が飛びやすい",
+   "AI投資の採算・資金調達への懸念と、エヌビディアの格付け見直しの行方が半導体株の焦点",
+   "12月の利上げはほぼ織り込み済みとされ、今後の指標が見通しを左右する",
+   "関税案はコメント期間を経て、早ければ1月に発動される見通し。中国との停戦期限は1月10日"
+  ],
+  "watch_points": [
+   "S&P500とナスダックが200日線付近の安値を保てるか",
+   "12/1・12/3のエヌビディア幹部の議会証言"
+  ],
+  "events": [
+   {
+    "time_jst": "11/26（木）",
+    "event": "米国市場は感謝祭で休場",
+    "importance": "中"
+   },
+   {
+    "time_jst": "11/28（土）03:00",
+    "event": "米国株は短縮取引で終了（午後1時ET）",
+    "importance": "中"
+   },
+   {
+    "time_jst": "12/2（水）",
+    "event": "エヌビディア幹部が下院外交委員会で証言（12/1 米国時間）",
+    "importance": "中"
+   },
+   {
+    "time_jst": "12/4（金）",
+    "event": "米11月雇用統計（12/4 米国時間）",
+    "importance": "高"
+   },
+   {
+    "time_jst": "12/10（木）",
+    "event": "FOMC結果（12/9 米国時間）",
+    "importance": "高"
+   }
+  ],
+  "overview_message": "米株は急落後に戻したが、日本株とアジアは半導体・AI関連を中心に大きく下げた。"
+ },
+ "instruments": {
+  "nikkei225": {
+   "headline": "AI・半導体売りで日経平均は大幅反落し、25日線も割り込んだ",
+   "analysis": "終値は57,011.62円で-2.78%。前日の米ハイテク安を受け、SBGが大幅安となるなど半導体・AI関連に売りが集中した一方、プライム市場では値上がり銘柄が多かった。1年チャートでは10月高値から下落が続き、200日線を割り込み、RSIは36.7と売られ過ぎに近づいた。",
+   "us_impact_level": "中",
+   "us_impact": "日本の半導体・AI関連株安は米ハイテク安の反映で、日本発の新規材料ではない。ただしSBGの急落はArm株を担保にした資金調達への不安が絡み、米半導体株の重しになる可能性がある。",
+   "sources": [
+    {
+     "title": "日経平均株価 終値は1633円安（ANN）",
+     "url": "https://news.ksb.co.jp/ann/article/17078611"
+    },
+    {
+     "title": "日経平均テクニカル（株探）",
+     "url": "https://s.kabutan.jp/news/n202611251156/"
+    },
+    {
+     "title": "AI関連に売り、日経平均は大幅反落（QUICK Money World）",
+     "url": "https://moneyworld.jp/news/detail?id=223679"
+    }
+   ]
+  },
+  "jpx400": {
+   "headline": "JPX日経400は-0.05%とほぼ横ばいで、日経平均との差が目立った",
+   "analysis": "終値は34,218.86円で-0.05%。半導体・AI関連に偏った売りで、指数全体では下げが限定的だった。52週高値38,170.76円からは遠く、SMA200の35,354円を下回る水準が続く。",
+   "us_impact_level": "小",
+   "us_impact": "日経400は半導体比率が低く、日本株の下げが全面安でなかったことを示す。米国株への直接の影響は限定的で、理由は米国で材料になる半導体・AI銘柄の寄与が小さいため。",
+   "sources": [
+    {
+     "title": "日経平均株価 終値は1633円安（ANN）",
+     "url": "https://news.ksb.co.jp/ann/article/17078611"
+    },
+    {
+     "title": "AI関連に売り、日経平均は大幅反落（QUICK Money World）",
+     "url": "https://moneyworld.jp/news/detail?id=223679"
+    }
+   ]
+  },
+  "growth250": {
+   "headline": "グロース250は約-2.2%で52週安値を更新、1ヶ月の下落が深い",
+   "analysis": "終値は640.6で約-2.2%、Perf.1Mは-15.04%。AI・半導体関連の売りと金利・リスク回避の動きが重なった。52週安値圏にあり、SMA50・SMA200をともに下回る。",
+   "us_impact_level": "小",
+   "us_impact": "日本の小型グロース株の下落は、米国のハイテク・グロース株に対するリスク選好の低下を映す動き。米国株への影響は限定的で、理由は規模が小さく米指数への波及経路が乏しいため。",
+   "sources": [
+    {
+     "title": "日経平均株価 終値は1633円安（ANN）",
+     "url": "https://news.ksb.co.jp/ann/article/17078611"
+    },
+    {
+     "title": "日経平均テクニカル（株探）",
+     "url": "https://s.kabutan.jp/news/n202611251156/"
+    }
+   ]
+  },
+  "nk_futures": {
+   "headline": "日経225先物は+0.44%と反発し、下げ幅の一部を戻した",
+   "analysis": "終値は57,290円で+250円。現物が大幅安となった後も夜間取引では下げ渋った。チャートはSMA50（63,717円）を大きく下回り、10月高値からの調整局面にある。",
+   "us_impact_level": "小",
+   "us_impact": "先物の反発は米国時間の大幅安からの戻りを先取りした面がある。ただし米国株の方向を決める材料ではなく、翌営業日の日本株寄り付きの目安にとどまる。",
+   "sources": [
+    {
+     "title": "日経平均株価 終値は1633円安（ANN）",
+     "url": "https://news.ksb.co.jp/ann/article/17078611"
+    },
+    {
+     "title": "AI関連に売り、日経平均は大幅反落（QUICK Money World）",
+     "url": "https://moneyworld.jp/news/detail?id=223679"
+    }
+   ]
+  },
+  "nikkei_vi": {
+   "headline": "日経VIは33.39と高水準で、日中の43.23から急低下",
+   "analysis": "日経VIは33.39（+1.88）。日中は43.23まで上昇した後に縮小した。52週高値は66.65、安値は18.77で、年間のレンジでは中位より上。AI投資の採算性、関税、金利をめぐる警戒が背景。",
+   "us_impact_level": "中",
+   "us_impact": "日本の恐怖指数が高い状態は、米国市場でもVIXが30台に上がったことと整合し、世界的なリスク回避が続く可能性を示す。米国株には、変動の大きい地合いが続く目安として効く。",
+   "sources": [
+    {
+     "title": "日経VI：上昇、警戒材料多く市場心理悪化（Fisco）",
+     "url": "https://www.zaikei.co.jp/article/20261125/879109.html"
+    },
+    {
+     "title": "日経VI（みんかぶ）",
+     "url": "https://fx.minkabu.jp/news/385330"
+    }
+   ]
+  },
+  "usdjpy": {
+   "headline": "ドル円は159円台で小動きで、介入警戒と米利上げ観測が拮抗",
+   "analysis": "終値は159.21円で-0.03%。SMA200（158.93円）付近で推移し、上値では日米協調介入への警戒が上値を抑えた。米PCEが強く、米国の12月利上げ観測が高まる一方、リスク回避の円買いも出た。",
+   "us_impact_level": "小",
+   "us_impact": "ドル円の小動きは、米株には直接の押し下げ材料にならない。節目接近での介入や急な円高は日本株、ひいては米ハイテク株の需給に波及する可能性があるが、現時点では限定的。",
+   "sources": [
+    {
+     "title": "ドル円小動き（みんかぶ）",
+     "url": "https://fx.minkabu.jp/news/385365"
+    },
+    {
+     "title": "東京為替（Fisco/investing.com）",
+     "url": "https://jp.investing.com/news/forex-news/article-1770027"
+    },
+    {
+     "title": "ドル円今日の見通し（外為どっとコム）",
+     "url": "https://www.gaitame.com/media/entry/2026/11/25/083511"
+    }
+   ]
+  },
+  "dow": {
+   "headline": "ダウは日中の大幅安をすべて戻して+0.33%で引けた",
+   "analysis": "終値は50,182.95ドルで+164.25ドル。ディフェンシブ・景気敏感株や、ディア、IBM、セールスフォースなどが支えた。1年チャートでは52週高値54,744から約1割低く、SMA200（50,772）の下に位置する。",
+   "us_impact_level": "大",
+   "us_impact": "ダウはAI・半導体の比率が低く、ローテーションの受け皿になった。指数間の方向感の差は、市場の主導権がハイテクから他へ移りつつあることを示す。ただし薄商いの休日前で、持続性は不明。",
+   "sources": [
+    {
+     "title": "CNBC Stock market news for Nov. 25, 2026",
+     "url": "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html"
+    },
+    {
+     "title": "Yahoo Finance Stock market today Nov 25",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+    }
+   ]
+  },
+  "nasdaq": {
+   "headline": "ナスダックは一時-4.6%まで売られ、引けは-0.62%まで戻した",
+   "analysis": "終値は23,585.80で-0.62%、1週間では-3.68%。AI投資の採算や資金調達への懸念、PCEの強さ、関税案が重なった。チャートでは200日線付近で下げ止まる形だが、SMA50（25,979）を大きく下回り、RSIは38.6。",
+   "us_impact_level": "大",
+   "us_impact": "ナスダックは米国株の方向を決める中心で、引けでの戻りは売りの一巡を示すが、安値からの戻りは薄商いの面も強い。AI・半導体の売りが続くかが焦点。",
+   "sources": [
+    {
+     "title": "CNBC Stock market news for Nov. 25, 2026",
+     "url": "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html"
+    },
+    {
+     "title": "Tech stocks seesaw as AI fears overshadow Huang's Nvidia return (CNN)",
+     "url": "https://www.cnn.com/2026/11/25/business/ai-sell-off-despite-huang-nvidia-return"
+    },
+    {
+     "title": "Nasdaq sinks about 4% (Korea Times)",
+     "url": "https://www.koreatimes.co.kr/world/20261126/nasdaq-sinks-about-4-as-ai-rout-fresh-trump-tariffs-spook-wall-st"
+    }
+   ]
+  },
+  "sp500": {
+   "headline": "S&P500は-0.25%で、安値の-3.2%から大きく戻した",
+   "analysis": "終値は7,182.78で-0.25%。チャートでは10月高値圏からの急落後、200日線に近い水準で下ヒゲを付けた。RSIは39.7で、SMA50（7,603）を下回る。IT・一般消費財・通信が重かった一方、素材・不動産・エネルギーが上昇した。",
+   "us_impact_level": "大",
+   "us_impact": "S&P500は引けで下落を限定したが、値幅は大きく、地合いは不安定。次の注目は年末にかけての利上げ観測と関税の行方。",
+   "sources": [
+    {
+     "title": "CNBC Stock market news for Nov. 25, 2026",
+     "url": "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html"
+    },
+    {
+     "title": "Yahoo Finance Stock market today Nov 25",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+    }
+   ]
+  },
+  "btc": {
+   "headline": "ビットコインは60,148ドルで小反発も、年初来の弱さは続く",
+   "analysis": "終値は60,148ドルで+0.70%、1ヶ月は-24.86%、年初来は-31.26%。ETFからの資金流出や利上げ観測、ハイテク株安が重しとなり、直近安値付近の支えが意識された。RSIは26.5と売られ過ぎ圏。",
+   "us_impact_level": "小",
+   "us_impact": "ビットコインのリスク資産としての弱さは、米株のリスク選好が低い状況と整合する。米株への影響は限定的で、理由は暗号資産の時価総額が米株指数に対して小さいため。コインベースなど関連株には影響しうる。",
+   "sources": [
+    {
+     "title": "Why is Bitcoin price down today? (crypto.news)",
+     "url": "https://crypto.news/bitcoin-price-prediction-etf-outflows-us-pce-gdp/"
+    },
+    {
+     "title": "Bitcoin Price Today: Core PCE (Blockchain Reporter)",
+     "url": "https://blockchainreporter.net/bitcoin-price-today-core-pce-3-3/"
+    }
+   ]
+  },
+  "wti": {
+   "headline": "WTIは84.22ドルで約+2.6%、中東の供給不安が下支え",
+   "analysis": "終値は84.22ドル。ホルムズ海峡周辺の攻撃報道などで反発した一方、1ヶ月では-17.92%と高値から大きく下げている。報道ごとに終値が分かれるため、水準は市場データを基準にした。",
+   "us_impact_level": "中",
+   "us_impact": "原油高は物価、特にインフレ指標の強さと重なって利上げ観測を支え、ハイテクなど高バリュエーション株には逆風になりうる。反面、エネルギー株には追い風。",
+   "sources": [
+    {
+     "title": "Oil prices rise after Houthis say they attacked Saudi refinery (CNBC)",
+     "url": "https://cnbc.com/2026/11/25/oil-wti-brent-hormuz-middle-east.html"
+    },
+    {
+     "title": "Oil Price Forecast (FXEmpire)",
+     "url": "https://www.fxempire.com/forecasts/article/oil-price-forecast-wti-and-brent-slide-as-oil-supplies-increase-1646758"
+    }
+   ]
+  },
+  "gold": {
+   "headline": "金は3,571ドルで+0.42%、下げ止まりを試す",
+   "analysis": "終値は3,571.24ドル。1週間で-7.22%、年初来で-17.30%と調整が深く、SMA200（4,400）を大きく下回る。52週安値3,426.72ドルが近い。ハイテク株安に伴う換金売りと利上げ観測が重しになってきた。",
+   "us_impact_level": "小",
+   "us_impact": "金の下落は、株安時に安全資産としての買いが入りにくい地合いを示す。米株への影響は限定的で、理由は金利上昇と流動性需要が主因で、株の材料になりにくいため。",
+   "sources": [
+    {
+     "title": "Kitco 金・銀 PMレポート",
+     "url": "https://www.kitco.com/price/precious-metals"
+    },
+    {
+     "title": "Stock market news Nov 25 (CNBC)",
+     "url": "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html"
+    }
+   ]
+  },
+  "platinum": {
+   "headline": "プラチナは1,278ドルで横ばい、年初来の下落が大きい",
+   "analysis": "終値は1,278.3ドルで+0.05%。1週間で-10.49%、年初来で-38.93%と、貴金属の中でも弱さが際立つ。52週安値1,220.6ドルに接近した。",
+   "us_impact_level": "小",
+   "us_impact": "プラチナは景気敏感な工業需要の面もあり、弱さは製造業の先行き不安を映す。ただし米株への直接の影響は限定的で、規模が小さいため。",
+   "sources": [
+    {
+     "title": "Kitco Platinum Price",
+     "url": "https://www.kitco.com/charts/platinum"
+    },
+    {
+     "title": "Kitco 金・銀 PMレポート",
+     "url": "https://www.kitco.com/price/precious-metals"
+    }
+   ]
+  },
+  "jgb10y": {
+   "headline": "日本の10年債利回りは2.63%に低下、リスク回避で債券に買い",
+   "analysis": "利回りは2.63%、-9.2bp。米長期金利の低下と、AI関連の不透明感から国内債が買われた。直近の高値圏からは急低下し、1週間でも大きく低下。52週高値は3.135%。",
+   "us_impact_level": "中",
+   "us_impact": "日本の金利低下は、円の押し上げ要因を和らげ、日米金利差の面からドル円を支える。米国の債券市場への影響は限定的だが、日本の金利動向は世界の債券需要に影響する。",
+   "sources": [
+    {
+     "title": "債券15時 長期金利、低下（日経）",
+     "url": "https://www.nikkei.com/article/DGXZQOFL241100U6A121C2000000/"
+    },
+    {
+     "title": "長期金利低下（東京新聞）",
+     "url": "https://www.tokyo-np.co.jp/article/530340"
+    }
+   ]
+  },
+  "ust10y": {
+   "headline": "米10年債利回りは4.87%に低下、PCEが強くても安全資産需要が勝った",
+   "analysis": "利回りは4.87%、-6.0bp。PCEが強く12月の利上げ観測が高まる中でも、株安と薄商いの休日前に債券が買われた。52週高値5.365%は遠く、1週間では-4.94%。",
+   "us_impact_level": "大",
+   "us_impact": "長期金利の低下はハイテクなどグロース株の割引率面では追い風だが、利上げ観測は残る。ここからの金利の動きは、休み明けの株式の方向を左右する。",
+   "sources": [
+    {
+     "title": "CNBC Stock market news for Nov. 25, 2026",
+     "url": "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html"
+    },
+    {
+     "title": "Yahoo Finance Stock market today Nov 25",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+    }
+   ]
+  }
+ },
+ "sectors": {
+  "headline": "ハイテクと半導体が売られ、素材・不動産・コミュニケーションなどへ資金が回った",
+  "analysis": "上位は素材（+2.05%）、不動産（+0.92%）、コミュニケーション（+0.89%）、資本財（+0.83%）で、下位は半導体SMH（-1.01%）、情報技術XLK（-0.81%）、ヘルスケア（-0.56%）。日中はIT中心にさらに深く下げていたが、引けにかけて戻した。素材はセクターのなかで際立ち、ディア（ジョン・ディア）の好決算が資本財の支えになった。",
+  "rotation": "景気敏感（素材・資本財・金融）とディフェンシブ（生活必需品・公益・不動産）の双方が上昇し、グロース（IT・半導体）から資金が出た形で、バリュー優位の流れ。1ヶ月ではXLKが-15.37%、SMHが-20.49%と下げが深く、生活必需品は+4.79%で、流れの変化は継続的。ただし当日の戻しは薄商いの面もあり、持続性は見極めが必要。",
+  "outlook": "半導体の売りが続くか、AIの採算・資金調達の議論と格付け・議会対応の行方が焦点。素材・エネルギーは関税案と原油（WTI）の動き、金融・不動産は金利の動きに左右されやすい。",
+  "sources": [
+   {
+    "title": "Defensives Lead Sectors In Wednesday Trading (Benzinga)",
+    "url": "https://benzinga.com/etfs/sector-etfs/26/11/63632400/defensives-lead-sectors-in-wednesday-trading-as-growth-trails"
+   },
+   {
+    "title": "Stock Market Today Live Nov 25, 2026 (StockTitan)",
+    "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-25-2026"
+   },
+   {
+    "title": "CNBC Stock market news for Nov. 25, 2026",
+    "url": "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html"
+   }
+  ]
+ },
+ "top_news": {
+  "headline": "AI投資の採算・資金調達への不安に、ガバナンスと関税が重なった",
+  "items": [
+   {
+    "title": "S&P、エヌビディアの格付けを引き下げ方向で見直し",
+    "type": "銘柄",
+    "tickers": [
+     "NVDA"
+    ],
+    "what": "S&Pグローバルは25日、エヌビディアのAA格付けをクレジットウォッチ・ネガティブとした。取締役会の構造・独立性やCEOのキーマンリスクなどガバナンスを理由とする。同社株は一時-8%近くまで下げ、引けは約-4%。",
+    "why": "エヌビディアは指数への寄与が大きく、半導体・AIインフラ全体の心理を左右する。格付けは事業ではなく統治面が理由とされるが、AI投資の資金調達コストに関する議論と結びつきやすい。",
+    "watch": "12/1と12/3の議会証言、S&Pの見直し結果（90日以内とされる）、大統領が言及した恩赦の扱い。",
+    "impact_level": "大",
+    "sources": [
+     {
+      "title": "S&P says it may downgrade Nvidia's ratings (Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/s-p-says-it-may-downgrade-nvidia-s-ratings-on-governance-worries"
+     },
+     {
+      "title": "S&P warns Nvidia faces high risk of credit downgrade",
+      "url": "https://www.businessday.co.za/world/international-companies/2026-11-25-sp-warns-nvidia-faces-high-risk-of-credit-downgrade/"
+     },
+     {
+      "title": "Nvidia leads tech sell-off (CNBC)",
+      "url": "https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html"
+     }
+    ]
+   },
+   {
+    "title": "米政権が14カ国への新関税案、中国は追加20%",
+    "type": "政策・規制",
+    "tickers": [
+     "FXI",
+     "EWJ"
+    ],
+    "what": "米通商代表部（USTR）はセクション301の調査に基づき、過剰生産能力への新たな関税を14の貿易相手に提案した。中国には追加20%、日本・韓国・台湾・EUには上限15%などが案として示された。発動はコメント期間後で、早ければ1月。",
+    "why": "最高裁が違憲とした関税を作り直す動きで、半導体・自動車・素材のサプライチェーンに波及する。AI設備投資のコスト増にもつながりうる。",
+    "watch": "コメント期間の日程、1/10に期限を迎える中国との停戦の扱い。",
+    "impact_level": "大",
+    "sources": [
+     {
+      "title": "Trump admin proposes new tariffs on 14 trading partners (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/economy/policy/articles/trump-admin-proposes-tariffs-14-134533464.html"
+     },
+     {
+      "title": "World reacts to Trump's new tariffs (Al Jazeera)",
+      "url": "https://www.aljazeera.com/economy/2026/11/25/world-reacts-to-trumps-new-tariffs-as-us-stocks-tumble"
+     },
+     {
+      "title": "US proposes new tariffs on 14 trading partners (Reuters via Investing.com)",
+      "url": "https://www.investing.com/news/world-news/us-proposes-new-tariffs-on-14-trading-partners-to-fight-excess-factory-capacity-5050714"
+     }
+    ]
+   },
+   {
+    "title": "ソフトバンクG急落、AI関連のレバレッジ不安が拡大",
+    "type": "銘柄",
+    "tickers": [
+     "SFTBY",
+     "ARM"
+    ],
+    "what": "ソフトバンクGは25日の東京市場で-14.8%と大幅安となり、年初来安値を更新した。保有するArm株を担保にした融資と、AI関連投資の損益懸念が材料視された。米国ではArmも8%近く下げた。",
+    "why": "Arm株の担保に絡む資金繰りは、半導体設計・AIインフラの株価下落が連鎖する経路になりうる。日本発のAI関連株安が米国の半導体株へ波及しうる点が注目される。",
+    "watch": "Arm株の水準と担保維持の議論、SBGの資金調達に関する発表。",
+    "impact_level": "中",
+    "sources": [
+     {
+      "title": "SoftBank Shares Plummet 14.8% (ROIC)",
+      "url": "https://www.roic.ai/news/softbank-shares-plummet-148-as-ai-selloff-erases-200-billion-in-market-value-11-25-2026"
+     },
+     {
+      "title": "SoftBank Plunges 14.8% in Tokyo (NewsLantern)",
+      "url": "https://newslantern.com/news/25396/2026-11-25/softbank-plunges-14-8-in-tokyo-as-global-ai-selloff-erases-over-200"
+     },
+     {
+      "title": "Arm stock falls 8% as SoftBank selloff weighs",
+      "url": "https://invezz.com/news/2026/11/25/arm-stock-falls-8-as-softbank-selloff-and-ai-concerns-weigh-on-shares/"
+     }
+    ]
+   }
+  ]
+ },
+ "external_facts": [
+  {
+   "label": "10月PCE前年比",
+   "value": "3.8%",
+   "sources": [
+    "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html",
+    "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+   ]
+  },
+  {
+   "label": "10月コアPCE前年比",
+   "value": "3.3%",
+   "sources": [
+    "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html",
+    "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+   ]
+  },
+  {
+   "label": "S&P500 日中安値の下落率",
+   "value": "-3.2%",
+   "sources": [
+    "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html",
+    "https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html"
+   ]
+  },
+  {
+   "label": "ナスダック 日中安値の下落率",
+   "value": "-4.6%",
+   "sources": [
+    "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html",
+    "https://www.koreatimes.co.kr/world/20261126/nasdaq-sinks-about-4-as-ai-rout-fresh-trump-tariffs-spook-wall-st"
+   ]
+  },
+  {
+   "label": "NVDA 11/25 騰落率",
+   "value": "-4%",
+   "sources": [
+    "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html",
+    "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+   ]
+  },
+  {
+   "label": "SBG 11/25 騰落率",
+   "value": "-14.8%",
+   "sources": [
+    "https://www.roic.ai/news/softbank-shares-plummet-148-as-ai-selloff-erases-200-billion-in-market-value-11-25-2026",
+    "https://newslantern.com/news/25396/2026-11-25/softbank-plunges-14-8-in-tokyo-as-global-ai-selloff-erases-over-200"
+   ]
+  },
+  {
+   "label": "中国向け追加関税案",
+   "value": "20%",
+   "sources": [
+    "https://finance.yahoo.com/economy/policy/articles/trump-admin-proposes-tariffs-14-134533464.html",
+    "https://www.investing.com/news/world-news/us-proposes-new-tariffs-on-14-trading-partners-to-fight-excess-factory-capacity-5050714"
+   ]
+  },
+  {
+   "label": "日本・韓国・台湾・EU向け関税案",
+   "value": "15%",
+   "sources": [
+    "https://finance.yahoo.com/economy/policy/articles/trump-admin-proposes-tariffs-14-134533464.html",
+    "https://www.aljazeera.com/economy/2026/11/25/world-reacts-to-trumps-new-tariffs-as-us-stocks-tumble"
+   ]
+  },
+  {
+   "label": "S&P 格付け",
+   "value": "AA",
+   "sources": [
+    "https://www.bloomberg.com/news/articles/2026-11-25/s-p-says-it-may-downgrade-nvidia-s-ratings-on-governance-worries",
+    "https://www.businessday.co.za/world/international-companies/2026-11-25-sp-warns-nvidia-faces-high-risk-of-credit-downgrade/"
+   ]
+  },
+  {
+   "label": "12月利上げ織り込み",
+   "value": "98%",
+   "sources": [
+    "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html",
+    "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html"
+   ]
+  }
+ ],
+ "x_sentiment": "X・SNSの反応は今回の調査では確認できなかったため記載しない。"
+}

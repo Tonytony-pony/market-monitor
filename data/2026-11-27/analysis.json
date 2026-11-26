@@ -1,0 +1,491 @@
+{
+ "report_date": "2026-11-27",
+ "us_session_covered": "2026-11-25（水）※26日は感謝祭で休場",
+ "summary": {
+  "headline": "米国は感謝祭で休場。日本株は反発したが、AI・半導体の不安と利上げ観測は残る",
+  "recent_moves": [
+   "米国市場は26日が感謝祭で休場。直近の取引日である25日は、ナスダックが日中に大きく下げた後、引けはダウが+0.33%、S&P500が-0.25%、ナスダックが-0.62%まで戻した",
+   "エヌビディアはS&Pの格付け見直し（クレジットウォッチ・ネガティブ）で下落し、マイクロンなどメモリ株も下げた。26日にはアジア向けサーバー出荷の停止報道も出た",
+   "10月のコアPCEは前年比3.3%と市場予想を上回り、12月の利上げ観測が強まった。米10年債利回りは4.864%に低下",
+   "日経平均は+0.86%の57,499.16円と反発。キオクシアHDが大幅高となったが、後場にエヌビディア報道で上げ幅を縮めた",
+   "原油は、フーシ派がサウジの製油所を攻撃したと主張したことで上昇。金は1年来の安値圏で続落した"
+  ],
+  "outlook": [
+   "27日（金）は米国の短縮取引（日本時間28日午前3時終了）。薄商いで値が飛びやすく、エヌビディアの出荷停止報道への反応が焦点",
+   "12月の利上げはほぼ織り込み済み。今後の雇用統計などの指標が、利上げペースの見方を左右する",
+   "関税案はこれから協議に入り、中国との停戦期限は1月10日。週末の報道で週明けの地合いが変わる可能性がある",
+   "29日のOPECプラス会合と中東情勢で原油が動けば、エネルギー株とインフレ見通しに影響する"
+  ],
+  "watch_points": [
+   "S&P500とナスダックが200日線付近の安値を維持できるか",
+   "エヌビディアのサーバー出荷停止が一時的かどうか"
+  ],
+  "events": [
+   {
+    "time_jst": "11/27（金）23:30",
+    "event": "米国株は短縮取引（午後1時ET＝日本時間28日03:00に終了）",
+    "importance": "中"
+   },
+   {
+    "time_jst": "11/29（日）",
+    "event": "OPECプラス閣僚会合（2027年の生産方針）",
+    "importance": "中"
+   },
+   {
+    "time_jst": "12/2（水）",
+    "event": "米ADP雇用統計",
+    "importance": "中"
+   },
+   {
+    "time_jst": "12/4（金）",
+    "event": "米11月雇用統計",
+    "importance": "高"
+   },
+   {
+    "time_jst": "12/10（木）",
+    "event": "FOMC結果（12/9 米国時間）",
+    "importance": "高"
+   }
+  ],
+  "overview_message": "米国は休場でも、日本株は半導体主導で反発。AI関連と利上げ観測をめぐる警戒は続いている。"
+ },
+ "instruments": {
+  "nikkei225": {
+   "headline": "日経平均は+0.86%と反発し、前日の大幅安から戻した",
+   "analysis": "終値は57,499.16円（+487.54円）。キオクシアHDが大幅高となるなど半導体関連が反発したが、午前の大きな上げ幅は後場に縮み、エヌビディアの出荷停止報道が重しになった。1年チャートでは10月高値からの下落が続き、50日線・200日線を大きく下回る。RSIは38.7で売られ過ぎ圏に近い。",
+   "us_impact_level": "中",
+   "us_impact": "日本株の反発は米国の半導体株の戻りを映したもので、日本発の新規材料ではない。ただし後場の失速は、米国市場が休場のなかでAI関連の不安が残っていることを示しており、27日の米国短縮取引の地合いを探る材料になる。",
+   "sources": [
+    {
+     "title": "日経平均、終値487円高 AI売り一巡期待に配当再投資の追い風（日本経済新聞）",
+     "url": "https://www.nikkei.com/article/DGXZQOUB260IZTW6A121C2000000/"
+    },
+    {
+     "title": "キオクシア12％高で日経487円高（世界一やさしい投資の学校）",
+     "url": "https://tbladvisory.com/20261126nk/"
+    },
+    {
+     "title": "日経平均は487円高と反発（Limo）",
+     "url": "https://limo.media/articles/-/148967"
+    }
+   ]
+  },
+  "jpx400": {
+   "headline": "JPX日経400は+0.04%とほぼ横ばい",
+   "analysis": "終値は34,233.66円。半導体・AI関連が動いた日経平均に比べ、指数全体では小幅な動きにとどまった。1ヶ月で-5.47%と調整が続き、50日線・200日線の下にある。",
+   "us_impact_level": "小",
+   "us_impact": "米国株への直接の影響は限定的。半導体比率が低く、米国で材料になるAI関連銘柄の寄与が小さいため。",
+   "sources": [
+    {
+     "title": "日経平均、終値487円高 AI売り一巡期待に配当再投資の追い風（日本経済新聞）",
+     "url": "https://www.nikkei.com/article/DGXZQOUB260IZTW6A121C2000000/"
+    },
+    {
+     "title": "日経平均は487円高と反発（Limo）",
+     "url": "https://limo.media/articles/-/148967"
+    }
+   ]
+  },
+  "growth250": {
+   "headline": "グロース250は+1.87%と反発したが、1ヶ月では-15.17%と下げが深い",
+   "analysis": "終値は652.6。前日の売りへの戻りで、52週安値635.41に近い水準にある。50日線・200日線をともに下回り、チャートでは戻りが限定的。RSIは33.7。",
+   "us_impact_level": "小",
+   "us_impact": "日本の小型グロースの反発は、リスク選好がやや戻ったことを示す程度。規模が小さく、米国株への波及は限定的。",
+   "sources": [
+    {
+     "title": "日経平均、終値487円高 AI売り一巡期待に配当再投資の追い風（日本経済新聞）",
+     "url": "https://www.nikkei.com/article/DGXZQOUB260IZTW6A121C2000000/"
+    },
+    {
+     "title": "日経平均は487円高と反発（Limo）",
+     "url": "https://limo.media/articles/-/148967"
+    }
+   ]
+  },
+  "nk_futures": {
+   "headline": "日経225先物は+0.94%の57,890円で、現物を上回って引けた",
+   "analysis": "終値は57,890円（+540円）。現物より高く引け、夜間の米国時間に向けて下げ渋った。50日線を大きく下回る調整局面が続く。",
+   "us_impact_level": "小",
+   "us_impact": "先物の動きは27日の日本株の寄り付きの目安にとどまり、米国株の方向を決める材料ではない。米国市場が休場だったことも参考になりにくい理由。",
+   "sources": [
+    {
+     "title": "日経平均、終値487円高 AI売り一巡期待に配当再投資の追い風（日本経済新聞）",
+     "url": "https://www.nikkei.com/article/DGXZQOUB260IZTW6A121C2000000/"
+    },
+    {
+     "title": "キオクシア12％高で日経487円高（世界一やさしい投資の学校）",
+     "url": "https://tbladvisory.com/20261126nk/"
+    }
+   ]
+  },
+  "nikkei_vi": {
+   "headline": "日経VIは31.13へ低下したが、なお高い水準",
+   "analysis": "日経VIは31.13（-2.26）。日中は43.22まで上がった後に急低下した。52週のレンジは18.77〜66.65で、中位より上の警戒水準。AI投資の採算、関税、FRBの利上げ観測が背景とみられる（推測）。",
+   "us_impact_level": "小",
+   "us_impact": "日本の恐怖指数の低下は、米国株の日中急落からの戻りと歩調が合う。ただし水準は高く、米国のボラティリティが再び上がれば日本でも上振れしやすい。",
+   "sources": [
+    {
+     "title": "日経平均、終値487円高 AI売り一巡期待に配当再投資の追い風（日本経済新聞）",
+     "url": "https://www.nikkei.com/article/DGXZQOUB260IZTW6A121C2000000/"
+    },
+    {
+     "title": "日経平均は487円高と反発（Limo）",
+     "url": "https://limo.media/articles/-/148967"
+    }
+   ]
+  },
+  "usdjpy": {
+   "headline": "ドル円は159.28円で小動き、介入警戒が上値を抑えるが続く",
+   "analysis": "終値は159.28円（+0.11円）。米国の感謝祭で薄商いとなり方向感に欠けた。日銀関係者の発言で12月の利上げ観測が意識された一方、米国のインフレ指標の強さがドルを支えた。52週高値163.99円からは離れ、SMA50（158.24円）とSMA200（158.95円）の近辺にある。",
+   "us_impact_level": "小",
+   "us_impact": "小動きで米国株への直接の影響は限定的。介入観測が出れば、円高を通じて日本株や米国のハイテク株に波及する可能性がある。",
+   "sources": [
+    {
+     "title": "Forex Today: US Dollar finds footing as Japan CPI can rock the Yen（FXStreet）",
+     "url": "https://fxstreet.com/news/forex-today-us-dollar-finds-footing-as-japan-cpi-can-rock-the-yen-202611262124"
+    },
+    {
+     "title": "Strong US data leaves the Yen unmoved before Tokyo inflation（FXStreet）",
+     "url": "https://www.fxstreet.com/news/strong-us-data-leaves-the-yen-unmoved-before-tokyo-inflation-202611252307"
+    },
+    {
+     "title": "USD/JPY Holds at 159.25 as Thanksgiving Trading Limits Market Direction（FinScans）",
+     "url": "https://finscans.com/news/2026/11/26/usdjpy-holds-at-15925-as-thanksgiving-trading-limits-market"
+    }
+   ]
+  },
+  "dow": {
+   "headline": "ダウは+0.33%の50,182.95ドルで、日中の大幅安をほぼ取り戻した",
+   "analysis": "25日の終値は50,182.95ドル（+164.25ドル）。一時は1,100ポイント超下げたが、引けにかけて急反発し、節目の5万ドルを回復した。1年チャートでは50日線を下回る一方、200日線の近辺で踏みとどまった。",
+   "us_impact_level": "大",
+   "us_impact": "ダウはディフェンシブ・景気敏感の買いに支えられ、ハイテクの下げを相殺した。日中の急落と戻りの大きさは、値動きが荒い地合いであることを示す。",
+   "sources": [
+    {
+     "title": "Dow closes higher Wednesday, wiping out 1,100-point loss（CNBC）",
+     "url": "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html"
+    },
+    {
+     "title": "Dow closes higher after erasing 1,100-point loss（Fox Business）",
+     "url": "https://www.foxbusiness.com/markets/stocks-11-25-2026"
+    },
+    {
+     "title": "Market Recap: Nvidia drops, core PCE 3.3%, gold below $3,500（TradingKey）",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262322956-market-recap-sp-nasdaq-nvidia-pce-gold-breaks-3500-tradingkey"
+    }
+   ]
+  },
+  "nasdaq": {
+   "headline": "ナスダックは-0.62%の23,585.80で、日中の-4.6%から戻したが下落は2日続いた",
+   "analysis": "25日の終値は23,585.80（-147.73）。エヌビディアやマイクロン、サンディスクなどが重しになった。チャートでは10月高値から急落し、50日線と200日線を下回る。日中安値付近で買いが入り、下ヒゲの長い足になった。",
+   "us_impact_level": "大",
+   "us_impact": "ナスダックは半導体・AI関連の売りが主導で、S&P500より弱い。日中の戻りは需給の改善を示すが、50日線・200日線を回復するまでは戻り売りが出やすい（推測）。",
+   "sources": [
+    {
+     "title": "Dow closes higher Wednesday, wiping out 1,100-point loss（CNBC）",
+     "url": "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html"
+    },
+    {
+     "title": "Dow closes higher after erasing 1,100-point loss（Fox Business）",
+     "url": "https://www.foxbusiness.com/markets/stocks-11-25-2026"
+    },
+    {
+     "title": "Stock Market Today, November 25, 2026（StockTitan）",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-25-2026"
+    }
+   ]
+  },
+  "sp500": {
+   "headline": "S&P500は-0.25%の7,182.78で、日中の-3.2%から戻した",
+   "analysis": "25日の終値は7,182.78（-18.31）。ハイテクが重しとなる一方、素材・不動産・コミュニケーション・資本財などの買いで下げ幅を縮めた。1年チャートでは200日線の近辺まで下げた後に戻した。52週高値7,844.52からは約8.4%下にある。",
+   "us_impact_level": "大",
+   "us_impact": "S&P500の戻りは広範なセクターの買いに支えられた。27日は短縮取引で薄商いとなるため、値が飛びやすい。",
+   "sources": [
+    {
+     "title": "Dow closes higher Wednesday, wiping out 1,100-point loss（CNBC）",
+     "url": "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html"
+    },
+    {
+     "title": "Market Recap: Nvidia drops, core PCE 3.3%, gold below $3,500（TradingKey）",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262322956-market-recap-sp-nasdaq-nvidia-pce-gold-breaks-3500-tradingkey"
+    },
+    {
+     "title": "Closing Look — Wednesday, November 25, 2026",
+     "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25"
+    }
+   ]
+  },
+  "btc": {
+   "headline": "ビットコインは+0.68%の60,794ドルで、6万ドル近辺の攻防が続く",
+   "analysis": "終値は60,794ドル（+409ドル）。7週連続安に向かう流れのなか、6万ドルを割り込んだ後に買い戻された。1ヶ月は-24.01%、年初来は-30.52%。52週安値55,081ドルからは約10%上、RSIは29.2で売られ過ぎ圏。",
+   "us_impact_level": "小",
+   "us_impact": "暗号資産はナスダックのリスク選好と連動しやすく、ハイテク株が不安定なうちは上値が重い。米国株への影響は限定的で、関連株（暗号資産関連銘柄）への影響にとどまる。",
+   "sources": [
+    {
+     "title": "Crypto Today: Is the bottom in?（FXStreet）",
+     "url": "https://fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-and-xrp-recover-slightly-as-crypto-investment-outflows-continue-202611261017"
+    },
+    {
+     "title": "Crypto Market Today, November 25, 2026: Bitcoin Below $60,000",
+     "url": "https://eurasiabusinessnews.com/2026/11/25/crypto-market-today-november-25-2026-bitcoin-below-60000-as-ethereum-xrp-and-solana-slide/"
+    }
+   ]
+  },
+  "wti": {
+   "headline": "WTIは+1.47%の84.91ドル、イエメンのフーシ派による攻撃主張で上昇",
+   "analysis": "終値は84.91ドル（+1.23ドル）。フーシ派がサウジのラスタヌラ製油所を攻撃したと主張し、地政学リスクが意識された。1ヶ月では-16.17%と大きく下げ、需給緩和観測も根強い。29日にOPECプラスの閣僚会合がある。",
+   "us_impact_level": "中",
+   "us_impact": "原油高はインフレ懸念を通じてFRBの利上げ観測を支える可能性があり、エネルギー株には追い風。一方で消費者や景気敏感株には重しになりうる。",
+   "sources": [
+    {
+     "title": "Oil prices rise after Houthis claim attack on Saudi refinery（NST）",
+     "url": "https://www.nst.com.my/business/economy/2026/11/1585939/oil-prices-rise-after-houthis-claim-attack-saudi-refinery"
+    },
+    {
+     "title": "Oil Prices Rise Over 1% After Houthis Say They Attacked Saudi Refinery（GV Wire）",
+     "url": "https://gvwire.com/2026/11/25/oil-prices-rise-over-1-after-houthis-say-they-attacked-saudi-refinery/"
+    }
+   ]
+  },
+  "gold": {
+   "headline": "金は-0.64%の3,566.39ドルで、1年来の安値圏にある",
+   "analysis": "終値は3,566.39ドル（-23.07ドル）。強いインフレ指標と利上げ観測が重しで、11月に入って約7〜8%下げている。52週高値5,598.75ドルからは大きく下げ、安値3,426.72ドルまで約4%の位置。50日線・200日線を大きく下回る。",
+   "us_impact_level": "小",
+   "us_impact": "金安は実質金利の上昇とドル高を映す。米国株には直接の材料ではないが、金融引き締め観測の強さを示す点でハイテク株には逆風。",
+   "sources": [
+    {
+     "title": "Market Recap: Nvidia drops, core PCE 3.3%, gold below $3,500（TradingKey）",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262322956-market-recap-sp-nasdaq-nvidia-pce-gold-breaks-3500-tradingkey"
+    },
+    {
+     "title": "Forex Today: US Dollar finds footing as Japan CPI can rock the Yen（FXStreet）",
+     "url": "https://fxstreet.com/news/forex-today-us-dollar-finds-footing-as-japan-cpi-can-rock-the-yen-202611262124"
+    }
+   ]
+  },
+  "platinum": {
+   "headline": "プラチナは-0.71%の1,291.90ドルで、年初来-38.28%",
+   "analysis": "終値は1,291.90ドル（-9.30ドル）。工業需要の見通しの弱さと貴金属全体の売りが重しになった。52週安値1,220.60ドルに近づいている。RSIは29.8で売られ過ぎ圏。",
+   "us_impact_level": "なし",
+   "us_impact": "米国株への影響は限定的。主な需要は自動車触媒などで、米国の主要指数への寄与が小さい。景気減速観測の指標として見る程度。",
+   "sources": [
+    {
+     "title": "Market Recap: Nvidia drops, core PCE 3.3%, gold below $3,500（TradingKey）",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262322956-market-recap-sp-nasdaq-nvidia-pce-gold-breaks-3500-tradingkey"
+    },
+    {
+     "title": "Forex Today: US Dollar finds footing as Japan CPI can rock the Yen（FXStreet）",
+     "url": "https://fxstreet.com/news/forex-today-us-dollar-finds-footing-as-japan-cpi-can-rock-the-yen-202611262124"
+    }
+   ]
+  },
+  "jgb10y": {
+   "headline": "日本の10年債利回りは2.638%と上昇、日銀の利上げ観測が意識された",
+   "analysis": "終値は2.638%（+0.8bp）。日銀関係者の発言で12月の利上げ期待が意識された。1週間では利回りが低下しており、52週高値3.135%からは下にある。",
+   "us_impact_level": "小",
+   "us_impact": "日本の金利上昇は円高要因になりうるが、今のところ影響は限定的。急な上昇があれば円買いと日本株安を通じて米国のハイテク株に波及する可能性がある。",
+   "sources": [
+    {
+     "title": "Forex Today: US Dollar finds footing as Japan CPI can rock the Yen（FXStreet）",
+     "url": "https://fxstreet.com/news/forex-today-us-dollar-finds-footing-as-japan-cpi-can-rock-the-yen-202611262124"
+    },
+    {
+     "title": "USD/JPY Holds at 159.25 as Thanksgiving Trading Limits Market Direction（FinScans）",
+     "url": "https://finscans.com/news/2026/11/26/usdjpy-holds-at-15925-as-thanksgiving-trading-limits-market"
+    }
+   ]
+  },
+  "ust10y": {
+   "headline": "米10年債利回りは4.864%に低下（-6.4bp）、約11週ぶりの低水準を付けた",
+   "analysis": "終値は4.864%（-6.4bp）。強いPCEにもかかわらず、日中の株安で安全資産への買いが入り、利回りは低下した。52週高値5.365%からは下にある。12月の利上げはほぼ織り込み済み。",
+   "us_impact_level": "大",
+   "us_impact": "利回りの低下は株式の割引率を下げるが、利上げが続くとの見方が残る。27日は債券市場も短縮取引で、値動きが荒れやすい。",
+   "sources": [
+    {
+     "title": "Market Recap: Nvidia drops, core PCE 3.3%, gold below $3,500（TradingKey）",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262322956-market-recap-sp-nasdaq-nvidia-pce-gold-breaks-3500-tradingkey"
+    },
+    {
+     "title": "Forex Today: US Dollar finds footing as Japan CPI can rock the Yen（FXStreet）",
+     "url": "https://fxstreet.com/news/forex-today-us-dollar-finds-footing-as-japan-cpi-can-rock-the-yen-202611262124"
+    },
+    {
+     "title": "What To Watch In A Short Week Following Market Correction（Benzinga）",
+     "url": "https://www.benzinga.com/opinion/26/11/63522511/what-to-watch-in-a-short-week-following-market-correction"
+    }
+   ]
+  }
+ },
+ "sectors": {
+  "headline": "素材・不動産・コミュニケーションが買われ、ハイテクと半導体は売られた",
+  "analysis": "25日は素材が+2.07%で最も強く、不動産が+0.92%、コミュニケーションが+0.89%、資本財が+0.83%、エネルギーが+0.74%、金融が+0.71%と続いた。ハイテクは-0.83%、半導体は-1.01%、ヘルスケアは-0.56%。エヌビディアがS&Pの格付け見直しで下落し、マイクロンなどメモリ株も売られたことがハイテクの重しになった。HPが好決算で急伸したことなど個別材料もあった。",
+  "rotation": "資金はハイテクから景気敏感（素材・資本財・金融）と、ディフェンシブ（不動産・生活必需品・公益）の両方へ広がった。1週間では半導体が-9.73%、ハイテクが-6.95%と大きく下げた一方、生活必需品は+2.50%と堅調で、1ヶ月でも半導体-20.49%に対し生活必需品+5.64%と、グロースから守りへの流れが続いている。25日の戻りは一時的な反発の可能性が高いが、まだ流れが変わったとは言えない。",
+  "outlook": "27日は短縮取引で、エヌビディアの出荷停止報道を受けた半導体株の反応が焦点。12月の利上げが意識されるなか、金利に敏感な不動産・公益と、原油の動きに左右されるエネルギーも注目される（推測）。",
+  "sources": [
+   {
+    "title": "Closing Look — Wednesday, November 25, 2026",
+    "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25"
+   },
+   {
+    "title": "Market Digest — Wednesday, November 25, 2026",
+    "url": "https://stockmarketwatch.com/digest/2026-11-25"
+   },
+   {
+    "title": "Stock Market Today, November 25, 2026（StockTitan）",
+    "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-25-2026"
+   },
+   {
+    "title": "Stocks making the biggest moves Wednesday: HP Inc, Ambarella, Nvidia, Sandisk（CNBC）",
+    "url": "https://www.cnbc.com/2026/11/25/stocks-moving-the-most-today-live-updates.html"
+   }
+  ]
+ },
+ "top_news": {
+  "headline": "AI半導体の中心であるエヌビディアに、格付けと輸出規制の両面で不確実性が重なった",
+  "items": [
+   {
+    "title": "エヌビディアにS&Pがクレジットウォッチ・ネガティブ",
+    "type": "銘柄",
+    "tickers": [
+     "NVDA"
+    ],
+    "what": "S&Pは25日、エヌビディアのAA格付けを、取締役会の独立性や特定経営者への依存といった統治面のリスクを理由にクレジットウォッチ・ネガティブに指定した。同社株は25日に約3.9%下落した。",
+    "why": "エヌビディアは時価総額が大きく、S&P500とナスダックへの寄与が大きい。AI関連の資金調達や投資計画にも影響するため、半導体・クラウド全体に波及しやすい。",
+    "watch": "今後90日程度での格上げ・格下げの判断と、会社側の説明。",
+    "impact_level": "大",
+    "sources": [
+     {
+      "title": "Stocks making the biggest moves Wednesday: HP Inc, Ambarella, Nvidia, Sandisk（CNBC）",
+      "url": "https://www.cnbc.com/2026/11/25/stocks-moving-the-most-today-live-updates.html"
+     },
+     {
+      "title": "NVIDIA Stocks Fall 3.91% as S&P Puts AA Rating on Downgrade Watch（TradingView）",
+      "url": "https://www.tradingview.com/news/gurufocus:1e80fcea8094b:0-nvidia-stocks-fall-3-91-as-s-p-puts-aa-rating-on-downgrade-watch/"
+     },
+     {
+      "title": "S&P puts NVIDIA on CreditWatch over governance concerns（Investing.com）",
+      "url": "https://www.investing.com/news/stock-market-news/sp-puts-nvidia-on-creditwatch-over-governance-concerns-5051348"
+     }
+    ]
+   },
+   {
+    "title": "エヌビディア、東南アジア向けサーバー出荷を停止と報道",
+    "type": "政策・規制",
+    "tickers": [
+     "NVDA",
+     "DELL",
+     "SMCI"
+    ],
+    "what": "報道によると、エヌビディアは製造パートナーにタイ・マレーシア・シンガポール・インドネシア向けサーバーの出荷停止を指示した。米国の輸出規制強化への対応を確認するためとされる。",
+    "why": "AIサーバーの需要先の一部が止まる可能性があり、エヌビディアだけでなくサーバーメーカーや半導体の同業にも波及する。期間は不明で、一時的かどうかが焦点になる。",
+    "watch": "停止の期間、会社の公式見解、27日の短縮取引でのエヌビディア株の反応。",
+    "impact_level": "大",
+    "sources": [
+     {
+      "title": "Nvidia Halts Shipments to Southeast Asia as AI Financing Faces Scrutiny（FinScans）",
+      "url": "https://finscans.com/news/2026/11/26/nvidia-halts-shipments-to-southeast-asia-as-ai-financing"
+     },
+     {
+      "title": "Nvidia's Asia Server Halt Adds Export Risk for NVDA Stock（MarketSpeaker）",
+      "url": "https://marketspeaker.com/nvidia-stock-ai-server-shipments-southeast-asia-export-curbs/"
+     }
+    ]
+   },
+   {
+    "title": "米国が14の国・地域に新たな関税案",
+    "type": "政策・規制",
+    "tickers": [
+     "SPY"
+    ],
+    "what": "米通商代表部は25日、過剰生産能力への対策として、14の国・地域に新たな関税を提案した。中国には現行の関税に上乗せして20%が提案された。",
+    "why": "関税は企業の費用や外需に影響し、輸出企業や半導体・製造業の収益見通しに効く。あくまで提案段階で、協議の結果次第で変わる。",
+    "watch": "意見募集の結果と、中国との停戦期限である1月10日までの動き。",
+    "impact_level": "中",
+    "sources": [
+     {
+      "title": "U.S. proposes new tariffs on 14 trading partners（CNBC）",
+      "url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html"
+     },
+     {
+      "title": "The White House is proposing new tariffs on more than a dozen countries（NPR）",
+      "url": "https://npr.org/2026/11/25/nx-s1-6053959/the-white-house-is-proposing-new-tariffs-on-more-than-a-dozen-countries"
+     }
+    ]
+   }
+  ]
+ },
+ "external_facts": [
+  {
+   "label": "10月コアPCE前年比",
+   "value": "3.3%",
+   "sources": [
+    "https://www.roic.ai/news/core-pce-inflation-accelerates-to-33-cementing-december-fed-hike-expectations-11-25-2026",
+    "https://finscans.com/news/2026/11/26/us-core-inflation-hits-33-as-markets-price-944-chance-of",
+    "https://www.tokenpost.com/news/investing/62673"
+   ]
+  },
+  {
+   "label": "10月PCE前年比（総合）",
+   "value": "3.8%",
+   "sources": [
+    "https://www.roic.ai/news/core-pce-inflation-accelerates-to-33-cementing-december-fed-hike-expectations-11-25-2026",
+    "https://www.tokenpost.com/news/investing/62673"
+   ]
+  },
+  {
+   "label": "S&P500 25日の日中下落率",
+   "value": "-3.2%",
+   "sources": [
+    "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html",
+    "https://www.foxbusiness.com/markets/stocks-11-25-2026"
+   ]
+  },
+  {
+   "label": "ナスダック 25日の日中下落率",
+   "value": "-4.6%",
+   "sources": [
+    "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html",
+    "https://www.foxbusiness.com/markets/stocks-11-25-2026"
+   ]
+  },
+  {
+   "label": "ダウ 25日の日中下げ幅",
+   "value": "1,100ポイント",
+   "sources": [
+    "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html",
+    "https://www.foxbusiness.com/markets/stocks-11-25-2026"
+   ]
+  },
+  {
+   "label": "NVDA 11/25 騰落率",
+   "value": "-3.9%",
+   "sources": [
+    "https://www.cnbc.com/2026/11/25/stocks-moving-the-most-today-live-updates.html",
+    "https://www.tradingview.com/news/gurufocus:1e80fcea8094b:0-nvidia-stocks-fall-3-91-as-s-p-puts-aa-rating-on-downgrade-watch/"
+   ]
+  },
+  {
+   "label": "キオクシアHD 11/26 騰落率",
+   "value": "+12.57%",
+   "sources": [
+    "https://tbladvisory.com/20261126nk/",
+    "https://limo.media/articles/-/148967"
+   ]
+  },
+  {
+   "label": "中国向け追加関税案",
+   "value": "20%",
+   "sources": [
+    "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html",
+    "https://npr.org/2026/11/25/nx-s1-6053959/the-white-house-is-proposing-new-tariffs-on-more-than-a-dozen-countries"
+   ]
+  },
+  {
+   "label": "S&P500 52週高値からの下落率",
+   "value": "-8.4%",
+   "sources": [
+    "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html",
+    "https://www.benzinga.com/opinion/26/11/63522511/what-to-watch-in-a-short-week-following-market-correction"
+   ]
+  }
+ ]
+}

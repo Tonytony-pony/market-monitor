@@ -1,0 +1,339 @@
+{
+ "report_date": "2026-11-28",
+ "us_session_covered": "2026-11-27（金）",
+ "summary": {
+  "headline": "AI・半導体の買い戻しで米株が急反発、金利上昇が戻りの重し",
+  "recent_moves": [
+   "ブラックフライデーの短縮取引で米国株が大幅高。S&P500は+1.60%の7,297.49、ナスダックは+2.31%の24,129.50、NYダウは+1.18%の50,774.94。",
+   "主導はAI・半導体関連の買い戻し。報道では対話型AI企業のAnthropicや半導体のMicron、Marvellなどが大きく上昇した一方、Nvidiaは小幅高にとどまったとされる。",
+   "セクター別では半導体（SMH）が+4.17%、情報技術が+2.80%、一般消費財が+2.11%と上位。生活必需品・公益・ヘルスケアは上昇率が小さく、景気敏感・グロース寄りの動きだった。",
+   "米10年債利回りは4.936%（+7.2bp）とむしろ上昇。ドル円は159.58円、日経平均は58,711.11円（+2.11%）と日本株も反発した。"
+  ],
+  "outlook": [
+   "AI投資の採算への懸念が根強く、薄商いの短縮日の反発が続くかは不透明。月曜以降も半導体株の値動きが指数を左右しやすい。",
+   "S&P500は200日移動平均（7,354）が目前。ここを明確に超えられるかが短期の分かれ目。",
+   "12月のFOMCでの追加利上げ観測が残り、10年債利回りが4.9%台で高止まりするとグロース株の重しになりうる。",
+   "ビットコインは株高に追随せず、リスク選好の戻りが限定的である可能性。"
+  ],
+  "watch_points": [
+   "S&P500のSMA200（7,354）と直近安値圏の攻防",
+   "米10年債利回りの4.9%台での推移"
+  ],
+  "events": [
+   {
+    "time_jst": "11/30（月）",
+    "event": "月曜の米株。短縮日の反発を引き継ぐか（半導体・AI株の動向）",
+    "importance": "高"
+   },
+   {
+    "time_jst": "12/1（火）〜12/4（金）",
+    "event": "今週の米経済指標（製造業景況感・雇用関連指標、金曜の11月雇用統計）※日時は要確認",
+    "importance": "高"
+   },
+   {
+    "time_jst": "12月上旬〜中旬",
+    "event": "FOMC（12/9が決定日とされる報道）。追加利上げの可能性が焦点",
+    "importance": "高"
+   }
+  ],
+  "overview_message": "AI・半導体株の戻りで米日株が反発した一方、金利上昇と利上げ観測が戻りの重しとして残った。"
+ },
+ "instruments": {
+  "nikkei225": {
+   "headline": "AI・半導体の戻りを受け、日経平均は58,711.11円へ反発",
+   "analysis": "27日の日経平均は58,711.11円（+2.11%）で引けた。ただし1ヶ月では-7.89%で、SMA50（63,468円）とSMA200（62,357円）をともに下回る。チャートでは10月の高値圏から崩れ、直近安値圏の支持帯付近で下げ止まった形で、戻り局面か転換かはまだ判断しにくい。",
+   "us_impact_level": "中",
+   "us_impact": "日本株の反発は米ハイテク・半導体の持ち直しと同じ流れとみられ、米国株への波及は限定的。ただし日本時間の朝に決まる米国の動きが日本株の方向を左右する関係は続く。",
+   "sources": [
+    {
+     "title": "Japan's Nikkei posts best week in 5 months despite Nvidia turmoil",
+     "url": "https://www.thestar.com.my/business/business-news/2026/11/13/japan039s-nikkei-posts-best-week-in-5-months-despite-nvidia-turmoil"
+    },
+    {
+     "title": "Nikkei Records Strongest Weekly Gain in Five Months (Trading Economics)",
+     "url": "https://tradingeconomics.com/japan/stock-market/news/601004"
+    }
+   ]
+  },
+  "jpx400": {
+   "headline": "JPX日経400は+1.68%、日経平均より値動きは穏やか",
+   "analysis": "34,807.90円（+1.68%）で、週間では+1.58%。1ヶ月は-4.45%で、SMA50・SMA200を下回る水準にとどまる。チャートでは年初来の上昇トレンドが高値圏から調整している位置。",
+   "us_impact_level": "小",
+   "us_impact": "米国株への影響は限定的。国内の大型・優良株の動きで、海外投資家のリスク選好の度合いを測る参考になる程度。",
+   "sources": [
+    {
+     "title": "Japan's Nikkei posts best week in 5 months despite Nvidia turmoil",
+     "url": "https://www.thestar.com.my/business/business-news/2026/11/13/japan039s-nikkei-posts-best-week-in-5-months-despite-nvidia-turmoil"
+    }
+   ]
+  },
+  "growth250": {
+   "headline": "東証グロース250は+4.26%と大きく反発、ただし1ヶ月は-14.00%",
+   "analysis": "680.38（+4.26%）と中小型の成長株で買い戻しが強まった。週間は+2.48%だが、1ヶ月では-14.00%と調整が深く、SMA50・SMA200（757・752）を大きく下回る。52週安値（635.41）まで距離は近い。",
+   "us_impact_level": "小",
+   "us_impact": "米国株への影響は限定的。リスク選好が戻ったことを示す指標としては米グロース株の動きと整合的。",
+   "sources": [
+    {
+     "title": "Japan's Nikkei posts best week in 5 months despite Nvidia turmoil",
+     "url": "https://www.thestar.com.my/business/business-news/2026/11/13/japan039s-nikkei-posts-best-week-in-5-months-despite-nvidia-turmoil"
+    }
+   ]
+  },
+  "nk_futures": {
+   "headline": "日経225先物は58,970円で引け、現物をやや上回る",
+   "analysis": "先物は58,970円（+0.24%）。週間は+3.89%、1ヶ月は-8.62%。現物の上昇率より小さいのは、夜間の米株の戻りが織り込まれる前の水準を反映している可能性がある。",
+   "us_impact_level": "小",
+   "us_impact": "米国株への直接の影響は小さいが、米国時間の動きを受けた月曜朝の日本株の入り方を測る目安になる。",
+   "sources": [
+    {
+     "title": "Japan's Nikkei posts best week in 5 months despite Nvidia turmoil",
+     "url": "https://www.thestar.com.my/business/business-news/2026/11/13/japan039s-nikkei-posts-best-week-in-5-months-despite-nvidia-turmoil"
+    }
+   ]
+  },
+  "nikkei_vi": {
+   "headline": "日経VIは28.91へ低下、警戒感は和らいだがなお高め",
+   "analysis": "日経VIは28.91（-7.13%）。52週の範囲は18.77〜66.65で、レンジの下側ではあるが平常時と比べると高めの水準。前週までの急落で膨らんだ警戒が、反発とともに後退している。",
+   "us_impact_level": "小",
+   "us_impact": "米国株への影響は限定的だが、日本の不安心理の後退は世界的なリスクオフが一服した流れと整合的。",
+   "sources": [
+    {
+     "title": "Japan's Nikkei posts best week in 5 months despite Nvidia turmoil",
+     "url": "https://www.thestar.com.my/business/business-news/2026/11/13/japan039s-nikkei-posts-best-week-in-5-months-despite-nvidia-turmoil"
+    }
+   ]
+  },
+  "usdjpy": {
+   "headline": "ドル円は159.58円、159円台後半で高止まり",
+   "analysis": "159.58円（+0.19%）。52週高値は163.99円で、そこまでは距離がある一方、SMA50（158.30円）・SMA200（158.97円）を上回って推移。米長期金利の上昇がドル買い要因になりやすい。",
+   "us_impact_level": "小",
+   "us_impact": "円安は日本の輸出企業にはプラスだが、米国株への影響は限定的。為替介入への警戒が159〜160円台で意識されやすい点には注意。",
+   "sources": [
+    {
+     "title": "Japan's Nikkei posts best week in 5 months despite Nvidia turmoil",
+     "url": "https://www.thestar.com.my/business/business-news/2026/11/13/japan039s-nikkei-posts-best-week-in-5-months-despite-nvidia-turmoil"
+    }
+   ]
+  },
+  "dow": {
+   "headline": "NYダウは+1.18%の50,774.94ドル、ハイテク反発が波及",
+   "analysis": "ダウは+591.99ドルの50,774.94ドルで引けた。週間は+3.47%と堅調だが、1ヶ月は-2.98%で、SMA200（50,775ドル）にほぼ接する水準。52週高値54,744ドルまでは距離がある。ブラックフライデーの短縮取引で、AI関連株の戻りが主導した。",
+   "us_impact_level": "大",
+   "us_impact": "AI・半導体株の買い戻しが指数全体を押し上げた形。薄商いの短縮日の動きである点には留意が必要。",
+   "sources": [
+    {
+     "title": "Nasdaq, Dow rise over 500 pts as Anthropic pops 11% to lead AI rebound (finwire)",
+     "url": "https://finwire.io/news/stock-markets-news/nasdaq-dow-rise-over-500-pts-as-anthropic-pops-11-to-lead-ai-rebound"
+    },
+    {
+     "title": "Dow Jumps 591 Points as Nvidia and AI Stocks Rebound (JournalArta)",
+     "url": "https://journalarta.com/en/2026/11/28/dow-rises-nvidia-ai-stocks-rebound/"
+    }
+   ]
+  },
+  "nasdaq": {
+   "headline": "ナスダックは+2.31%の24,129.50、AI株の戻りが主導",
+   "analysis": "24,129.50（+2.31%）で、週間は+2.28%、1ヶ月は-9.09%。チャートでは10月の高値から大きく下げた後、直近安値から反発した形で、SMA50・SMA200（25,933・25,173）は上に位置し、戻りの重しになりやすい。AI関連株の買い戻しが中心。",
+   "us_impact_level": "大",
+   "us_impact": "ナスダックは半導体・AI関連の比重が高く、反発の主因。ただしAI投資の採算への懸念は残るため、持続性は不透明。",
+   "sources": [
+    {
+     "title": "Nasdaq, Dow rise over 500 pts as Anthropic pops 11% to lead AI rebound (finwire)",
+     "url": "https://finwire.io/news/stock-markets-news/nasdaq-dow-rise-over-500-pts-as-anthropic-pops-11-to-lead-ai-rebound"
+    },
+    {
+     "title": "Stock futures surge as battered AI shares rebound (Forbes)",
+     "url": "https://www.forbes.com/sites/siladityaray/2026/11/27/stock-futures-surge-as-battered-ai-shares-rebound-ahead-of-shorterned-friday-trading/"
+    },
+    {
+     "title": "MARKETS LIVE: FTSE and Wall Street extend gains as AI fears ease (Proactive Investors)",
+     "url": "https://proactiveinvestors.com/companies/news/1102556/markets-live-us-stock-futures-jump-ahead-of-shortened-black-friday-trading-session-1102556.html"
+    }
+   ]
+  },
+  "sp500": {
+   "headline": "S&P500は+1.60%の7,297.49、200日線付近を回復",
+   "analysis": "7,297.49（+1.60%）で、週間+2.06%、1ヶ月-5.66%。SMA200（7,354）にもう一歩届かず、SMA50（7,596）は上。チャートでは直近安値から急反発したが、戻り売りが出やすい水準に近い。",
+   "us_impact_level": "大",
+   "us_impact": "主要3指数の中でも半導体・ハイテクの寄与が大きく、年末に向けて短期的な戻りが続くかが焦点。",
+   "sources": [
+    {
+     "title": "Nasdaq, Dow rise over 500 pts as Anthropic pops 11% to lead AI rebound (finwire)",
+     "url": "https://finwire.io/news/stock-markets-news/nasdaq-dow-rise-over-500-pts-as-anthropic-pops-11-to-lead-ai-rebound"
+    },
+    {
+     "title": "Stocks rally to end Wall Street's best week in over a year",
+     "url": "https://godwinkirimi.substack.com/p/stocks-rally-to-end-wall-streets"
+    }
+   ]
+  },
+  "btc": {
+   "headline": "ビットコインは59,808ドルと小幅安、1ヶ月で-25.99%",
+   "analysis": "59,808ドル（-1.13%）。株のリスク選好が戻る中でも買いは続かず、RSIは26.8と売られ過ぎ圏。52週安値（55,081ドル）が近く、SMA50（74,242ドル）を大きく下回るトレンドに変化はない。",
+   "us_impact_level": "小",
+   "us_impact": "米国株との連動は弱まっており、株高に追随しなかった点は暗号資産固有の弱さを示す。米国株への影響は限定的。",
+   "sources": [
+    {
+     "title": "Stock futures surge as battered AI shares rebound (Forbes)",
+     "url": "https://www.forbes.com/sites/siladityaray/2026/11/27/stock-futures-surge-as-battered-ai-shares-rebound-ahead-of-shorterned-friday-trading/"
+    }
+   ]
+  },
+  "wti": {
+   "headline": "WTIは83.08ドルと小幅安、1ヶ月は-17.06%",
+   "analysis": "83.08ドル（-0.72%）。1ヶ月では大きく下落し、SMA50（91.99ドル）を下回るが、YTDでは+44.71%と高水準。エネルギー価格の高止まりがインフレ圧力として意識されやすい。",
+   "us_impact_level": "中",
+   "us_impact": "原油の水準がインフレ期待と金利を通じて米国株の重しになりうる。直近の下落は株式にとっては追い風。",
+   "sources": [
+    {
+     "title": "Stock futures surge as battered AI shares rebound (Forbes)",
+     "url": "https://www.forbes.com/sites/siladityaray/2026/11/27/stock-futures-surge-as-battered-ai-shares-rebound-ahead-of-shorterned-friday-trading/"
+    }
+   ]
+  },
+  "gold": {
+   "headline": "金は3,653.60ドルへ反発、ただし200日線の下",
+   "analysis": "3,653.60ドル（+1.79%）。1ヶ月は-10.02%、YTDも-15.39%で、SMA200（4,393ドル）を大きく下回る弱いトレンド。52週安値3,426.72ドルが下値の目安。",
+   "us_impact_level": "小",
+   "us_impact": "金の反発は米国株への影響は限定的。実質金利と米利上げ観測が価格の方向を左右する構図が続く。",
+   "sources": [
+    {
+     "title": "Warsh sticks to the script as Fed holds rates but December hike highly likely",
+     "url": "https://portfolio-adviser.com/warsh-sticks-to-the-script-as-fed-holds-rates-but-december-hike-highly-likely/"
+    }
+   ]
+  },
+  "platinum": {
+   "headline": "プラチナは1,329ドルで+2.14%、年初来は-36.51%",
+   "analysis": "1,329ドル（+2.14%）。52週安値（1,220.60ドル）に近く、YTDの下落が大きい。工業需要の期待が後退している形。",
+   "us_impact_level": "小",
+   "us_impact": "米国株への影響は限定的。景気敏感商品の一つとして、需要見通しの弱さを映す。",
+   "sources": [
+    {
+     "title": "Stock futures surge as battered AI shares rebound (Forbes)",
+     "url": "https://www.forbes.com/sites/siladityaray/2026/11/27/stock-futures-surge-as-battered-ai-shares-rebound-ahead-of-shorterned-friday-trading/"
+    }
+   ]
+  },
+  "jgb10y": {
+   "headline": "日本の10年債利回りは2.637%でほぼ横ばい",
+   "analysis": "2.637%（-0.1bp）と小動き。52週高値3.135%からは低く、日銀の次の動きを待つ展開。",
+   "us_impact_level": "小",
+   "us_impact": "日本の金利が米国株に影響する経路は、円キャリー巻き戻しの観測を通じたものが中心で、今回は影響は限定的。",
+   "sources": [
+    {
+     "title": "Warsh won't prejudge rest of 2026, names October and December as decision points (investinglive)",
+     "url": "https://investinglive.com/central-banks/warsh-won-t-prejudge-rest-of-2026-names-october-and-december-as-decision-points/"
+    }
+   ]
+  },
+  "ust10y": {
+   "headline": "米10年債利回りは4.936%へ上昇、利上げ観測が重し",
+   "analysis": "4.936%（+7.2bp）。52週高値（5.365%）は上にあるが、株が反発する中でも利回りが上昇し、12月のFOMCでの追加利上げが意識されている。",
+   "us_impact_level": "大",
+   "us_impact": "高止まりの長期金利は株のバリュエーション、特にグロース株の重しになりやすい。AI株の戻りが金利上昇に耐えられるかが焦点。",
+   "sources": [
+    {
+     "title": "Warsh sticks to the script as Fed holds rates but December hike highly likely",
+     "url": "https://portfolio-adviser.com/warsh-sticks-to-the-script-as-fed-holds-rates-but-december-hike-highly-likely/"
+    },
+    {
+     "title": "Warsh won't prejudge rest of 2026, names October and December as decision points (investinglive)",
+     "url": "https://investinglive.com/central-banks/warsh-won-t-prejudge-rest-of-2026-names-october-and-december-as-decision-points/"
+    }
+   ]
+  }
+ },
+ "sectors": {
+  "headline": "半導体とハイテクが主導して広く上昇、ディフェンシブは出遅れ",
+  "analysis": "上位は半導体（SMH）+4.17%、情報技術（XLK）+2.80%、一般消費財（XLY）+2.11%、コミュニケーション（XLC）+1.99%、素材（XLB）+1.84%。下位はヘルスケア（XLV）+0.28%、公益（XLU）+0.28%、生活必需品（XLP）+0.41%で、いずれもS&P500（SPY）に対して1ポイント超下回った。AI・半導体株の買い戻しが中心で、報道によれば半導体のMicronやMarvellなどが大きく上昇した。",
+  "rotation": "資金は景気敏感・グロースへ向かい、ディフェンシブは相対的に売られた。1ヶ月では半導体が-22.02%、情報技術が-16.05%と大きく下落している一方、生活必需品は+7.23%と上昇しており、今回の動きはその反動（急落後の買い戻し）の色が濃く、流れが完全に変わったとは言い切れない。",
+  "outlook": "次の取引日は半導体・ハイテクの値動きが指数を左右する。金利が高止まりすると、グロースの戻りは続きにくい。ディフェンシブが再び買われるかは、AI関連の戻りが続くかで判断できる。",
+  "sources": [
+   {
+    "title": "Nasdaq, Dow rise over 500 pts as Anthropic pops 11% to lead AI rebound (finwire)",
+    "url": "https://finwire.io/news/stock-markets-news/nasdaq-dow-rise-over-500-pts-as-anthropic-pops-11-to-lead-ai-rebound"
+   },
+   {
+    "title": "Dow Jumps 591 Points as Nvidia and AI Stocks Rebound (JournalArta)",
+    "url": "https://journalarta.com/en/2026/11/28/dow-rises-nvidia-ai-stocks-rebound/"
+   },
+   {
+    "title": "Stocks rally to end Wall Street's best week in over a year",
+    "url": "https://godwinkirimi.substack.com/p/stocks-rally-to-end-wall-streets"
+   }
+  ]
+ },
+ "top_news": {
+  "headline": "AI関連への不安と買い戻しが、半導体・AI株の振れを大きくしている",
+  "items": [
+   {
+    "title": "AI・半導体株が急反発、月間の下げを一部取り戻す",
+    "type": "業界",
+    "tickers": [
+     "MU",
+     "MRVL",
+     "NVDA"
+    ],
+    "what": "ブラックフライデーの短縮取引で、報道によればMicronやMarvellなど半導体が大きく上昇した。一方、Nvidiaは終日マイナス圏が多く、小幅高で引けたとされる。",
+    "why": "半導体は指数への寄与が大きく、月初からの急落の反動でナスダックの上昇を主導した。AI投資の採算への懸念が背景にあり、反発が続くかは不透明。",
+    "watch": "次の取引日の半導体株の値動きと、AI関連の設備投資に関する新しい材料。",
+    "impact_level": "大",
+    "sources": [
+     {
+      "title": "Nasdaq, Dow rise over 500 pts as Anthropic pops 11% to lead AI rebound (finwire)",
+      "url": "https://finwire.io/news/stock-markets-news/nasdaq-dow-rise-over-500-pts-as-anthropic-pops-11-to-lead-ai-rebound"
+     },
+     {
+      "title": "Stock futures surge as battered AI shares rebound (Forbes)",
+      "url": "https://www.forbes.com/sites/siladityaray/2026/11/27/stock-futures-surge-as-battered-ai-shares-rebound-ahead-of-shorterned-friday-trading/"
+     }
+    ]
+   },
+   {
+    "title": "Anthropicの株価が急伸、AI関連の戻りを牽引",
+    "type": "銘柄",
+    "tickers": [
+     "Anthropic"
+    ],
+    "what": "報道によれば、上場したAnthropicの株価が27日に大幅に上昇した。AI関連株の戻りを象徴する動きとされる。",
+    "why": "AI企業の評価が上がるとNvidiaなどインフラ側の需要見通しにも波及しやすい。ただし1銘柄の動きなので、上場直後の値動きの大きさにも注意が必要。",
+    "watch": "上場後の需給（ロックアップ解除時期など）と、AI収益化に関する発表。",
+    "impact_level": "中",
+    "sources": [
+     {
+      "title": "Nasdaq, Dow rise over 500 pts as Anthropic pops 11% to lead AI rebound (finwire)",
+      "url": "https://finwire.io/news/stock-markets-news/nasdaq-dow-rise-over-500-pts-as-anthropic-pops-11-to-lead-ai-rebound"
+     },
+     {
+      "title": "MARKETS LIVE: FTSE and Wall Street extend gains as AI fears ease (Proactive Investors)",
+      "url": "https://proactiveinvestors.com/companies/news/1102556/markets-live-us-stock-futures-jump-ahead-of-shortened-black-friday-trading-session-1102556.html"
+     }
+    ]
+   },
+   {
+    "title": "Nvidiaの経営体制と調査報道が重しに",
+    "type": "銘柄",
+    "tickers": [
+     "NVDA"
+    ],
+    "what": "Huang氏が11月中旬にCEOを辞任し、取締役会は復帰させない方針と報じられた。WSJは同社が米SECの調査を受けているとも伝えた。",
+    "why": "時価総額が大きく、指数と半導体全体への影響が大きい。経営の不透明さは、決算が好調でも株価の重しになりうる。",
+    "watch": "後任CEOの選定の進展と、SEC調査の続報。",
+    "impact_level": "大",
+    "sources": [
+     {
+      "title": "Nvidia won't rehire Huang as WSJ reports SEC probing chipmaker",
+      "url": "https://www.khaleejtimes.com/business/nvidia-wont-rehire-jensen-huang-sec-probing-chipmaker"
+     },
+     {
+      "title": "Nvidia board chairman confirms Huang will not be reinstated (Stocktwits)",
+      "url": "https://stocktwits.com/news-articles/markets/equity/nvidia-board-chairman-harvey-jones-confirms-huang-will-not-be-reinstated-nvidia-outlook-beats/cNbO96fR9hW"
+     }
+    ]
+   }
+  ]
+ },
+ "external_facts": [],
+ "x_sentiment": "取得できなかったため省略。"
+}
